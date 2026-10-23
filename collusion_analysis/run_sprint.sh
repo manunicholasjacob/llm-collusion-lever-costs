@@ -60,8 +60,8 @@ SELLERS="$MODEL $MODEL $MODEL $MODEL $MODEL"
 # billed to that key, so BUDGET_USD is a true cap). Otherwise: estimated from log bytes (chars/4
 # tokens, 80% input / 20% output as measured on the authors' logs, +10% for the judge).
 spent() {
-  case "${LOCAL_LLM_BASE_URL:-}" in *openrouter.ai*)
-    curl -s -H "Authorization: Bearer $LOCAL_LLM_API_KEY" https://openrouter.ai/api/v1/key \
+  case "${USAGE_URL:-}${LOCAL_LLM_BASE_URL:-}" in *openrouter.ai*|http*/key*)
+    curl -s -H "Authorization: Bearer $LOCAL_LLM_API_KEY" "${USAGE_URL:-$LOCAL_LLM_BASE_URL/key}" \
       | "$PY" -c "import json,sys; print('%.2f' % float(json.load(sys.stdin)['data']['usage']))" 2>/dev/null \
       || echo 999; return ;;
   esac
@@ -84,7 +84,7 @@ run_one() {
     && echo "[$(date +%H:%M:%S)] done  $PFX-$cond-$i" \
     || echo "[$(date +%H:%M:%S)] FAIL  $PFX-$cond-$i (see results/.$PFX-$cond-$i.log)"
 }
-export -f run_one spent; export cond flags MODEL SELLERS PY SIM PFX BUDGET_USD PRICE_IN PRICE_OUT
+export -f run_one spent; export cond flags MODEL SELLERS PY SIM PFX BUDGET_USD PRICE_IN PRICE_OUT USAGE_URL
 mkdir -p results
 # Continue numbering after any replicates already in results/ for this condition.
 # (find, not ls: with pipefail an empty ls glob would abort the script silently)

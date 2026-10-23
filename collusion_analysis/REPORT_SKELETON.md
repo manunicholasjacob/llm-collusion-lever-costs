@@ -46,6 +46,22 @@ https://docs.google.com/document/d/17yYLSlvpev7FITEAk8XS8bhhfy_CzO0e82hTFm4jf0o/
   - Bonjour net influence at its paper threshold of 0.05 flags 40/50 runs, including no-comms runs, so it is uncalibrated for 30-round runs.
 - **Exploratory, then failed to replicate (report it, it shows rigour):** the share of flat ask moves tracked the judge at rho=+0.81 on the 50 gpt-4.1 runs. The pre-registered held-out test on 25 cross-model runs gave rho=+0.16 (p=0.22). Claude sellers hold *low* prices stickily (69% flat at index -0.48). Sticky is not the same as collusive.
 
+- **Q1.3 calibration:**
+  - Bonjour's fixed 0.05 threshold flags 70% of no-comms runs and 100% of comms runs, so it does not discriminate.
+  - Calibrated at the no-comms 90th percentile, `te_z` and `ni_max` each catch 4/10 comms runs at a 10% leave-one-out false-positive rate.
+  - Thresholds are frozen for the sprint runs.
+- **Price paths (`figs/report/fig_paths.png`), which matters for honest framing:**
+  - Under gpt-4.1 with comms, mean asks drift down to about $90.2 by hour 30, essentially the competitive price. The comms "collusion" in the 2025 data lives mostly in the first 15 hours.
+  - Boss pressure is the strong, sustained elevation (about $96 throughout), and oversight leaves it unchanged.
+  - Oversight ends *below* the ban (about $86.4 vs $87.6).
+  - So describe the comms baseline as "slower convergence to competitive prices", not as a stable cartel.
+
+**Figures ready (public data):**
+- `figs/report/fig_gag.png`: gag onset per run, and the channel collapse.
+- `figs/report/fig_paths.png`: asks by condition with bands.
+- `figs/report/fig_channel.png`: A6 scatter.
+- Palette validated for colour-blind readers; every condition keeps one colour across figures.
+
 **Additional verified references** (add to the list; formats as given):
 - Greenblatt, R., Shlegeris, B., Sachan, K., Roger, F. (2024). AI Control: Improving Safety Despite Intentional Subversion. ICML 2024; arXiv:2312.06942.
 - Bhatt, A., et al. (2025). Ctrl-Z: Controlling AI Agents via Resampling. arXiv:2504.10374.

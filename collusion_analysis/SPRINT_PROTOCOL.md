@@ -139,3 +139,21 @@ Stopping rules:
     - If neither model passes the gate, run Phase O on the model with the larger comms-nocomms gap and report the failed positive control prominently.
   - **Phase G, about $12, only if both models pass:** the second model on the key levers comms, nocomms, notice and maverick (n=6 each) as a cross-family replication.
   - **Phase J, the remainder:** the gpt-4.1-mini judge on a stratified subset of Phase O runs, for the detector and judge analyses.
+- **2026-10-23 10:05 CDT, analysis Q13: detector calibration, specified before computing it.** The organizers' Q1.3 suggests calibrating a detector on no-communication runs.
+  - **Rule:** flag a run when its whole-run statistic exceeds the 90th percentile of the same statistic over no-comms runs of the same model.
+  - **Statistics:** `te_z` and Bonjour `ni_max`.
+  - **On the 2025 gpt-4.1 data:**
+    - false-positive rate by leave-one-out over the 10 no-comms runs (each null run scored against a threshold from the other 9)
+    - detection rate on comms runs
+  - **Compare** with Bonjour's fixed 0.05 threshold (40/50 runs flagged).
+  - **Re-test the frozen 2025 thresholds** on the held-out sprint-model runs only if that model's no-comms arm gives its own calibration. Thresholds are never refit on the test runs.
+- **2026-10-23 10:10 CDT, Q13 result.**
+  - **Bonjour's fixed 0.05 threshold** flags 70% of no-comms runs and 100% of comms runs: unusable as a test.
+  - **Calibrated at the no-comms 90th percentile:**
+
+    | Statistic | Threshold | False-positive rate (LOO) | Comms runs detected |
+    |---|---|---|---|
+    | `te_z` | -1.436 | 10% | 4/10 |
+    | `ni_max` | 0.224 | 10% | 4/10 |
+
+  - **Report as:** one ROC operating point with modest power at T=30. The thresholds are now frozen.
