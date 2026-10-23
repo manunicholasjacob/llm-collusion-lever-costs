@@ -26,6 +26,43 @@ https://docs.google.com/document/d/17yYLSlvpev7FITEAk8XS8bhhfy_CzO0e82hTFm4jf0o/
 - if H1 holds: "Deterrence Without Enforcement: Measured Costs Reorder Anti-Collusion Levers for LLM Market Agents"
 - if H1 fails: "Oversight Is a Delayed Ban: Measured Costs of Anti-Collusion Levers for LLM Market Agents"
 
+## Sprint-day additions (Oct 23; all verified against primary sources)
+**Novelty check of the headline:** Agrawal et al. say only that sellers are "quickly reprimanded" and gagged. They never report gag frequency, timing, the share of rounds gagged or characters delivered, and never call oversight a ban. Their coordination judge **excludes messages**, so it scores reasoning only.
+- Their Table 1 trade prices: oversight 86.24 [85.15, 87.30] vs no communication 87.71 [86.18, 89.69] vs communication 90.52 [88.06, 92.87]. The overlap supports "oversight ≈ ban".
+- Our numbers are new: 20/20 runs, gag onset rounds 1 to 7, 77 to 97% of rounds gagged, 10% of characters delivered.
+- The paper does not name the overseer model; cite our logs (gpt-4.1-mini).
+
+**Framing for this jury (mostly AI security/control/evals):** use AI-control vocabulary (Greenblatt et al. 2024).
+- *Trusted monitoring* with an *auditing budget* and a *false-positive-rate* threshold (their monitor flags the top 2%).
+- The harness's monitor fired in 100% of runs, so it spends the whole *usefulness* budget (the message channel) on every agent.
+- Ctrl-Z (Bhatt et al. 2025) is the precedent for reporting safety gain together with usefulness cost ("58% to 7% at a 5% cost").
+- SCHEMEs (Radev et al. 2026): telling agents a monitor exists halves sabotage. This is prior evidence for deterrence from notice alone.
+
+**Results so far (sprint work, 2025 public runs, $0):**
+- **A6, the organizers' Q3.4 criterion:** messages fell 99.4% under the gag (median 234 vs 41,830 chars, rounds 8 to 30), but action-based dependence did NOT rise (te_z oversight vs comms p=0.66, vs no-comms p=0.43). No evidence of channel movement: the gag works like a ban, with no price-side workaround.
+- **Q1.4 detector validity:**
+  - TE detector AUC for comms vs no-comms: 0.71 (p=0.12, 10 vs 10).
+  - Spearman correlation with the judge: +0.26 (p=0.07).
+  - Bonjour net influence at its paper threshold of 0.05 flags 40/50 runs, including no-comms runs, so it is uncalibrated for 30-round runs.
+- **Exploratory, then failed to replicate (report it, it shows rigour):** the share of flat ask moves tracked the judge at rho=+0.81 on the 50 gpt-4.1 runs. The pre-registered held-out test on 25 cross-model runs gave rho=+0.16 (p=0.22). Claude sellers hold *low* prices stickily (69% flat at index -0.48). Sticky is not the same as collusive.
+
+**Additional verified references** (add to the list; formats as given):
+- Greenblatt, R., Shlegeris, B., Sachan, K., Roger, F. (2024). AI Control: Improving Safety Despite Intentional Subversion. ICML 2024; arXiv:2312.06942.
+- Bhatt, A., et al. (2025). Ctrl-Z: Controlling AI Agents via Resampling. arXiv:2504.10374.
+- Radev, N., Haas, L., Arnav, B., Bernabeu-Pérez, P. (2026). The Best-Laid SCHEMEs: Coordinated Sabotage and Monitoring in Multi-Agent Systems. arXiv:2605.29178.
+- Kale, N., et al. (2025). Reliable Weak-to-Strong Monitoring of LLM Agents. arXiv:2508.19461.
+- Najt, E., Toft, C., Tracy, T., Roger, F., Benton, J. (2026). SLEIGHT-Bench: A Benchmark of Evasion Attacks Against Agent Monitors. arXiv:2605.16626.
+- Jiralerspong, T., Kondrup, F., Bengio, Y. (2026). Noticing the Watcher: LLM Agents Can Infer CoT Monitoring from Blocking Feedback. arXiv:2603.16928. Note: models inferred the monitor in "up to 19%" of episodes; 3 of 2,400 formed an intent to hide; evasion success was 0%.
+- Liu, Q., et al. (2026). Breaking the Secret: Economic Interventions for Combating Collusion in Embodied Multi-Agent Systems. arXiv:2604.23511.
+- Dhanda, K. (2026). A Price Cap Can Act as a Focal Point for LLM Pricing Agents. Research Square. https://doi.org/10.21203/rs.3.rs-10183486/v1 (an announced cap is the most collusive; a hidden cap does not induce collusion).
+- Tomašev, N., Franklin, M., Jacobs, J., Krier, S., Osindero, S. (2025). Distributional AGI Safety. arXiv:2512.16856.
+- Mathew, Y., Matthews, O., McCarthy, R., Velja, J., Schroeder de Witt, C., Cope, D., Schoots, N. (2025). Hidden in Plain Text: Emergence & Mitigation of Steganographic Collusion in LLMs. IJCNLP-AACL 2025; arXiv:2410.03768.
+- Rippin, J. L., Marshall, S. C., Africa, D. D., Schroeder de Witt, C. (2026). Tool Use Enables Undetectable Steganography in Multi-Agent LLM Systems. arXiv:2606.28425.
+- Anto, M., Vazquez, J. (2026). Oversight is Not Compliance: Tacit Collusion in LLM Pricing Agents Under Antitrust Regulation. ICML 2026 Agents in the Wild Workshop. https://icml.cc/virtual/2026/67865. Closest prior work: it compares logging, revision and veto without costs. Re-open the link before citing.
+- Garra (2026) full text checked: Bertrand duopoly, DeepSeek-V3.1, 7 runs per condition. It measures **no intervention cost**.
+
+**Speakers present at the sprint** (likely reading Q3.4 closely): Velja (Hidden in Plain Text), Motwani (Secret Collusion), Bagdasarian and Nakamura (Colosseum), Anwar.
+
 ## Abstract (150 to 250 words, write last)
 Cover four things:
 - **Problem:** which single restriction buys the most collusion reduction per unit cost.

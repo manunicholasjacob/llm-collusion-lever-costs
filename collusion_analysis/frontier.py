@@ -27,6 +27,9 @@ LABEL = {"comms": "Comms baseline", "nocomms": "Ban communication", "oversight":
 
 
 def canon(cond, pool):
+    if cond.startswith("lo-"):  # open-model runs: lo-<model>-<lever>, never pooled with gpt-4.1
+        model, _, lever = cond[3:].partition("-")
+        return f"{lever} ({model})"
     if cond.startswith("sp-"):
         c = cond[3:]
         return c if pool else c + " (sprint)"

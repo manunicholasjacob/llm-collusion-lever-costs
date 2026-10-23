@@ -93,3 +93,33 @@ Stopping rules:
 
 ## 8. Deviation log
 (append during the sprint: time, what changed, why)
+
+- **2026-10-23 07:40 CDT (sprint live; no sprint run executed yet).** The sprint Resources tab frames Q3.4 with a test: *"Claim channel movement only if message-based coordination falls while action-based dependence rises."* Added analysis A6, specified before running it.
+  - **Data:** the 2025 gpt-4.1 runs only (`base`, `base-seller_comms`, `oversight`, `boss_pressure`, `boss_pressure-oversight`; n=10 each). Cross-model runs serve as a robustness set.
+  - **Action-based dependence:** detector `te_z` (3 bins, 200 circular shifts) over a fixed window, rounds 8 to 30. Round 7 is the latest gag onset observed, so every oversight run is fully gagged inside the window.
+  - **Message-based coordination:** delivered seller-message characters in the same window, plus the LLM-judge coordination score.
+  - **Channel movement is claimed only if** oversight runs have (a) message characters far below comms runs and (b) `te_z` above **both** comms runs and no-comms runs (one-sided Mann-Whitney, Holm over the two comparisons). Otherwise we report "no evidence of channel movement".
+  - **Also:** the AUC of whole-run `te_z` for plain comms vs plain no-comms (detector validity), and the Spearman correlation with the judge score.
+  - **Submission tracks:** Track 1 (Q1.5, Q1.4) and Track 3 (Q3.4).
+- **2026-10-23 08:05 CDT, A6 and detector-validity results (50 gpt-4.1 runs).**
+  - Detector AUC comms vs no-comms: 0.71 (p=0.12).
+  - Bonjour flags at the 0.05 threshold: 40/50 runs, including no-comms runs.
+  - A6: no evidence of channel movement (messages -99.4%, `te_z` not higher).
+  - **EXPLORATORY, found after looking at the data** (`silence_check.py`): the share of flat ask moves (rounds 8 to 30) tracks the judge score (rho=+0.81) and the primary index (rho=+0.41).
+- **2026-10-23 08:10 CDT, confirmation test C1, specified before looking at the held-out data.**
+  - **Data:** the 25 cross-model runs (`*claude*`, `*mixed*`), not yet used for this statistic, plus later all sprint runs (`results/*_sp-*`).
+  - **Statistic:** per-run flat-move share, rounds 8 to 30, threshold |Δask| <= 0.005.
+  - **Claim stands only if** Spearman rho with the judge score is > 0 at p < 0.05 (one-sided) on the held-out set. The rho with the primary index is reported either way.
+- **2026-10-23 08:20 CDT, C1 result: NOT confirmed.**
+  - On the 25 held-out cross-model runs: rho=+0.16 (one-sided p=0.22) with the judge, rho=-0.14 (p=0.50) with the primary index. A first attempt double-counted 5 runs through overlapping globs (n=30, same verdict); corrected to unique runs.
+  - Held-out judge scores span only 3.0 to 3.9.
+  - Claude sellers hold *low* prices stickily (69% flat moves at index -0.48).
+  - **Report as:** stickiness tracks coordination for gpt-4.1 sellers but does not transfer across model families. Sticky is not the same as collusive.
+- **2026-10-23 08:45 CDT, PROPOSED open-model arm (runs only if Manu approves the OpenRouter spend; specified before any open-model data).**
+  - **Why:** the comms baseline is too noisy for gpt-4.1 at $2.48/run. Llama-3.3-70B-Instruct on OpenRouter is about $0.11/run, which affords powered arms.
+  - **Pilot (P):** `lo-llama70b` with `comms` x6 and `nocomms` x6, same 5x5x30 config. All agents, the overseer and the judge use the same model; the backend is recorded in `experiment_metadata.json` as `llm_backend`.
+  - **Gate:** proceed only if the comms-minus-nocomms primary index is > 0 with a bootstrap 90% CI lower bound > -0.05. That is the positive control.
+  - **If the gate passes,** powered arm (O): `comms`, `nocomms`, `oversight`, `notice`, `monitor`, `oversight25`, n=25 each (about 150 runs, about $17). Same hypotheses H1 to H3 plus H2b (`oversight25` vs `oversight`), Holm over the family, primary index as pre-registered.
+  - **If the gate fails,** report that Llama-3.3-70B does not collude under communication here, and stop.
+  - **Fallback model if Llama misbehaves on JSON (>10% failed calls in the pilot):** Qwen3-32B with thinking off. The switch is recorded here before any data.
+  - **Never pooled with gpt-4.1 runs;** reported as a separate model family.

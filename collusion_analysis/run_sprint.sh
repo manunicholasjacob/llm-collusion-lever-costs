@@ -24,7 +24,10 @@ PRICE_IN="${PRICE_IN:-2}"; PRICE_OUT="${PRICE_OUT:-8}"
 cd "$(dirname "$0")/.."
 if [ -z "${OPENAI_API_KEY:-}" ] && [ -f .env.local ]; then set -a; . ./.env.local; set +a; fi
 SIM="${SIM:-src/continuous_double_auction/simulation.py}"   # SIM=collusion_analysis/mock_sim.py rehearses at $0
-[ "$SIM" != "src/continuous_double_auction/simulation.py" ] || : "${OPENAI_API_KEY:?set OPENAI_API_KEY}"
+# Open-model runs: LOCAL_LLM_MODEL=... routes everything to an OpenAI-compatible server; they are tagged
+# lo-<TAG_MODEL>-..., cost nothing and are excluded from the OpenAI budget guard below.
+if [ -n "${LOCAL_LLM_MODEL:-}" ]; then PFX="lo-${TAG_MODEL:?set TAG_MODEL, e.g. qwen7b}"; else PFX="sp"; fi
+[ "$SIM" != "src/continuous_double_auction/simulation.py" ] || [ -n "${LOCAL_LLM_MODEL:-}" ] || : "${OPENAI_API_KEY:?set OPENAI_API_KEY}"
 export WANDB_MODE=disabled PYTHONIOENCODING=utf-8
 cd "$(dirname "$0")/.."
 PY=env/Scripts/python.exe; [ -x "$PY" ] || PY=env/bin/python
@@ -54,21 +57,21 @@ run_one() {
   local i="$1" s
   s=$(spent)
   if awk -v s="$s" -v b="$BUDGET_USD" 'BEGIN {exit !(s >= b)}'; then
-    echo "BUDGET STOP: est. \$$s >= \$$BUDGET_USD, skipping sp-$cond-$i"; return 0
+    echo "BUDGET STOP: est. \$$s >= \$$BUDGET_USD, skipping $PFX-$cond-$i"; return 0
   fi
-  echo "[$(date +%H:%M:%S)] start sp-$cond-$i (est. spent \$$s)"
+  echo "[$(date +%H:%M:%S)] start $PFX-$cond-$i (est. spent \$$s)"
   "$PY" -X utf8 "$SIM" \
     --seller_valuations 80 80 80 80 80 --buyer_valuations 100 100 100 100 100 \
     --seller_models $MODEL $MODEL $MODEL $MODEL $MODEL \
     --buyer_models  $MODEL $MODEL $MODEL $MODEL $MODEL \
-    --rounds 30 $flags --tag "sp-$cond-$i" > "results/.sp-$cond-$i.log" 2>&1 \
-    && echo "[$(date +%H:%M:%S)] done  sp-$cond-$i" \
-    || echo "[$(date +%H:%M:%S)] FAIL  sp-$cond-$i (see results/.sp-$cond-$i.log)"
+    --rounds 30 $flags --tag "$PFX-$cond-$i" > "results/.$PFX-$cond-$i.log" 2>&1 \
+    && echo "[$(date +%H:%M:%S)] done  $PFX-$cond-$i" \
+    || echo "[$(date +%H:%M:%S)] FAIL  $PFX-$cond-$i (see results/.$PFX-$cond-$i.log)"
 }
-export -f run_one spent; export cond flags MODEL PY SIM BUDGET_USD PRICE_IN PRICE_OUT
+export -f run_one spent; export cond flags MODEL PY SIM PFX BUDGET_USD PRICE_IN PRICE_OUT
 mkdir -p results
 # Continue numbering after any replicates already in results/ for this condition.
 # (find, not ls: with pipefail an empty ls glob would abort the script silently)
-start=$(find results -maxdepth 1 -type d -name "*_sp-$cond-*" | wc -l)
+start=$(find results -maxdepth 1 -type d -name "*_$PFX-$cond-*" | wc -l)
 seq $((start + 1)) $((start + n)) | xargs -P "$par" -I{} bash -c 'run_one {}'
 echo "Condition $cond: total est. spend \$$(spent)"
