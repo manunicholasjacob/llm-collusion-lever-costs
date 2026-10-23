@@ -162,3 +162,12 @@ Stopping rules:
     | `ni_max` | 0.224 | 10% | 4/10 |
 
   - **Report as:** one ROC operating point with modest power at T=30. The thresholds are now frozen.
+- **2026-10-23, 08:28 CDT (system clock; committed before any paid run): unattended orchestration and pilot/main separation.**
+  - **Pilot runs are tagged** `lo-pllama70b-*` and `lo-pmini41-*`. They decide the gate only and are **excluded** from the Phase O and Phase G hypothesis tests. Those use only runs tagged with the model name (`lo-llama70b-*`, `lo-mini41-*`).
+  - **`run_all.sh` executes the pre-registered sequence without human decisions:**
+    1. Phase P, then the gate.
+    2. Phase O on the cheapest passing model, or on the larger-gap model if none passes.
+    3. Phase G only if both pass.
+    4. Phase J: the judge on 4 Phase O runs per condition while budget remains.
+    5. The analysis scripts.
+  - **Budget:** stop at `BUDGET_USD=46` of real key usage throughout.
