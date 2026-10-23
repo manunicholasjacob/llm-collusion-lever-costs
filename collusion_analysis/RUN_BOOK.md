@@ -1,4 +1,28 @@
 # Run-book: AI Collusion Sprint (Track 1, Q1.5 + Q1.4 stretch)
+
+## CURRENT: one unattended command (plan v3, $50 total via OpenRouter)
+1. Put two lines in `.env.local` (git-ignored):
+   ```
+   LOCAL_LLM_BASE_URL=https://openrouter.ai/api/v1
+   LOCAL_LLM_API_KEY=sk-or-...
+   ```
+2. **The laptop must stay on, awake and online:**
+   - plugged in
+   - Settings > Power: sleep "Never" while plugged in
+   - lid open, or "closing the lid does nothing"
+   - postpone Windows Update restarts
+3. Start it:
+   ```bash
+   bash collusion_analysis/run_all.sh
+   ```
+   It runs the pilot, the gate, Phase O (7 levers x 25, balanced batches), Phase G (only if both pilot models pass), the judge subset and all analysis. It has no human decision points, and it stops at $46 of real key usage.
+4. **Progress:** `results/run_all.log`.
+   **Outputs:**
+   - the gate: `results/pilot_gate.txt`
+   - per-model results: `figs/<model>/` (`table1.md`, `tests.md`, `ols_hc3.md`, `strip_primary.png`, `frontier_primary.png`, detector summaries)
+5. **Expected wall time:** about 4 to 7 hours. Measured median run is 7.6 min (authors' gpt-4.1 logs); 7 runs execute concurrently per batch.
+
+Sections below are the earlier gpt-4.1 plan, kept for the record.
 Corrected Oct 22. The v1 run-book had five defects:
 - it globbed `data/`, but new runs land in `results/`
 - it never disabled W&B, so every run would crash at the end

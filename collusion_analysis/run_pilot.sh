@@ -13,9 +13,9 @@ usage() { curl -s -H "Authorization: Bearer $LOCAL_LLM_API_KEY" "${USAGE_URL:-$L
           | "$PY" -c "import json,sys; print(json.load(sys.stdin)['data']['usage'])"; }
 COSTS=results/pilot_costs.json; mkdir -p results; [ -f "$COSTS" ] || echo '{}' > "$COSTS"
 
-pilot() {  # tag agent_model n_each parallel
+pilot() {  # tag agent_model n_each parallel  (runs tagged lo-p<tag>: gate only, excluded from Phase O/G tests)
   local tag="$1" model="$2" n="$3" par="$4" u0 u1
-  export TAG_MODEL="$tag" LLM_MODEL_MAP="gpt-4.1=$model,gpt-4.1-mini=openai/gpt-4.1-mini"
+  export TAG_MODEL="p$tag" LLM_MODEL_MAP="gpt-4.1=$model,gpt-4.1-mini=openai/gpt-4.1-mini"
   u0=$(usage)
   bash collusion_analysis/run_sprint.sh comms "$n" "$par"
   bash collusion_analysis/run_sprint.sh nocomms "$n" "$par"

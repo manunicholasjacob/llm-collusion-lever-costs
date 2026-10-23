@@ -98,9 +98,10 @@ def main(argv):
     metric = "collusion_index"
     if "--metric" in rest:
         metric = rest[rest.index("--metric") + 1]
-    globs = [a for a in rest if a not in ("--pool", "--metric", metric)]
+    suffix = rest[rest.index("--suffix") + 1] if "--suffix" in rest else None  # e.g. llama70b for lo-llama70b-* runs
+    globs = [a for a in rest if a not in ("--pool", "--metric", metric, "--suffix", suffix)]
     by = collect(globs, pool)
-    sfx = "" if pool else (" (sprint)" if "comms (sprint)" in by else " (2025)")
+    sfx = f" ({suffix})" if suffix else ("" if pool else (" (sprint)" if "comms (sprint)" in by else " (2025)"))
     base_key, ban_key = "comms" + sfx, "nocomms" + sfx
     if base_key not in by:
         sys.exit(f"no baseline condition '{base_key}' among {sorted(by)}")

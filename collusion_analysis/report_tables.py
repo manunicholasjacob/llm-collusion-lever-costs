@@ -68,19 +68,27 @@ def holm(ps):
 
 def tests(by, sfx, out):
     """H1-H4 one-sided bootstrap tests on the primary index (Holm across the four), H5 two-sided."""
-    def g(c):
+    def g(c, metric=PRIMARY):
         # Prefer the arm matching the baseline's data source; fall back to the other source
         # (e.g. boss pressure exists only in the 2025 data).
         for key in (c + sfx, c + " (sprint)", c + " (2025)", c):
             if key in by:
-                return vals(by[key], PRIMARY)
+                return vals(by[key], metric)
         return None
     rows = []
-    spec = [("H1", "notice", "comms", "notice < comms"), ("H2", "monitor", "comms", "monitor < comms"),
-            ("H3", "cap50", "comms", "cap50 < comms"), ("H4", "boss-nocomms", "boss", "boss-nocomms within 0.05 of boss")]
+    LLM = "collusion_index_2nd_half_llm"  # pre-registered primary for the maverick lever (LLM sellers only)
+    # Holm family (commit 2040915): H1, H2, H2b, H-mav. H3/H4 belong to the superseded design and are
+    # reported outside the family if their arms exist.
+    spec = [("H1", "notice", "comms", "notice < comms", PRIMARY),
+            ("H2", "monitor", "comms", "monitor < comms", PRIMARY),
+            ("H2b", "oversight25", "comms", "oversight25 < comms", PRIMARY),
+            ("H-mav", "maverick", "comms", "maverick < comms (LLM sellers only)", LLM),
+            ("H3", "cap50", "comms", "cap50 < comms (outside family)", PRIMARY),
+            ("H4", "boss-nocomms", "boss", "boss-nocomms within 0.05 of boss (outside family)", PRIMARY)]
+    family = {"H1", "H2", "H2b", "H-mav"}
     ps, names = [], []
-    for h, a, b, claim in spec:
-        A, B = g(a), g(b)
+    for h, a, b, claim, metric in spec:
+        A, B = g(a, metric), g(b, metric)
         if A is None or B is None or len(A) < 2 or len(B) < 2:
             rows.append(f"| {h} | {claim} | not run | | |"); continue
         d = boot_diff(A, B); lo, hi = np.percentile(d, [2.5, 97.5])
@@ -88,18 +96,21 @@ def tests(by, sfx, out):
             p = float(np.mean(np.abs(d) >= 0.05))  # share of bootstrap mass outside the equivalence band
         else:
             p = float(np.mean(d >= 0))
-        ps.append(p); names.append(h)
-        rows.append(f"| {h} | {claim} | {A.mean() - B.mean():+.3f} [{lo:+.3f}, {hi:+.3f}] | {p:.4f} | HOLM_{h} |")
+        if h in family:
+            ps.append(p); names.append(h)
+        rows.append(f"| {h} | {claim} | {A.mean() - B.mean():+.3f} [{lo:+.3f}, {hi:+.3f}] | {p:.4f} | "
+                    + (f"HOLM_{h} |" if h in family else "unadjusted (outside family) |"))
     adj = dict(zip(names, holm(np.array(ps)))) if ps else {}
-    for h, p in adj.items():
-        rows = [r.replace(f"HOLM_{h}", f"{p:.4f}") for r in rows]
+    for h, p in adj.items():  # match the whole token so HOLM_H2 never eats part of HOLM_H2b
+        rows = [r.replace(f"HOLM_{h} |", f"{p:.4f} |") for r in rows]
     s, o = by.get("comms (sprint)"), by.get("comms (2025)")
     if s and o and len(s) > 1:
         d = boot_diff(vals(s, PRIMARY), vals(o, PRIMARY)); lo, hi = np.percentile(d, [2.5, 97.5])
         verdict = "pool" if lo <= 0 <= hi else "do NOT pool"
         rows.append(f"| H5 | sprint comms vs 2025 comms (drift) | {d.mean():+.3f} [{lo:+.3f}, {hi:+.3f}] | | {verdict} |")
     open(os.path.join(out, "tests.md"), "w", encoding="utf-8").write(
-        "Pre-registered tests on the primary index (difference of means [95% bootstrap CI]; one-sided bootstrap p; Holm over H1-H4).\n\n"
+        "Pre-registered tests (difference of means [95% bootstrap CI]; one-sided bootstrap p; Holm over the family "
+        "H1, H2, H2b, H-mav per commit 2040915; H-mav uses the LLM-sellers-only index).\n\n"
         "| Test | Claim | Difference | p | Holm p / decision |\n|---|---|---|---|---|\n" + "\n".join(rows) + "\n")
 
 
@@ -142,10 +153,11 @@ def ols_hc3(by, base_key, out):
 def main(argv):
     out = argv[0]; rest = argv[1:]
     pool = "--pool" in rest
-    globs = [a for a in rest if a != "--pool"]
+    suffix = rest[rest.index("--suffix") + 1] if "--suffix" in rest else None  # e.g. llama70b for lo-llama70b-* runs
+    globs = [a for a in rest if a not in ("--pool", "--suffix", suffix)]
     os.makedirs(out, exist_ok=True)
     by = frontier.collect(globs, pool)
-    sfx = "" if pool else (" (sprint)" if "comms (sprint)" in by else " (2025)")
+    sfx = f" ({suffix})" if suffix else ("" if pool else (" (sprint)" if "comms (sprint)" in by else " (2025)"))
     base_key = "comms" + sfx
     if base_key not in by:
         sys.exit(f"no baseline '{base_key}' among {sorted(by)}")
