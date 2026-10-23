@@ -48,16 +48,18 @@ channel cost?** That requires splitting oversight into its two parts.
 All runs use the authors' configuration so that the 50 existing 2025 runs can serve as references:
 gpt-4.1 for all 10 agents, 30 rounds, default initial condition. Each lever changes one thing relative to `comms`.
 
+**Budget amendment (Oct 22, before kickoff): Manu approved a $50 cap.** Stages 0 and 1 total 17 runs and are the
+whole funded design. Stage 2 runs only with Manu's explicit approval of more spend. H2 and H3 are otherwise
+unfunded; the report says so and lists them as future work.
+
 | Stage | Condition | n | Why |
 |---|---|---|---|
 | 0, canary (Fri) | `comms` | 1 | Checks the API key, measures real cost per run, early drift signal |
-| 1 (Fri night) | `comms` | +4 | H5 drift check (n=5 total) |
+| 1 (Fri/Sat) | `comms` | +2 | H5 drift check (n=3 total) |
 | 1 | `notice` | 10 | H1, the decisive test |
-| 1 | `boss-nocomms` | 5 | H4 (SD 0.04, so n=5 is enough) |
-| 2 (Sat) | `monitor` | 10 | H2 |
-| 2 | `cap50` | 10 | H3 |
-| 3 (Sat/Sun, if budget) | `seltemp` | 10 | Seller-only temperature 1.2 (Xu et al. 2026 lever; deployer-side) |
-| 3 | `notice` +10, `comms` +5 | | Power for H1 if Stage 1 is borderline |
+| 1 | `boss-nocomms` | 4 | H4 (SD 0.04, so n=4 is enough) |
+| 2 (needs approval, about +$27) | `monitor` | 10 | H2 |
+| unfunded | `cap50`, `seltemp` | | H3 and the temperature lever: future work |
 
 Stopping rules:
 - Stop all runs at the `BUDGET_USD` cap (`run_sprint.sh` enforces it).
@@ -82,12 +84,11 @@ Stopping rules:
   3. Power limits at T=30: on synthetic data the true pair is ranked #1 in 55% of trials at 30 rounds vs 99% at 60.
 - **Framing:** a feasibility and limits result, not a deployed detector.
 
-## 7. Budget (estimates; confirm prices on platform.openai.com)
-- **Token footprint:** about 836k tokens per run (median of the 2025 logs, chars/4). At gpt-4.1's $2/$8 per M tokens and an assumed 85/15 input/output split, that is **about $2.40 per run**.
-- **Judge and monitor:** the gpt-4.1-mini judge and monitor add roughly 10%.
-- **Cost by stage:** Stage 0+1 = 20 runs, about $50. Stage 2 = 20 runs, about $50. Stage 3 = 25 runs, about $60.
-- **Recommended cap:** `BUDGET_USD=150`.
-- **Lean alternative:** gpt-4.1-mini at about $0.50/run. The 2025 data then cannot be reused as reference, so every arm needs its own baseline, and whether 4.1-mini colludes at all is unknown (decide after a 6+6 comms/no-comms pilot, about $6).
+## 7. Budget (approved cap $50; confirm prices on platform.openai.com)
+- **Per-run cost (measured on the 2025 logs, chars/4):** about 640k input and 150k output tokens, so **$2.35 to $2.60 per gpt-4.1 run** at $2/$8 per M tokens. The gpt-4.1-mini judge and monitor add roughly 8 to 10%.
+- **Funded design:** 17 runs, about $47.
+- **Guard:** `run_sprint.sh` defaults to `BUDGET_USD=50`. Its estimate runs about 5% above the real bill.
+- **After the canary:** compare the canary's real cost on the OpenAI usage page with the guard's estimate.
 
 ## 8. Deviation log
 (append during the sprint: time, what changed, why)

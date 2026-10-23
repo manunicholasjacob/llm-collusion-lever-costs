@@ -4,7 +4,7 @@
 # so new runs are comparable with their n=10 gpt-4.1 data in data/.
 #
 # Usage:  bash collusion_analysis/run_sprint.sh <condition> <n> [parallel]
-# Env:    OPENAI_API_KEY (required), MODEL (default gpt-4.1), BUDGET_USD (default 150),
+# Env:    OPENAI_API_KEY (required), MODEL (default gpt-4.1), BUDGET_USD (default 50),
 #         PRICE_IN / PRICE_OUT in $ per 1M tokens (default 2 / 8, gpt-4.1)
 # Conditions:
 #   comms         seller comms on (positive control / drift check vs. data/*base-seller_comms*)
@@ -17,7 +17,7 @@
 #   boss-nocomms  boss pressure without comms          (NEW control)
 set -euo pipefail
 cond="${1:?condition}"; n="${2:?replicates}"; par="${3:-3}"
-MODEL="${MODEL:-gpt-4.1}"; BUDGET_USD="${BUDGET_USD:-150}"
+MODEL="${MODEL:-gpt-4.1}"; BUDGET_USD="${BUDGET_USD:-50}"
 PRICE_IN="${PRICE_IN:-2}"; PRICE_OUT="${PRICE_OUT:-8}"
 : "${OPENAI_API_KEY:?set OPENAI_API_KEY}"
 export WANDB_MODE=disabled PYTHONIOENCODING=utf-8
@@ -36,11 +36,12 @@ case "$cond" in
   *) echo "unknown condition $cond"; exit 2 ;;
 esac
 
-# Spend so far, estimated from log bytes (chars/4 tokens; 85% input / 15% output split
-# measured on the authors' logs is an assumption, so this is a guard, not an invoice).
+# Spend so far, estimated from log bytes (chars/4 tokens, 80% input / 20% output as measured
+# on the authors' logs), plus 10% for the gpt-4.1-mini judge. A guard, not an invoice:
+# check the real figure on platform.openai.com/usage.
 spent() {
   local bytes; bytes=$(find results -path "*sp-*" -name "*.md" ! -name auction_results.md -printf "%s\n" 2>/dev/null | awk '{s+=$1} END {print s+0}')
-  awk -v b="$bytes" -v pi="$PRICE_IN" -v po="$PRICE_OUT" 'BEGIN {t=b/4; printf "%.2f", (0.85*t*pi + 0.15*t*po)/1e6}'
+  awk -v b="$bytes" -v pi="$PRICE_IN" -v po="$PRICE_OUT" 'BEGIN {t=b/4; printf "%.2f", 1.1*(0.8*t*pi + 0.2*t*po)/1e6}'
 }
 
 run_one() {

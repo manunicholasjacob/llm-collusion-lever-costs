@@ -18,22 +18,21 @@ rm -rf results/*_mock-*
 ## 1. Key and budget (Manu)
 ```bash
 export OPENAI_API_KEY=sk-...          # never commit; paste only in the terminal
-export BUDGET_USD=150 MODEL=gpt-4.1   # runner refuses new runs past the cap
+export BUDGET_USD=50 MODEL=gpt-4.1    # approved cap; runner refuses new runs past it
 ```
 
-## 2. Stage 0 canary, then Stage 1 (Friday)
+## 2. Stage 0 canary, then Stage 1 (after kickoff Friday; 17 runs, about $47)
 ```bash
-bash collusion_analysis/run_sprint.sh comms 1 1          # canary (~10 min, ~$2.40)
+bash collusion_analysis/run_sprint.sh comms 1 1          # canary (~10 min, ~$2.60); check the OpenAI usage page
 env/Scripts/python.exe -X utf8 -I collusion_analysis/run_stats.py "results/*_sp-*/"   # sanity + real token count
-bash collusion_analysis/run_sprint.sh comms 4 3          # H5 drift (n=5 total)
-bash collusion_analysis/run_sprint.sh notice 10 3        # H1
-bash collusion_analysis/run_sprint.sh boss-nocomms 5 3   # H4
+bash collusion_analysis/run_sprint.sh notice 10 3        # H1, the decisive test, first
+bash collusion_analysis/run_sprint.sh boss-nocomms 4 3   # H4
+bash collusion_analysis/run_sprint.sh comms 2 2          # H5 drift (n=3 total)
 ```
 
-## 3. Stage 2 (Saturday)
+## 3. Stage 2: only with Manu's approval of about +$27
 ```bash
-bash collusion_analysis/run_sprint.sh monitor 10 3       # H2
-bash collusion_analysis/run_sprint.sh cap50 10 3         # H3
+BUDGET_USD=77 bash collusion_analysis/run_sprint.sh monitor 10 3   # H2
 ```
 
 ## 4. Analysis
