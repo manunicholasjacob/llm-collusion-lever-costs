@@ -67,6 +67,7 @@ for tag in "$CHOSEN" $( [ "$SECOND" != none ] && echo "$SECOND" ); do
   "$PY" -X utf8 -I collusion_analysis/detector_eval.py "figs/$tag/detector_whole" $G
   "$PY" -X utf8 -I collusion_analysis/detector_eval.py --window 8 30 "figs/$tag/detector_w8_30" $G
 done
+git diff 2bb2a7e -- src > collusion_analysis/harness_changes.patch  # our src changes only (upstream has no license; never re-host theirs)
 echo "FINAL_USAGE $(usage)"
 "$PY" -X utf8 -I collusion_analysis/writing_pack.py WRITING_PACK.md
 step "DONE. Final key usage \$$(usage). Start here: WRITING_PACK.md (gate, tables, tests, figures, checklist)"

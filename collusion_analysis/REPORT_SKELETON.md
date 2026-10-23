@@ -56,6 +56,14 @@ https://docs.google.com/document/d/17yYLSlvpev7FITEAk8XS8bhhfy_CzO0e82hTFm4jf0o/
   - Oversight ends *below* the ban (about $86.4 vs $87.6).
   - So describe the comms baseline as "slower convergence to competitive prices", not as a stable cartel.
 
+- **A7, Q2.3 "collusion on paper" (pre-registered, then a detrended check):**
+  - In plain comms runs the judge's coordination score *rises* while prices *fall*: 9/9 runs, mean within-run rho -0.49, p=0.004.
+  - Between conditions the judge does track prices (rho +0.61, n=50).
+  - Exploratory detrending (round-to-round changes): rho -0.04, and judged-coordination changes do not predict the next round's price change (rho -0.11, p=0.34).
+  - **Write it as:** the judge measures talk, not market harm; escalating collusive talk coexists with convergence to competitive prices. **Do not** claim talk causes prices to fall.
+- **Power (for Methods):** with the 2025 gpt-4.1 spreads (SD 0.42 comms, 0.30 ban), n=10 per arm, as in the original paper, has an 80%-power minimum detectable effect of 0.41 to 0.50 index units, larger than the ban's own effect (0.28). Our n=25 gives 0.26 to 0.32, with 68 to 86% power for a ban-sized effect.
+- **Publishing:** the upstream harness repo has **no license file**. A public repo should contain only our code (`collusion_analysis/`, a patch of our `src/` changes, figures) and point to andyjliu/llm-agent-collusion for the harness and data. Do not re-host their code or runs.
+
 **Figures ready (public data):**
 - `figs/report/fig_gag.png`: gag onset per run, and the channel collapse.
 - `figs/report/fig_paths.png`: asks by condition with bands.
