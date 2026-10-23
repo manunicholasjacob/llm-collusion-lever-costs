@@ -178,3 +178,11 @@ Stopping rules:
     - Report the mean rho and a two-sided sign test over runs.
   - **(b) Between runs:** Spearman rho of the run-mean judge score against the primary index (rounds 16 to 30), over all 50 runs.
   - **Claim "collusion on paper" only if (a)** gives a mean rho < 0 with sign-test p < 0.05 in the plain comms runs, i.e. judged coordination rises while prices fall. Otherwise report the numbers without the claim.
+- **2026-10-23, 13:07 CDT (system clock): A7 results.**
+  - **(a) Within run, plain comms:** mean rho -0.49, 9/9 analysable runs negative (one run's judge scores were constant, so its rho is undefined), sign p=0.004.
+    - **Pre-registered claim met:** judged coordination rises while prices fall.
+    - Boss pressure: -0.24, 10/10 negative.
+    - Oversight: +0.42 (sellers judged more docile after the gag as prices fall).
+  - **(b) Between runs:** rho +0.61 over 50 runs, so the judge does separate conditions.
+  - **EXPLORATORY detrending (round-to-round changes):** comms same-round rho -0.04 (5/10 negative); judge change at t vs price change at t+1, rho -0.11 (7/10, p=0.34).
+  - **Report as:** (a) is driven by opposite time trends. The judge's score tracks escalating talk while the market converges toward competitive prices, and round-level judged coordination does not predict price moves. Do NOT claim talk causes prices to fall.
