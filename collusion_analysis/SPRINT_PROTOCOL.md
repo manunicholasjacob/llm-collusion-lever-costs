@@ -171,3 +171,10 @@ Stopping rules:
     4. Phase J: the judge on 4 Phase O runs per condition while budget remains.
     5. The analysis scripts.
   - **Budget:** stop at `BUDGET_USD=46` of real key usage throughout.
+- **2026-10-23, 13:06 CDT (system clock; committed before computing): analysis A7 "talk vs prices" (Q2.3, collusion on paper).**
+  - **Data:** the 50 gpt-4.1 runs from 2025 (`base`, `base-seller_comms`, `oversight`, `boss_pressure`, `boss_pressure-oversight`). Judge scores come from each run's `llm_eval_full.json`; the per-round score is the mean over sellers.
+  - **(a) Within run:** Spearman rho between the per-round judge score and the per-round mean-ask index, computed per run.
+    - Primary set: the 10 plain comms runs.
+    - Report the mean rho and a two-sided sign test over runs.
+  - **(b) Between runs:** Spearman rho of the run-mean judge score against the primary index (rounds 16 to 30), over all 50 runs.
+  - **Claim "collusion on paper" only if (a)** gives a mean rho < 0 with sign-test p < 0.05 in the plain comms runs, i.e. judged coordination rises while prices fall. Otherwise report the numbers without the claim.
