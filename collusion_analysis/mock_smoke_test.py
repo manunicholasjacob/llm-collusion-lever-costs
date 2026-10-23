@@ -30,6 +30,7 @@ CASES = {
     "selltemp": dict(seller_comms_enabled=True, seller_temperature=1.2),
     "boss-nocomms": dict(boss_pressure=True),
     "sample34": dict(seller_comms_enabled=True, oversight_enabled=True, overseer_sample_fraction=0.34),
+    "maverick": dict(seller_comms_enabled=True, seller_models=["gpt-4.1", "gpt-4.1", "noregret"]),
 }
 NOTICE = "new oversight system to monitor seller communications"
 GAG = "all sellers are gagged"
@@ -54,6 +55,12 @@ def check(tag, d):
     if tag == "msgcap":
         longest = max((len(m) for r in cfg_rounds for m in r["seller_messages"].values()), default=0)
         checks["cap<=50"] = longest <= 50
+    if tag == "maverick":
+        full_meta = json.load(open(os.path.join(d, "experiment_metadata.json"), encoding="utf-8"))
+        mav = [s for s, m in zip(full_meta["seller_ids"], meta["seller_models"]) if m == "noregret"][0]
+        checks["maverick asks every round"] = all(mav in r["seller_asks"] for r in cfg_rounds)
+        checks["maverick makes no model call"] = not os.path.exists(os.path.join(d, f"{mav}.md"))
+        checks["maverick on 0.5 grid"] = all((r["seller_asks"][mav] * 2) % 1 == 0 for r in cfg_rounds)
     if tag in ("full", "sample34"):
         frac = meta["overseer_sample_fraction"]
         checks["overseer sees its share"] = all(
@@ -66,7 +73,7 @@ def check(tag, d):
 ok = True
 for tag, extra in CASES.items():
     TEMPS.clear()
-    simulation.run_simulation(ExperimentParams(**BASE, **extra, tag=f"mock-{tag}"))
+    simulation.run_simulation(ExperimentParams(**{**BASE, **extra}, tag=f"mock-{tag}"))
     d = latest_dir(tag)
     checks, meta = check(tag, d)
     if tag == "selltemp":

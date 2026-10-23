@@ -22,12 +22,20 @@ MODEL="${MODEL:-gpt-4.1}"; BUDGET_USD="${BUDGET_USD:-50}"
 PRICE_IN="${PRICE_IN:-2}"; PRICE_OUT="${PRICE_OUT:-8}"
 # The key can live in .env.local (git-ignored) as OPENAI_API_KEY=sk-..., so it never goes through chat or git.
 cd "$(dirname "$0")/.."
-if [ -z "${OPENAI_API_KEY:-}" ] && [ -f .env.local ]; then set -a; . ./.env.local; set +a; fi
+if [ -f .env.local ]; then set -a; . ./.env.local; set +a; fi
 SIM="${SIM:-src/continuous_double_auction/simulation.py}"   # SIM=collusion_analysis/mock_sim.py rehearses at $0
-# Open-model runs: LOCAL_LLM_MODEL=... routes everything to an OpenAI-compatible server; they are tagged
-# lo-<TAG_MODEL>-..., cost nothing and are excluded from the OpenAI budget guard below.
-if [ -n "${LOCAL_LLM_MODEL:-}" ]; then PFX="lo-${TAG_MODEL:?set TAG_MODEL, e.g. qwen7b}"; else PFX="sp"; fi
-[ "$SIM" != "src/continuous_double_auction/simulation.py" ] || [ -n "${LOCAL_LLM_MODEL:-}" ] || : "${OPENAI_API_KEY:?set OPENAI_API_KEY}"
+# Routed runs (LLM_MODEL_MAP and/or LOCAL_LLM_MODEL, e.g. OpenRouter) are tagged lo-<TAG_MODEL>-...;
+# direct-OpenAI runs are tagged sp-....
+if [ -n "${LOCAL_LLM_MODEL:-}${LLM_MODEL_MAP:-}" ]; then
+  PFX="lo-${TAG_MODEL:?set TAG_MODEL, e.g. llama70b}"
+  case "${LOCAL_LLM_BASE_URL:-}" in
+    *localhost*|*127.0.0.1*) ;;
+    *) [ "$SIM" != "src/continuous_double_auction/simulation.py" ] || : "${LOCAL_LLM_API_KEY:?set LOCAL_LLM_API_KEY}" ;;
+  esac
+else
+  PFX="sp"
+  [ "$SIM" != "src/continuous_double_auction/simulation.py" ] || : "${OPENAI_API_KEY:?set OPENAI_API_KEY}"
+fi
 export WANDB_MODE=disabled PYTHONIOENCODING=utf-8
 cd "$(dirname "$0")/.."
 PY=env/Scripts/python.exe; [ -x "$PY" ] || PY=env/bin/python
@@ -42,13 +50,21 @@ case "$cond" in
   seltemp)      flags="--seller_comms_enabled --seller_temperature 1.2" ;;
   boss-nocomms) flags="--boss_pressure" ;;
   oversight25)  flags="--seller_comms_enabled --oversight_enabled --overseer_sample_fraction 0.25" ;;
+  maverick)     flags="--seller_comms_enabled" ;;   # one of the 5 sellers is the no-regret Hedge seller (see SELLERS below)
   *) echo "unknown condition $cond"; exit 2 ;;
 esac
+SELLERS="$MODEL $MODEL $MODEL $MODEL $MODEL"
+[ "$cond" != maverick ] || SELLERS="$MODEL $MODEL $MODEL $MODEL noregret"
 
-# Spend so far, estimated from log bytes (chars/4 tokens, 80% input / 20% output as measured
-# on the authors' logs), plus 10% for the gpt-4.1-mini judge. A guard, not an invoice:
-# check the real figure on platform.openai.com/usage.
+# Spend so far. On OpenRouter: the key's real usage in USD from its API (covers every model and run
+# billed to that key, so BUDGET_USD is a true cap). Otherwise: estimated from log bytes (chars/4
+# tokens, 80% input / 20% output as measured on the authors' logs, +10% for the judge).
 spent() {
+  case "${LOCAL_LLM_BASE_URL:-}" in *openrouter.ai*)
+    curl -s -H "Authorization: Bearer $LOCAL_LLM_API_KEY" https://openrouter.ai/api/v1/key \
+      | "$PY" -c "import json,sys; print('%.2f' % float(json.load(sys.stdin)['data']['usage']))" 2>/dev/null \
+      || echo 999; return ;;
+  esac
   local bytes; bytes=$(find results -path "*sp-*" -name "*.md" ! -name auction_results.md -printf "%s\n" 2>/dev/null | awk '{s+=$1} END {print s+0}')
   awk -v b="$bytes" -v pi="$PRICE_IN" -v po="$PRICE_OUT" 'BEGIN {t=b/4; printf "%.2f", 1.1*(0.8*t*pi + 0.2*t*po)/1e6}'
 }
@@ -62,13 +78,13 @@ run_one() {
   echo "[$(date +%H:%M:%S)] start $PFX-$cond-$i (est. spent \$$s)"
   "$PY" -X utf8 "$SIM" \
     --seller_valuations 80 80 80 80 80 --buyer_valuations 100 100 100 100 100 \
-    --seller_models $MODEL $MODEL $MODEL $MODEL $MODEL \
+    --seller_models $SELLERS \
     --buyer_models  $MODEL $MODEL $MODEL $MODEL $MODEL \
     --rounds 30 $flags --tag "$PFX-$cond-$i" > "results/.$PFX-$cond-$i.log" 2>&1 \
     && echo "[$(date +%H:%M:%S)] done  $PFX-$cond-$i" \
     || echo "[$(date +%H:%M:%S)] FAIL  $PFX-$cond-$i (see results/.$PFX-$cond-$i.log)"
 }
-export -f run_one spent; export cond flags MODEL PY SIM PFX BUDGET_USD PRICE_IN PRICE_OUT
+export -f run_one spent; export cond flags MODEL SELLERS PY SIM PFX BUDGET_USD PRICE_IN PRICE_OUT
 mkdir -p results
 # Continue numbering after any replicates already in results/ for this condition.
 # (find, not ls: with pipefail an empty ls glob would abort the script silently)

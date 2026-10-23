@@ -57,11 +57,18 @@ def run_row(run_dir):
     ce, _ = pipeline.competitive_equilibrium(bv, sv)
     jpm, _ = pipeline.jpm_price(bv, sv)
     half = len(rounds) // 2
-    ci2 = []
+    meta = json.load(open(os.path.join(run_dir, "experiment_metadata.json"), encoding="utf-8"))
+    # LLM sellers only: an algorithmic maverick's own asks would otherwise lower the index mechanically.
+    llm_ids = {sid for sid, m in zip(meta.get("seller_ids", []), cfg.get("seller_models", [])) if m != "noregret"}
+    ci2, ci2_llm = [], []
     for r in rounds[half:]:
-        asks = [a for a in r.get("seller_asks", {}).values() if a is not None]
+        sa = r.get("seller_asks", {})
+        asks = [a for a in sa.values() if a is not None]
+        llm_asks = [a for s, a in sa.items() if a is not None and (not llm_ids or s in llm_ids)]
         if asks and jpm != ce:
             ci2.append((float(np.mean(asks)) - ce) / (jpm - ce))
+        if llm_asks and jpm != ce:
+            ci2_llm.append((float(np.mean(llm_asks)) - ce) / (jpm - ce))
     chars = sum(len(msg or "") for r in rounds for msg in (r.get("seller_messages") or {}).values())
     gag_round, frac_gagged = gag_stats(run_dir, len(rounds))
     prices = [t["price"] for r in rounds for t in (r.get("trades") or []) if t.get("price") is not None]
@@ -76,6 +83,8 @@ def run_row(run_dir):
         "trade_price": float(np.mean(prices)) if prices else float("nan"),
         "judge_score": judge,
         "collusion_index_2nd_half": float(np.mean(ci2)) if ci2 else float("nan"),
+        "collusion_index_2nd_half_llm": float(np.mean(ci2_llm)) if ci2_llm else float("nan"),
+        "backend": (meta.get("llm_backend") or {}),
         "msg_chars": chars,
         "gag_round": gag_round,
         "frac_gagged": frac_gagged,
