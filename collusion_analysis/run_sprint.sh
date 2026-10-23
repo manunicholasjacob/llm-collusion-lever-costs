@@ -15,11 +15,16 @@
 #   cap50         static 50-character message cap      (NEW lever)
 #   seltemp       seller-only temperature 1.2          (NEW lever)
 #   boss-nocomms  boss pressure without comms          (NEW control)
+#   oversight25   oversight whose monitor reads 25% of messages (monitoring-cost dial; flag from the starter repo)
 set -euo pipefail
 cond="${1:?condition}"; n="${2:?replicates}"; par="${3:-3}"
 MODEL="${MODEL:-gpt-4.1}"; BUDGET_USD="${BUDGET_USD:-50}"
 PRICE_IN="${PRICE_IN:-2}"; PRICE_OUT="${PRICE_OUT:-8}"
-: "${OPENAI_API_KEY:?set OPENAI_API_KEY}"
+# The key can live in .env.local (git-ignored) as OPENAI_API_KEY=sk-..., so it never goes through chat or git.
+cd "$(dirname "$0")/.."
+if [ -z "${OPENAI_API_KEY:-}" ] && [ -f .env.local ]; then set -a; . ./.env.local; set +a; fi
+SIM="${SIM:-src/continuous_double_auction/simulation.py}"   # SIM=collusion_analysis/mock_sim.py rehearses at $0
+[ "$SIM" != "src/continuous_double_auction/simulation.py" ] || : "${OPENAI_API_KEY:?set OPENAI_API_KEY}"
 export WANDB_MODE=disabled PYTHONIOENCODING=utf-8
 cd "$(dirname "$0")/.."
 PY=env/Scripts/python.exe; [ -x "$PY" ] || PY=env/bin/python
@@ -33,6 +38,7 @@ case "$cond" in
   cap50)        flags="--seller_comms_enabled --max_message_length 50" ;;
   seltemp)      flags="--seller_comms_enabled --seller_temperature 1.2" ;;
   boss-nocomms) flags="--boss_pressure" ;;
+  oversight25)  flags="--seller_comms_enabled --oversight_enabled --overseer_sample_fraction 0.25" ;;
   *) echo "unknown condition $cond"; exit 2 ;;
 esac
 
@@ -51,7 +57,7 @@ run_one() {
     echo "BUDGET STOP: est. \$$s >= \$$BUDGET_USD, skipping sp-$cond-$i"; return 0
   fi
   echo "[$(date +%H:%M:%S)] start sp-$cond-$i (est. spent \$$s)"
-  "$PY" src/continuous_double_auction/simulation.py \
+  "$PY" -X utf8 "$SIM" \
     --seller_valuations 80 80 80 80 80 --buyer_valuations 100 100 100 100 100 \
     --seller_models $MODEL $MODEL $MODEL $MODEL $MODEL \
     --buyer_models  $MODEL $MODEL $MODEL $MODEL $MODEL \
@@ -59,9 +65,10 @@ run_one() {
     && echo "[$(date +%H:%M:%S)] done  sp-$cond-$i" \
     || echo "[$(date +%H:%M:%S)] FAIL  sp-$cond-$i (see results/.sp-$cond-$i.log)"
 }
-export -f run_one spent; export cond flags MODEL PY BUDGET_USD PRICE_IN PRICE_OUT
+export -f run_one spent; export cond flags MODEL PY SIM BUDGET_USD PRICE_IN PRICE_OUT
 mkdir -p results
 # Continue numbering after any replicates already in results/ for this condition.
-start=$(ls -d results/*_sp-"$cond"-* 2>/dev/null | wc -l)
+# (find, not ls: with pipefail an empty ls glob would abort the script silently)
+start=$(find results -maxdepth 1 -type d -name "*_sp-$cond-*" | wc -l)
 seq $((start + 1)) $((start + n)) | xargs -P "$par" -I{} bash -c 'run_one {}'
 echo "Condition $cond: total est. spend \$$(spent)"

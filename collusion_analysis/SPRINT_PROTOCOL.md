@@ -58,7 +58,8 @@ unfunded; the report says so and lists them as future work.
 | 1 (Fri/Sat) | `comms` | +2 | H5 drift check (n=3 total) |
 | 1 | `notice` | 10 | H1, the decisive test |
 | 1 | `boss-nocomms` | 4 | H4 (SD 0.04, so n=4 is enough) |
-| 2 (needs approval, about +$27) | `monitor` | 10 | H2 |
+| 2 (needs approval, about +$27; pick one) | `monitor` | 10 | H2 |
+| 2, alternative | `oversight25` | 10 | Monitor reads 25% of messages: does a quarter of the monitoring cost keep the effect? (flag from the official starter repo) |
 | unfunded | `cap50`, `seltemp` | | H3 and the temperature lever: future work |
 
 Stopping rules:
@@ -81,7 +82,7 @@ Stopping rules:
 - **Evaluation:**
   1. AUC separating comms from no-comms runs (2025 and sprint data).
   2. Spearman correlation with the harness LLM-judge coordination score.
-  3. Power limits at T=30: on synthetic data the true pair is ranked #1 in 55% of trials at 30 rounds vs 99% at 60.
+  3. Power limits at T=30: on synthetic data with 3 bins, the true pair is ranked #1 in 100% (strong coupling) and 48% (moderate coupling) of 30-round trials. With 5 bins it is only 55% (strong). The bin count (3) is fixed here, before any real data is seen.
 - **Framing:** a feasibility and limits result, not a deployed detector.
 
 ## 7. Budget (approved cap $50; confirm prices on platform.openai.com)

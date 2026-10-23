@@ -11,8 +11,10 @@ Two statistics on logged, discretized action trajectories:
      a pair is flagged when NI exceeds a threshold in both directions.
 Both plug-in estimators are biased upward on short series, so significance is judged
 against a circular-shift null (shifting i's series preserves its autocorrelation).
-Synthetic power (Oct 22): the true pair is ranked #1 of 10 in 26% of 15-round trials,
-55% at 30 rounds and 99% at 60 rounds (lag-1 coupling p=0.85).
+Synthetic power (Oct 22, 5 agents, lag-1 coupling p=0.85; chance = 10%): with 5 action bins the
+true pair is ranked #1 in 26% of 15-round trials, 55% at 30 and 99% at 60; with 3 bins (what
+detector_eval.py uses) 63% at 15 and 100% at 30. At p=0.5 and 3 bins: 27% at 15, 48% at 30, 92% at 60.
+Fewer bins means fewer cells to estimate, so binning is a first-order design choice.
 Validated below on scripted iterated Rock-Paper-Scissors (no API).
 """
 import numpy as np

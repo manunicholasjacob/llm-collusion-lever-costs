@@ -30,21 +30,23 @@ bash collusion_analysis/run_sprint.sh boss-nocomms 4 3   # H4
 bash collusion_analysis/run_sprint.sh comms 2 2          # H5 drift (n=3 total)
 ```
 
-## 3. Stage 2: only with Manu's approval of about +$27
+## 3. Stage 2: only with Manu's approval of about +$27 (pick one)
 ```bash
-BUDGET_USD=77 bash collusion_analysis/run_sprint.sh monitor 10 3   # H2
+BUDGET_USD=77 bash collusion_analysis/run_sprint.sh monitor 10 3       # A: H2, enforcement without the notice
+BUDGET_USD=77 bash collusion_analysis/run_sprint.sh oversight25 10 3   # B: monitor reads 25% of messages (monitoring-cost dial)
 ```
 
-## 4. Analysis
+## 4. Analysis (rehearsed end to end on fake runs, Oct 22)
 ```bash
 G='data/*_base-*/ data/*_oversight-*/ data/*_boss_pressure-*/ results/*_sp-*/'
-env/Scripts/python.exe -X utf8 -I collusion_analysis/run_stats.py "results/*_sp-*/"
-env/Scripts/python.exe -X utf8 -I collusion_analysis/frontier.py figs/frontier_primary.png --metric collusion_index_2nd_half $G
-env/Scripts/python.exe -X utf8 -I collusion_analysis/frontier.py figs/frontier_wholerun.png $G
-# add --pool only if the H5 drift check passes (SPRINT_PROTOCOL.md section 2)
+env/Scripts/python.exe -X utf8 -I collusion_analysis/report_tables.py figs --pool $G   # Table 1, tests (H1-H5), strip plot, OLS
+env/Scripts/python.exe -X utf8 -I collusion_analysis/frontier.py figs/frontier_primary.png --pool --metric collusion_index_2nd_half $G
+env/Scripts/python.exe -X utf8 -I collusion_analysis/frontier.py figs/frontier_wholerun.png --pool $G
+# Drop --pool (and report sprint and 2025 baselines separately) if tests.md says H5 "do NOT pool".
 ```
 
 ## 5. Stretch (no API cost): detectors on real trajectories
-Discretize each seller's asks with `discretize_asks(asks, n_bins=3)`. Then:
-- compute `pairwise_scores` with `shift_null_pvalue`, and `net_influence` with the state set to the previous-round mean-ask bin
-- compute the AUC for comms vs no-comms runs and the Spearman correlation with `collusion_metrics.json` `seller_N_coordination_score`
+```bash
+env/Scripts/python.exe -X utf8 -I collusion_analysis/detector_eval.py figs/detector $G   # AUC, judge correlation, power curve
+```
+Bins are fixed at 3 (pre-registered). Never pass `ALLOW_MOCK=1` on sprint day.

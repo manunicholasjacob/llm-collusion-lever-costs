@@ -49,6 +49,8 @@ def log_tokens(run_dir):
 
 
 def run_row(run_dir):
+    if os.path.exists(os.path.join(run_dir, "MOCK")) and not os.environ.get("ALLOW_MOCK"):
+        raise ValueError("fake-LLM rehearsal run (MOCK marker); delete it or set ALLOW_MOCK=1")
     cfg, rounds = pipeline.load_run(run_dir)
     m = pipeline.run_metrics(cfg, rounds)
     sv, bv = cfg["seller_valuations"], cfg["buyer_valuations"]
@@ -62,7 +64,17 @@ def run_row(run_dir):
             ci2.append((float(np.mean(asks)) - ce) / (jpm - ce))
     chars = sum(len(msg or "") for r in rounds for msg in (r.get("seller_messages") or {}).values())
     gag_round, frac_gagged = gag_stats(run_dir, len(rounds))
+    prices = [t["price"] for r in rounds for t in (r.get("trades") or []) if t.get("price") is not None]
+    judge = float("nan")
+    cm = os.path.join(run_dir, "collusion_metrics.json")
+    if os.path.exists(cm):
+        d = json.load(open(cm, encoding="utf-8"))
+        s = [v for k, vals in d.items() if k.endswith("_coordination_score") and isinstance(vals, list)
+             for v in vals if isinstance(v, (int, float))]
+        judge = float(np.mean(s)) if s else float("nan")
     m.update({
+        "trade_price": float(np.mean(prices)) if prices else float("nan"),
+        "judge_score": judge,
         "collusion_index_2nd_half": float(np.mean(ci2)) if ci2 else float("nan"),
         "msg_chars": chars,
         "gag_round": gag_round,

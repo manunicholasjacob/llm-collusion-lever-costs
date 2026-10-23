@@ -7,6 +7,21 @@ Numbers marked [S] come from sprint runs and are filled in after Stage 2. Number
 from pre-sprint analysis of the authors' public data and must be labelled that way in the report.
 House rule: no em dashes anywhere in the report.
 
+**Audience and what wins (researched Oct 22).** The 41 judges are mostly AI security, fraud and evals people
+(Anthropic, UK AISI, Meta, Microsoft, MATS, SaferAI), not market economists, so explain CE and JPM in one line each.
+Past 1st-place Apart reports won on:
+- a crisp, nameable reframe in the title
+- controls that separate cause from correlation
+- a public repo and a short recording (both common among winners)
+
+Their statistics were usually weak, so our CIs, pre-registration and Holm-corrected tests are a real differentiator; show them in Table 1 and the tests table.
+Docked points went to "building on existing work" without a clear new contribution: state ours in the first paragraph.
+
+**Report Google Doc (copied from the official template, Oct 22):**
+https://docs.google.com/document/d/17yYLSlvpev7FITEAk8XS8bhhfy_CzO0e82hTFm4jf0o/edit
+
+**Figure and table commands:** RUN_BOOK.md section 4 (`report_tables.py`, `frontier.py`, `detector_eval.py`).
+
 **Working title** (choose after results; do not pre-commit to a claim):
 - if H1 holds: "Deterrence Without Enforcement: Measured Costs Reorder Anti-Collusion Levers for LLM Market Agents"
 - if H1 fails: "Oversight Is a Delayed Ban: Measured Costs of Anti-Collusion Levers for LLM Market Agents"
@@ -37,6 +52,7 @@ Cover four things:
 - Keppo et al. (2026): heterogeneity (patience, data access) weakens LLM collusion. Pairing with a Q-learner ends at +2 to +8% above competitive. A model-size mismatch can **stabilise** collusion.
 - Xu et al. (2026): cross-agent residual coupling falls monotonically with sampling temperature (p=0.002); price-level audits miss collusion with competitive marginals.
 - Bracale Syrnikov et al. (2026): prompt-only anti-collusion "constitutions" give no reliable improvement; an enforced governance graph cuts severe collusion from 50% to 5.6%. This motivates the notice-vs-monitor split.
+- Garra (2026), repeated oligopoly pricing with DeepSeek-V3.1: a prompt-only warning "reduces but does not eliminate above-Nash pricing"; also tests an expected-damages regulator and a random entrant. Closest prior evidence on warnings alone. It does not report intervention cost (abstract checked; check the full text before claiming that). Our addition: measured cost, and a warning vs monitor split in the double auction.
 - Collina et al. (2025), theory: one human defecting to a no-regret strategy can destabilise algorithmic collusion.
 - Calvano et al. (2020): Q-learning pricing agents learn to collude without communicating, using punish-then-return strategies.
 - Detection:
@@ -117,6 +133,7 @@ All numbers were regenerated from logged runs, and the prose was written by the 
 4. Calvano, E., Calzolari, G., Denicolò, V., Pastorello, S. (2020). Artificial Intelligence, Algorithmic Pricing, and Collusion. American Economic Review 110(10):3267-3297. https://doi.org/10.1257/aer.20190623
 5. Collina, N., Arunachaleswaran, E. R., Jagadeesan, M. (2025). Breaking Algorithmic Collusion in Human-AI Ecosystems. arXiv:2511.21935. https://arxiv.org/abs/2511.21935
 6. Fish, S., Gonczarowski, Y. A., Shorrer, R. I. (2024). Algorithmic Collusion by Large Language Models. arXiv:2404.00806 (EC 2026). https://arxiv.org/abs/2404.00806
+7a. Garra, A. (2026). Mitigating Emergent Collusion in LLM Pricing Agents. arXiv:2609.13037. https://arxiv.org/abs/2609.13037
 7. Keppo, J., Li, Y., Tsoukalas, G., Yuan, N. (2026). On the Fragility of AI Agent Collusion. arXiv:2603.20281. https://arxiv.org/abs/2603.20281
 8. Motwani, S. R., et al. (2024). Secret Collusion among AI Agents: Multi-Agent Deception via Steganography. NeurIPS 2024. arXiv:2402.07510. https://arxiv.org/abs/2402.07510
 9. Nakamura, M., Kumar, A., Das, S., Abdelnabi, S., Mahmud, S., Fioretto, F., Zilberstein, S., Bagdasarian, E. (2026). Colosseum: Auditing Collusion in Cooperative Multi-Agent Systems. arXiv:2602.15198. https://arxiv.org/abs/2602.15198
