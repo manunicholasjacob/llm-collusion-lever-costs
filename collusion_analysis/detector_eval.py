@@ -104,7 +104,7 @@ def power_curve(out):
 
 
 def channel_movement(rows):
-    """Pre-registered A6 (SPRINT_PROTOCOL.md deviation log, 23 Oct 07:40): claim channel movement only if
+    """Pre-registered A6 (SPRINT_PROTOCOL.md deviation log, commit aedbf59): claim channel movement only if
        oversight runs carry far fewer message characters than comms runs AND show higher action
        dependence (te_z) than both comms and no-comms runs (one-sided Mann-Whitney, Holm over two)."""
     grp = {"comms": [r for r in rows if r["comms"] and not r["oversight"] and not r["boss"]],

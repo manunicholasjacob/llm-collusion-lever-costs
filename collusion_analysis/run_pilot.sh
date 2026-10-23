@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Phase P pilot (SPRINT_PROTOCOL.md amendment, 23 Oct 09:30): two candidate seller models through
+# Phase P pilot (SPRINT_PROTOCOL.md amendment in commit 2040915): two candidate seller models through
 # OpenRouter, monitor/judge pinned to gpt-4.1-mini, judge deferred. Records real USD per run per model
 # from the key's usage, then applies the pre-registered gate (gate.py).
 # Usage: bash collusion_analysis/run_pilot.sh      (needs LOCAL_LLM_BASE_URL + LOCAL_LLM_API_KEY in .env.local)

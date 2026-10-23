@@ -94,28 +94,33 @@ Stopping rules:
 ## 8. Deviation log
 (append during the sprint: time, what changed, why)
 
-- **2026-10-23 07:40 CDT (sprint live; no sprint run executed yet).** The sprint Resources tab frames Q3.4 with a test: *"Claim channel movement only if message-based coordination falls while action-based dependence rises."* Added analysis A6, specified before running it.
+**Correction (23 Oct, 08:20 CDT, read from the system clock).** The first entries below carried clock times I estimated rather than read; several were later than the actual time. Each entry is now anchored to the git commit that first contains it, which is verifiable with `git log`.
+- Entries within one commit were written in the order listed.
+- **The commit alone cannot prove** that a specification preceded its result when both landed in the same commit (A6, C1 and Q13).
+- **Future entries will be committed before the analysis they specify runs.**
+
+- **2026-10-23, commit aedbf59 (07:43 CDT; sprint live; no sprint run executed yet).** The sprint Resources tab frames Q3.4 with a test: *"Claim channel movement only if message-based coordination falls while action-based dependence rises."* Added analysis A6, specified before running it.
   - **Data:** the 2025 gpt-4.1 runs only (`base`, `base-seller_comms`, `oversight`, `boss_pressure`, `boss_pressure-oversight`; n=10 each). Cross-model runs serve as a robustness set.
   - **Action-based dependence:** detector `te_z` (3 bins, 200 circular shifts) over a fixed window, rounds 8 to 30. Round 7 is the latest gag onset observed, so every oversight run is fully gagged inside the window.
   - **Message-based coordination:** delivered seller-message characters in the same window, plus the LLM-judge coordination score.
   - **Channel movement is claimed only if** oversight runs have (a) message characters far below comms runs and (b) `te_z` above **both** comms runs and no-comms runs (one-sided Mann-Whitney, Holm over the two comparisons). Otherwise we report "no evidence of channel movement".
   - **Also:** the AUC of whole-run `te_z` for plain comms vs plain no-comms (detector validity), and the Spearman correlation with the judge score.
   - **Submission tracks:** Track 1 (Q1.5, Q1.4) and Track 3 (Q3.4).
-- **2026-10-23 08:05 CDT, A6 and detector-validity results (50 gpt-4.1 runs).**
+- **2026-10-23, commit aedbf59 (07:43 CDT), A6 and detector-validity results (50 gpt-4.1 runs).**
   - Detector AUC comms vs no-comms: 0.71 (p=0.12).
   - Bonjour flags at the 0.05 threshold: 40/50 runs, including no-comms runs.
   - A6: no evidence of channel movement (messages -99.4%, `te_z` not higher).
   - **EXPLORATORY, found after looking at the data** (`silence_check.py`): the share of flat ask moves (rounds 8 to 30) tracks the judge score (rho=+0.81) and the primary index (rho=+0.41).
-- **2026-10-23 08:10 CDT, confirmation test C1, specified before looking at the held-out data.**
+- **2026-10-23, commit aedbf59 (07:43 CDT), confirmation test C1, specified before looking at the held-out data.**
   - **Data:** the 25 cross-model runs (`*claude*`, `*mixed*`), not yet used for this statistic, plus later all sprint runs (`results/*_sp-*`).
   - **Statistic:** per-run flat-move share, rounds 8 to 30, threshold |Δask| <= 0.005.
   - **Claim stands only if** Spearman rho with the judge score is > 0 at p < 0.05 (one-sided) on the held-out set. The rho with the primary index is reported either way.
-- **2026-10-23 08:20 CDT, C1 result: NOT confirmed.**
+- **2026-10-23, commit aedbf59 (07:43 CDT), C1 result: NOT confirmed.**
   - On the 25 held-out cross-model runs: rho=+0.16 (one-sided p=0.22) with the judge, rho=-0.14 (p=0.50) with the primary index. A first attempt double-counted 5 runs through overlapping globs (n=30, same verdict); corrected to unique runs.
   - Held-out judge scores span only 3.0 to 3.9.
   - Claude sellers hold *low* prices stickily (69% flat moves at index -0.48).
   - **Report as:** stickiness tracks coordination for gpt-4.1 sellers but does not transfer across model families. Sticky is not the same as collusive.
-- **2026-10-23 08:45 CDT, PROPOSED open-model arm (runs only if Manu approves the OpenRouter spend; specified before any open-model data).**
+- **2026-10-23, commit 2040915 (08:05 CDT), PROPOSED open-model arm (runs only if Manu approves the OpenRouter spend; specified before any open-model data).**
   - **Why:** the comms baseline is too noisy for gpt-4.1 at $2.48/run. Llama-3.3-70B-Instruct on OpenRouter is about $0.11/run, which affords powered arms.
   - **Pilot (P):** `lo-llama70b` with `comms` x6 and `nocomms` x6, same 5x5x30 config. All agents, the overseer and the judge use the same model; the backend is recorded in `experiment_metadata.json` as `llm_backend`.
   - **Gate:** proceed only if the comms-minus-nocomms primary index is > 0 with a bootstrap 90% CI lower bound > -0.05. That is the positive control.
@@ -123,7 +128,7 @@ Stopping rules:
   - **If the gate fails,** report that Llama-3.3-70B does not collude under communication here, and stop.
   - **Fallback model if Llama misbehaves on JSON (>10% failed calls in the pilot):** Qwen3-32B with thinking off. The switch is recorded here before any data.
   - **Never pooled with gpt-4.1 runs;** reported as a separate model family.
-- **2026-10-23 09:30 CDT, BUDGET AND DESIGN AMENDMENT (before any paid run).**
+- **2026-10-23, commit 2040915 (08:05 CDT), BUDGET AND DESIGN AMENDMENT (before any paid run).**
   - **Budget:** Manu set **$50 total across all providers**. All runs go through one OpenRouter key; the runner reads the key's real USD usage and stops at `BUDGET_USD=46`, leaving room for OpenRouter's credit fee. This **supersedes** the 17-run gpt-4.1 Stage 0/1 design: at $2.48/run it cannot power any comparison, and the 2025 data already gives gpt-4.1 references.
   - **New lever (L-mav):** Q1.5's own text points to "a single participant playing a no-regret strategy" (Collina et al. 2025). The `maverick` condition replaces seller 5 with `noregret`, a Hedge seller with full-information counterfactual payoffs over asks of 80.5 to 100.0 in steps of 0.5. It sends no messages and makes no model calls. Costs: zero channel loss, zero monitoring, one market seat.
     - **Primary for L-mav:** `collusion_index_2nd_half_llm`, the 4 LLM sellers' asks only. The maverick's own asks would lower the all-seller index mechanically.
@@ -139,7 +144,7 @@ Stopping rules:
     - If neither model passes the gate, run Phase O on the model with the larger comms-nocomms gap and report the failed positive control prominently.
   - **Phase G, about $12, only if both models pass:** the second model on the key levers comms, nocomms, notice and maverick (n=6 each) as a cross-family replication.
   - **Phase J, the remainder:** the gpt-4.1-mini judge on a stratified subset of Phase O runs, for the detector and judge analyses.
-- **2026-10-23 10:05 CDT, analysis Q13: detector calibration, specified before computing it.** The organizers' Q1.3 suggests calibrating a detector on no-communication runs.
+- **2026-10-23, commit 11dfa4f (08:19 CDT), analysis Q13: detector calibration, specified before computing it.** The organizers' Q1.3 suggests calibrating a detector on no-communication runs.
   - **Rule:** flag a run when its whole-run statistic exceeds the 90th percentile of the same statistic over no-comms runs of the same model.
   - **Statistics:** `te_z` and Bonjour `ni_max`.
   - **On the 2025 gpt-4.1 data:**
@@ -147,7 +152,7 @@ Stopping rules:
     - detection rate on comms runs
   - **Compare** with Bonjour's fixed 0.05 threshold (40/50 runs flagged).
   - **Re-test the frozen 2025 thresholds** on the held-out sprint-model runs only if that model's no-comms arm gives its own calibration. Thresholds are never refit on the test runs.
-- **2026-10-23 10:10 CDT, Q13 result.**
+- **2026-10-23, commit 11dfa4f (08:19 CDT), Q13 result.**
   - **Bonjour's fixed 0.05 threshold** flags 70% of no-comms runs and 100% of comms runs: unusable as a test.
   - **Calibrated at the no-comms 90th percentile:**
 

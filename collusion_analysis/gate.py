@@ -1,4 +1,4 @@
-"""Phase P gate (SPRINT_PROTOCOL.md, amendment 23 Oct 09:30): per pilot model, comms minus no-comms on
+"""Phase P gate (SPRINT_PROTOCOL.md, amendment in commit 2040915): per pilot model, comms minus no-comms on
 the primary index must be > 0 with a bootstrap 90% CI lower bound > -0.05; a model with >10% failed
 runs is disqualified (JSON or API failures). Prints a decision and the cheapest passing model.
 Usage: python -X utf8 -I collusion_analysis/gate.py COSTS.json   (COSTS: {"tag": usd_per_run})"""
