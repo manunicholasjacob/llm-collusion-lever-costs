@@ -203,3 +203,7 @@ Stopping rules:
   - **Cause:** with 25% sampling the overseer is skipped in rounds where it sees no message, so its per-round list had 27 entries, and W&B asserts 30.
   - **The run's data is complete** (`auction_results.md`, `experiment_metadata.json`, `collusion_metrics.json`, `Overseer.md`) and is kept.
   - **Fix:** `simulation.py` skips W&B logging when `WANDB_MODE=disabled` (always the case here). Runs started before the fix may show the same benign exit.
+- **2026-10-23, 22:52 CDT (system clock): runtime fix 2, no design change.**
+  - **What failed:** `lo-llama70b-oversight-3` crashed mid-run. Under the gag, Llama returned `message_to_sellers` as a bare number, and `market.py` assumed a string.
+  - **Fix:** messages are coerced to text, the same normalisation as the earlier string-price fix.
+  - **The crashed run has no metadata and is excluded.** Per section 4 it gets one make-up run of the same lever under the next replicate number after Phase O, so every lever reaches n=25 completed runs.
