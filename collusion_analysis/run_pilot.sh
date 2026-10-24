@@ -8,7 +8,7 @@ cd "$(dirname "$0")/.."
 if [ -f .env.local ]; then set -a; . ./.env.local; set +a; fi
 : "${LOCAL_LLM_API_KEY:?put LOCAL_LLM_API_KEY in .env.local}"
 export SKIP_LLM_JUDGE=1 BUDGET_USD="${BUDGET_USD:-46}"
-PY=env/Scripts/python.exe; [ -x "$PY" ] || PY=env/bin/python
+PY="${PY:-env/Scripts/python.exe}"; [ -x "$PY" ] || PY=env/bin/python  # PY overrides (real-terminal env: envw)
 usage() { curl -s -H "Authorization: Bearer $LOCAL_LLM_API_KEY" "${USAGE_URL:-$LOCAL_LLM_BASE_URL/key}" \
           | "$PY" -c "import json,sys; print(json.load(sys.stdin)['data']['usage'])"; }
 COSTS=results/pilot_costs.json; mkdir -p results; [ -f "$COSTS" ] || echo '{}' > "$COSTS"

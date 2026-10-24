@@ -11,7 +11,7 @@ if [ -f .env.local ]; then set -a; . ./.env.local; set +a; fi
 mkdir -p results figs
 LOG=results/run_all.log
 exec > >(tee -a "$LOG") 2>&1
-PY=env/Scripts/python.exe; [ -x "$PY" ] || PY=env/bin/python
+PY="${PY:-env/Scripts/python.exe}"; [ -x "$PY" ] || PY=env/bin/python  # PY overrides (real-terminal env: envw)
 export BUDGET_USD="${BUDGET_USD:-46}" SKIP_LLM_JUDGE=1 WANDB_MODE=disabled
 N_O="${N_O:-25}"; N_G="${N_G:-6}"; K_J="${K_J:-4}"; BATCH="${BATCH:-1}"
 declare -A MODEL=([llama70b]=meta-llama/llama-3.3-70b-instruct [mini41]=openai/gpt-4.1-mini)

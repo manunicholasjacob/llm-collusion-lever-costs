@@ -38,7 +38,7 @@ else
 fi
 export WANDB_MODE=disabled PYTHONIOENCODING=utf-8
 cd "$(dirname "$0")/.."
-PY=env/Scripts/python.exe; [ -x "$PY" ] || PY=env/bin/python
+PY="${PY:-env/Scripts/python.exe}"; [ -x "$PY" ] || PY=env/bin/python  # PY overrides (real-terminal env: envw)
 
 case "$cond" in
   comms)        flags="--seller_comms_enabled" ;;

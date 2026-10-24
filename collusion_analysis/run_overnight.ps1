@@ -11,6 +11,8 @@ Write-Host "[$(Get-Date -Format HH:mm)] Sleep blocked while the run is going. Le
 
 Set-Location (Split-Path $PSScriptRoot -Parent)
 $env:BUDGET_USD = "39"; $env:K_J = "3"; $env:N_G = "3"
+# envw = the venv built in the real Windows environment by setup_realenv.ps1 (env/ only works inside Claude's sandbox)
+if (Test-Path envw\Scripts\python.exe) { $env:PY = "envw/Scripts/python.exe" } else { throw "Run collusion_analysis\setup_realenv.ps1 first" }
 $bash = "C:\Program Files\Git\bin\bash.exe"
 try {
     & $bash collusion_analysis/run_all.sh
