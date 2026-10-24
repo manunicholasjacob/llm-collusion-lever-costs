@@ -192,3 +192,9 @@ Stopping rules:
   - **Settings:** `BUDGET_USD=39` (balance minus $1). Phase J (judge, `K_J=3`) runs **before** Phase G. Phase G is trimmed to `N_G=3` per key lever.
   - **Unchanged:** Phase P (pilot) and Phase O (n=25 per lever).
   - **If the budget stop truncates Phase G,** it is reported as truncated and its arms are not tested.
+- **2026-10-23, 22:29 CDT (system clock): Phase P result. The positive control FAILED for both models.**
+  - **llama70b:** comms -0.006 (n=6) vs nocomms +0.024 (n=6); diff -0.030, 90% lower bound -0.367; 0/12 failed runs; $0.185/run.
+  - **mini41:** comms -0.536 (n=3) vs nocomms -0.480 (n=3); diff -0.056, lower bound -0.172; 0/6 failed runs; $0.479/run. Asks sit below the competitive price.
+  - **Pre-registered branch taken automatically:** Phase O on llama70b (the larger comms-nocomms gap). The failed positive control is to be reported prominently.
+  - **Interpretation fixed now, before Phase O data:** with no collusion to remove, the lever "reductions" estimate effects on a competitive market. Monitor firing in oversight / monitor / oversight25 runs is then a pure false-positive cost: channel loss with no collusion prevented.
+  - **Added secondary analysis F1:** monitor fire rate per run and the fraction of rounds gagged in the llama70b oversight arms, against the 2025 gpt-4.1 oversight arms (fired 20/20).
