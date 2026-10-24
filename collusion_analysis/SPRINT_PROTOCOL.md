@@ -250,3 +250,22 @@ Stopping rules:
   - **Mean ask, hours 16 to 30:** notice 90.62 vs comms 90.00; maverick 88.70.
   - **Reading:** the warning text shifts sellers' talk toward compliance and slightly raises asks, and trade falls.
 - **Remaining budget:** about $2.55, held in reserve.
+
+## 9. Confirmatory replication C2 (pre-registered 06:32 CDT on 2026-10-24, system clock; committed before any C2 run)
+- **Why:** the X1 effects (warning chills trade; competitor helps buyers) were found after seeing the data. C2 tests them on **fresh runs only**.
+- **Design:**
+  - **Model:** llama70b agents (`meta-llama/llama-3.3-70b-instruct`); overseer and judge `openai/gpt-4.1-mini`; judge deferred (`SKIP_LLM_JUDGE=1`).
+  - **Config:** 5x5x30, unchanged harness.
+  - **Arms:** `comms`, `notice` and `maverick`, **n=25 each**, run in balanced batches.
+  - **Tags:** `lo-llamaR-*`. **No Phase O run is reused.**
+- **Hypotheses:** one-sided bootstrap, 10k resamples, Holm over the three, alpha 0.05.
+  - **C2-1:** trades per run, notice < comms.
+  - **C2-2:** buyer welfare per round, notice < comms.
+  - **C2-3:** buyer welfare per round, maverick > comms.
+- **Secondary (descriptive only):**
+  - allocative efficiency
+  - mean trade price
+  - seller profit
+  - the share of messages mentioning monitoring or regulation (same regex as in X1)
+- **Reporting:** a replication counts as confirmed only on Holm p < 0.05. Failures are reported as failures to replicate. Crashed runs get one make-up run each (section 4).
+- **Budget:** stop at the OpenRouter balance minus $1.
