@@ -231,3 +231,22 @@ Stopping rules:
   - **Correction:** Holm over the 4 arms within each outcome.
   - **Reporting:** exploratory only; never presented as a confirmatory test.
 - **X1 extension (exploratory, same rules):** allocative efficiency, trades per run and total seller profit, notice-type arms vs comms.
+- **2026-10-24, 02:19 CDT (system clock): X1 robustness and mechanism checks (EXPLORATORY).**
+  - **Mann-Whitney on trades per run vs comms:**
+
+    | Arm | Median trades | p |
+    |---|---|---|
+    | comms | 82 | |
+    | notice | 60 | 0.005 |
+    | oversight25 | 66 | 0.020 |
+    | nocomms | 71 | 0.022 |
+    | oversight | 71 | 0.107 |
+    | monitor | 75 | 0.285 |
+    | maverick | 89 | 0.143 |
+
+  - **Share of seller messages mentioning monitoring or regulation:**
+    - notice 27.9%, oversight 16.9%, oversight25 9.0%
+    - monitor 2.7%, comms 3.2%
+  - **Mean ask, hours 16 to 30:** notice 90.62 vs comms 90.00; maverick 88.70.
+  - **Reading:** the warning text shifts sellers' talk toward compliance and slightly raises asks, and trade falls.
+- **Remaining budget:** about $2.55, held in reserve.
