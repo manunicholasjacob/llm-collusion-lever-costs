@@ -146,5 +146,7 @@ while i < len(lines):
         add_par(ln)
     i += 1
 
+cp = D.core_properties
+cp.title, cp.author, cp.last_modified_by, cp.comments = title, "Manu Nicholas Jacob", "Manu Nicholas Jacob", ""
 D.save(out_path)
 print("wrote", out_path)
