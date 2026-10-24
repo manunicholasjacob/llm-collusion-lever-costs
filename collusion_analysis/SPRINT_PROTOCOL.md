@@ -289,3 +289,7 @@ Stopping rules:
   - Other arms are unchanged.
   - **Also corrected:** the competitor's welfare gain in the report is 26% (6.69/25.27), not 27%.
   - **Also corrected:** three cost-table intervals and one Holm p (0.022, not 0.025) now come from the reproducible `x1_costs.py` output rather than an earlier ad-hoc run.
+- **2026-10-24, 11:28 CDT (system clock): two more report corrections found while preparing the public repository.**
+  - **Pilot sizes:** Methods said "6 plus 6 runs per model". The pilot ran (as pre-registered) 6 plus 6 Llama-3.3-70B runs and 3 plus 3 GPT-4.1-mini runs. Corrected, and 4.2 now gives n=3 for GPT-4.1-mini.
+  - **Power:** the pre-sprint minimum detectable effects (0.41 to 0.50 at n=10; 0.26 to 0.32 at n=25) had no script behind them. `power.py` now computes them (80% power, one-sided alpha 0.05, exact noncentral t, 2025 SDs 0.42 comms and 0.30 ban): 0.42 to 0.49 at n=10 and 0.26 to 0.30 at n=25. Report corrected; no conclusion changes (both ranges still exceed the ban's 0.28 effect at n=10).
+  - **Detector check:** the published `figs/detector_whole` outputs reproduce byte for byte with the original glob order. Transfer entropy's "4 of 10 at a 10% false-positive rate" depends on the null's random draws; across 11 seeds it is 4 of 10 in 10 and 5 of 10 in 1. Net influence is deterministic (4 of 10). Report unchanged.

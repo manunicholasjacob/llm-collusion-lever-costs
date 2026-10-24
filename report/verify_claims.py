@@ -56,11 +56,18 @@ for k, val in (("collusion_index", "0.82"), ("collusion_index_2nd_half", "1.26")
 sd = np.std([r["collusion_index_2nd_half"] for r in rows(C25["comms"])], ddof=1)
 claim("SD 0.42", "(SD 0.42)", f"{sd:.2f}" == "0.42")
 claim("ban effect 0.28", "(0.28)", f"{mean(C25['comms'], 'collusion_index_2nd_half') - mean(C25['ban'], 'collusion_index_2nd_half'):.2f}" == "0.28")
+import power
+(pr, _, _) = power.ranges()
+claim("power n=10", "0.42 to 0.49 index units", [f"{x:.2f}" for x in pr[10]] == ["0.42", "0.49"])
+claim("power n=25", "detects 0.26 to 0.30", [f"{x:.2f}" for x in pr[25]] == ["0.26", "0.30"])
 # --- pilot ---
 for tag, a, b in (("pllama70b", "-0.006", "+0.024"), ("pmini41", "-0.54", "-0.48")):
     c = mean(f"results/*_lo-{tag}-comms-*/", "collusion_index_2nd_half"); n = mean(f"results/*_lo-{tag}-nocomms-*/", "collusion_index_2nd_half")
     fmt = "{:+.3f}" if tag == "pllama70b" else "{:+.2f}"
     claim(f"pilot {tag}", a, fmt.format(c) == a and fmt.format(n) == b)
+claim("pilot sizes", "6 plus 6 runs of Llama-3.3-70B, 3 plus 3 of GPT-4.1-mini",
+      [len(runs(f"results/*_lo-{t}-*/")) for t in ("pllama70b-comms", "pllama70b-nocomms", "pmini41-comms", "pmini41-nocomms")] == [6, 6, 3, 3])
+claim("mini n", "(-0.54 versus -0.48, n=3 each)")
 # --- Phase O levels / talk / rank ---
 L = lambda lv: f"results/*_lo-llama70b-{lv}-[0-9]*/"
 claim("81 trades", "81 trades per run", round(mean(L("comms"), "n_trades")) == 81)
