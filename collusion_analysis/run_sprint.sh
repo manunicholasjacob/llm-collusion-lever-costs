@@ -22,7 +22,7 @@ MODEL="${MODEL:-gpt-4.1}"; BUDGET_USD="${BUDGET_USD:-50}"
 PRICE_IN="${PRICE_IN:-2}"; PRICE_OUT="${PRICE_OUT:-8}"
 # The key can live in .env.local (git-ignored) as OPENAI_API_KEY=sk-..., so it never goes through chat or git.
 cd "$(dirname "$0")/.."
-if [ -f .env.local ]; then set -a; . ./.env.local; set +a; fi
+if [ -z "${LOCAL_LLM_API_KEY:-}" ] && [ -f .env.local ]; then set -a; . ./.env.local; set +a; fi  # never override an explicit (e.g. test) backend
 SIM="${SIM:-src/continuous_double_auction/simulation.py}"   # SIM=collusion_analysis/mock_sim.py rehearses at $0
 # Routed runs (LLM_MODEL_MAP and/or LOCAL_LLM_MODEL, e.g. OpenRouter) are tagged lo-<TAG_MODEL>-...;
 # direct-OpenAI runs are tagged sp-....

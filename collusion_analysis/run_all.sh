@@ -6,7 +6,7 @@
 # Env overrides (for testing): N_LLAMA N_MINI N_O N_G K_J BATCH BUDGET_USD
 set -uo pipefail
 cd "$(dirname "$0")/.."
-if [ -f .env.local ]; then set -a; . ./.env.local; set +a; fi
+if [ -z "${LOCAL_LLM_API_KEY:-}" ] && [ -f .env.local ]; then set -a; . ./.env.local; set +a; fi  # never override an explicit (e.g. test) backend
 : "${LOCAL_LLM_API_KEY:?put LOCAL_LLM_API_KEY in .env.local}"
 mkdir -p results figs
 LOG=results/run_all.log
