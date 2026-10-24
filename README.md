@@ -26,6 +26,16 @@ Auctions* ([arXiv:2507.01413](https://arxiv.org/abs/2507.01413), [code and data]
 - **Confirmatory replication (75 fresh runs, pre-registered before they ran).** Both welfare effects held (16% lower
   under the notice, 44% higher with the no-regret seller); the notice's effect on trade volume did not.
 
+## Pre-sprint and sprint work
+
+The sprint opened 23 Oct 2026, 00:00 AoE. **Preexisting (built 22 Oct 2026, before the sprint):** the core analysis
+tooling (`pipeline.py`, `run_stats.py`, `frontier.py`, `net_influence.py`, `report_tables.py`, `detector_eval.py`,
+`run_sprint.sh`, the mock tests), the harness flags `--oversight_notice`, `--oversight_monitor`,
+`--seller_temperature` and `--overseer_sample_fraction` (the last adapted from the official starter repository),
+the analysis of the authors' public runs, and the protocol. **New during the sprint:** the no-regret seller and
+model routing, every run in `results/`, and every analysis and figure in the report. Details and commits:
+[`collusion_analysis/DISCLOSURE.md`](collusion_analysis/DISCLOSURE.md); the git history keeps the original dates.
+
 ## Contents
 
 | Path | What it is |

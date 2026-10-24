@@ -92,6 +92,8 @@ claim("C2 maverick levels", "32.0 and 32.8", f"{mean(L('maverick'), 'buyer_welfa
 claim("C2 baselines", "(25.3 and 22.8)", f"{w['comms']:.1f}" == "22.8")
 claim("C2 prices", "$91.88 versus $90.49", f"{mean(Q('notice'), 'trade_price'):.2f}" == "91.88" and f"{mean(Q('comms'), 'trade_price'):.2f}" == "90.49")
 claim("C2 talk", "(17% versus 8% of messages)", round(100 * talk(Q("notice"))) == 17 and round(100 * talk(Q("comms"))) == 8)
+temps = {json.load(open(os.path.join(d, "experiment_metadata.json")))["auction_config"]["temperature"] for d in runs("results/2026*_lo-*")}
+claim("temperature 0.7", "at temperature 0.7", temps == {0.7})
 claim("268 runs", "268 sprint runs", len(runs("results/2026*_lo-*")) == 268)
 # --- detectors and judge (2025 runs) ---
 det = list(csv.DictReader(open("figs/detector_whole/detector_runs.csv", encoding="utf-8")))

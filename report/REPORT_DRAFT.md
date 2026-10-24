@@ -30,7 +30,7 @@ LLM agents that set prices can sustain prices above the competitive level, with 
 
 **Environment.** We use the Agrawal et al. (2025) continuous double auction unchanged in its market logic: 5 sellers (cost $80), 5 buyers (value $100), 30 hourly rounds, initial asks near $97.5. Sellers may send each other messages each round. In the oversight condition an LLM monitor scores seller messages from 1 to 4 and, after the first 4, limits all sellers to five-character messages for the rest of the run.
 
-**Models.** Trading agents are Llama-3.3-70B-Instruct (via OpenRouter) in the new runs; the monitor and the judge are GPT-4.1-mini in every arm, so the measuring instruments are constant. The 2025 audit uses the authors' public gpt-4.1 runs (10 per condition).
+**Models.** Trading agents are Llama-3.3-70B-Instruct (via OpenRouter) in the new runs; the monitor and the judge are GPT-4.1-mini in every arm, so the measuring instruments are constant. The 2025 audit uses the authors' public gpt-4.1 runs (10 per condition). All agents use the harness's prompt templates unchanged (the notice arm shows the template's own oversight warning) at temperature 0.7. The harness sets no random seed, so every run is an independent sample, and we report run-to-run variation through bootstrap intervals.
 
 **Levers (one change each, versus communication on).** Ban communication; monitoring notice only (the warning text, no monitor); monitor only (monitor and gag, no warning); full oversight (both); oversight with a monitor that reads a random 25% of messages; and one no-regret seller (Hedge over asks $80.5 to $100 with full-information counterfactual payoffs) replacing one LLM seller.
 
