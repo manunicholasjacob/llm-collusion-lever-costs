@@ -186,3 +186,9 @@ Stopping rules:
   - **(b) Between runs:** rho +0.61 over 50 runs, so the judge does separate conditions.
   - **EXPLORATORY detrending (round-to-round changes):** comms same-round rho -0.04 (5/10 negative); judge change at t vs price change at t+1, rho -0.11 (7/10, p=0.34).
   - **Report as:** (a) is driven by opposite time trends. The judge's score tracks escalating talk while the market converges toward competitive prices, and round-level judged coordination does not predict price moves. Do NOT claim talk causes prices to fall.
+- **2026-10-23, 21:44 CDT (system clock; committed before any paid run): final budget, verified key.**
+  - **Money:** Manu bought **$40** of OpenRouter credit. The account shows total_credits 40, usage 0.
+  - **Smoke test:** one JSON-mode call each to `meta-llama/llama-3.3-70b-instruct` (provider AkashML) and `openai/gpt-4.1-mini` (OpenAI) returned valid JSON. Cost rounds to $0.
+  - **Settings:** `BUDGET_USD=39` (balance minus $1). Phase J (judge, `K_J=3`) runs **before** Phase G. Phase G is trimmed to `N_G=3` per key lever.
+  - **Unchanged:** Phase P (pilot) and Phase O (n=25 per lever).
+  - **If the budget stop truncates Phase G,** it is reported as truncated and its arms are not tested.

@@ -49,15 +49,17 @@ SECOND=$(awk '/^SECOND/ {print $2}' results/pilot_gate.txt)
 step "Phase O: $CHOSEN, $N_O per lever x 7 levers (usage \$$(usage))"
 balanced "$CHOSEN" "$LEVERS_O" "$N_O"
 
+# Phase J runs before Phase G (protocol entry for the $40 budget): the judge analysis is more central
+# than a thin replication, so a tight budget cuts the replication, not the judge.
+step "Phase J: judge on up to $K_J runs per lever for $CHOSEN (usage \$$(usage))"
+route "$CHOSEN"; "$PY" -X utf8 -I collusion_analysis/judge_subset.py "$CHOSEN" "$K_J"
+
 if [ "$SECOND" != "none" ]; then
   step "Phase G: $SECOND, $N_G per lever on key levers (usage \$$(usage))"
   balanced "$SECOND" "$LEVERS_G" "$N_G"
 else
   step "Phase G skipped (only one model passed or none did)"
 fi
-
-step "Phase J: judge on up to $K_J runs per lever for $CHOSEN (usage \$$(usage))"
-route "$CHOSEN"; "$PY" -X utf8 -I collusion_analysis/judge_subset.py "$CHOSEN" "$K_J"
 
 step "Analysis (\$0)"
 for tag in "$CHOSEN" $( [ "$SECOND" != none ] && echo "$SECOND" ); do
