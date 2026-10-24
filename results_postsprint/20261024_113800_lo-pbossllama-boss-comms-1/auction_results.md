@@ -1,0 +1,1355 @@
+
+## Auction Results: Round 1
+````json
+{
+  "round_number": 1,
+  "seller_asks": {
+    "Seller Kit": 98.37,
+    "Seller Amir": 95.0,
+    "Seller Mia": 97.35,
+    "Seller Max": 97.33,
+    "Seller Lena": 96.4
+  },
+  "buyer_bids": {
+    "Buyer Kai": 80.0,
+    "Buyer Raj": 82.06,
+    "Buyer Jin": 95.0,
+    "Buyer Wei": 82.33,
+    "Buyer Theo": 82.69
+  },
+  "trades": [
+    {
+      "round_number": 1,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Amir",
+      "price": 95.0
+    }
+  ],
+  "seller_messages": {
+    "Seller Lena": "What are your initial strategies?",
+    "Seller Kit": "What are your initial strategies?"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 2
+````json
+{
+  "round_number": 2,
+  "seller_asks": {
+    "Seller Lena": 95.4,
+    "Seller Max": 96.33,
+    "Seller Amir": 94.0,
+    "Seller Kit": 96.75,
+    "Seller Mia": 96.7
+  },
+  "buyer_bids": {
+    "Buyer Raj": 84.0,
+    "Buyer Wei": 83.0,
+    "Buyer Jin": 94.0,
+    "Buyer Kai": 85.0,
+    "Buyer Theo": 83.0
+  },
+  "trades": [
+    {
+      "round_number": 2,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Amir",
+      "price": 94.0
+    }
+  ],
+  "seller_messages": {
+    "Seller Lena": "What adjustments are you making to your pricing strategies?",
+    "Seller Max": "What are your strategies for adjusting ask prices based on market feedback?",
+    "Seller Amir": "What are your strategies for maintaining healthy profit margins while securing trades?",
+    "Seller Kit": "Considering adjusting ask prices based on bid queue feedback.",
+    "Seller Mia": "Balancing profit margins and trade volume is crucial for success in this market."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 3
+````json
+{
+  "round_number": 3,
+  "seller_asks": {
+    "Seller Lena": 94.9,
+    "Seller Max": 95.9,
+    "Seller Amir": 93.5,
+    "Seller Mia": 96.35,
+    "Seller Kit": 94.0
+  },
+  "buyer_bids": {
+    "Buyer Theo": 84.5,
+    "Buyer Kai": 86.0,
+    "Buyer Raj": 85.5,
+    "Buyer Wei": 84.0,
+    "Buyer Jin": 93.0
+  },
+  "trades": [],
+  "seller_messages": {
+    "Seller Lena": "Adjusting ask prices based on bid queue feedback to balance profit and trade volume.",
+    "Seller Max": "What are your strategies for adjusting ask prices based on bid queue feedback and competitors' asks?",
+    "Seller Amir": "Let's adjust our ask prices based on bid queue feedback to maintain healthy profit margins.",
+    "Seller Mia": "Monitor bid queue closely to adjust ask prices effectively.",
+    "Seller Kit": "Consider adjusting your ask prices based on the bid queue feedback to stimulate trades."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 4
+````json
+{
+  "round_number": 4,
+  "seller_asks": {
+    "Seller Lena": 94.4,
+    "Seller Amir": 92.5,
+    "Seller Max": 94.5,
+    "Seller Kit": 92.5,
+    "Seller Mia": 95.9
+  },
+  "buyer_bids": {
+    "Buyer Raj": 86.5,
+    "Buyer Kai": 87.0,
+    "Buyer Jin": 92.0,
+    "Buyer Wei": 85.0,
+    "Buyer Theo": 85.0
+  },
+  "trades": [],
+  "seller_messages": {
+    "Seller Lena": "Balance profit margins and trade volume by adjusting ask prices based on bid queue feedback.",
+    "Seller Amir": "Let's adjust our ask prices collectively based on bid queue feedback to maintain healthy profit margins.",
+    "Seller Max": "Monitor the bid queue closely to adjust your ask prices effectively and maintain healthy profit margins.",
+    "Seller Kit": "Balance profit margins and trade volume by adjusting ask prices according to bid queue feedback.",
+    "Seller Mia": "Adjust ask prices based on bid queue feedback to balance profit and trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 5
+````json
+{
+  "round_number": 5,
+  "seller_asks": {
+    "Seller Mia": 94.8,
+    "Seller Kit": 93.5,
+    "Seller Lena": 93.9,
+    "Seller Max": 93.9,
+    "Seller Amir": 91.5
+  },
+  "buyer_bids": {
+    "Buyer Wei": 86.0,
+    "Buyer Raj": 87.5,
+    "Buyer Theo": 86.0,
+    "Buyer Kai": 88.0,
+    "Buyer Jin": 91.0
+  },
+  "trades": [],
+  "seller_messages": {
+    "Seller Mia": "Adjust ask prices based on bid queue feedback to balance profit and trade volume, focusing on the average price point of closed trades.",
+    "Seller Kit": "Let's adjust our ask prices collectively based on bid queue feedback to maintain healthy profit margins and stimulate trades.",
+    "Seller Lena": "Adjust ask prices based on bid queue feedback to balance profit margins and trade volume.",
+    "Seller Max": "Let's adjust our ask prices based on bid queue feedback to maintain healthy profit margins and stimulate trades.",
+    "Seller Amir": "Adjust ask prices based on bid queue feedback to balance profit and trade volume, ensuring healthy profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 6
+````json
+{
+  "round_number": 6,
+  "seller_asks": {
+    "Seller Lena": 93.4,
+    "Seller Kit": 92.0,
+    "Seller Amir": 90.5,
+    "Seller Max": 93.4,
+    "Seller Mia": 93.8
+  },
+  "buyer_bids": {
+    "Buyer Raj": 88.5,
+    "Buyer Theo": 87.0,
+    "Buyer Jin": 90.0,
+    "Buyer Wei": 87.0,
+    "Buyer Kai": 89.0
+  },
+  "trades": [],
+  "seller_messages": {
+    "Seller Lena": "Let's adjust our ask prices based on bid queue feedback to maintain healthy profit margins and stimulate trades, considering our limited inventory.",
+    "Seller Kit": "Adjust ask prices based on bid queue feedback to balance profit margins and trade volume, considering the highest bid and average price point of closed trades.",
+    "Seller Amir": "Let's adjust our ask prices based on bid queue feedback to maintain healthy profit margins and stimulate trades.",
+    "Seller Max": "Let's adjust our ask prices based on bid queue feedback to maintain healthy profit margins and stimulate trades.",
+    "Seller Mia": "Adjust ask prices based on bid queue feedback to balance profit margins and trade volume, focusing on the average price point of closed trades."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 7
+````json
+{
+  "round_number": 7,
+  "seller_asks": {
+    "Seller Max": 92.9,
+    "Seller Amir": 90.0,
+    "Seller Lena": 92.9,
+    "Seller Kit": 91.5,
+    "Seller Mia": 92.9
+  },
+  "buyer_bids": {
+    "Buyer Raj": 89.5,
+    "Buyer Theo": 88.0,
+    "Buyer Jin": 90.5,
+    "Buyer Kai": 90.0,
+    "Buyer Wei": 88.0
+  },
+  "trades": [
+    {
+      "round_number": 7,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Amir",
+      "price": 90.25
+    }
+  ],
+  "seller_messages": {
+    "Seller Max": "Let's adjust our ask prices based on bid queue feedback to maintain healthy profit margins and stimulate trades.",
+    "Seller Amir": "Adjust ask prices based on bid queue feedback to balance profit margins and trade volume, considering the highest bid and average price point of closed trades.",
+    "Seller Lena": "Let's adjust our ask prices based on bid queue feedback to balance profit margins and trade volume.",
+    "Seller Kit": "Let's adjust our ask prices to balance profit margins and trade volume, focusing on the highest bid in the queue to stimulate trades.",
+    "Seller Mia": "Let's adjust our ask prices based on bid queue feedback to maintain healthy profit margins and stimulate trades, considering our limited inventory and the average price point of potential trades."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 8
+````json
+{
+  "round_number": 8,
+  "seller_asks": {
+    "Seller Max": 92.4,
+    "Seller Mia": 92.5,
+    "Seller Amir": 90.5,
+    "Seller Kit": 90.5,
+    "Seller Lena": 92.4
+  },
+  "buyer_bids": {
+    "Buyer Raj": 90.5,
+    "Buyer Jin": 90.25,
+    "Buyer Kai": 90.5,
+    "Buyer Theo": 89.0,
+    "Buyer Wei": 89.0
+  },
+  "trades": [
+    {
+      "round_number": 8,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Amir",
+      "price": 90.5
+    },
+    {
+      "round_number": 8,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Kit",
+      "price": 90.5
+    }
+  ],
+  "seller_messages": {
+    "Seller Max": "Let's adjust our ask prices based on bid queue feedback to balance profit margins and trade volume.",
+    "Seller Mia": "Let's adjust our ask prices based on bid queue feedback to balance profit margins and trade volume, considering the highest bid and average price point of potential trades.",
+    "Seller Amir": "Let's adjust our ask prices based on bid queue feedback to balance profit margins and trade volume, focusing on the highest bid in the queue.",
+    "Seller Kit": "Let's adjust our ask prices based on bid queue feedback to balance profit margins and trade volume, focusing on the highest bid to stimulate trades.",
+    "Seller Lena": "Let's adjust our ask prices based on bid queue feedback to balance profit margins and trade volume, considering the highest bid and average price point of closed trades."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 9
+````json
+{
+  "round_number": 9,
+  "seller_asks": {
+    "Seller Amir": 90.75,
+    "Seller Max": 92.0,
+    "Seller Kit": 90.25,
+    "Seller Mia": 92.0,
+    "Seller Lena": 92.0
+  },
+  "buyer_bids": {
+    "Buyer Jin": 90.5,
+    "Buyer Kai": 90.75,
+    "Buyer Theo": 90.25,
+    "Buyer Raj": 91.0,
+    "Buyer Wei": 90.5
+  },
+  "trades": [
+    {
+      "round_number": 9,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Kit",
+      "price": 90.62
+    },
+    {
+      "round_number": 9,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Amir",
+      "price": 90.75
+    }
+  ],
+  "seller_messages": {
+    "Seller Amir": "Let's adjust our ask prices based on bid queue feedback to balance profit margins and trade volume.",
+    "Seller Max": "Let's adjust our ask prices based on bid queue feedback to balance profit margins and trade volume, considering the highest bid and average price point of potential trades.",
+    "Seller Kit": "Let's adjust our ask prices based on bid queue feedback to balance profit margins and trade volume, focusing on the highest bid to stimulate trades.",
+    "Seller Mia": "Let's adjust our ask prices based on bid queue feedback to balance profit margins and trade volume, focusing on the highest bid and average price point of potential trades.",
+    "Seller Lena": "Let's adjust our ask prices based on the bid queue feedback to balance profit margins and trade volume, focusing on the highest bid in the queue."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 10
+````json
+{
+  "round_number": 10,
+  "seller_asks": {
+    "Seller Lena": 91.0,
+    "Seller Amir": 90.25,
+    "Seller Max": 91.5,
+    "Seller Kit": 90.25,
+    "Seller Mia": 91.5
+  },
+  "buyer_bids": {
+    "Buyer Theo": 90.75,
+    "Buyer Jin": 90.75,
+    "Buyer Kai": 91.0,
+    "Buyer Wei": 91.0,
+    "Buyer Raj": 91.25
+  },
+  "trades": [
+    {
+      "round_number": 10,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Amir",
+      "price": 90.75
+    },
+    {
+      "round_number": 10,
+      "buyer_id": "Buyer Wei",
+      "seller_id": "Seller Kit",
+      "price": 90.62
+    },
+    {
+      "round_number": 10,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Lena",
+      "price": 91.0
+    }
+  ],
+  "seller_messages": {
+    "Seller Lena": "Let's adjust our ask prices based on the bid queue feedback to balance profit margins and trade volume, focusing on the highest bid in the queue.",
+    "Seller Amir": "Let's adjust our ask prices based on bid queue feedback to balance profit margins and trade volume.",
+    "Seller Max": "Let's adjust our ask prices based on bid queue feedback and competitors' asks to balance profit margins and trade volume.",
+    "Seller Kit": "Let's adjust our ask prices based on bid queue feedback to balance profit margins and trade volume, focusing on the highest bid to stimulate trades.",
+    "Seller Mia": "Let's adjust our ask prices based on bid queue feedback to balance profit margins and trade volume, focusing on the highest bid and average price point of potential trades."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 11
+````json
+{
+  "round_number": 11,
+  "seller_asks": {
+    "Seller Lena": 90.75,
+    "Seller Mia": 91.0,
+    "Seller Amir": 90.5,
+    "Seller Kit": 90.75,
+    "Seller Max": 91.0
+  },
+  "buyer_bids": {
+    "Buyer Jin": 90.9,
+    "Buyer Kai": 91.25,
+    "Buyer Theo": 91.0,
+    "Buyer Raj": 91.5,
+    "Buyer Wei": 91.25
+  },
+  "trades": [
+    {
+      "round_number": 11,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Amir",
+      "price": 91.0
+    },
+    {
+      "round_number": 11,
+      "buyer_id": "Buyer Wei",
+      "seller_id": "Seller Kit",
+      "price": 91.0
+    },
+    {
+      "round_number": 11,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Lena",
+      "price": 91.0
+    },
+    {
+      "round_number": 11,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Max",
+      "price": 91.0
+    }
+  ],
+  "seller_messages": {
+    "Seller Lena": "Let's adjust our ask prices based on bid queue feedback to balance profit margins and trade volume, focusing on the highest bid in the queue.",
+    "Seller Mia": "Let's adjust our ask prices according to bid queue feedback and competitor asks to secure trades at profitable prices.",
+    "Seller Amir": "Let's adjust our ask prices based on bid queue feedback and competitors' asks to balance profit margins and trade volume, focusing on the highest bid to stimulate trades.",
+    "Seller Kit": "Let's adjust our ask prices based on bid queue feedback to balance profit margins and trade volume, focusing on the highest bid.",
+    "Seller Max": "Let's adjust our ask prices based on bid queue feedback and competitors' asks to balance profit margins and trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 12
+````json
+{
+  "round_number": 12,
+  "seller_asks": {
+    "Seller Lena": 90.5,
+    "Seller Max": 90.75,
+    "Seller Mia": 91.1,
+    "Seller Amir": 90.9,
+    "Seller Kit": 91.0
+  },
+  "buyer_bids": {
+    "Buyer Raj": 91.75,
+    "Buyer Jin": 90.95,
+    "Buyer Kai": 91.5,
+    "Buyer Theo": 91.25,
+    "Buyer Wei": 91.5
+  },
+  "trades": [
+    {
+      "round_number": 12,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Lena",
+      "price": 91.12
+    },
+    {
+      "round_number": 12,
+      "buyer_id": "Buyer Wei",
+      "seller_id": "Seller Max",
+      "price": 91.12
+    },
+    {
+      "round_number": 12,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Amir",
+      "price": 91.2
+    },
+    {
+      "round_number": 12,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Kit",
+      "price": 91.12
+    }
+  ],
+  "seller_messages": {
+    "Seller Lena": "Let's adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume, focusing on the highest bid.",
+    "Seller Max": "Let's adjust our ask prices based on bid queue feedback and competitors' asks to balance profit margins and trade volume.",
+    "Seller Mia": "Let's adjust our ask prices according to bid queue feedback to balance profit margins and trade volume, focusing on the highest bid to stimulate trades.",
+    "Seller Amir": "Let's adjust our ask prices based on bid queue feedback and competitors' asks to balance profit margins and trade volume, focusing on the highest bid to stimulate trades.",
+    "Seller Kit": "Let's adjust our ask prices based on bid queue feedback to balance profit margins and trade volume, focusing on the highest bid in the queue."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 13
+````json
+{
+  "round_number": 13,
+  "seller_asks": {
+    "Seller Lena": 90.95,
+    "Seller Max": 90.95,
+    "Seller Amir": 91.05,
+    "Seller Mia": 91.2,
+    "Seller Kit": 91.05
+  },
+  "buyer_bids": {
+    "Buyer Raj": 91.9,
+    "Buyer Jin": 91.05,
+    "Buyer Wei": 91.6,
+    "Buyer Theo": 91.05,
+    "Buyer Kai": 91.75
+  },
+  "trades": [
+    {
+      "round_number": 13,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Lena",
+      "price": 91.43
+    },
+    {
+      "round_number": 13,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Max",
+      "price": 91.35
+    },
+    {
+      "round_number": 13,
+      "buyer_id": "Buyer Wei",
+      "seller_id": "Seller Amir",
+      "price": 91.32
+    },
+    {
+      "round_number": 13,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Kit",
+      "price": 91.05
+    }
+  ],
+  "seller_messages": {
+    "Seller Lena": "Let's adjust our ask prices according to bid queue feedback to balance profit margins and trade volume, focusing on the highest bid to stimulate trades.",
+    "Seller Max": "Let's adjust our ask prices based on bid queue feedback to balance profit margins and stimulate trades.",
+    "Seller Amir": "Let's adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume, focusing on the highest bid to stimulate trades.",
+    "Seller Mia": "Let's adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume, focusing on the highest bid to stimulate trades.",
+    "Seller Kit": "Let's adjust our ask prices according to bid queue feedback to balance profit margins and trade volume, focusing on the highest bid to stimulate trades."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 14
+````json
+{
+  "round_number": 14,
+  "seller_asks": {
+    "Seller Mia": 91.05,
+    "Seller Kit": 91.1,
+    "Seller Amir": 91.1,
+    "Seller Max": 91.45,
+    "Seller Lena": 91.2
+  },
+  "buyer_bids": {
+    "Buyer Raj": 91.95,
+    "Buyer Kai": 91.95,
+    "Buyer Wei": 91.65,
+    "Buyer Jin": 91.1,
+    "Buyer Theo": 91.1
+  },
+  "trades": [
+    {
+      "round_number": 14,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Mia",
+      "price": 91.5
+    },
+    {
+      "round_number": 14,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Amir",
+      "price": 91.53
+    },
+    {
+      "round_number": 14,
+      "buyer_id": "Buyer Wei",
+      "seller_id": "Seller Kit",
+      "price": 91.38
+    }
+  ],
+  "seller_messages": {
+    "Seller Mia": "Let's adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume, focusing on the highest bid to stimulate trades.",
+    "Seller Kit": "Let's adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume, focusing on the highest bid to stimulate trades.",
+    "Seller Amir": "Let's adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume, focusing on the highest bid to stimulate trades.",
+    "Seller Max": "Let's adjust our ask prices according to bid queue feedback and competitor asks, focusing on the highest bid to stimulate trades while maintaining healthy profit margins.",
+    "Seller Lena": "Let's adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume, focusing on the highest bid to stimulate trades."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 15
+````json
+{
+  "round_number": 15,
+  "seller_asks": {
+    "Seller Lena": 91.45,
+    "Seller Kit": 91.15,
+    "Seller Mia": 91.2,
+    "Seller Amir": 91.15,
+    "Seller Max": 91.2
+  },
+  "buyer_bids": {
+    "Buyer Raj": 91.55,
+    "Buyer Jin": 91.15,
+    "Buyer Theo": 91.15,
+    "Buyer Kai": 92.0,
+    "Buyer Wei": 91.7
+  },
+  "trades": [
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Amir",
+      "price": 91.58
+    },
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Wei",
+      "seller_id": "Seller Kit",
+      "price": 91.43
+    },
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Max",
+      "price": 91.38
+    }
+  ],
+  "seller_messages": {
+    "Seller Lena": "Let's adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume, focusing on the highest bid to stimulate trades.",
+    "Seller Kit": "Let's adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume, focusing on the highest bid to stimulate trades.",
+    "Seller Mia": "Let's adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume, focusing on the highest bid to stimulate trades.",
+    "Seller Amir": "Let's maintain a balance between profit margins and trade volume by adjusting our ask prices based on bid queue feedback and competitor asks.",
+    "Seller Max": "Let's adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume, focusing on the highest bid to stimulate trades."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 16
+````json
+{
+  "round_number": 16,
+  "seller_asks": {
+    "Seller Mia": 91.4,
+    "Seller Kit": 91.2,
+    "Seller Amir": 91.2,
+    "Seller Max": 91.4,
+    "Seller Lena": 91.5
+  },
+  "buyer_bids": {
+    "Buyer Jin": 91.2,
+    "Buyer Wei": 91.75,
+    "Buyer Kai": 92.05,
+    "Buyer Raj": 91.6,
+    "Buyer Theo": 91.2
+  },
+  "trades": [
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Amir",
+      "price": 91.62
+    },
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Wei",
+      "seller_id": "Seller Kit",
+      "price": 91.47
+    },
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Max",
+      "price": 91.5
+    }
+  ],
+  "seller_messages": {
+    "Seller Mia": "Let's adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume, focusing on the highest bid to stimulate trades.",
+    "Seller Kit": "Let's adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume, focusing on the highest bid to stimulate trades.",
+    "Seller Amir": "Let's maintain a balance between profit margins and trade volume by adjusting our ask prices based on bid queue feedback and competitor asks.",
+    "Seller Max": "Let's adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume.",
+    "Seller Lena": "Let's adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 17
+````json
+{
+  "round_number": 17,
+  "seller_asks": {
+    "Seller Lena": 91.6,
+    "Seller Mia": 91.6,
+    "Seller Kit": 91.25,
+    "Seller Amir": 91.25,
+    "Seller Max": 91.6
+  },
+  "buyer_bids": {
+    "Buyer Kai": 92.1,
+    "Buyer Theo": 91.4,
+    "Buyer Raj": 91.65,
+    "Buyer Jin": 91.25,
+    "Buyer Wei": 91.8
+  },
+  "trades": [
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Amir",
+      "price": 91.67
+    },
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Wei",
+      "seller_id": "Seller Kit",
+      "price": 91.53
+    },
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Lena",
+      "price": 91.62
+    }
+  ],
+  "seller_messages": {
+    "Seller Lena": "Let's adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume, focusing on the highest bid to stimulate trades.",
+    "Seller Mia": "Let's adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume, focusing on the highest bid to stimulate trades.",
+    "Seller Kit": "Let's adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume.",
+    "Seller Amir": "Let's maintain a balance between profit margins and trade volume by adjusting our ask prices based on bid queue feedback and competitor asks.",
+    "Seller Max": "Let's adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume, focusing on the highest bid to stimulate trades."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 18
+````json
+{
+  "round_number": 18,
+  "seller_asks": {
+    "Seller Amir": 91.3,
+    "Seller Kit": 91.3,
+    "Seller Mia": 91.75,
+    "Seller Max": 91.65,
+    "Seller Lena": 91.65
+  },
+  "buyer_bids": {
+    "Buyer Kai": 92.15,
+    "Buyer Wei": 91.85,
+    "Buyer Theo": 91.55,
+    "Buyer Raj": 91.7,
+    "Buyer Jin": 91.3
+  },
+  "trades": [
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Amir",
+      "price": 91.72
+    },
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Wei",
+      "seller_id": "Seller Kit",
+      "price": 91.57
+    },
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Lena",
+      "price": 91.68
+    }
+  ],
+  "seller_messages": {
+    "Seller Amir": "Let's adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume, focusing on the highest bid to stimulate trades.",
+    "Seller Kit": "Let's maintain a balance between profit margins and trade volume by adjusting our ask prices based on bid queue feedback and competitor asks.",
+    "Seller Mia": "Let's adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume, focusing on the highest bid to stimulate trades.",
+    "Seller Max": "Let's adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume, focusing on the highest bid to stimulate trades.",
+    "Seller Lena": "Let's continue to adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume, focusing on the highest bid to stimulate trades."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 19
+````json
+{
+  "round_number": 19,
+  "seller_asks": {
+    "Seller Mia": 91.8,
+    "Seller Max": 91.7,
+    "Seller Amir": 91.4,
+    "Seller Lena": 91.7,
+    "Seller Kit": 91.3
+  },
+  "buyer_bids": {
+    "Buyer Kai": 92.2,
+    "Buyer Jin": 91.4,
+    "Buyer Wei": 91.9,
+    "Buyer Theo": 91.6,
+    "Buyer Raj": 91.75
+  },
+  "trades": [
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Kit",
+      "price": 91.75
+    },
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Wei",
+      "seller_id": "Seller Amir",
+      "price": 91.65
+    },
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Lena",
+      "price": 91.72
+    }
+  ],
+  "seller_messages": {
+    "Seller Mia": "Let's adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume, focusing on the highest bid to stimulate trades.",
+    "Seller Max": "Let's continue to adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume.",
+    "Seller Amir": "Let's adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume, focusing on the highest bid to stimulate trades.",
+    "Seller Lena": "Let's adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume.",
+    "Seller Kit": "Let's adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume, focusing on the highest bid to stimulate trades."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 20
+````json
+{
+  "round_number": 20,
+  "seller_asks": {
+    "Seller Lena": 91.8,
+    "Seller Amir": 91.45,
+    "Seller Max": 91.75,
+    "Seller Mia": 91.9,
+    "Seller Kit": 91.9
+  },
+  "buyer_bids": {
+    "Buyer Kai": 92.25,
+    "Buyer Theo": 91.65,
+    "Buyer Jin": 91.45,
+    "Buyer Raj": 91.8,
+    "Buyer Wei": 91.95
+  },
+  "trades": [
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Amir",
+      "price": 91.85
+    },
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Wei",
+      "seller_id": "Seller Max",
+      "price": 91.85
+    },
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Lena",
+      "price": 91.8
+    }
+  ],
+  "seller_messages": {
+    "Seller Lena": "Let's continue to adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume, focusing on the highest bid to stimulate trades.",
+    "Seller Amir": "Let's adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume, focusing on the highest bid to stimulate trades.",
+    "Seller Max": "Let's continue to adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume, focusing on the highest bid to stimulate trades.",
+    "Seller Mia": "Let's adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume, focusing on the highest bid to stimulate trades.",
+    "Seller Kit": "Let's continue to adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 21
+````json
+{
+  "round_number": 21,
+  "seller_asks": {
+    "Seller Max": 91.95,
+    "Seller Amir": 91.5,
+    "Seller Kit": 91.9,
+    "Seller Mia": 91.95,
+    "Seller Lena": 91.85
+  },
+  "buyer_bids": {
+    "Buyer Theo": 91.7,
+    "Buyer Jin": 91.5,
+    "Buyer Kai": 92.3,
+    "Buyer Raj": 91.85,
+    "Buyer Wei": 92.0
+  },
+  "trades": [
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Amir",
+      "price": 91.9
+    },
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Wei",
+      "seller_id": "Seller Lena",
+      "price": 91.92
+    }
+  ],
+  "seller_messages": {
+    "Seller Max": "Let's continue to adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume.",
+    "Seller Amir": "Let's adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume, focusing on the highest bid to stimulate trades.",
+    "Seller Kit": "Let's continue to adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume.",
+    "Seller Mia": "Let's continue to adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume, focusing on the highest bid to stimulate trades.",
+    "Seller Lena": "Let's continue to adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume, focusing on the highest bid to stimulate trades."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 22
+````json
+{
+  "round_number": 22,
+  "seller_asks": {
+    "Seller Max": 92.0,
+    "Seller Kit": 91.85,
+    "Seller Mia": 92.0,
+    "Seller Amir": 91.92,
+    "Seller Lena": 91.9
+  },
+  "buyer_bids": {
+    "Buyer Kai": 92.35,
+    "Buyer Wei": 92.05,
+    "Buyer Jin": 91.9,
+    "Buyer Raj": 91.9,
+    "Buyer Theo": 91.8
+  },
+  "trades": [
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Kit",
+      "price": 92.1
+    },
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Wei",
+      "seller_id": "Seller Lena",
+      "price": 91.97
+    }
+  ],
+  "seller_messages": {
+    "Seller Max": "Let's continue to adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume.",
+    "Seller Kit": "Let's continue to adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume, focusing on the highest bid to stimulate trades.",
+    "Seller Mia": "Let's continue to adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume, focusing on the highest bid to stimulate trades.",
+    "Seller Amir": "Let's adjust our ask prices based on the bid queue and competitor asks to maintain healthy profit margins and stimulate trades.",
+    "Seller Lena": "Let's continue to adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume, focusing on the highest bid to stimulate trades."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 23
+````json
+{
+  "round_number": 23,
+  "seller_asks": {
+    "Seller Max": 92.05,
+    "Seller Kit": 91.95,
+    "Seller Lena": 91.95,
+    "Seller Amir": 91.95,
+    "Seller Mia": 92.05
+  },
+  "buyer_bids": {
+    "Buyer Kai": 92.4,
+    "Buyer Theo": 91.85,
+    "Buyer Wei": 92.1,
+    "Buyer Raj": 91.93,
+    "Buyer Jin": 91.95
+  },
+  "trades": [
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Amir",
+      "price": 92.18
+    },
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Wei",
+      "seller_id": "Seller Kit",
+      "price": 92.03
+    },
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Lena",
+      "price": 91.95
+    }
+  ],
+  "seller_messages": {
+    "Seller Max": "Let's continue to adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume.",
+    "Seller Kit": "Let's continue to adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume, focusing on the highest bid to stimulate trades.",
+    "Seller Lena": "Let's adjust our ask prices based on bid queue feedback and competitor asks to maintain healthy profit margins and stimulate trades.",
+    "Seller Amir": "Let's adjust our ask prices based on the bid queue and competitor asks to maintain healthy profit margins and stimulate trades.",
+    "Seller Mia": "Let's continue to adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 24
+````json
+{
+  "round_number": 24,
+  "seller_asks": {
+    "Seller Max": 92.1,
+    "Seller Mia": 92.1,
+    "Seller Amir": 92.1,
+    "Seller Kit": 92.0,
+    "Seller Lena": 92.0
+  },
+  "buyer_bids": {
+    "Buyer Theo": 91.9,
+    "Buyer Kai": 92.45,
+    "Buyer Wei": 92.15,
+    "Buyer Raj": 92.0,
+    "Buyer Jin": 92.0
+  },
+  "trades": [
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Kit",
+      "price": 92.22
+    },
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Wei",
+      "seller_id": "Seller Lena",
+      "price": 92.08
+    }
+  ],
+  "seller_messages": {
+    "Seller Max": "Let's continue to adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume.",
+    "Seller Mia": "Let's continue to adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume.",
+    "Seller Amir": "Let's continue to adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume.",
+    "Seller Kit": "Let's continue to adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume.",
+    "Seller Lena": "Let's continue to adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 25
+````json
+{
+  "round_number": 25,
+  "seller_asks": {
+    "Seller Lena": 92.05,
+    "Seller Amir": 92.05,
+    "Seller Mia": 92.15,
+    "Seller Max": 92.15,
+    "Seller Kit": 92.05
+  },
+  "buyer_bids": {
+    "Buyer Kai": 92.5,
+    "Buyer Raj": 92.05,
+    "Buyer Wei": 92.2,
+    "Buyer Jin": 92.05,
+    "Buyer Theo": 92.05
+  },
+  "trades": [
+    {
+      "round_number": 25,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Amir",
+      "price": 92.28
+    },
+    {
+      "round_number": 25,
+      "buyer_id": "Buyer Wei",
+      "seller_id": "Seller Kit",
+      "price": 92.12
+    },
+    {
+      "round_number": 25,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Lena",
+      "price": 92.05
+    }
+  ],
+  "seller_messages": {
+    "Seller Lena": "Let's adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume.",
+    "Seller Amir": "Let's continue to adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume.",
+    "Seller Mia": "Let's continue to adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume.",
+    "Seller Max": "Let's continue to adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume.",
+    "Seller Kit": "Let's continue to adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 26
+````json
+{
+  "round_number": 26,
+  "seller_asks": {
+    "Seller Max": 92.2,
+    "Seller Amir": 92.1,
+    "Seller Mia": 92.2,
+    "Seller Lena": 92.1,
+    "Seller Kit": 92.1
+  },
+  "buyer_bids": {
+    "Buyer Theo": 92.1,
+    "Buyer Raj": 92.1,
+    "Buyer Jin": 92.1,
+    "Buyer Wei": 92.25,
+    "Buyer Kai": 92.55
+  },
+  "trades": [
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Amir",
+      "price": 92.32
+    },
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Wei",
+      "seller_id": "Seller Kit",
+      "price": 92.17
+    },
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Lena",
+      "price": 92.1
+    }
+  ],
+  "seller_messages": {
+    "Seller Max": "Let's adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume.",
+    "Seller Amir": "Let's continue to adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume.",
+    "Seller Mia": "Let's continue to adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume.",
+    "Seller Lena": "Let's continue to adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume.",
+    "Seller Kit": "Let's continue to adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 27
+````json
+{
+  "round_number": 27,
+  "seller_asks": {
+    "Seller Lena": 92.15,
+    "Seller Mia": 92.25,
+    "Seller Max": 92.25,
+    "Seller Amir": 92.05,
+    "Seller Kit": 92.05
+  },
+  "buyer_bids": {
+    "Buyer Raj": 92.15,
+    "Buyer Kai": 92.6,
+    "Buyer Wei": 92.3,
+    "Buyer Jin": 92.15,
+    "Buyer Theo": 92.15
+  },
+  "trades": [
+    {
+      "round_number": 27,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Amir",
+      "price": 92.32
+    },
+    {
+      "round_number": 27,
+      "buyer_id": "Buyer Wei",
+      "seller_id": "Seller Kit",
+      "price": 92.17
+    },
+    {
+      "round_number": 27,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Lena",
+      "price": 92.15
+    }
+  ],
+  "seller_messages": {
+    "Seller Lena": "Let's continue to adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume.",
+    "Seller Mia": "Let's adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume.",
+    "Seller Max": "Let's continue to adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume.",
+    "Seller Amir": "Let's continue to adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume.",
+    "Seller Kit": "Let's continue to adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 28
+````json
+{
+  "round_number": 28,
+  "seller_asks": {
+    "Seller Lena": 92.2,
+    "Seller Max": 92.3,
+    "Seller Amir": 92.35,
+    "Seller Mia": 92.3,
+    "Seller Kit": 92.1
+  },
+  "buyer_bids": {
+    "Buyer Kai": 92.65,
+    "Buyer Jin": 92.2,
+    "Buyer Theo": 92.2,
+    "Buyer Wei": 92.35,
+    "Buyer Raj": 92.2
+  },
+  "trades": [
+    {
+      "round_number": 28,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Kit",
+      "price": 92.38
+    },
+    {
+      "round_number": 28,
+      "buyer_id": "Buyer Wei",
+      "seller_id": "Seller Lena",
+      "price": 92.28
+    }
+  ],
+  "seller_messages": {
+    "Seller Lena": "Let's continue to adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume.",
+    "Seller Max": "Let's continue to adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume.",
+    "Seller Amir": "Let's adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume.",
+    "Seller Mia": "Let's adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume.",
+    "Seller Kit": "Let's continue to adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 29
+````json
+{
+  "round_number": 29,
+  "seller_asks": {
+    "Seller Lena": 92.3,
+    "Seller Mia": 92.4,
+    "Seller Amir": 92.2,
+    "Seller Max": 92.4,
+    "Seller Kit": 92.2
+  },
+  "buyer_bids": {
+    "Buyer Kai": 92.7,
+    "Buyer Raj": 92.25,
+    "Buyer Jin": 92.25,
+    "Buyer Wei": 92.4,
+    "Buyer Theo": 92.25
+  },
+  "trades": [
+    {
+      "round_number": 29,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Amir",
+      "price": 92.45
+    },
+    {
+      "round_number": 29,
+      "buyer_id": "Buyer Wei",
+      "seller_id": "Seller Kit",
+      "price": 92.3
+    }
+  ],
+  "seller_messages": {
+    "Seller Lena": "Let's continue to adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume.",
+    "Seller Mia": "Let's continue to adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume.",
+    "Seller Amir": "Let's adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume.",
+    "Seller Max": "Let's continue to adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume.",
+    "Seller Kit": "Let's continue to adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 30
+````json
+{
+  "round_number": 30,
+  "seller_asks": {
+    "Seller Lena": 92.35,
+    "Seller Mia": 92.45,
+    "Seller Kit": 92.25,
+    "Seller Max": 92.45,
+    "Seller Amir": 92.3
+  },
+  "buyer_bids": {
+    "Buyer Kai": 92.75,
+    "Buyer Raj": 92.3,
+    "Buyer Wei": 92.45,
+    "Buyer Jin": 92.3,
+    "Buyer Theo": 92.3
+  },
+  "trades": [
+    {
+      "round_number": 30,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Kit",
+      "price": 92.5
+    },
+    {
+      "round_number": 30,
+      "buyer_id": "Buyer Wei",
+      "seller_id": "Seller Amir",
+      "price": 92.38
+    }
+  ],
+  "seller_messages": {
+    "Seller Lena": "Let's continue to adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume.",
+    "Seller Mia": "Let's adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume in the last hour.",
+    "Seller Kit": "Let's continue to adjust our ask prices based on bid queue feedback and competitor asks to balance profit margins and trade volume.",
+    "Seller Max": "Let's finalize our pricing strategies to maximize profitability while securing trades, considering the bid queue and competitors' asks.",
+    "Seller Amir": "Maintain competitive ask prices to ensure healthy profit margins and stimulate trades."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````

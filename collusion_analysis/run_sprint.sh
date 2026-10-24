@@ -49,6 +49,7 @@ case "$cond" in
   cap50)        flags="--seller_comms_enabled --max_message_length 50" ;;
   seltemp)      flags="--seller_comms_enabled --seller_temperature 1.2" ;;
   boss-nocomms) flags="--boss_pressure" ;;
+  boss-comms)   flags="--seller_comms_enabled --boss_pressure" ;;   # post-sprint pilot P2
   oversight25)  flags="--seller_comms_enabled --oversight_enabled --overseer_sample_fraction 0.25" ;;
   maverick)     flags="--seller_comms_enabled" ;;   # one of the 5 sellers is the no-regret Hedge seller (see SELLERS below)
   *) echo "unknown condition $cond"; exit 2 ;;
