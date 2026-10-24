@@ -207,3 +207,26 @@ Stopping rules:
   - **What failed:** `lo-llama70b-oversight-3` crashed mid-run. Under the gag, Llama returned `message_to_sellers` as a bare number, and `market.py` assumed a string.
   - **Fix:** messages are coerced to text, the same normalisation as the earlier string-price fix.
   - **The crashed run has no metadata and is excluded.** Per section 4 it gets one make-up run of the same lever under the next replicate number after Phase O, so every lever reaches n=25 completed runs.
+- **2026-10-24, 02:15 CDT (system clock): Phase O results (llama70b, n=25 per lever) and Phase J.**
+  - **Spend:** $37.45 in total. Phase J judged 20 runs; Phase G was skipped (one chosen model). The oversight-3 crash was replaced by make-up run oversight-15.
+  - **Pre-registered family (one-sided, "lever < comms"), all null after Holm:**
+
+    | Test | Difference | Holm p |
+    |---|---|---|
+    | H1 notice | +0.062 | 1.0 |
+    | H2 monitor | -0.034 | 0.91 |
+    | H2b oversight25 | +0.118 | 1.0 |
+    | H-mav (LLM-only index) | -0.054 | 0.81 |
+
+    The comms baseline is competitive (primary index -0.00), consistent with the failed positive control.
+  - **F1 (pre-registered secondary), monitor firing on non-colluding markets (all false positives):**
+    - monitor-only: 12/25 runs, 31% of rounds gagged
+    - oversight25: 7/25 runs, 20% of rounds gagged
+    - oversight: 5/25 runs, 7% of rounds gagged
+    - gpt-4.1 (2025): 20/20 runs
+  - **A6 (llama):** null. Its automatic grouping put notice and maverick runs with comms and all monitored arms together, so it is reported as a secondary, not re-specified.
+- **2026-10-24, 02:15 CDT: EXPLORATORY, specified AFTER seeing the Table 1 means. Analysis X1, the backfire check.**
+  - **Comparison:** two-sided bootstrap differences (10k) of notice, monitor, oversight and oversight25 against comms.
+  - **Outcomes:** primary index, mean trade price, buyer welfare per round.
+  - **Correction:** Holm over the 4 arms within each outcome.
+  - **Reporting:** exploratory only; never presented as a confirmatory test.
