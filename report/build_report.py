@@ -157,8 +157,9 @@ while i < len(lines):
         add_table(block); continue
     elif fig_re.match(ln):
         n, path, cap = fig_re.match(ln).groups()
-        D.add_picture(f"{root}/{path.strip()}", width=Inches(6.5))
+        D.add_picture(f"{root}/{path.strip()}", width=Inches(6.0))
         D.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
+        D.paragraphs[-1].paragraph_format.keep_with_next = True  # never strand a caption on the next page
         add_par(f"**Figure {n}.** {cap}", size=8.5, italic=False, space_after=8)
     elif re.match(r"^\d+\. ", ln) or ln.startswith("- "):
         txt = ln[2:] if ln.startswith("- ") else ln

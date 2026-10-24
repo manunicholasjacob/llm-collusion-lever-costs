@@ -42,7 +42,7 @@ C25 = {"comms": "data/*_base-seller_comms-*/", "ban": "data/*_base-[0-9]*/", "ov
 ov = rows(C25["ov"]) + rows(C25["bo"])
 g = [r["gag_round"] for r in ov]
 claim("gag 20/20", "triggered in 20 of 20 oversight runs", all(x is not None for x in g) and len(g) == 20)
-claim("gag onset 1-7", "first at hours 1 to 7", min(g) == 1 and max(g) == 7)
+claim("gag onset 1-7", "first trigger occurred between hours 1 and 7", min(g) == 1 and max(g) == 7)
 fr = [r["frac_gagged"] for r in ov]
 claim("gagged 77-97%", "77 to 97%", round(min(fr) * 100) == 77 and round(max(fr) * 100) == 97)
 base_chars = mean(C25["comms"], "msg_chars")
@@ -59,15 +59,15 @@ claim("ban effect 0.28", "(0.28)", f"{mean(C25['comms'], 'collusion_index_2nd_ha
 import power
 (pr, _, _) = power.ranges()
 claim("power n=10", "0.42 to 0.49 index units", [f"{x:.2f}" for x in pr[10]] == ["0.42", "0.49"])
-claim("power n=25", "detects 0.26 to 0.30", [f"{x:.2f}" for x in pr[25]] == ["0.26", "0.30"])
+claim("power n=25", "detectable range falls to 0.26 to 0.30", [f"{x:.2f}" for x in pr[25]] == ["0.26", "0.30"])
 # --- pilot ---
 for tag, a, b in (("pllama70b", "-0.006", "+0.024"), ("pmini41", "-0.54", "-0.48")):
     c = mean(f"results/*_lo-{tag}-comms-*/", "collusion_index_2nd_half"); n = mean(f"results/*_lo-{tag}-nocomms-*/", "collusion_index_2nd_half")
     fmt = "{:+.3f}" if tag == "pllama70b" else "{:+.2f}"
     claim(f"pilot {tag}", a, fmt.format(c) == a and fmt.format(n) == b)
-claim("pilot sizes", "6 plus 6 runs of Llama-3.3-70B, 3 plus 3 of GPT-4.1-mini",
+claim("pilot sizes", "6 plus 6 runs of Llama-3.3-70B and 3 plus 3 runs of GPT-4.1-mini",
       [len(runs(f"results/*_lo-{t}-*/")) for t in ("pllama70b-comms", "pllama70b-nocomms", "pmini41-comms", "pmini41-nocomms")] == [6, 6, 3, 3])
-claim("mini n", "(-0.54 versus -0.48, n=3 each)")
+claim("mini n", "-0.54 versus -0.48 (n=3 each)")
 # --- Phase O levels / talk / rank ---
 L = lambda lv: f"results/*_lo-llama70b-{lv}-[0-9]*/"
 claim("81 trades", "81 trades per run", round(mean(L("comms"), "n_trades")) == 81)
@@ -93,17 +93,17 @@ claim("C2 baselines", "(25.3 and 22.8)", f"{w['comms']:.1f}" == "22.8")
 claim("C2 prices", "$91.88 versus $90.49", f"{mean(Q('notice'), 'trade_price'):.2f}" == "91.88" and f"{mean(Q('comms'), 'trade_price'):.2f}" == "90.49")
 claim("C2 talk", "(17% versus 8% of messages)", round(100 * talk(Q("notice"))) == 17 and round(100 * talk(Q("comms"))) == 8)
 temps = {json.load(open(os.path.join(d, "experiment_metadata.json")))["auction_config"]["temperature"] for d in runs("results/2026*_lo-*")}
-claim("temperature 0.7", "at temperature 0.7", temps == {0.7})
+claim("temperature 0.7", "The temperature is set to 0.7", temps == {0.7})
 claim("268 runs", "268 sprint runs", len(runs("results/2026*_lo-*")) == 268)
 # --- detectors and judge (2025 runs) ---
 det = list(csv.DictReader(open("figs/detector_whole/detector_runs.csv", encoding="utf-8")))
 nul = [r for r in det if r["cond"] == "base"]; com = [r for r in det if r["cond"] == "base-seller_comms"]
-claim("Bonjour 70%", "flags 70% of no-communication runs", round(100 * np.mean([int(r["ni_flags"]) > 0 for r in nul])) == 70)
+claim("Bonjour 70%", "flagged 70% of runs without communication", round(100 * np.mean([int(r["ni_flags"]) > 0 for r in nul])) == 70)
 ok = True
 for st in ("te_z", "ni_max"):
     nv = np.array([float(r[st]) for r in nul]); cv = np.array([float(r[st]) for r in com])
     ok &= int(np.sum(cv > np.percentile(nv, 90))) == 4
-claim("calibrated 4/10", "each detect 4 of 10 communication runs at a 10% false-positive rate", ok)
+claim("calibrated 4/10", "detected 4 of 10 communication runs while maintaining a 10% false-positive rate", ok)
 rh, neg = [], 0
 for d in runs("data/*_base-seller_comms-*/"):
     _, rr = pipeline.load_run(d)
@@ -116,7 +116,7 @@ for d in runs("data/*_base-seller_comms-*/"):
     j = np.array([np.mean(by.get(t, [np.nan])) for t in range(1, len(rr) + 1)]); m = ~np.isnan(j) & ~np.isnan(idx)
     if np.std(j[m]) > 0 and np.std(idx[m]) > 0: rh.append(spearmanr(j[m], idx[m]).statistic)
 rh = np.array(rh); neg = int((rh < 0).sum())
-claim("A7", "10 of 10 runs (mean within-run rho -0.52, sign test p=0.002)",
+claim("A7", "10 of 10 runs. The mean within-run correlation was rho -0.52 (sign test p=0.002)",
       neg == 10 and len(rh) == 10 and f"{rh.mean():.2f}" == "-0.52" and f"{binomtest(neg, 10, .5).pvalue:.3f}" == "0.002")
 bad = [r for r in results if not r[2]]
 for n, t, okk in results:
