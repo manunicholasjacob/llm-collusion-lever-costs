@@ -65,7 +65,7 @@ ap = docx.text.paragraph.Paragraph(author_p, with_p._parent)
 set_text(ap, ["Manu Nicholas Jacob", "Independent Researcher"], bold=False)
 ap.paragraph_format.space_after = Pt(6)
 abs_cell = box.rows[1].cells[0].tables[1].rows[0].cells[0]
-set_text(abs_cell.paragraphs[0], [abstract], italic=False)
+set_text(abs_cell.paragraphs[0], [abstract], italic=False, size=10.5)  # keeps a 250-word abstract inside the title box
 for extra in abs_cell.paragraphs[1:]:
     extra._p.getparent().remove(extra._p)
 

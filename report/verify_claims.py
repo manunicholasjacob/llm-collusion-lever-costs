@@ -41,7 +41,7 @@ C25 = {"comms": "data/*_base-seller_comms-*/", "ban": "data/*_base-[0-9]*/", "ov
 # --- 2025 audit ---
 ov = rows(C25["ov"]) + rows(C25["bo"])
 g = [r["gag_round"] for r in ov]
-claim("gag 20/20", "fired in 20 of 20 runs", all(x is not None for x in g) and len(g) == 20)
+claim("gag 20/20", "triggered in 20 of 20 oversight runs", all(x is not None for x in g) and len(g) == 20)
 claim("gag onset 1-7", "first at hours 1 to 7", min(g) == 1 and max(g) == 7)
 fr = [r["frac_gagged"] for r in ov]
 claim("gagged 77-97%", "77 to 97%", round(min(fr) * 100) == 77 and round(max(fr) * 100) == 97)
@@ -72,7 +72,7 @@ claim("mini n", "(-0.54 versus -0.48, n=3 each)")
 L = lambda lv: f"results/*_lo-llama70b-{lv}-[0-9]*/"
 claim("81 trades", "81 trades per run", round(mean(L("comms"), "n_trades")) == 81)
 claim("welfare 25.3", "buyer welfare 25.3 per round", f"{mean(L('comms'), 'buyer_welfare_per_round'):.1f}" == "25.3")
-claim("talk 28 vs 3", "28% of messages mention monitoring or regulation, against 3%",
+claim("talk 28 vs 3", "28% of their messages mentioning monitoring or regulation, compared with 3%",
       round(100 * talk(L("notice"))) == 28 and round(100 * talk(L("comms"))) == 3)
 claim("maverick price -1.41", "$1.41", f"{mean(L('comms'), 'trade_price') - mean(L('maverick'), 'trade_price'):.2f}" == "1.41")
 t_n = [r["n_trades"] for r in rows(L("notice"))]; t_c = [r["n_trades"] for r in rows(L("comms"))]
@@ -85,8 +85,8 @@ for lv, pct, txt in (("notice", 22, "by 22%"), ("nocomms", 13, "13% of trades"),
 # --- C2 ---
 Q = lambda lv: f"results/*_lo-llamaR-{lv}-[0-9]*/"
 w = {lv: mean(Q(lv), "buyer_welfare_per_round") for lv in ("comms", "notice", "maverick")}
-claim("C2 -16%", "16% lower under the notice", round(100 * (w["comms"] - w["notice"]) / w["comms"]) == 16)
-claim("C2 +44%", "44% higher with the competitor", round(100 * (w["maverick"] - w["comms"]) / w["comms"]) == 44)
+claim("16 to 22%", "reduced buyer welfare by 16 to 22%", round(100 * (w["comms"] - w["notice"]) / w["comms"]) == 16
+      and round(100 * (mean(L("comms"), "buyer_welfare_per_round") - mean(L("notice"), "buyer_welfare_per_round")) / mean(L("comms"), "buyer_welfare_per_round")) == 22)
 claim("C2 levels", "19.7 and 19.1", f"{mean(L('notice'), 'buyer_welfare_per_round'):.1f}" == "19.7" and f"{w['notice']:.1f}" == "19.1")
 claim("C2 maverick levels", "32.0 and 32.8", f"{mean(L('maverick'), 'buyer_welfare_per_round'):.1f}" == "32.0" and f"{w['maverick']:.1f}" == "32.8")
 claim("C2 baselines", "(25.3 and 22.8)", f"{w['comms']:.1f}" == "22.8")
