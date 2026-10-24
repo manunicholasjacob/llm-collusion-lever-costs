@@ -49,7 +49,7 @@ https://docs.google.com/document/d/17yYLSlvpev7FITEAk8XS8bhhfy_CzO0e82hTFm4jf0o/
    | Monitoring notice | Trades -20% (-16.2 [-25.9, -6.6], Holm 0.003); buyer welfare -22% (-5.5 [-9.3, -1.9], Holm 0.004); sellers lose too (-$159) |
    | Monitor without notice | About 0 on every outcome |
    | Ban communication | Trades -13% (-10.6 [-19.1, -2.1]); seller profit -$163 |
-   | One no-regret competitor | Buyer welfare +27% (+6.7 [+2.7, +10.6]); trade price -$1.41 |
+   | One no-regret competitor | Buyer welfare +26% (+6.7 [+2.7, +10.6]); trade price -$1.41 |
 
    - **Reading:** it is the *warning text* that does the damage, a chilling effect, not the monitor.
    - **Why the ban costs trades:** here messages coordinate liquidity ("adjust asks to meet bids").
@@ -102,7 +102,7 @@ https://docs.google.com/document/d/17yYLSlvpev7FITEAk8XS8bhhfy_CzO0e82hTFm4jf0o/
   - So describe the comms baseline as "slower convergence to competitive prices", not as a stable cartel.
 
 - **A7, Q2.3 "collusion on paper" (pre-registered, then a detrended check):**
-  - In plain comms runs the judge's coordination score *rises* while prices *fall*: 9/9 runs, mean within-run rho -0.49, p=0.004.
+  - In plain comms runs the judge's coordination score *rises* while prices *fall*: 10/10 runs, mean within-run rho -0.52, p=0.002.
   - Between conditions the judge does track prices (rho +0.61, n=50).
   - Exploratory detrending (round-to-round changes): rho -0.04, and judged-coordination changes do not predict the next round's price change (rho -0.11, p=0.34).
   - **Write it as:** the judge measures talk, not market harm; escalating collusive talk coexists with convergence to competitive prices. **Do not** claim talk causes prices to fall.

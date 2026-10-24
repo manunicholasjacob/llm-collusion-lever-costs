@@ -283,3 +283,9 @@ Stopping rules:
   - **The comms baseline differed:** welfare 25.27 / 22.78, trades 80.76 / 71.20. The Phase O trade gap partly reflects a high-baseline draw.
   - **Mechanism in C2:** the notice raised the mean trade price (91.88 vs 90.49) and the index (0.158 vs 0.001) rather than cutting trades. Compliance talk replicated (16.6% vs 7.7% of messages).
   - **Report as:** the warning's welfare harm and the competitor's welfare gain are confirmed on fresh pre-registered runs. The route of the harm (fewer trades vs higher prices) is not stable.
+- **2026-10-24, 08:47 CDT (system clock): correction to A7, found during final verification.**
+  - The earlier entry said 9/9 analysable runs because "one run's judge scores were constant". That was **wrong**. The excluded run (`base-seller_comms-7`) has varying judge scores; its sellers withdrew every ask in some rounds, so those rounds had no price index and the correlation came out undefined.
+  - **Skipping rounds with no asks,** consistent with a per-round index: 10/10 comms runs negative, mean rho -0.515, sign p=0.002.
+  - Other arms are unchanged.
+  - **Also corrected:** the competitor's welfare gain in the report is 26% (6.69/25.27), not 27%.
+  - **Also corrected:** three cost-table intervals and one Holm p (0.022, not 0.025) now come from the reproducible `x1_costs.py` output rather than an earlier ad-hoc run.
