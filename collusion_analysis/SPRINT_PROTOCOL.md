@@ -269,3 +269,17 @@ Stopping rules:
   - the share of messages mentioning monitoring or regulation (same regex as in X1)
 - **Reporting:** a replication counts as confirmed only on Holm p < 0.05. Failures are reported as failures to replicate. Crashed runs get one make-up run each (section 4).
 - **Budget:** stop at the OpenRouter balance minus $1.
+- **2026-10-24, 08:36 CDT (system clock): C2 results.** Fresh runs, n=25 per arm, no failed runs, $12.52 (total $49.97).
+
+  | Test | Difference [95% CI] | Holm p | Verdict |
+  |---|---|---|---|
+  | C2-1, notice cuts trades | +0.96 [-8.56, +10.28] | 0.59 | **NOT CONFIRMED** |
+  | C2-2, notice lowers buyer welfare | -3.73 [-7.43, -0.19] | 0.040 | **CONFIRMED** |
+  | C2-3, maverick raises buyer welfare | +10.00 [+5.73, +14.26] | <0.0001 | **CONFIRMED** |
+
+  - **Arm levels are stable across the two samples:**
+    - notice welfare 19.73 / 19.05
+    - maverick welfare 31.97 / 32.79
+  - **The comms baseline differed:** welfare 25.27 / 22.78, trades 80.76 / 71.20. The Phase O trade gap partly reflects a high-baseline draw.
+  - **Mechanism in C2:** the notice raised the mean trade price (91.88 vs 90.49) and the index (0.158 vs 0.001) rather than cutting trades. Compliance talk replicated (16.6% vs 7.7% of messages).
+  - **Report as:** the warning's welfare harm and the competitor's welfare gain are confirmed on fresh pre-registered runs. The route of the harm (fewer trades vs higher prices) is not stable.
