@@ -230,3 +230,4 @@ Stopping rules:
   - **Outcomes:** primary index, mean trade price, buyer welfare per round.
   - **Correction:** Holm over the 4 arms within each outcome.
   - **Reporting:** exploratory only; never presented as a confirmatory test.
+- **X1 extension (exploratory, same rules):** allocative efficiency, trades per run and total seller profit, notice-type arms vs comms.

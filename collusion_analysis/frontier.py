@@ -23,6 +23,7 @@ ALIAS = {"base-seller_comms": "comms", "base": "nocomms", "oversight": "oversigh
 LABEL = {"comms": "Comms baseline", "nocomms": "Ban communication", "oversight": "Oversight (notice + monitor/gag)",
          "notice": "Monitoring notice only", "monitor": "Monitor/gag only", "cap50": "50-char message cap",
          "seltemp": "Seller temperature 1.2", "boss": "Boss pressure (amplifier)",
+         "maverick": "One no-regret seller (maverick)", "oversight25": "Oversight, monitor reads 25%",
          "boss+oversight": "Boss pressure + oversight", "boss-nocomms": "Boss pressure, no comms"}
 
 

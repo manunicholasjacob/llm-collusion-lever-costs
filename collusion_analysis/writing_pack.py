@@ -31,7 +31,11 @@ if chosen:
                    f"### Robustness (OLS, HC3)\n{read(f'figs/{tag}/ols_hc3.md')}\n\n"
                    f"### Detector (whole runs)\n```\n{read(f'figs/{tag}/detector_whole/detector_summary.md')}\n```\n"
                    f"### Channel movement A6 (hours 8-30)\n```\n{read(f'figs/{tag}/detector_w8_30/detector_summary.md')}\n```\n"
-                   f"Figures: `figs/{tag}/frontier_primary.png`, `figs/{tag}/strip_primary.png`")
+                   f"### F1 monitor firing (pre-registered secondary; all false positives if the positive control failed)\n"
+                   f"{read(f'figs/{tag}/f1_monitor.md')}\n\n"
+                   f"### X1 costs of levers (EXPLORATORY; label it so in the report)\n{read(f'figs/{tag}/x1_costs.md')}\n\n"
+                   f"Figures: `figs/{tag}/fig_costs.png` (lead figure), `figs/{tag}/frontier_primary.png`, "
+                   f"`figs/{tag}/strip_primary.png`")
 sec.append("## Section-by-section checklist (template order)\n"
            "1. **Title + abstract (150-250 words, write last):** problem, approach (measured cost, oversight split, "
            "maverick), the headline numbers from the tests table, one-sentence takeaway.\n"

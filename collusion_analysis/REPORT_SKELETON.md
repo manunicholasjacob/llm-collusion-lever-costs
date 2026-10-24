@@ -26,6 +26,51 @@ https://docs.google.com/document/d/17yYLSlvpev7FITEAk8XS8bhhfy_CzO0e82hTFm4jf0o/
 - if H1 holds: "Deterrence Without Enforcement: Measured Costs Reorder Anti-Collusion Levers for LLM Market Agents"
 - if H1 fails: "Oversight Is a Delayed Ban: Measured Costs of Anti-Collusion Levers for LLM Market Agents"
 
+## OVERNIGHT RESULTS (Oct 23-24) AND RECOMMENDED FRAMING (read first)
+**Data:**
+- 175 Llama-3.3-70B runs (7 levers x 25) plus 18 pilot runs, $37.45 in total
+- the monitor and judge are gpt-4.1-mini
+- all numbers live in `WRITING_PACK.md`; the lead figure is `figs/llama70b/fig_costs.png`
+
+**What happened:**
+1. **Positive control failed for both cheap models.**
+   - Llama-3.3-70B: comms -0.006 vs no-comms +0.024.
+   - gpt-4.1-mini: both about -0.5, i.e. below the competitive price.
+   - So the pre-registered "lever reduces collusion" tests (H1, H2, H2b, H-mav) are all null; there was nothing to reduce.
+   - Report this prominently. It is itself a finding: collusion in this harness is model-specific. gpt-4.1 shows it (weakly), Llama-70B and gpt-4.1-mini do not.
+2. **F1 (pre-registered): the LLM monitor punishes innocent markets.**
+   - With no collusion present, monitor-only fired in 12/25 runs, gagging 31% of rounds.
+   - Oversight with the notice fired in 5/25; oversight25 in 7/25.
+   - gpt-4.1 (2025): 20/20.
+3. **X1 (EXPLORATORY): levers have real costs in a market that is not colluding.**
+
+   | Lever | Effect vs comms (95% CI) |
+   |---|---|
+   | Monitoring notice | Trades -20% (-16.2 [-25.9, -6.6], Holm 0.003); buyer welfare -22% (-5.5 [-9.3, -1.9], Holm 0.004); sellers lose too (-$159) |
+   | Monitor without notice | About 0 on every outcome |
+   | Ban communication | Trades -13% (-10.6 [-19.1, -2.1]); seller profit -$163 |
+   | One no-regret competitor | Buyer welfare +27% (+6.7 [+2.7, +10.6]); trade price -$1.41 |
+
+   - **Reading:** it is the *warning text* that does the damage, a chilling effect, not the monitor.
+   - **Why the ban costs trades:** here messages coordinate liquidity ("adjust asks to meet bids").
+   - **The competitor** is the one lever that helps buyers.
+4. **Contrast with gpt-4.1 (2025 public data, [P]):**
+   - Where sellers did collude (weakly), oversight acted as a ban and *raised* buyer welfare (+7.5).
+   - In a competitive market the same lever *lowers* it.
+   - So a lever's net value depends on whether collusion is present. Price levers by their **false-positive cost**.
+
+**Recommended title (pick one; do not overclaim):**
+- "Anti-Collusion Levers Are Not Free: What Monitoring Costs LLM Markets"
+- "The Cost of Watching: Anti-Collusion Interventions in LLM Markets With and Without Collusion"
+
+**Story in one line:** an audit shows the reference "oversight" is really a ban; a powered 7-lever study (where cheap models do not collude) shows warnings chill trade, bans cost liquidity and monitors misfire, while adding one no-regret competitor helps buyers.
+
+**Rules for writing it:**
+- Every X1 number is labelled exploratory.
+- F1 and the pre-registered nulls are confirmatory.
+- [P] numbers are labelled pre-sprint analysis of public data.
+- Never claim any lever "reduces collusion" in the Llama data.
+
 ## Sprint-day additions (Oct 23; all verified against primary sources)
 **Novelty check of the headline:** Agrawal et al. say only that sellers are "quickly reprimanded" and gagged. They never report gag frequency, timing, the share of rounds gagged or characters delivered, and never call oversight a ban. Their coordination judge **excludes messages**, so it scores reasoning only.
 - Their Table 1 trade prices: oversight 86.24 [85.15, 87.30] vs no communication 87.71 [86.18, 89.69] vs communication 90.52 [88.06, 92.87]. The overlap supports "oversight ≈ ban".
