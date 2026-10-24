@@ -198,3 +198,8 @@ Stopping rules:
   - **Pre-registered branch taken automatically:** Phase O on llama70b (the larger comms-nocomms gap). The failed positive control is to be reported prominently.
   - **Interpretation fixed now, before Phase O data:** with no collusion to remove, the lever "reductions" estimate effects on a competitive market. Monitor firing in oversight / monitor / oversight25 runs is then a pure false-positive cost: channel loss with no collusion prevented.
   - **Added secondary analysis F1:** monitor fire rate per run and the fraction of rounds gagged in the llama70b oversight arms, against the 2025 gpt-4.1 oversight arms (fired 20/20).
+- **2026-10-23, 22:38 CDT (system clock): runtime fix, no design change.**
+  - **What failed:** `lo-llama70b-oversight25-1` exited non-zero in the harness's W&B logging step, which runs after all results are written.
+  - **Cause:** with 25% sampling the overseer is skipped in rounds where it sees no message, so its per-round list had 27 entries, and W&B asserts 30.
+  - **The run's data is complete** (`auction_results.md`, `experiment_metadata.json`, `collusion_metrics.json`, `Overseer.md`) and is kept.
+  - **Fix:** `simulation.py` skips W&B logging when `WANDB_MODE=disabled` (always the case here). Runs started before the fix may show the same benign exit.
