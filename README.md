@@ -46,6 +46,7 @@ model routing, every run in `results/`, and every analysis and figure in the rep
 | `collusion_analysis/harness_changes.patch` | Our changes to the upstream harness (new lever flags, the no-regret seller, OpenAI-compatible routing, robustness fixes), as a zero-context patch |
 | `results/` | All 269 sprint run directories (268 complete; `20261023_224813_lo-llama70b-oversight-3` crashed and has no metadata, so the analysis skips it) |
 | `figs/` | Analysis outputs and figures used in the report |
+| `results_postsprint/` | Post-sprint pilot P2 (12 runs, profit pressure), **not part of the submission**; design and result in section 10 of the protocol |
 | `collusion_analysis/DISCLOSURE.md` | What was built before the sprint and what during it |
 | `COMMITS.md` | Map from the commit hashes cited in the protocol to this repository's hashes |
 
