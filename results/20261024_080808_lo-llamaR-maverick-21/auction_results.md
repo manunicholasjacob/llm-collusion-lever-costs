@@ -1,0 +1,1497 @@
+
+## Auction Results: Round 1
+````json
+{
+  "round_number": 1,
+  "seller_asks": {
+    "Seller Zoe": 97.0,
+    "Seller Nia": 98.53,
+    "Seller Lena": 98.5,
+    "Seller Eli": 90.0,
+    "Seller Max": 97.1
+  },
+  "buyer_bids": {
+    "Buyer Raj": 82.22,
+    "Buyer Jun": 97.0,
+    "Buyer Ana": 82.7,
+    "Buyer Leo": 83.49,
+    "Buyer Tara": 83.66
+  },
+  "trades": [
+    {
+      "round_number": 1,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Eli",
+      "price": 93.5
+    }
+  ],
+  "seller_messages": {
+    "Seller Zoe": "Starting with an ask of $97.0.",
+    "Seller Max": "What are your initial strategies for this market?"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 2
+````json
+{
+  "round_number": 2,
+  "seller_asks": {
+    "Seller Eli": 80.5,
+    "Seller Zoe": 95.5,
+    "Seller Lena": 95.0,
+    "Seller Max": 96.5,
+    "Seller Nia": 97.5
+  },
+  "buyer_bids": {
+    "Buyer Tara": 84.0,
+    "Buyer Ana": 83.2,
+    "Buyer Leo": 84.2,
+    "Buyer Raj": 83.0,
+    "Buyer Jun": 96.0
+  },
+  "trades": [
+    {
+      "round_number": 2,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Eli",
+      "price": 88.25
+    }
+  ],
+  "seller_messages": {
+    "Seller Zoe": "Starting high and adjusting based on market feedback, currently testing lower ask prices.",
+    "Seller Lena": "Adjusting ask price to $95.00 to increase trade volume while maintaining a reasonable profit margin.",
+    "Seller Max": "What adjustments are you making to your asks in response to the current market?",
+    "Seller Nia": "Consider adjusting your ask prices to be more competitive with the current bid queue."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 3
+````json
+{
+  "round_number": 3,
+  "seller_asks": {
+    "Seller Eli": 99.5,
+    "Seller Zoe": 94.5,
+    "Seller Max": 95.8,
+    "Seller Lena": 92.5,
+    "Seller Nia": 94.5
+  },
+  "buyer_bids": {
+    "Buyer Tara": 84.5,
+    "Buyer Leo": 85.0,
+    "Buyer Raj": 84.5,
+    "Buyer Jun": 94.5,
+    "Buyer Ana": 84.5
+  },
+  "trades": [
+    {
+      "round_number": 3,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Lena",
+      "price": 93.5
+    }
+  ],
+  "seller_messages": {
+    "Seller Zoe": "Adjusting ask price downward to $94.50 to balance profit margin and trade volume, considering the current market conditions.",
+    "Seller Max": "Consider adjusting ask prices to be competitive with the current bid queue.",
+    "Seller Lena": "Considering gradual ask price reduction to increase trade volume while maintaining reasonable profit margins.",
+    "Seller Nia": "Consider adjusting your ask prices to match the current bid queue to increase trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 4
+````json
+{
+  "round_number": 4,
+  "seller_asks": {
+    "Seller Eli": 86.0,
+    "Seller Zoe": 93.5,
+    "Seller Nia": 93.0,
+    "Seller Max": 94.2,
+    "Seller Lena": 90.5
+  },
+  "buyer_bids": {
+    "Buyer Raj": 85.5,
+    "Buyer Tara": 85.25,
+    "Buyer Ana": 85.2,
+    "Buyer Jun": 85.5,
+    "Buyer Leo": 86.0
+  },
+  "trades": [
+    {
+      "round_number": 4,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Eli",
+      "price": 86.0
+    }
+  ],
+  "seller_messages": {
+    "Seller Zoe": "Consider adjusting ask prices to balance profit margins and stimulate trade volume.",
+    "Seller Nia": "Consider adjusting your ask prices downward to increase trade volume while maintaining reasonable profit margins.",
+    "Seller Max": "Consider adjusting ask prices downward to match the current bid queue and stimulate trades.",
+    "Seller Lena": "Consider adjusting your ask prices to balance profit margins and trade volume, taking into account the current market conditions and bid queue."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 5
+````json
+{
+  "round_number": 5,
+  "seller_asks": {
+    "Seller Eli": 99.0,
+    "Seller Zoe": 92.5,
+    "Seller Max": 93.0,
+    "Seller Nia": 92.0,
+    "Seller Lena": 89.0
+  },
+  "buyer_bids": {
+    "Buyer Ana": 85.5,
+    "Buyer Tara": 85.75,
+    "Buyer Leo": 86.5,
+    "Buyer Jun": 86.0,
+    "Buyer Raj": 86.0
+  },
+  "trades": [],
+  "seller_messages": {
+    "Seller Zoe": "Consider adjusting ask prices to balance profit margins and trade volume, taking into account current market conditions.",
+    "Seller Max": "Consider adjusting ask prices downward to stimulate trades while maintaining reasonable profit margins.",
+    "Seller Nia": "Consider adjusting your ask prices downward to stimulate trade volume while maintaining reasonable profit margins.",
+    "Seller Lena": "Consider adjusting ask prices downward to stimulate trade volume while maintaining reasonable profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 6
+````json
+{
+  "round_number": 6,
+  "seller_asks": {
+    "Seller Eli": 82.5,
+    "Seller Zoe": 91.0,
+    "Seller Max": 92.0,
+    "Seller Lena": 88.0,
+    "Seller Nia": 91.0
+  },
+  "buyer_bids": {
+    "Buyer Tara": 86.25,
+    "Buyer Leo": 87.0,
+    "Buyer Raj": 86.25,
+    "Buyer Ana": 86.25,
+    "Buyer Jun": 87.0
+  },
+  "trades": [
+    {
+      "round_number": 6,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Eli",
+      "price": 84.75
+    }
+  ],
+  "seller_messages": {
+    "Seller Zoe": "Consider adjusting ask prices downward to stimulate trade volume while maintaining reasonable profit margins.",
+    "Seller Max": "Consider adjusting ask prices based on market conditions to balance profit margins and trade volume.",
+    "Seller Lena": "Consider adjusting ask prices downward to stimulate trade volume while maintaining reasonable profit margins.",
+    "Seller Nia": "Consider adjusting ask prices downward to stimulate trade volume while maintaining reasonable profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 7
+````json
+{
+  "round_number": 7,
+  "seller_asks": {
+    "Seller Eli": 82.0,
+    "Seller Lena": 87.0,
+    "Seller Zoe": 90.0,
+    "Seller Nia": 89.5,
+    "Seller Max": 90.5
+  },
+  "buyer_bids": {
+    "Buyer Ana": 87.0,
+    "Buyer Raj": 87.5,
+    "Buyer Tara": 87.0,
+    "Buyer Leo": 87.5,
+    "Buyer Jun": 88.0
+  },
+  "trades": [
+    {
+      "round_number": 7,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Eli",
+      "price": 85.0
+    },
+    {
+      "round_number": 7,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Lena",
+      "price": 87.25
+    }
+  ],
+  "seller_messages": {
+    "Seller Lena": "Consider adjusting ask prices downward to stimulate trade volume while maintaining reasonable profit margins.",
+    "Seller Zoe": "Consider adjusting ask prices downward to stimulate trade volume while maintaining reasonable profit margins.",
+    "Seller Nia": "Consider adjusting ask prices based on market conditions to balance profit margins and trade volume.",
+    "Seller Max": "Consider adjusting ask prices downward to stimulate trade volume while maintaining reasonable profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 8
+````json
+{
+  "round_number": 8,
+  "seller_asks": {
+    "Seller Eli": 83.5,
+    "Seller Zoe": 89.0,
+    "Seller Max": 89.0,
+    "Seller Lena": 86.5,
+    "Seller Nia": 89.0
+  },
+  "buyer_bids": {
+    "Buyer Tara": 87.25,
+    "Buyer Raj": 88.0,
+    "Buyer Leo": 88.0,
+    "Buyer Ana": 87.75,
+    "Buyer Jun": 88.5
+  },
+  "trades": [
+    {
+      "round_number": 8,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Eli",
+      "price": 86.0
+    },
+    {
+      "round_number": 8,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Lena",
+      "price": 87.25
+    }
+  ],
+  "seller_messages": {
+    "Seller Zoe": "Consider adjusting ask prices downward to stimulate trade volume while maintaining reasonable profit margins.",
+    "Seller Max": "Consider adjusting ask prices downward to stimulate trade volume while maintaining reasonable profit margins.",
+    "Seller Lena": "Consider adjusting ask prices based on market conditions to balance profit margins and trade volume.",
+    "Seller Nia": "Consider adjusting ask prices to balance competitiveness and profit margins, taking into account the stable bid queue."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 9
+````json
+{
+  "round_number": 9,
+  "seller_asks": {
+    "Seller Eli": 82.5,
+    "Seller Zoe": 88.5,
+    "Seller Max": 88.5,
+    "Seller Lena": 86.0,
+    "Seller Nia": 88.5
+  },
+  "buyer_bids": {
+    "Buyer Tara": 87.75,
+    "Buyer Ana": 88.5,
+    "Buyer Raj": 88.25,
+    "Buyer Jun": 89.25,
+    "Buyer Leo": 88.25
+  },
+  "trades": [
+    {
+      "round_number": 9,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Eli",
+      "price": 85.88
+    },
+    {
+      "round_number": 9,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Lena",
+      "price": 87.25
+    }
+  ],
+  "seller_messages": {
+    "Seller Zoe": "Consider adjusting ask prices based on market conditions to balance profit margins and trade volume.",
+    "Seller Max": "Consider adjusting ask prices downward to stimulate trade volume while maintaining reasonable profit margins, taking into account the current bid queue and competitor asks.",
+    "Seller Lena": "Consider adjusting ask prices based on market conditions to balance profit margins and trade volume.",
+    "Seller Nia": "Consider adjusting ask prices based on market conditions to balance profit margins and trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 10
+````json
+{
+  "round_number": 10,
+  "seller_asks": {
+    "Seller Eli": 82.0,
+    "Seller Zoe": 88.0,
+    "Seller Lena": 85.75,
+    "Seller Max": 88.0,
+    "Seller Nia": 88.0
+  },
+  "buyer_bids": {
+    "Buyer Tara": 88.0,
+    "Buyer Leo": 88.5,
+    "Buyer Ana": 88.75,
+    "Buyer Jun": 89.0,
+    "Buyer Raj": 88.5
+  },
+  "trades": [
+    {
+      "round_number": 10,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Eli",
+      "price": 85.5
+    },
+    {
+      "round_number": 10,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Lena",
+      "price": 87.25
+    },
+    {
+      "round_number": 10,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Max",
+      "price": 88.25
+    },
+    {
+      "round_number": 10,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Nia",
+      "price": 88.25
+    },
+    {
+      "round_number": 10,
+      "buyer_id": "Buyer Tara",
+      "seller_id": "Seller Zoe",
+      "price": 88.0
+    }
+  ],
+  "seller_messages": {
+    "Seller Zoe": "Consider adjusting ask prices based on market conditions and competitor asks to balance profit margins and trade volume.",
+    "Seller Lena": "Consider adjusting ask prices downward to stimulate trade volume while maintaining reasonable profit margins.",
+    "Seller Max": "Consider adjusting ask prices based on the current bid queue and competitor asks to balance profit margins and trade volume.",
+    "Seller Nia": "Consider adjusting ask prices downward to stimulate trade volume while maintaining reasonable profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 11
+````json
+{
+  "round_number": 11,
+  "seller_asks": {
+    "Seller Eli": 84.0,
+    "Seller Zoe": 87.5,
+    "Seller Lena": 85.0,
+    "Seller Max": 87.75,
+    "Seller Nia": 87.75
+  },
+  "buyer_bids": {
+    "Buyer Tara": 88.5,
+    "Buyer Leo": 89.0,
+    "Buyer Jun": 89.5,
+    "Buyer Raj": 89.0,
+    "Buyer Ana": 89.0
+  },
+  "trades": [
+    {
+      "round_number": 11,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Eli",
+      "price": 86.75
+    },
+    {
+      "round_number": 11,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Lena",
+      "price": 87.0
+    },
+    {
+      "round_number": 11,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Zoe",
+      "price": 88.25
+    },
+    {
+      "round_number": 11,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Max",
+      "price": 88.38
+    },
+    {
+      "round_number": 11,
+      "buyer_id": "Buyer Tara",
+      "seller_id": "Seller Nia",
+      "price": 88.12
+    }
+  ],
+  "seller_messages": {
+    "Seller Zoe": "Consider adjusting ask prices downward to stimulate trade volume while maintaining reasonable profit margins.",
+    "Seller Lena": "Consider adjusting ask prices downward to stimulate trade volume while maintaining reasonable profit margins.",
+    "Seller Max": "Consider adjusting ask prices based on the current bid queue and competitor asks to balance profit margins and trade volume.",
+    "Seller Nia": "Consider adjusting ask prices based on market conditions and competitor asks to balance profit margins and trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 12
+````json
+{
+  "round_number": 12,
+  "seller_asks": {
+    "Seller Eli": 83.5,
+    "Seller Max": 87.9,
+    "Seller Lena": 84.5,
+    "Seller Nia": 87.75,
+    "Seller Zoe": 87.0
+  },
+  "buyer_bids": {
+    "Buyer Raj": 89.0,
+    "Buyer Tara": 88.75,
+    "Buyer Leo": 89.5,
+    "Buyer Jun": 90.0,
+    "Buyer Ana": 89.25
+  },
+  "trades": [
+    {
+      "round_number": 12,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Eli",
+      "price": 86.75
+    },
+    {
+      "round_number": 12,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Lena",
+      "price": 87.0
+    },
+    {
+      "round_number": 12,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Zoe",
+      "price": 88.12
+    },
+    {
+      "round_number": 12,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Nia",
+      "price": 88.38
+    },
+    {
+      "round_number": 12,
+      "buyer_id": "Buyer Tara",
+      "seller_id": "Seller Max",
+      "price": 88.33
+    }
+  ],
+  "seller_messages": {
+    "Seller Max": "Consider adjusting ask prices based on current market conditions to balance profit margins and trade volume.",
+    "Seller Lena": "Consider adjusting ask prices based on market conditions to balance profit margins and trade volume.",
+    "Seller Nia": "Consider adjusting ask prices based on market conditions and competitor asks to balance profit margins and trade volume.",
+    "Seller Zoe": "Consider adjusting ask prices based on market conditions and competitor asks to balance profit margins and trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 13
+````json
+{
+  "round_number": 13,
+  "seller_asks": {
+    "Seller Eli": 81.0,
+    "Seller Lena": 83.5,
+    "Seller Zoe": 87.75,
+    "Seller Nia": 87.5,
+    "Seller Max": 88.5
+  },
+  "buyer_bids": {
+    "Buyer Tara": 89.0,
+    "Buyer Ana": 90.0,
+    "Buyer Jun": 90.25,
+    "Buyer Raj": 89.25,
+    "Buyer Leo": 89.25
+  },
+  "trades": [
+    {
+      "round_number": 13,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Eli",
+      "price": 85.62
+    },
+    {
+      "round_number": 13,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Lena",
+      "price": 86.75
+    },
+    {
+      "round_number": 13,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Nia",
+      "price": 88.38
+    },
+    {
+      "round_number": 13,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Zoe",
+      "price": 88.5
+    },
+    {
+      "round_number": 13,
+      "buyer_id": "Buyer Tara",
+      "seller_id": "Seller Max",
+      "price": 88.75
+    }
+  ],
+  "seller_messages": {
+    "Seller Lena": "Consider adjusting ask prices based on current market conditions to balance profit margins and trade volume.",
+    "Seller Zoe": "Consider adjusting ask prices downward to stimulate trade volume while maintaining a balance with profit margins, given the current market conditions and competitor asks.",
+    "Seller Nia": "Consider adjusting ask prices based on current market conditions to balance profit margins and trade volume.",
+    "Seller Max": "Be cautious of over-adjusting ask prices, as it may lead to reduced trade volumes; small increments can maximize profitability without deterring buyers."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 14
+````json
+{
+  "round_number": 14,
+  "seller_asks": {
+    "Seller Eli": 83.0,
+    "Seller Zoe": 88.0,
+    "Seller Lena": 83.0,
+    "Seller Nia": 87.5,
+    "Seller Max": 89.0
+  },
+  "buyer_bids": {
+    "Buyer Tara": 89.25,
+    "Buyer Ana": 90.5,
+    "Buyer Jun": 90.5,
+    "Buyer Leo": 89.0,
+    "Buyer Raj": 89.5
+  },
+  "trades": [
+    {
+      "round_number": 14,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Eli",
+      "price": 86.75
+    },
+    {
+      "round_number": 14,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Lena",
+      "price": 86.75
+    },
+    {
+      "round_number": 14,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Nia",
+      "price": 88.5
+    },
+    {
+      "round_number": 14,
+      "buyer_id": "Buyer Tara",
+      "seller_id": "Seller Zoe",
+      "price": 88.62
+    },
+    {
+      "round_number": 14,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Max",
+      "price": 89.0
+    }
+  ],
+  "seller_messages": {
+    "Seller Zoe": "Consider adjusting ask prices based on current market conditions to balance profit margins and trade volume, taking into account the potential for price wars among sellers.",
+    "Seller Lena": "Consider adjusting ask prices downward to stimulate trade volume while maintaining a balance with profit margins, given the current market conditions and competitor asks.",
+    "Seller Nia": "Consider adjusting ask prices based on current market conditions to balance profit margins and trade volume.",
+    "Seller Max": "Be cautious of over-adjusting ask prices downward, consider small increments to balance profit margins and trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 15
+````json
+{
+  "round_number": 15,
+  "seller_asks": {
+    "Seller Eli": 89.0,
+    "Seller Zoe": 88.75,
+    "Seller Lena": 82.5,
+    "Seller Nia": 87.75,
+    "Seller Max": 89.25
+  },
+  "buyer_bids": {
+    "Buyer Tara": 89.5,
+    "Buyer Leo": 89.25,
+    "Buyer Ana": 91.0,
+    "Buyer Raj": 90.0,
+    "Buyer Jun": 90.75
+  },
+  "trades": [
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Lena",
+      "price": 86.75
+    },
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Nia",
+      "price": 89.25
+    },
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Zoe",
+      "price": 89.38
+    },
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Tara",
+      "seller_id": "Seller Eli",
+      "price": 89.25
+    },
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Max",
+      "price": 89.25
+    }
+  ],
+  "seller_messages": {
+    "Seller Zoe": "Be cautious of price wars and consider small increments in ask price adjustments to balance profit margins and trade volume.",
+    "Seller Lena": "Consider adjusting ask prices based on current market conditions to balance profit margins and trade volume.",
+    "Seller Nia": "Consider balancing ask prices to maintain competitiveness and profit margins, taking into account the current market conditions and competitor asks.",
+    "Seller Max": "Be cautious of over-adjusting ask prices downward, consider small increments to balance profit margins and trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 16
+````json
+{
+  "round_number": 16,
+  "seller_asks": {
+    "Seller Eli": 94.5,
+    "Seller Zoe": 90.0,
+    "Seller Max": 89.5,
+    "Seller Lena": 82.0,
+    "Seller Nia": 89.0
+  },
+  "buyer_bids": {
+    "Buyer Ana": 91.25,
+    "Buyer Jun": 90.0,
+    "Buyer Raj": 90.25,
+    "Buyer Leo": 89.5,
+    "Buyer Tara": 90.0
+  },
+  "trades": [
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Lena",
+      "price": 86.62
+    },
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Nia",
+      "price": 89.62
+    },
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Tara",
+      "seller_id": "Seller Max",
+      "price": 89.75
+    },
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Zoe",
+      "price": 90.0
+    }
+  ],
+  "seller_messages": {
+    "Seller Zoe": "Be cautious of price wars and consider small increments in ask price adjustments to balance profit margins and trade volume.",
+    "Seller Max": "Be cautious of price wars and consider small increments in ask price adjustments to balance profit margins and trade volume.",
+    "Seller Lena": "Be cautious with large price adjustments, consider the balance between profit margins and trade volume to maintain competitiveness in the market.",
+    "Seller Nia": "Consider balancing ask prices to maintain competitiveness and profit margins, taking into account current market conditions and competitor asks."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 17
+````json
+{
+  "round_number": 17,
+  "seller_asks": {
+    "Seller Eli": 86.5,
+    "Seller Zoe": 90.5,
+    "Seller Lena": 82.25,
+    "Seller Nia": 89.25,
+    "Seller Max": 90.0
+  },
+  "buyer_bids": {
+    "Buyer Tara": 90.25,
+    "Buyer Jun": 90.25,
+    "Buyer Ana": 91.5,
+    "Buyer Raj": 90.5,
+    "Buyer Leo": 90.0
+  },
+  "trades": [
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Lena",
+      "price": 86.88
+    },
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Eli",
+      "price": 88.5
+    },
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Tara",
+      "seller_id": "Seller Nia",
+      "price": 89.75
+    },
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Max",
+      "price": 90.12
+    }
+  ],
+  "seller_messages": {
+    "Seller Zoe": "Be cautious of price wars and consider small increments in ask price adjustments to balance profit margins and trade volume.",
+    "Seller Lena": "Be cautious with large price adjustments, consider small increments to maintain competitiveness and balance profit margins, taking into account current market conditions and competitor asks.",
+    "Seller Nia": "Be cautious of large price adjustments, consider balancing ask prices to maintain competitiveness and profit margins, taking into account current market conditions and competitor asks.",
+    "Seller Max": "Be cautious with large price adjustments, consider balancing ask prices to maintain competitiveness and profit margins, taking into account current market conditions and competitor asks."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 18
+````json
+{
+  "round_number": 18,
+  "seller_asks": {
+    "Seller Eli": 83.0,
+    "Seller Zoe": 90.25,
+    "Seller Lena": 82.5,
+    "Seller Max": 90.25,
+    "Seller Nia": 90.25
+  },
+  "buyer_bids": {
+    "Buyer Tara": 90.5,
+    "Buyer Ana": 92.0,
+    "Buyer Leo": 90.25,
+    "Buyer Jun": 90.25,
+    "Buyer Raj": 90.25
+  },
+  "trades": [
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Lena",
+      "price": 87.25
+    },
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Tara",
+      "seller_id": "Seller Eli",
+      "price": 86.75
+    },
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Max",
+      "price": 90.25
+    },
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Nia",
+      "price": 90.25
+    },
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Zoe",
+      "price": 90.25
+    }
+  ],
+  "seller_messages": {
+    "Seller Zoe": "Be cautious of price wars and consider small increments in ask price adjustments to balance profit margins and trade volume.",
+    "Seller Lena": "Be cautious with large price adjustments, consider small increments to maintain competitiveness and balance profit margins, taking into account current market conditions and competitor asks.",
+    "Seller Max": "Be cautious of price wars and consider small increments in ask price adjustments to balance profit margins and trade volume.",
+    "Seller Nia": "Be cautious with large price adjustments, consider small increments to maintain competitiveness and balance profit margins, taking into account current market conditions and competitor asks."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 19
+````json
+{
+  "round_number": 19,
+  "seller_asks": {
+    "Seller Eli": 85.0,
+    "Seller Zoe": 90.5,
+    "Seller Lena": 82.0,
+    "Seller Nia": 90.25,
+    "Seller Max": 90.5
+  },
+  "buyer_bids": {
+    "Buyer Leo": 90.5,
+    "Buyer Raj": 90.5,
+    "Buyer Jun": 90.5,
+    "Buyer Ana": 92.5,
+    "Buyer Tara": 90.75
+  },
+  "trades": [
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Lena",
+      "price": 87.25
+    },
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Tara",
+      "seller_id": "Seller Eli",
+      "price": 87.88
+    },
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Nia",
+      "price": 90.38
+    },
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Max",
+      "price": 90.5
+    },
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Zoe",
+      "price": 90.5
+    }
+  ],
+  "seller_messages": {
+    "Seller Zoe": "Be cautious of price wars and consider small increments in ask price adjustments to balance profit margins and trade volume.",
+    "Seller Lena": "Be cautious of price wars, consider small increments in ask price adjustments to balance profit margins and trade volume.",
+    "Seller Nia": "Be cautious of price wars and consider small increments in ask price adjustments to balance profit margins and trade volume.",
+    "Seller Max": "Be cautious with large price adjustments, consider small increments to maintain competitiveness and balance profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 20
+````json
+{
+  "round_number": 20,
+  "seller_asks": {
+    "Seller Eli": 98.5,
+    "Seller Zoe": 90.75,
+    "Seller Lena": 87.5,
+    "Seller Nia": 90.25,
+    "Seller Max": 90.75
+  },
+  "buyer_bids": {
+    "Buyer Raj": 90.75,
+    "Buyer Ana": 92.75,
+    "Buyer Jun": 90.75,
+    "Buyer Tara": 91.0,
+    "Buyer Leo": 90.75
+  },
+  "trades": [
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Lena",
+      "price": 90.12
+    },
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Tara",
+      "seller_id": "Seller Nia",
+      "price": 90.62
+    },
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Max",
+      "price": 90.75
+    },
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Zoe",
+      "price": 90.75
+    }
+  ],
+  "seller_messages": {
+    "Seller Zoe": "Be cautious of price wars, consider small increments in ask price adjustments to balance profit margins and trade volume.",
+    "Seller Lena": "Be cautious of large price adjustments, consider small increments to maintain competitiveness and balance profit margins.",
+    "Seller Nia": "Be cautious with large price adjustments, consider small increments to maintain competitiveness and balance profit margins.",
+    "Seller Max": "Be cautious of large price adjustments and consider small increments to maintain competitiveness and balance profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 21
+````json
+{
+  "round_number": 21,
+  "seller_asks": {
+    "Seller Eli": 81.5,
+    "Seller Max": 91.0,
+    "Seller Zoe": 91.0,
+    "Seller Lena": 90.75,
+    "Seller Nia": 90.5
+  },
+  "buyer_bids": {
+    "Buyer Tara": 91.25,
+    "Buyer Ana": 93.0,
+    "Buyer Raj": 91.0,
+    "Buyer Leo": 91.0,
+    "Buyer Jun": 91.0
+  },
+  "trades": [
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Eli",
+      "price": 87.25
+    },
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Tara",
+      "seller_id": "Seller Nia",
+      "price": 90.88
+    },
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Lena",
+      "price": 90.88
+    },
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Max",
+      "price": 91.0
+    },
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Zoe",
+      "price": 91.0
+    }
+  ],
+  "seller_messages": {
+    "Seller Max": "Be cautious of large price adjustments, consider small increments to maintain competitiveness and balance profit margins.",
+    "Seller Zoe": "Be cautious of price wars, consider small increments in ask price adjustments to balance profit margins and trade volume.",
+    "Seller Lena": "Be cautious of large price adjustments, consider small increments to maintain competitiveness and balance profit margins.",
+    "Seller Nia": "Be cautious of large price adjustments, consider small increments to maintain competitiveness and balance profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 22
+````json
+{
+  "round_number": 22,
+  "seller_asks": {
+    "Seller Eli": 83.0,
+    "Seller Zoe": 91.25,
+    "Seller Max": 91.25,
+    "Seller Nia": 90.5,
+    "Seller Lena": 91.25
+  },
+  "buyer_bids": {
+    "Buyer Jun": 91.25,
+    "Buyer Tara": 91.5,
+    "Buyer Ana": 93.25,
+    "Buyer Leo": 91.25,
+    "Buyer Raj": 91.25
+  },
+  "trades": [
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Eli",
+      "price": 88.12
+    },
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Tara",
+      "seller_id": "Seller Nia",
+      "price": 91.0
+    },
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Lena",
+      "price": 91.25
+    },
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Max",
+      "price": 91.25
+    },
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Zoe",
+      "price": 91.25
+    }
+  ],
+  "seller_messages": {
+    "Seller Zoe": "Be cautious of large price adjustments, consider small increments to maintain competitiveness and balance profit margins.",
+    "Seller Max": "Be cautious of large price adjustments, consider small increments to maintain competitiveness and balance profit margins.",
+    "Seller Nia": "Be cautious of large price adjustments, consider small increments to maintain competitiveness and balance profit margins.",
+    "Seller Lena": "Be cautious of large price adjustments, consider small increments to maintain competitiveness and balance profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 23
+````json
+{
+  "round_number": 23,
+  "seller_asks": {
+    "Seller Eli": 84.0,
+    "Seller Zoe": 91.5,
+    "Seller Nia": 91.25,
+    "Seller Max": 91.5,
+    "Seller Lena": 91.5
+  },
+  "buyer_bids": {
+    "Buyer Leo": 91.5,
+    "Buyer Tara": 91.75,
+    "Buyer Ana": 93.5,
+    "Buyer Raj": 91.5,
+    "Buyer Jun": 91.5
+  },
+  "trades": [
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Eli",
+      "price": 88.75
+    },
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Tara",
+      "seller_id": "Seller Nia",
+      "price": 91.5
+    },
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Lena",
+      "price": 91.5
+    },
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Max",
+      "price": 91.5
+    },
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Zoe",
+      "price": 91.5
+    }
+  ],
+  "seller_messages": {
+    "Seller Zoe": "Maintain small price increments to avoid price wars and ensure competitiveness.",
+    "Seller Nia": "Be cautious of large price adjustments, consider small increments to maintain competitiveness and balance profit margins.",
+    "Seller Max": "Be cautious of large price adjustments, consider small increments to maintain competitiveness and balance profit margins.",
+    "Seller Lena": "Consider small increments in ask prices to balance competitiveness and profit margins, avoiding large price wars."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 24
+````json
+{
+  "round_number": 24,
+  "seller_asks": {
+    "Seller Eli": 84.5,
+    "Seller Zoe": 91.75,
+    "Seller Max": 91.75,
+    "Seller Lena": 92.0,
+    "Seller Nia": 91.25
+  },
+  "buyer_bids": {
+    "Buyer Ana": 94.0,
+    "Buyer Tara": 92.0,
+    "Buyer Raj": 91.75,
+    "Buyer Leo": 91.75,
+    "Buyer Jun": 91.75
+  },
+  "trades": [
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Eli",
+      "price": 89.25
+    },
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Tara",
+      "seller_id": "Seller Nia",
+      "price": 91.62
+    },
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Max",
+      "price": 91.75
+    },
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Zoe",
+      "price": 91.75
+    }
+  ],
+  "seller_messages": {
+    "Seller Zoe": "Be cautious of large price adjustments, consider small increments to maintain competitiveness and balance profit margins.",
+    "Seller Max": "Maintain small price increments to ensure competitiveness and avoid price wars.",
+    "Seller Lena": "Maintain small price increments to avoid price wars and ensure competitiveness.",
+    "Seller Nia": "Maintain small price increments to avoid price wars and ensure competitiveness."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 25
+````json
+{
+  "round_number": 25,
+  "seller_asks": {
+    "Seller Eli": 85.0,
+    "Seller Nia": 91.75,
+    "Seller Lena": 92.25,
+    "Seller Zoe": 92.0,
+    "Seller Max": 92.0
+  },
+  "buyer_bids": {
+    "Buyer Tara": 91.9,
+    "Buyer Ana": 94.25,
+    "Buyer Jun": 92.0,
+    "Buyer Raj": 92.0,
+    "Buyer Leo": 91.9
+  },
+  "trades": [
+    {
+      "round_number": 25,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Eli",
+      "price": 89.62
+    },
+    {
+      "round_number": 25,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Nia",
+      "price": 91.88
+    },
+    {
+      "round_number": 25,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Max",
+      "price": 92.0
+    }
+  ],
+  "seller_messages": {
+    "Seller Nia": "Maintain small price increments to avoid price wars and ensure competitiveness.",
+    "Seller Lena": "Maintain small price increments to ensure competitiveness and avoid price wars.",
+    "Seller Zoe": "Maintain small price increments to avoid price wars and ensure competitiveness.",
+    "Seller Max": "Maintain small price increments to ensure competitiveness and avoid price wars."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 26
+````json
+{
+  "round_number": 26,
+  "seller_asks": {
+    "Seller Eli": 84.0,
+    "Seller Zoe": 92.25,
+    "Seller Max": 92.25,
+    "Seller Nia": 91.9,
+    "Seller Lena": 92.5
+  },
+  "buyer_bids": {
+    "Buyer Tara": 92.1,
+    "Buyer Ana": 94.5,
+    "Buyer Raj": 92.1,
+    "Buyer Jun": 92.1,
+    "Buyer Leo": 92.0
+  },
+  "trades": [
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Eli",
+      "price": 89.25
+    },
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Tara",
+      "seller_id": "Seller Nia",
+      "price": 92.0
+    }
+  ],
+  "seller_messages": {
+    "Seller Zoe": "Maintain small price increments to avoid price wars and ensure competitiveness.",
+    "Seller Max": "Maintain small price increments to ensure competitiveness and avoid price wars.",
+    "Seller Nia": "Maintain small price increments to avoid price wars and ensure competitiveness.",
+    "Seller Lena": "Maintain small price increments to ensure competitiveness and avoid price wars."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 27
+````json
+{
+  "round_number": 27,
+  "seller_asks": {
+    "Seller Eli": 86.0,
+    "Seller Max": 92.5,
+    "Seller Zoe": 92.5,
+    "Seller Nia": 92.05,
+    "Seller Lena": 92.75
+  },
+  "buyer_bids": {
+    "Buyer Raj": 92.2,
+    "Buyer Tara": 92.2,
+    "Buyer Ana": 92.25,
+    "Buyer Jun": 92.2,
+    "Buyer Leo": 92.25
+  },
+  "trades": [
+    {
+      "round_number": 27,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Eli",
+      "price": 89.12
+    },
+    {
+      "round_number": 27,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Nia",
+      "price": 92.15
+    }
+  ],
+  "seller_messages": {
+    "Seller Max": "Maintain small price increments to ensure competitiveness and avoid price wars.",
+    "Seller Zoe": "Maintain small price increments to avoid price wars and ensure competitiveness.",
+    "Seller Nia": "Maintain small price increments to ensure competitiveness and avoid price wars.",
+    "Seller Lena": "Maintain small price increments to ensure competitiveness and avoid price wars."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 28
+````json
+{
+  "round_number": 28,
+  "seller_asks": {
+    "Seller Eli": 88.0,
+    "Seller Max": 92.75,
+    "Seller Zoe": 92.75,
+    "Seller Lena": 92.9,
+    "Seller Nia": 92.2
+  },
+  "buyer_bids": {
+    "Buyer Tara": 92.3,
+    "Buyer Ana": 92.5,
+    "Buyer Jun": 92.25,
+    "Buyer Leo": 92.3,
+    "Buyer Raj": 92.25
+  },
+  "trades": [
+    {
+      "round_number": 28,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Eli",
+      "price": 90.25
+    },
+    {
+      "round_number": 28,
+      "buyer_id": "Buyer Tara",
+      "seller_id": "Seller Nia",
+      "price": 92.25
+    }
+  ],
+  "seller_messages": {
+    "Seller Max": "Maintain small price increments to ensure competitiveness and avoid price wars.",
+    "Seller Zoe": "Maintain small price increments to ensure competitiveness and avoid price wars.",
+    "Seller Lena": "Maintain small price increments to ensure competitiveness and avoid price wars.",
+    "Seller Nia": "Maintain small price increments to ensure competitiveness and avoid price wars."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 29
+````json
+{
+  "round_number": 29,
+  "seller_asks": {
+    "Seller Eli": 83.0,
+    "Seller Max": 92.9,
+    "Seller Zoe": 92.8,
+    "Seller Nia": 92.3,
+    "Seller Lena": 93.1
+  },
+  "buyer_bids": {
+    "Buyer Tara": 92.35,
+    "Buyer Ana": 92.75,
+    "Buyer Jun": 92.3,
+    "Buyer Raj": 92.3,
+    "Buyer Leo": 92.35
+  },
+  "trades": [
+    {
+      "round_number": 29,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Eli",
+      "price": 87.88
+    },
+    {
+      "round_number": 29,
+      "buyer_id": "Buyer Tara",
+      "seller_id": "Seller Nia",
+      "price": 92.32
+    }
+  ],
+  "seller_messages": {
+    "Seller Max": "Maintain small price increments to avoid price wars and ensure competitiveness.",
+    "Seller Zoe": "Maintain small price increments to avoid price wars and ensure competitiveness.",
+    "Seller Nia": "Maintain small price increments to ensure competitiveness and avoid price wars.",
+    "Seller Lena": "Maintain small price increments to ensure competitiveness and avoid price wars."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 30
+````json
+{
+  "round_number": 30,
+  "seller_asks": {
+    "Seller Eli": 87.0,
+    "Seller Max": 93.1,
+    "Seller Zoe": 92.9,
+    "Seller Lena": 93.4,
+    "Seller Nia": 92.4
+  },
+  "buyer_bids": {
+    "Buyer Ana": 92.9,
+    "Buyer Tara": 92.4,
+    "Buyer Leo": 92.4,
+    "Buyer Raj": 92.4,
+    "Buyer Jun": 92.4
+  },
+  "trades": [
+    {
+      "round_number": 30,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Eli",
+      "price": 89.95
+    },
+    {
+      "round_number": 30,
+      "buyer_id": "Buyer Tara",
+      "seller_id": "Seller Nia",
+      "price": 92.4
+    }
+  ],
+  "seller_messages": {
+    "Seller Max": "Maintain small price increments to ensure competitiveness and avoid price wars.",
+    "Seller Zoe": "Maintain competitive pricing to stimulate trades and maximize profitability in the final hour.",
+    "Seller Lena": "The market has been highly competitive, with gradual price adjustments being key to success.",
+    "Seller Nia": "Maintain small price increments to ensure competitiveness and avoid price wars."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````

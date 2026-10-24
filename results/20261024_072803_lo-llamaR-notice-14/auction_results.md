@@ -1,0 +1,1439 @@
+
+## Auction Results: Round 1
+````json
+{
+  "round_number": 1,
+  "seller_asks": {
+    "Seller Leo": 97.79,
+    "Seller Raj": 97.27,
+    "Seller Ana": 97.08,
+    "Seller Amir": 96.5,
+    "Seller Tara": 96.56
+  },
+  "buyer_bids": {
+    "Buyer Nia": 83.14,
+    "Buyer Kai": 82.56,
+    "Buyer Lena": 83.14,
+    "Buyer Maya": 96.5,
+    "Buyer Mia": 96.5
+  },
+  "trades": [
+    {
+      "round_number": 1,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Amir",
+      "price": 96.5
+    }
+  ],
+  "seller_messages": {},
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 2
+````json
+{
+  "round_number": 2,
+  "seller_asks": {
+    "Seller Raj": 96.8,
+    "Seller Leo": 96.79,
+    "Seller Ana": 96.75,
+    "Seller Tara": 96.1,
+    "Seller Amir": 96.4
+  },
+  "buyer_bids": {
+    "Buyer Maya": 96.7,
+    "Buyer Nia": 84.0,
+    "Buyer Kai": 85.0,
+    "Buyer Mia": 96.6,
+    "Buyer Lena": 84.0
+  },
+  "trades": [
+    {
+      "round_number": 2,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Tara",
+      "price": 96.4
+    },
+    {
+      "round_number": 2,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Amir",
+      "price": 96.5
+    }
+  ],
+  "seller_messages": {
+    "Seller Ana": "null"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 3
+````json
+{
+  "round_number": 3,
+  "seller_asks": {
+    "Seller Leo": 95.79,
+    "Seller Ana": 96.6,
+    "Seller Raj": 96.5,
+    "Seller Amir": 96.3,
+    "Seller Tara": 96.05
+  },
+  "buyer_bids": {
+    "Buyer Nia": 85.0,
+    "Buyer Maya": 96.8,
+    "Buyer Lena": 85.0,
+    "Buyer Mia": 96.65,
+    "Buyer Kai": 86.0
+  },
+  "trades": [
+    {
+      "round_number": 3,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Leo",
+      "price": 96.3
+    },
+    {
+      "round_number": 3,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Tara",
+      "price": 96.35
+    }
+  ],
+  "seller_messages": {
+    "Seller Ana": "Highest bid is $85.0, adjusting ask prices accordingly",
+    "Seller Raj": "What are your strategies for adjusting ask prices in response to bid queue changes?",
+    "Seller Amir": "null"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 4
+````json
+{
+  "round_number": 4,
+  "seller_asks": {
+    "Seller Raj": 96.2,
+    "Seller Ana": 95.0,
+    "Seller Leo": 94.79,
+    "Seller Amir": 96.2,
+    "Seller Tara": 96.2
+  },
+  "buyer_bids": {
+    "Buyer Nia": 86.0,
+    "Buyer Maya": 96.9,
+    "Buyer Kai": 87.0,
+    "Buyer Lena": 86.0,
+    "Buyer Mia": 96.7
+  },
+  "trades": [
+    {
+      "round_number": 4,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Leo",
+      "price": 95.84
+    },
+    {
+      "round_number": 4,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Ana",
+      "price": 95.85
+    }
+  ],
+  "seller_messages": {
+    "Seller Raj": "Bids are increasing, with current bids at $85.0 to $86.0; ask queue remains competitive.",
+    "Seller Ana": "Adjusted ask price to $95.00 to increase competitiveness",
+    "Seller Leo": "Bid queue is increasing, consider adjusting ask prices to remain competitive.",
+    "Seller Amir": "I'm adjusting my ask price based on the increasing bid queue and decreasing ask queue.",
+    "Seller Tara": "Bids are high, ranging from $85.0 to $86.0. I'm adjusting my ask price to $96.20 to stay competitive."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 5
+````json
+{
+  "round_number": 5,
+  "seller_asks": {
+    "Seller Leo": 93.79,
+    "Seller Ana": 94.5,
+    "Seller Raj": 95.8,
+    "Seller Amir": 96.1,
+    "Seller Tara": 96.15
+  },
+  "buyer_bids": {
+    "Buyer Nia": 87.0,
+    "Buyer Maya": 97.0,
+    "Buyer Mia": 96.75,
+    "Buyer Kai": 88.0,
+    "Buyer Lena": 87.0
+  },
+  "trades": [
+    {
+      "round_number": 5,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Leo",
+      "price": 95.4
+    },
+    {
+      "round_number": 5,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Ana",
+      "price": 95.62
+    }
+  ],
+  "seller_messages": {
+    "Seller Leo": "Bid queue is increasing, consider balancing competitiveness with profit margins to maximize returns.",
+    "Seller Ana": "Bids are increasing, and the ask queue is competitive. I'm adjusting my ask price to $94.50 to balance profitability and trade volume.",
+    "Seller Raj": "Bids continue to rise, and the ask queue remains competitive; I'm adjusting my ask price to $95.80 to increase competitiveness.",
+    "Seller Amir": "Bids are increasing, with current bids at $87.0; consider adjusting ask prices to remain competitive.",
+    "Seller Tara": "Bids continue to increase, with a range from $86.0 to $87.0; adjusting ask price to $96.15 to stay competitive."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 6
+````json
+{
+  "round_number": 6,
+  "seller_asks": {
+    "Seller Raj": 95.5,
+    "Seller Ana": 94.0,
+    "Seller Leo": 92.79,
+    "Seller Tara": 96.1,
+    "Seller Amir": 95.9
+  },
+  "buyer_bids": {
+    "Buyer Nia": 88.0,
+    "Buyer Maya": 97.1,
+    "Buyer Lena": 88.0,
+    "Buyer Mia": 96.8,
+    "Buyer Kai": 89.0
+  },
+  "trades": [
+    {
+      "round_number": 6,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Leo",
+      "price": 94.94
+    },
+    {
+      "round_number": 6,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Ana",
+      "price": 95.4
+    }
+  ],
+  "seller_messages": {
+    "Seller Raj": "Bids continue to rise, consider adjusting ask prices to remain competitive.",
+    "Seller Ana": "Bids continue to rise, and the ask queue is competitive; consider adjusting ask prices to balance profitability and trade volume.",
+    "Seller Leo": "Consider adjusting ask prices to balance competitiveness with profit margins as bid prices continue to rise.",
+    "Seller Tara": "Be cautious of increasing competition, consider adjusting ask prices to balance profitability and trade volume.",
+    "Seller Amir": "Bids continue to rise; consider adjusting ask prices to balance profitability and trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 7
+````json
+{
+  "round_number": 7,
+  "seller_asks": {
+    "Seller Leo": 91.79,
+    "Seller Tara": 95.95,
+    "Seller Amir": 95.8,
+    "Seller Raj": 95.2,
+    "Seller Ana": 93.5
+  },
+  "buyer_bids": {
+    "Buyer Mia": 96.85,
+    "Buyer Kai": 90.0,
+    "Buyer Nia": 89.0,
+    "Buyer Lena": 89.5,
+    "Buyer Maya": 97.2
+  },
+  "trades": [
+    {
+      "round_number": 7,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Leo",
+      "price": 94.5
+    },
+    {
+      "round_number": 7,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Ana",
+      "price": 95.17
+    }
+  ],
+  "seller_messages": {
+    "Seller Leo": "Bids continue to rise, consider adjusting ask prices to remain competitive while maintaining profit margins.",
+    "Seller Tara": "Be cautious of increasing competition, consider adjusting ask prices to balance profitability and trade volume.",
+    "Seller Amir": "Bids are rising; consider adjusting ask prices to remain competitive while balancing profit margins.",
+    "Seller Raj": "Bids continue to increase, it's crucial to adjust ask prices to remain competitive while ensuring reasonable profit margins.",
+    "Seller Ana": "Continue to monitor the bid queue and adjust ask prices to balance profitability and trade volume as the market continues to evolve."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 8
+````json
+{
+  "round_number": 8,
+  "seller_asks": {
+    "Seller Leo": 90.79,
+    "Seller Ana": 93.0,
+    "Seller Raj": 94.8,
+    "Seller Tara": 95.85,
+    "Seller Amir": 95.7
+  },
+  "buyer_bids": {
+    "Buyer Nia": 90.5,
+    "Buyer Maya": 94.8,
+    "Buyer Lena": 90.5,
+    "Buyer Mia": 96.9,
+    "Buyer Kai": 90.5
+  },
+  "trades": [
+    {
+      "round_number": 8,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Leo",
+      "price": 93.84
+    },
+    {
+      "round_number": 8,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Ana",
+      "price": 93.9
+    }
+  ],
+  "seller_messages": {
+    "Seller Leo": "Bids continue to rise, consider adjusting ask prices to remain competitive while maintaining profit margins.",
+    "Seller Ana": "Be cautious of increasing competition, consider adjusting ask prices to balance profitability and trade volume.",
+    "Seller Raj": "Be cautious of the rising bids and increasing competition, consider adjusting ask prices to balance profitability and trade volume.",
+    "Seller Tara": "Be cautious of increasing competition, consider adjusting ask prices to balance profitability and trade volume.",
+    "Seller Amir": "Be cautious of the increasing competition, adjust your ask prices to balance profitability and trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 9
+````json
+{
+  "round_number": 9,
+  "seller_asks": {
+    "Seller Raj": 94.5,
+    "Seller Leo": 90.79,
+    "Seller Ana": 92.8,
+    "Seller Tara": 95.75,
+    "Seller Amir": 95.65
+  },
+  "buyer_bids": {
+    "Buyer Nia": 91.0,
+    "Buyer Maya": 94.2,
+    "Buyer Lena": 91.0,
+    "Buyer Mia": 96.95,
+    "Buyer Kai": 91.0
+  },
+  "trades": [
+    {
+      "round_number": 9,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Leo",
+      "price": 93.87
+    },
+    {
+      "round_number": 9,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Ana",
+      "price": 93.5
+    }
+  ],
+  "seller_messages": {
+    "Seller Raj": "Be cautious of rising bids and increasing competition, adjust ask prices to balance profitability and trade volume.",
+    "Seller Leo": "Be cautious of increasing competition, consider adjusting ask prices to balance profitability and trade volume.",
+    "Seller Ana": "Be cautious of the rising bids and increasing competition, consider adjusting ask prices to balance profitability and trade volume.",
+    "Seller Tara": "Be cautious of the rising bids and increasing competition, consider adjusting ask prices to balance profitability and trade volume.",
+    "Seller Amir": "Be cautious of the rising bids and increasing competition, consider adjusting ask prices to balance profitability and trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 10
+````json
+{
+  "round_number": 10,
+  "seller_asks": {
+    "Seller Raj": 94.2,
+    "Seller Tara": 95.65,
+    "Seller Leo": 90.79,
+    "Seller Ana": 92.5,
+    "Seller Amir": 95.6
+  },
+  "buyer_bids": {
+    "Buyer Kai": 91.5,
+    "Buyer Mia": 96.9,
+    "Buyer Maya": 93.5,
+    "Buyer Nia": 91.5,
+    "Buyer Lena": 92.0
+  },
+  "trades": [
+    {
+      "round_number": 10,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Leo",
+      "price": 93.84
+    },
+    {
+      "round_number": 10,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Ana",
+      "price": 93.0
+    }
+  ],
+  "seller_messages": {
+    "Seller Raj": "Be cautious of rising bids, adjust ask prices to balance profitability and trade volume.",
+    "Seller Tara": "Be cautious of the rising bids and increasing competition, consider adjusting ask prices to balance profitability and trade volume.",
+    "Seller Leo": "Be cautious of the rising bids and increasing competition, consider adjusting ask prices to balance profitability and trade volume.",
+    "Seller Ana": "Be cautious of the rising bids and increasing competition, consider adjusting ask prices to balance profitability and trade volume.",
+    "Seller Amir": "Be cautious of the rising bids and increasing competition, consider adjusting ask prices to balance profitability and trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 11
+````json
+{
+  "round_number": 11,
+  "seller_asks": {
+    "Seller Ana": 92.0,
+    "Seller Raj": 94.0,
+    "Seller Amir": 95.55,
+    "Seller Leo": 90.49,
+    "Seller Tara": 95.55
+  },
+  "buyer_bids": {
+    "Buyer Nia": 92.5,
+    "Buyer Maya": 93.8,
+    "Buyer Kai": 92.0,
+    "Buyer Lena": 92.5,
+    "Buyer Mia": 93.5
+  },
+  "trades": [
+    {
+      "round_number": 11,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Leo",
+      "price": 92.14
+    },
+    {
+      "round_number": 11,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Ana",
+      "price": 92.75
+    }
+  ],
+  "seller_messages": {
+    "Seller Ana": "Be cautious of the rising bids and increasing competition, consider adjusting ask prices to balance profitability and trade volume.",
+    "Seller Raj": "Be cautious of the rising bids, consider adjusting ask prices to balance profitability and trade volume.",
+    "Seller Amir": "Be aware of the increasing bid prices and adjust your ask prices to balance profitability and trade volume.",
+    "Seller Leo": "Be aware of the rising bids, adjust your ask prices to balance profitability and trade volume, and be cautious of the increasing competition.",
+    "Seller Tara": "Be cautious of rising bids, adjust ask prices to balance profitability and trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 12
+````json
+{
+  "round_number": 12,
+  "seller_asks": {
+    "Seller Leo": 90.29,
+    "Seller Ana": 91.5,
+    "Seller Raj": 93.8,
+    "Seller Tara": 94.95,
+    "Seller Amir": 95.45
+  },
+  "buyer_bids": {
+    "Buyer Nia": 93.0,
+    "Buyer Maya": 92.8,
+    "Buyer Lena": 93.0,
+    "Buyer Mia": 94.5,
+    "Buyer Kai": 92.5
+  },
+  "trades": [
+    {
+      "round_number": 12,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Leo",
+      "price": 92.4
+    },
+    {
+      "round_number": 12,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Ana",
+      "price": 92.25
+    }
+  ],
+  "seller_messages": {
+    "Seller Leo": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition.",
+    "Seller Ana": "Be cautious of the rising bids and increasing competition, consider adjusting ask prices to balance profitability and trade volume.",
+    "Seller Raj": "Be aware of the increasing bid prices, adjust your ask prices to balance profitability and trade volume, considering the competitive ask queue.",
+    "Seller Tara": "Be aware of the increasing bid prices and adjust your ask prices to maintain a competitive position in the market.",
+    "Seller Amir": "Be cautious of the rising bids and increasing competition, consider adjusting ask prices to balance profitability and trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 13
+````json
+{
+  "round_number": 13,
+  "seller_asks": {
+    "Seller Leo": 90.09,
+    "Seller Ana": 91.2,
+    "Seller Raj": 93.5,
+    "Seller Tara": 94.5,
+    "Seller Amir": 94.9
+  },
+  "buyer_bids": {
+    "Buyer Nia": 93.25,
+    "Buyer Maya": 92.9,
+    "Buyer Kai": 93.2,
+    "Buyer Mia": 94.8,
+    "Buyer Lena": 93.5
+  },
+  "trades": [
+    {
+      "round_number": 13,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Leo",
+      "price": 92.44
+    },
+    {
+      "round_number": 13,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Ana",
+      "price": 92.35
+    }
+  ],
+  "seller_messages": {
+    "Seller Leo": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition.",
+    "Seller Ana": "Be aware of the increasing bid prices and adjust your ask prices to balance profitability and trade volume, considering the competitive ask queue.",
+    "Seller Raj": "Be aware of the rising bid prices and adjust your ask prices to balance profitability and trade volume, considering the competitive ask queue.",
+    "Seller Tara": "Be aware of the increasing bid prices and adjust your ask prices to balance profitability and trade volume, considering the competitive ask queue.",
+    "Seller Amir": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 14
+````json
+{
+  "round_number": 14,
+  "seller_asks": {
+    "Seller Raj": 93.2,
+    "Seller Ana": 92.9,
+    "Seller Leo": 92.99,
+    "Seller Amir": 94.8,
+    "Seller Tara": 94.4
+  },
+  "buyer_bids": {
+    "Buyer Maya": 93.4,
+    "Buyer Nia": 93.5,
+    "Buyer Kai": 93.5,
+    "Buyer Mia": 94.2,
+    "Buyer Lena": 93.75
+  },
+  "trades": [
+    {
+      "round_number": 14,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Ana",
+      "price": 93.55
+    },
+    {
+      "round_number": 14,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Leo",
+      "price": 93.37
+    },
+    {
+      "round_number": 14,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Raj",
+      "price": 93.35
+    }
+  ],
+  "seller_messages": {
+    "Seller Raj": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition.",
+    "Seller Ana": "Be aware of the rising bid prices and adjust your ask prices to balance profitability and trade volume, considering the competitive ask queue.",
+    "Seller Leo": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition.",
+    "Seller Amir": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition.",
+    "Seller Tara": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 15
+````json
+{
+  "round_number": 15,
+  "seller_asks": {
+    "Seller Ana": 93.8,
+    "Seller Raj": 93.0,
+    "Seller Tara": 94.3,
+    "Seller Amir": 94.7,
+    "Seller Leo": 93.99
+  },
+  "buyer_bids": {
+    "Buyer Maya": 93.6,
+    "Buyer Nia": 93.75,
+    "Buyer Kai": 94.0,
+    "Buyer Lena": 94.0,
+    "Buyer Mia": 94.3
+  },
+  "trades": [
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Raj",
+      "price": 93.65
+    },
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Ana",
+      "price": 93.9
+    },
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Leo",
+      "price": 94.0
+    }
+  ],
+  "seller_messages": {
+    "Seller Ana": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition.",
+    "Seller Raj": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Tara": "Be aware of the rising bid prices and adjust your ask prices to balance profitability and trade volume, considering the competitive ask queue.",
+    "Seller Amir": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition.",
+    "Seller Leo": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 16
+````json
+{
+  "round_number": 16,
+  "seller_asks": {
+    "Seller Raj": 92.8,
+    "Seller Ana": 94.1,
+    "Seller Tara": 94.2,
+    "Seller Amir": 94.6,
+    "Seller Leo": 94.0
+  },
+  "buyer_bids": {
+    "Buyer Nia": 94.0,
+    "Buyer Maya": 93.9,
+    "Buyer Mia": 94.4,
+    "Buyer Kai": 94.2,
+    "Buyer Lena": 94.5
+  },
+  "trades": [
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Raj",
+      "price": 93.65
+    },
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Leo",
+      "price": 94.2
+    },
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Ana",
+      "price": 94.15
+    }
+  ],
+  "seller_messages": {
+    "Seller Raj": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition.",
+    "Seller Ana": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Tara": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Amir": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition.",
+    "Seller Leo": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 17
+````json
+{
+  "round_number": 17,
+  "seller_asks": {
+    "Seller Ana": 94.5,
+    "Seller Raj": 92.6,
+    "Seller Leo": 94.5,
+    "Seller Tara": 94.1,
+    "Seller Amir": 94.5
+  },
+  "buyer_bids": {
+    "Buyer Maya": 94.1,
+    "Buyer Nia": 94.5,
+    "Buyer Lena": 94.8,
+    "Buyer Mia": 94.5,
+    "Buyer Kai": 94.3
+  },
+  "trades": [
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Raj",
+      "price": 93.7
+    },
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Tara",
+      "price": 94.3
+    },
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Amir",
+      "price": 94.5
+    }
+  ],
+  "seller_messages": {
+    "Seller Ana": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Raj": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Leo": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition.",
+    "Seller Tara": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Amir": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 18
+````json
+{
+  "round_number": 18,
+  "seller_asks": {
+    "Seller Ana": 94.8,
+    "Seller Raj": 92.4,
+    "Seller Tara": 94.0,
+    "Seller Leo": 94.6,
+    "Seller Amir": 94.4
+  },
+  "buyer_bids": {
+    "Buyer Maya": 94.4,
+    "Buyer Nia": 94.75,
+    "Buyer Mia": 94.55,
+    "Buyer Lena": 95.0,
+    "Buyer Kai": 94.4
+  },
+  "trades": [
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Raj",
+      "price": 93.7
+    },
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Tara",
+      "price": 94.38
+    },
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Amir",
+      "price": 94.47
+    }
+  ],
+  "seller_messages": {
+    "Seller Ana": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Raj": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Tara": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Leo": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Amir": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 19
+````json
+{
+  "round_number": 19,
+  "seller_asks": {
+    "Seller Ana": 94.9,
+    "Seller Tara": 94.05,
+    "Seller Raj": 92.4,
+    "Seller Amir": 94.45,
+    "Seller Leo": 94.7
+  },
+  "buyer_bids": {
+    "Buyer Kai": 94.5,
+    "Buyer Nia": 94.95,
+    "Buyer Mia": 94.6,
+    "Buyer Lena": 95.2,
+    "Buyer Maya": 94.5
+  },
+  "trades": [
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Raj",
+      "price": 93.8
+    },
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Tara",
+      "price": 94.5
+    },
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Amir",
+      "price": 94.53
+    }
+  ],
+  "seller_messages": {
+    "Seller Ana": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Tara": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Raj": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Amir": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Leo": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 20
+````json
+{
+  "round_number": 20,
+  "seller_asks": {
+    "Seller Ana": 95.0,
+    "Seller Raj": 92.4,
+    "Seller Leo": 94.6,
+    "Seller Amir": 94.4,
+    "Seller Tara": 94.0
+  },
+  "buyer_bids": {
+    "Buyer Maya": 94.6,
+    "Buyer Nia": 95.0,
+    "Buyer Kai": 94.5,
+    "Buyer Lena": 95.5,
+    "Buyer Mia": 94.65
+  },
+  "trades": [
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Raj",
+      "price": 93.95
+    },
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Tara",
+      "price": 94.5
+    },
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Amir",
+      "price": 94.53
+    },
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Leo",
+      "price": 94.6
+    }
+  ],
+  "seller_messages": {
+    "Seller Ana": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Raj": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Leo": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Amir": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Tara": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 21
+````json
+{
+  "round_number": 21,
+  "seller_asks": {
+    "Seller Raj": 92.4,
+    "Seller Ana": 95.2,
+    "Seller Tara": 94.05,
+    "Seller Leo": 94.8,
+    "Seller Amir": 94.35
+  },
+  "buyer_bids": {
+    "Buyer Nia": 95.25,
+    "Buyer Maya": 94.7,
+    "Buyer Lena": 95.8,
+    "Buyer Kai": 94.6,
+    "Buyer Mia": 94.7
+  },
+  "trades": [
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Raj",
+      "price": 94.1
+    },
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Tara",
+      "price": 94.65
+    },
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Amir",
+      "price": 94.53
+    }
+  ],
+  "seller_messages": {
+    "Seller Raj": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Ana": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Tara": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Leo": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Amir": "Be aware of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 22
+````json
+{
+  "round_number": 22,
+  "seller_asks": {
+    "Seller Leo": 94.75,
+    "Seller Raj": 92.4,
+    "Seller Ana": 95.5,
+    "Seller Tara": 94.1,
+    "Seller Amir": 94.3
+  },
+  "buyer_bids": {
+    "Buyer Maya": 94.75,
+    "Buyer Nia": 95.3,
+    "Buyer Kai": 94.65,
+    "Buyer Mia": 94.75,
+    "Buyer Lena": 96.0
+  },
+  "trades": [
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Raj",
+      "price": 94.2
+    },
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Tara",
+      "price": 94.7
+    },
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Amir",
+      "price": 94.53
+    },
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Leo",
+      "price": 94.75
+    }
+  ],
+  "seller_messages": {
+    "Seller Leo": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition.",
+    "Seller Raj": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Ana": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Tara": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Amir": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 23
+````json
+{
+  "round_number": 23,
+  "seller_asks": {
+    "Seller Raj": 92.4,
+    "Seller Tara": 94.75,
+    "Seller Ana": 95.8,
+    "Seller Amir": 94.25,
+    "Seller Leo": 94.9
+  },
+  "buyer_bids": {
+    "Buyer Maya": 94.8,
+    "Buyer Lena": 96.2,
+    "Buyer Mia": 94.8,
+    "Buyer Kai": 94.7,
+    "Buyer Nia": 95.35
+  },
+  "trades": [
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Raj",
+      "price": 94.3
+    },
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Amir",
+      "price": 94.8
+    },
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Tara",
+      "price": 94.78
+    }
+  ],
+  "seller_messages": {
+    "Seller Raj": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Tara": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition.",
+    "Seller Ana": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Amir": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Leo": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 24
+````json
+{
+  "round_number": 24,
+  "seller_asks": {
+    "Seller Raj": 92.4,
+    "Seller Amir": 94.2,
+    "Seller Ana": 96.0,
+    "Seller Tara": 94.8,
+    "Seller Leo": 94.85
+  },
+  "buyer_bids": {
+    "Buyer Maya": 94.85,
+    "Buyer Mia": 94.9,
+    "Buyer Kai": 94.75,
+    "Buyer Lena": 96.4,
+    "Buyer Nia": 95.4
+  },
+  "trades": [
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Raj",
+      "price": 94.4
+    },
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Amir",
+      "price": 94.8
+    },
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Tara",
+      "price": 94.85
+    },
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Leo",
+      "price": 94.85
+    }
+  ],
+  "seller_messages": {
+    "Seller Raj": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Amir": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Ana": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Tara": "Be cautious of the increasing competition and adjust your ask prices to balance profitability and trade volume, considering the trend of rising bids.",
+    "Seller Leo": "Be aware of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 25
+````json
+{
+  "round_number": 25,
+  "seller_asks": {
+    "Seller Leo": 94.95,
+    "Seller Raj": 92.4,
+    "Seller Amir": 94.15,
+    "Seller Tara": 94.9,
+    "Seller Ana": 96.2
+  },
+  "buyer_bids": {
+    "Buyer Mia": 95.1,
+    "Buyer Nia": 95.45,
+    "Buyer Maya": 95.2,
+    "Buyer Kai": 95.0,
+    "Buyer Lena": 96.6
+  },
+  "trades": [
+    {
+      "round_number": 25,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Raj",
+      "price": 94.5
+    },
+    {
+      "round_number": 25,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Amir",
+      "price": 94.8
+    },
+    {
+      "round_number": 25,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Tara",
+      "price": 95.05
+    },
+    {
+      "round_number": 25,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Leo",
+      "price": 95.03
+    }
+  ],
+  "seller_messages": {
+    "Seller Leo": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Raj": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Amir": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Tara": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Ana": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 26
+````json
+{
+  "round_number": 26,
+  "seller_asks": {
+    "Seller Leo": 95.05,
+    "Seller Raj": 92.3,
+    "Seller Amir": 94.9,
+    "Seller Tara": 95.1,
+    "Seller Ana": 96.5
+  },
+  "buyer_bids": {
+    "Buyer Nia": 95.5,
+    "Buyer Lena": 96.8,
+    "Buyer Maya": 95.5,
+    "Buyer Kai": 95.05,
+    "Buyer Mia": 95.2
+  },
+  "trades": [
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Raj",
+      "price": 94.55
+    },
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Amir",
+      "price": 95.2
+    },
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Leo",
+      "price": 95.28
+    },
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Tara",
+      "price": 95.15
+    }
+  ],
+  "seller_messages": {
+    "Seller Leo": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Raj": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Amir": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Tara": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Ana": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 27
+````json
+{
+  "round_number": 27,
+  "seller_asks": {
+    "Seller Leo": 95.15,
+    "Seller Amir": 95.05,
+    "Seller Ana": 96.8,
+    "Seller Raj": 92.1,
+    "Seller Tara": 95.2
+  },
+  "buyer_bids": {
+    "Buyer Mia": 95.25,
+    "Buyer Nia": 95.55,
+    "Buyer Lena": 96.9,
+    "Buyer Maya": 95.6,
+    "Buyer Kai": 95.1
+  },
+  "trades": [
+    {
+      "round_number": 27,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Raj",
+      "price": 94.5
+    },
+    {
+      "round_number": 27,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Amir",
+      "price": 95.32
+    },
+    {
+      "round_number": 27,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Leo",
+      "price": 95.35
+    },
+    {
+      "round_number": 27,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Tara",
+      "price": 95.22
+    }
+  ],
+  "seller_messages": {
+    "Seller Leo": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Amir": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Ana": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Raj": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Tara": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 28
+````json
+{
+  "round_number": 28,
+  "seller_asks": {
+    "Seller Raj": 92.0,
+    "Seller Leo": 95.25,
+    "Seller Amir": 95.6,
+    "Seller Tara": 95.3,
+    "Seller Ana": 97.0
+  },
+  "buyer_bids": {
+    "Buyer Nia": 95.6,
+    "Buyer Maya": 95.7,
+    "Buyer Lena": 97.0,
+    "Buyer Kai": 95.15,
+    "Buyer Mia": 95.3
+  },
+  "trades": [
+    {
+      "round_number": 28,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Raj",
+      "price": 94.5
+    },
+    {
+      "round_number": 28,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Leo",
+      "price": 95.47
+    },
+    {
+      "round_number": 28,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Tara",
+      "price": 95.45
+    }
+  ],
+  "seller_messages": {
+    "Seller Raj": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Leo": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Amir": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Tara": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Ana": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 29
+````json
+{
+  "round_number": 29,
+  "seller_asks": {
+    "Seller Raj": 91.8,
+    "Seller Leo": 95.35,
+    "Seller Amir": 95.65,
+    "Seller Tara": 95.5,
+    "Seller Ana": 96.2
+  },
+  "buyer_bids": {
+    "Buyer Nia": 95.65,
+    "Buyer Mia": 95.35,
+    "Buyer Kai": 95.2,
+    "Buyer Lena": 97.2,
+    "Buyer Maya": 95.8
+  },
+  "trades": [
+    {
+      "round_number": 29,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Raj",
+      "price": 94.5
+    },
+    {
+      "round_number": 29,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Leo",
+      "price": 95.57
+    },
+    {
+      "round_number": 29,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Tara",
+      "price": 95.58
+    }
+  ],
+  "seller_messages": {
+    "Seller Raj": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Leo": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Amir": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Tara": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Ana": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 30
+````json
+{
+  "round_number": 30,
+  "seller_asks": {
+    "Seller Leo": 95.45,
+    "Seller Amir": 95.7,
+    "Seller Raj": 91.8,
+    "Seller Tara": 95.8,
+    "Seller Ana": 95.5
+  },
+  "buyer_bids": {
+    "Buyer Mia": 95.4,
+    "Buyer Nia": 95.7,
+    "Buyer Maya": 95.9,
+    "Buyer Lena": 97.4,
+    "Buyer Kai": 95.35
+  },
+  "trades": [
+    {
+      "round_number": 30,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Raj",
+      "price": 94.6
+    },
+    {
+      "round_number": 30,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Leo",
+      "price": 95.68
+    },
+    {
+      "round_number": 30,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Ana",
+      "price": 95.6
+    }
+  ],
+  "seller_messages": {
+    "Seller Leo": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Amir": "Be cautious of the competitive ask queue and adjust your ask prices to balance profitability and trade volume.",
+    "Seller Raj": "Be cautious of the rising bids and adjust your ask prices to balance profitability and trade volume, considering the increasing competition and competitive ask queue.",
+    "Seller Ana": "Be cautious of the market trend and adjust your ask prices to balance profitability and trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````

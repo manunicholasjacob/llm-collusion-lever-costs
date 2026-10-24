@@ -1,0 +1,1558 @@
+
+## Auction Results: Round 1
+````json
+{
+  "round_number": 1,
+  "seller_asks": {
+    "Seller Jin": 98.74,
+    "Seller Maya": 98.65,
+    "Seller Max": 98.5,
+    "Seller Nia": 97.18,
+    "Seller Tara": 96.61
+  },
+  "buyer_bids": {
+    "Buyer Mia": 83.8,
+    "Buyer Omar": 83.61,
+    "Buyer Theo": 84.0,
+    "Buyer Ana": 83.68,
+    "Buyer Eli": 83.75
+  },
+  "trades": [],
+  "seller_messages": {},
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 2
+````json
+{
+  "round_number": 2,
+  "seller_asks": {
+    "Seller Max": 84.0,
+    "Seller Tara": 95.5,
+    "Seller Nia": 96.18,
+    "Seller Jin": 97.5,
+    "Seller Maya": 97.5
+  },
+  "buyer_bids": {
+    "Buyer Eli": 84.25,
+    "Buyer Mia": 84.2,
+    "Buyer Theo": 84.5,
+    "Buyer Ana": 84.2,
+    "Buyer Omar": 84.2
+  },
+  "trades": [
+    {
+      "round_number": 2,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Max",
+      "price": 84.25
+    }
+  ],
+  "seller_messages": {
+    "Seller Tara": "Bids are ranging from $83.61 to $84.0, consider adjusting asks accordingly.",
+    "Seller Nia": "Bids are significantly lower than asks, consider adjusting prices.",
+    "Seller Jin": "Open to adjusting prices based on market demand.",
+    "Seller Maya": "Considering adjusting prices to meet buyer demands, open to discussing strategies."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 3
+````json
+{
+  "round_number": 3,
+  "seller_asks": {
+    "Seller Max": 96.0,
+    "Seller Maya": 96.75,
+    "Seller Jin": 96.5,
+    "Seller Tara": 94.5,
+    "Seller Nia": 95.0
+  },
+  "buyer_bids": {
+    "Buyer Omar": 84.5,
+    "Buyer Eli": 85.0,
+    "Buyer Ana": 84.5,
+    "Buyer Theo": 85.0,
+    "Buyer Mia": 84.5
+  },
+  "trades": [],
+  "seller_messages": {
+    "Seller Maya": "Bids are ranging from $84.2 to $84.25, consider adjusting asks to meet buyer demands.",
+    "Seller Jin": "Consider adjusting asks based on current bid prices to increase trade opportunities.",
+    "Seller Tara": "Bids are dense near $84.20, consider adjusting asks to stay competitive.",
+    "Seller Nia": "The market gap between bids and asks is large, consider adjusting ask prices to meet buyer demands."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 4
+````json
+{
+  "round_number": 4,
+  "seller_asks": {
+    "Seller Max": 100.0,
+    "Seller Tara": 89.0,
+    "Seller Jin": 95.75,
+    "Seller Maya": 95.75,
+    "Seller Nia": 94.0
+  },
+  "buyer_bids": {
+    "Buyer Eli": 85.25,
+    "Buyer Ana": 85.5,
+    "Buyer Theo": 85.25,
+    "Buyer Omar": 85.25,
+    "Buyer Mia": 85.0
+  },
+  "trades": [],
+  "seller_messages": {
+    "Seller Tara": "Bids are dense near $84.5, consider adjusting asks to stay competitive.",
+    "Seller Jin": "Consider adjusting ask prices to meet buyer demands, as the market gap between bids and asks is large.",
+    "Seller Maya": "Consider adjusting asks to meet buyer demands, as bids are dense near $84.5 to $85.0.",
+    "Seller Nia": "The market gap between bids and asks is still large, consider adjusting ask prices to meet buyer demands."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 5
+````json
+{
+  "round_number": 5,
+  "seller_asks": {
+    "Seller Max": 83.5,
+    "Seller Maya": 94.75,
+    "Seller Tara": 87.5,
+    "Seller Jin": 94.75,
+    "Seller Nia": 92.5
+  },
+  "buyer_bids": {
+    "Buyer Omar": 85.5,
+    "Buyer Ana": 85.75,
+    "Buyer Eli": 86.0,
+    "Buyer Theo": 86.0,
+    "Buyer Mia": 85.5
+  },
+  "trades": [
+    {
+      "round_number": 5,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Max",
+      "price": 84.75
+    }
+  ],
+  "seller_messages": {
+    "Seller Maya": "Consider adjusting asks to meet buyer demands, as bids are increasing and dense near $85.0 to $85.5.",
+    "Seller Tara": "Bids are dense near $85.0 to $85.5, consider adjusting asks to stay competitive.",
+    "Seller Jin": "Consider adjusting ask prices to meet buyer demands near $84.5 to $85.0, as this range shows dense bids.",
+    "Seller Nia": "The market gap between bids and asks remains large, consider adjusting ask prices to meet buyer demands near $85.0."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 6
+````json
+{
+  "round_number": 6,
+  "seller_asks": {
+    "Seller Max": 82.5,
+    "Seller Jin": 93.75,
+    "Seller Tara": 86.0,
+    "Seller Maya": 93.75,
+    "Seller Nia": 90.0
+  },
+  "buyer_bids": {
+    "Buyer Ana": 86.25,
+    "Buyer Eli": 86.25,
+    "Buyer Mia": 86.0,
+    "Buyer Omar": 86.25,
+    "Buyer Theo": 86.25
+  },
+  "trades": [
+    {
+      "round_number": 6,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Max",
+      "price": 84.38
+    },
+    {
+      "round_number": 6,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Tara",
+      "price": 86.12
+    }
+  ],
+  "seller_messages": {
+    "Seller Jin": "Consider adjusting ask prices to meet buyer demands near $85.0 to $85.5, where bids are dense.",
+    "Seller Tara": "Consider adjusting asks to meet buyer demands near $85.0 to $85.5, where bids are dense.",
+    "Seller Maya": "Consider adjusting ask prices to meet buyer demands near $85.0 to $85.5, as bids are increasing and dense in this range.",
+    "Seller Nia": "Consider adjusting ask prices to meet buyer demands near $85.0 to $86.0, as this range shows dense bids."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 7
+````json
+{
+  "round_number": 7,
+  "seller_asks": {
+    "Seller Max": 84.0,
+    "Seller Jin": 92.75,
+    "Seller Maya": 92.75,
+    "Seller Tara": 86.5,
+    "Seller Nia": 88.5
+  },
+  "buyer_bids": {
+    "Buyer Eli": 86.5,
+    "Buyer Ana": 86.5,
+    "Buyer Omar": 86.5,
+    "Buyer Mia": 86.5,
+    "Buyer Theo": 86.5
+  },
+  "trades": [
+    {
+      "round_number": 7,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Max",
+      "price": 85.25
+    },
+    {
+      "round_number": 7,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Tara",
+      "price": 86.5
+    }
+  ],
+  "seller_messages": {
+    "Seller Jin": "Consider adjusting ask prices to meet buyer demands near $85.0 to $85.5, where bids are dense and increasing.",
+    "Seller Maya": "Consider adjusting ask prices to meet buyer demands near $86.0 to $86.25, as bids are increasing and dense in this range.",
+    "Seller Tara": "Consider adjusting ask prices to meet buyer demands near $86.0 to $86.25, where bids are dense.",
+    "Seller Nia": "Consider adjusting ask prices to meet buyer demands near $85.0 to $86.0, where bids are dense."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 8
+````json
+{
+  "round_number": 8,
+  "seller_asks": {
+    "Seller Max": 86.0,
+    "Seller Jin": 92.0,
+    "Seller Maya": 91.75,
+    "Seller Nia": 87.5,
+    "Seller Tara": 86.75
+  },
+  "buyer_bids": {
+    "Buyer Eli": 87.0,
+    "Buyer Ana": 87.0,
+    "Buyer Omar": 87.0,
+    "Buyer Mia": 87.0,
+    "Buyer Theo": 87.0
+  },
+  "trades": [
+    {
+      "round_number": 8,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Max",
+      "price": 86.5
+    },
+    {
+      "round_number": 8,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Tara",
+      "price": 86.88
+    }
+  ],
+  "seller_messages": {
+    "Seller Jin": "Consider adjusting ask prices to meet buyer demands near $86.0 to $86.25, where bids are dense and increasing.",
+    "Seller Maya": "Consider adjusting ask prices to meet buyer demands near $86.0 to $86.25, where bids are increasing and dense.",
+    "Seller Nia": "Consider adjusting ask prices to meet buyer demands near $86.0 to $86.5, where bids are dense and increasing.",
+    "Seller Tara": "Consider adjusting ask prices to meet buyer demands near $86.0 to $86.25, where bids are dense and increasing."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 9
+````json
+{
+  "round_number": 9,
+  "seller_asks": {
+    "Seller Max": 86.5,
+    "Seller Jin": 91.25,
+    "Seller Maya": 91.25,
+    "Seller Nia": 86.75,
+    "Seller Tara": 86.25
+  },
+  "buyer_bids": {
+    "Buyer Eli": 87.25,
+    "Buyer Omar": 87.25,
+    "Buyer Theo": 87.25,
+    "Buyer Mia": 87.25,
+    "Buyer Ana": 87.25
+  },
+  "trades": [
+    {
+      "round_number": 9,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Tara",
+      "price": 86.75
+    },
+    {
+      "round_number": 9,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Max",
+      "price": 86.88
+    },
+    {
+      "round_number": 9,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Nia",
+      "price": 87.0
+    }
+  ],
+  "seller_messages": {
+    "Seller Jin": "Consider adjusting ask prices to meet buyer demands near $87.0, where bids are dense and increasing.",
+    "Seller Maya": "Consider adjusting ask prices to meet buyer demands near $86.0 to $86.25, where bids are dense and increasing.",
+    "Seller Nia": "Consider adjusting ask prices to meet buyer demands near $86.5 to $87.0, where bids are dense and increasing.",
+    "Seller Tara": "Consider adjusting ask prices to meet buyer demands near $86.0 to $86.25, where bids are dense and increasing."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 10
+````json
+{
+  "round_number": 10,
+  "seller_asks": {
+    "Seller Max": 97.0,
+    "Seller Tara": 87.0,
+    "Seller Maya": 90.0,
+    "Seller Nia": 87.0,
+    "Seller Jin": 90.75
+  },
+  "buyer_bids": {
+    "Buyer Ana": 87.5,
+    "Buyer Eli": 87.5,
+    "Buyer Omar": 87.5,
+    "Buyer Theo": 87.5,
+    "Buyer Mia": 87.5
+  },
+  "trades": [
+    {
+      "round_number": 10,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Nia",
+      "price": 87.25
+    },
+    {
+      "round_number": 10,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Tara",
+      "price": 87.25
+    }
+  ],
+  "seller_messages": {
+    "Seller Tara": "Consider adjusting ask prices to meet buyer demands near $87.0 to $87.25, where bids are dense and increasing.",
+    "Seller Maya": "Consider adjusting ask prices to meet buyer demands near $87.0, where bids are dense and increasing.",
+    "Seller Nia": "Consider adjusting ask prices to meet buyer demands near $87.0, where bids are dense and increasing.",
+    "Seller Jin": "Consider adjusting ask prices to meet buyer demands near $87.0, where bids are dense and increasing."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 11
+````json
+{
+  "round_number": 11,
+  "seller_asks": {
+    "Seller Max": 85.5,
+    "Seller Maya": 89.0,
+    "Seller Jin": 90.0,
+    "Seller Tara": 87.5,
+    "Seller Nia": 87.5
+  },
+  "buyer_bids": {
+    "Buyer Eli": 88.0,
+    "Buyer Ana": 87.75,
+    "Buyer Theo": 87.75,
+    "Buyer Mia": 88.0,
+    "Buyer Omar": 87.75
+  },
+  "trades": [
+    {
+      "round_number": 11,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Max",
+      "price": 86.75
+    },
+    {
+      "round_number": 11,
+      "buyer_id": "Buyer Eli",
+      "seller_id": "Seller Nia",
+      "price": 87.75
+    },
+    {
+      "round_number": 11,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Tara",
+      "price": 87.62
+    }
+  ],
+  "seller_messages": {
+    "Seller Maya": "Consider adjusting ask prices to meet buyer demands near $87.0 to $87.25 for potential trades.",
+    "Seller Jin": "Consider adjusting ask prices to meet buyer demands near $87.0 to $87.25, where bids are dense and increasing.",
+    "Seller Tara": "Consider adjusting ask prices to meet buyer demands near $87.5, where bids are dense and increasing.",
+    "Seller Nia": "Consider adjusting ask prices to meet buyer demands near $87.5, where bids are dense and increasing."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 12
+````json
+{
+  "round_number": 12,
+  "seller_asks": {
+    "Seller Max": 82.5,
+    "Seller Maya": 88.0,
+    "Seller Jin": 89.0,
+    "Seller Nia": 87.25,
+    "Seller Tara": 87.75
+  },
+  "buyer_bids": {
+    "Buyer Eli": 88.5,
+    "Buyer Omar": 88.0,
+    "Buyer Ana": 88.0,
+    "Buyer Theo": 88.0,
+    "Buyer Mia": 88.25
+  },
+  "trades": [
+    {
+      "round_number": 12,
+      "buyer_id": "Buyer Eli",
+      "seller_id": "Seller Max",
+      "price": 85.5
+    },
+    {
+      "round_number": 12,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Nia",
+      "price": 87.75
+    },
+    {
+      "round_number": 12,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Tara",
+      "price": 87.88
+    },
+    {
+      "round_number": 12,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Maya",
+      "price": 88.0
+    }
+  ],
+  "seller_messages": {
+    "Seller Maya": "Consider adjusting ask prices to meet buyer demands near $88.00 for potential trades.",
+    "Seller Jin": "Consider adjusting ask prices to meet buyer demands near $87.0 to $87.25 for potential trades.",
+    "Seller Nia": "Consider adjusting ask prices to meet buyer demands near $87.25 to $87.5 for potential trades.",
+    "Seller Tara": "Consider adjusting ask prices to meet buyer demands near $87.5 to $88.0, where bids are dense and increasing."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 13
+````json
+{
+  "round_number": 13,
+  "seller_asks": {
+    "Seller Max": 85.0,
+    "Seller Jin": 88.0,
+    "Seller Maya": 87.5,
+    "Seller Tara": 87.75,
+    "Seller Nia": 87.9
+  },
+  "buyer_bids": {
+    "Buyer Ana": 88.25,
+    "Buyer Omar": 88.25,
+    "Buyer Eli": 88.75,
+    "Buyer Theo": 88.25,
+    "Buyer Mia": 88.25
+  },
+  "trades": [
+    {
+      "round_number": 13,
+      "buyer_id": "Buyer Eli",
+      "seller_id": "Seller Max",
+      "price": 86.88
+    },
+    {
+      "round_number": 13,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Maya",
+      "price": 87.88
+    },
+    {
+      "round_number": 13,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Tara",
+      "price": 88.0
+    },
+    {
+      "round_number": 13,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Nia",
+      "price": 88.08
+    },
+    {
+      "round_number": 13,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Jin",
+      "price": 88.12
+    }
+  ],
+  "seller_messages": {
+    "Seller Jin": "Consider adjusting ask prices to meet buyer demands near $88.00 for potential trades.",
+    "Seller Maya": "Consider adjusting ask prices to meet buyer demands near $87.50 to $88.00 for potential trades.",
+    "Seller Tara": "Consider adjusting ask prices to meet buyer demands near $87.5 to $88.0 for potential trades.",
+    "Seller Nia": "Consider adjusting ask prices to meet buyer demands near $88.00 for potential trades."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 14
+````json
+{
+  "round_number": 14,
+  "seller_asks": {
+    "Seller Max": 83.5,
+    "Seller Maya": 87.75,
+    "Seller Jin": 87.5,
+    "Seller Nia": 88.25,
+    "Seller Tara": 88.25
+  },
+  "buyer_bids": {
+    "Buyer Ana": 88.5,
+    "Buyer Eli": 89.0,
+    "Buyer Omar": 88.5,
+    "Buyer Theo": 88.5,
+    "Buyer Mia": 88.5
+  },
+  "trades": [
+    {
+      "round_number": 14,
+      "buyer_id": "Buyer Eli",
+      "seller_id": "Seller Max",
+      "price": 86.25
+    },
+    {
+      "round_number": 14,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Jin",
+      "price": 88.0
+    },
+    {
+      "round_number": 14,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Maya",
+      "price": 88.12
+    },
+    {
+      "round_number": 14,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Nia",
+      "price": 88.38
+    },
+    {
+      "round_number": 14,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Tara",
+      "price": 88.38
+    }
+  ],
+  "seller_messages": {
+    "Seller Maya": "Consider adjusting ask prices to meet buyer demands near $87.50 to $88.00 for potential trades.",
+    "Seller Jin": "Consider adjusting ask prices to meet buyer demands near $87.50 to $88.00 for potential trades.",
+    "Seller Nia": "Consider adjusting ask prices to meet buyer demands near $88.00 for potential trades.",
+    "Seller Tara": "Consider adjusting ask prices to meet buyer demands near $88.00 for potential trades."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 15
+````json
+{
+  "round_number": 15,
+  "seller_asks": {
+    "Seller Max": 86.0,
+    "Seller Jin": 87.75,
+    "Seller Tara": 88.5,
+    "Seller Maya": 87.9,
+    "Seller Nia": 88.25
+  },
+  "buyer_bids": {
+    "Buyer Eli": 89.25,
+    "Buyer Omar": 88.75,
+    "Buyer Ana": 88.75,
+    "Buyer Theo": 88.75,
+    "Buyer Mia": 88.75
+  },
+  "trades": [
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Eli",
+      "seller_id": "Seller Max",
+      "price": 87.62
+    },
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Jin",
+      "price": 88.25
+    },
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Maya",
+      "price": 88.33
+    },
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Nia",
+      "price": 88.5
+    },
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Tara",
+      "price": 88.62
+    }
+  ],
+  "seller_messages": {
+    "Seller Jin": "Consider adjusting ask prices to meet buyer demands near $88.00 for potential trades.",
+    "Seller Tara": "Consider adjusting ask prices to meet buyer demands near $88.50 to $89.00 for potential trades.",
+    "Seller Maya": "Consider adjusting ask prices to meet buyer demands near $88.00 for potential trades.",
+    "Seller Nia": "Consider adjusting ask prices to meet buyer demands near $88.0 for potential trades."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 16
+````json
+{
+  "round_number": 16,
+  "seller_asks": {
+    "Seller Max": 86.5,
+    "Seller Maya": 88.25,
+    "Seller Nia": 88.0,
+    "Seller Jin": 88.5,
+    "Seller Tara": 89.0
+  },
+  "buyer_bids": {
+    "Buyer Eli": 89.5,
+    "Buyer Ana": 89.0,
+    "Buyer Omar": 89.0,
+    "Buyer Theo": 89.0,
+    "Buyer Mia": 89.0
+  },
+  "trades": [
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Eli",
+      "seller_id": "Seller Max",
+      "price": 88.0
+    },
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Nia",
+      "price": 88.5
+    },
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Maya",
+      "price": 88.62
+    },
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Jin",
+      "price": 88.75
+    },
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Tara",
+      "price": 89.0
+    }
+  ],
+  "seller_messages": {
+    "Seller Maya": "Consider adjusting ask prices to meet buyer demands near $88.50 for potential trades.",
+    "Seller Nia": "Consider adjusting ask prices to meet buyer demands near $88.00 to $88.50 for potential trades.",
+    "Seller Jin": "Consider adjusting ask prices to meet buyer demands near $88.50 to $89.00 for potential trades.",
+    "Seller Tara": "Consider adjusting ask prices to meet buyer demands near $89.00 for potential trades."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 17
+````json
+{
+  "round_number": 17,
+  "seller_asks": {
+    "Seller Max": 80.5,
+    "Seller Nia": 88.75,
+    "Seller Jin": 89.0,
+    "Seller Tara": 89.25,
+    "Seller Maya": 88.75
+  },
+  "buyer_bids": {
+    "Buyer Eli": 89.75,
+    "Buyer Theo": 89.25,
+    "Buyer Mia": 89.25,
+    "Buyer Omar": 89.25,
+    "Buyer Ana": 89.25
+  },
+  "trades": [
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Eli",
+      "seller_id": "Seller Max",
+      "price": 85.12
+    },
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Maya",
+      "price": 89.0
+    },
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Nia",
+      "price": 89.0
+    },
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Jin",
+      "price": 89.12
+    },
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Tara",
+      "price": 89.25
+    }
+  ],
+  "seller_messages": {
+    "Seller Nia": "Consider adjusting ask prices to meet buyer demands near $89.00 for potential trades.",
+    "Seller Jin": "Consider adjusting ask prices to meet buyer demands near $89.00 to $89.50 for potential trades.",
+    "Seller Tara": "Consider adjusting ask prices to meet buyer demands near $89.25 for potential trades.",
+    "Seller Maya": "Consider adjusting ask prices to meet buyer demands near $89.00 for potential trades."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 18
+````json
+{
+  "round_number": 18,
+  "seller_asks": {
+    "Seller Max": 80.5,
+    "Seller Jin": 89.25,
+    "Seller Maya": 89.25,
+    "Seller Tara": 89.5,
+    "Seller Nia": 89.25
+  },
+  "buyer_bids": {
+    "Buyer Eli": 90.0,
+    "Buyer Omar": 89.5,
+    "Buyer Ana": 89.5,
+    "Buyer Mia": 89.5,
+    "Buyer Theo": 89.5
+  },
+  "trades": [
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Eli",
+      "seller_id": "Seller Max",
+      "price": 85.25
+    },
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Jin",
+      "price": 89.38
+    },
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Maya",
+      "price": 89.38
+    },
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Nia",
+      "price": 89.38
+    },
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Tara",
+      "price": 89.5
+    }
+  ],
+  "seller_messages": {
+    "Seller Jin": "Consider adjusting ask prices to meet buyer demands near $89.00 to $89.50 for potential trades.",
+    "Seller Maya": "Consider adjusting ask prices to meet buyer demands near $89.25 for potential trades.",
+    "Seller Tara": "Consider adjusting ask prices to meet buyer demands near $89.50 for potential trades.",
+    "Seller Nia": "Consider adjusting ask prices to meet buyer demands near $89.50 for potential trades."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 19
+````json
+{
+  "round_number": 19,
+  "seller_asks": {
+    "Seller Max": 86.0,
+    "Seller Maya": 89.25,
+    "Seller Jin": 89.25,
+    "Seller Nia": 89.25,
+    "Seller Tara": 89.75
+  },
+  "buyer_bids": {
+    "Buyer Mia": 89.75,
+    "Buyer Theo": 89.75,
+    "Buyer Ana": 89.75,
+    "Buyer Omar": 89.75,
+    "Buyer Eli": 90.25
+  },
+  "trades": [
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Eli",
+      "seller_id": "Seller Max",
+      "price": 88.12
+    },
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Jin",
+      "price": 89.5
+    },
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Maya",
+      "price": 89.5
+    },
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Nia",
+      "price": 89.5
+    },
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Tara",
+      "price": 89.75
+    }
+  ],
+  "seller_messages": {
+    "Seller Maya": "Consider adjusting ask prices to meet buyer demands near $89.25 for potential trades.",
+    "Seller Jin": "Consider adjusting ask prices to meet buyer demands near $89.25 for potential trades.",
+    "Seller Nia": "Consider adjusting ask prices to meet buyer demands near $89.25 to $89.50 for potential trades.",
+    "Seller Tara": "Consider adjusting ask prices to meet buyer demands near $89.75 for potential trades."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 20
+````json
+{
+  "round_number": 20,
+  "seller_asks": {
+    "Seller Max": 86.0,
+    "Seller Tara": 90.0,
+    "Seller Jin": 89.75,
+    "Seller Maya": 89.25,
+    "Seller Nia": 89.25
+  },
+  "buyer_bids": {
+    "Buyer Eli": 90.5,
+    "Buyer Omar": 90.0,
+    "Buyer Mia": 90.0,
+    "Buyer Theo": 90.0,
+    "Buyer Ana": 90.0
+  },
+  "trades": [
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Eli",
+      "seller_id": "Seller Max",
+      "price": 88.25
+    },
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Maya",
+      "price": 89.62
+    },
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Nia",
+      "price": 89.62
+    },
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Jin",
+      "price": 89.88
+    },
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Tara",
+      "price": 90.0
+    }
+  ],
+  "seller_messages": {
+    "Seller Tara": "Consider adjusting ask prices to meet buyer demands near $90.00 for potential trades.",
+    "Seller Jin": "Consider adjusting ask prices to meet buyer demands near $89.75 for potential trades.",
+    "Seller Maya": "Adjust ask prices to meet buyer demands near $89.25 to $89.50 for potential trades.",
+    "Seller Nia": "Consider adjusting ask prices to meet buyer demands near $89.25 to $89.50 for potential trades."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 21
+````json
+{
+  "round_number": 21,
+  "seller_asks": {
+    "Seller Max": 84.5,
+    "Seller Nia": 89.75,
+    "Seller Tara": 90.25,
+    "Seller Maya": 89.75,
+    "Seller Jin": 90.0
+  },
+  "buyer_bids": {
+    "Buyer Eli": 91.0,
+    "Buyer Ana": 90.25,
+    "Buyer Theo": 90.25,
+    "Buyer Mia": 90.25,
+    "Buyer Omar": 90.25
+  },
+  "trades": [
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Eli",
+      "seller_id": "Seller Max",
+      "price": 87.75
+    },
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Maya",
+      "price": 90.0
+    },
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Nia",
+      "price": 90.0
+    },
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Jin",
+      "price": 90.12
+    },
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Tara",
+      "price": 90.25
+    }
+  ],
+  "seller_messages": {
+    "Seller Nia": "Consider adjusting ask prices to meet buyer demands near $90.00 for potential trades.",
+    "Seller Tara": "Consider adjusting ask prices to meet buyer demands near $90.25 for potential trades.",
+    "Seller Maya": "Consider adjusting ask prices to meet buyer demands near $90.00 for potential trades.",
+    "Seller Jin": "Consider adjusting ask prices to meet buyer demands near $90.00 for potential trades."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 22
+````json
+{
+  "round_number": 22,
+  "seller_asks": {
+    "Seller Max": 83.0,
+    "Seller Maya": 90.25,
+    "Seller Jin": 90.25,
+    "Seller Tara": 90.5,
+    "Seller Nia": 90.5
+  },
+  "buyer_bids": {
+    "Buyer Eli": 91.25,
+    "Buyer Ana": 90.5,
+    "Buyer Theo": 90.5,
+    "Buyer Omar": 90.5,
+    "Buyer Mia": 90.5
+  },
+  "trades": [
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Eli",
+      "seller_id": "Seller Max",
+      "price": 87.12
+    },
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Jin",
+      "price": 90.38
+    },
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Maya",
+      "price": 90.38
+    },
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Nia",
+      "price": 90.5
+    },
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Tara",
+      "price": 90.5
+    }
+  ],
+  "seller_messages": {
+    "Seller Maya": "Consider adjusting ask prices to meet buyer demands near $90.25 for potential trades.",
+    "Seller Jin": "Consider adjusting ask prices to meet buyer demands near $90.25 for potential trades.",
+    "Seller Tara": "Consider adjusting ask prices to meet buyer demands near $90.50 for potential trades.",
+    "Seller Nia": "Consider adjusting ask prices to meet buyer demands near $90.50 for potential trades."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 23
+````json
+{
+  "round_number": 23,
+  "seller_asks": {
+    "Seller Max": 97.5,
+    "Seller Tara": 90.75,
+    "Seller Maya": 90.4,
+    "Seller Jin": 90.5,
+    "Seller Nia": 90.75
+  },
+  "buyer_bids": {
+    "Buyer Eli": 91.5,
+    "Buyer Ana": 90.75,
+    "Buyer Omar": 90.75,
+    "Buyer Mia": 90.75,
+    "Buyer Theo": 90.75
+  },
+  "trades": [
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Eli",
+      "seller_id": "Seller Maya",
+      "price": 90.95
+    },
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Jin",
+      "price": 90.62
+    },
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Nia",
+      "price": 90.75
+    },
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Tara",
+      "price": 90.75
+    }
+  ],
+  "seller_messages": {
+    "Seller Tara": "Consider adjusting ask prices to meet buyer demands near $91.0 for potential trades.",
+    "Seller Maya": "Consider adjusting ask prices to meet buyer demands near $90.25 to $90.50 for potential trades.",
+    "Seller Jin": "Consider adjusting ask prices to meet buyer demands near $90.50 for potential trades.",
+    "Seller Nia": "Consider adjusting ask prices to meet buyer demands near $90.75 for potential trades."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 24
+````json
+{
+  "round_number": 24,
+  "seller_asks": {
+    "Seller Max": 82.0,
+    "Seller Tara": 91.0,
+    "Seller Maya": 90.75,
+    "Seller Jin": 90.75,
+    "Seller Nia": 90.9
+  },
+  "buyer_bids": {
+    "Buyer Eli": 92.0,
+    "Buyer Omar": 91.0,
+    "Buyer Theo": 91.0,
+    "Buyer Mia": 91.0,
+    "Buyer Ana": 91.0
+  },
+  "trades": [
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Eli",
+      "seller_id": "Seller Max",
+      "price": 87.0
+    },
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Jin",
+      "price": 90.88
+    },
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Maya",
+      "price": 90.88
+    },
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Nia",
+      "price": 90.95
+    },
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Tara",
+      "price": 91.0
+    }
+  ],
+  "seller_messages": {
+    "Seller Tara": "Consider adjusting ask prices to meet buyer demands near $91.0 for potential trades.",
+    "Seller Maya": "Consider adjusting ask prices to meet buyer demands near $91.00 for potential trades.",
+    "Seller Jin": "Consider adjusting ask prices to meet buyer demands near $91.0 for potential trades.",
+    "Seller Nia": "Consider adjusting ask prices to meet buyer demands near $91.0 for potential trades."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 25
+````json
+{
+  "round_number": 25,
+  "seller_asks": {
+    "Seller Max": 83.5,
+    "Seller Tara": 91.25,
+    "Seller Jin": 90.9,
+    "Seller Maya": 90.9,
+    "Seller Nia": 91.0
+  },
+  "buyer_bids": {
+    "Buyer Eli": 92.5,
+    "Buyer Ana": 91.25,
+    "Buyer Omar": 91.25,
+    "Buyer Mia": 91.25,
+    "Buyer Theo": 91.25
+  },
+  "trades": [
+    {
+      "round_number": 25,
+      "buyer_id": "Buyer Eli",
+      "seller_id": "Seller Max",
+      "price": 88.0
+    },
+    {
+      "round_number": 25,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Jin",
+      "price": 91.08
+    },
+    {
+      "round_number": 25,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Maya",
+      "price": 91.08
+    },
+    {
+      "round_number": 25,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Nia",
+      "price": 91.12
+    },
+    {
+      "round_number": 25,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Tara",
+      "price": 91.25
+    }
+  ],
+  "seller_messages": {
+    "Seller Tara": "Consider adjusting ask prices to meet buyer demands near $91.25 for potential trades.",
+    "Seller Jin": "Consider adjusting ask prices to meet buyer demands near $91.0 for potential trades.",
+    "Seller Maya": "Consider adjusting ask prices to meet buyer demands near $91.00 for potential trades.",
+    "Seller Nia": "Consider adjusting ask prices to meet buyer demands near $91.50 for potential trades."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 26
+````json
+{
+  "round_number": 26,
+  "seller_asks": {
+    "Seller Max": 85.0,
+    "Seller Jin": 91.25,
+    "Seller Maya": 91.25,
+    "Seller Tara": 91.5,
+    "Seller Nia": 91.5
+  },
+  "buyer_bids": {
+    "Buyer Eli": 93.0,
+    "Buyer Omar": 91.5,
+    "Buyer Ana": 91.5,
+    "Buyer Theo": 91.5,
+    "Buyer Mia": 91.5
+  },
+  "trades": [
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Eli",
+      "seller_id": "Seller Max",
+      "price": 89.0
+    },
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Jin",
+      "price": 91.38
+    },
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Maya",
+      "price": 91.38
+    },
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Nia",
+      "price": 91.5
+    },
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Tara",
+      "price": 91.5
+    }
+  ],
+  "seller_messages": {
+    "Seller Jin": "Consider adjusting ask prices to meet buyer demands near $91.25 for potential trades.",
+    "Seller Maya": "Consider adjusting ask prices to meet buyer demands near $91.25 to $91.50 for potential trades.",
+    "Seller Tara": "Consider adjusting ask prices to meet buyer demands near $91.50 for potential trades.",
+    "Seller Nia": "Consider adjusting ask prices to meet buyer demands near $91.75 for potential trades."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 27
+````json
+{
+  "round_number": 27,
+  "seller_asks": {
+    "Seller Max": 89.5,
+    "Seller Jin": 91.5,
+    "Seller Maya": 91.4,
+    "Seller Nia": 91.75,
+    "Seller Tara": 91.75
+  },
+  "buyer_bids": {
+    "Buyer Eli": 93.25,
+    "Buyer Omar": 91.75,
+    "Buyer Ana": 91.75,
+    "Buyer Mia": 91.75,
+    "Buyer Theo": 91.75
+  },
+  "trades": [
+    {
+      "round_number": 27,
+      "buyer_id": "Buyer Eli",
+      "seller_id": "Seller Max",
+      "price": 91.38
+    },
+    {
+      "round_number": 27,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Maya",
+      "price": 91.58
+    },
+    {
+      "round_number": 27,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Jin",
+      "price": 91.62
+    },
+    {
+      "round_number": 27,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Nia",
+      "price": 91.75
+    },
+    {
+      "round_number": 27,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Tara",
+      "price": 91.75
+    }
+  ],
+  "seller_messages": {
+    "Seller Jin": "Consider adjusting ask prices to meet buyer demands near $91.50 for potential trades.",
+    "Seller Maya": "Consider adjusting ask prices to meet buyer demands near $91.25 to $91.50 for potential trades.",
+    "Seller Nia": "Consider adjusting ask prices to meet buyer demands near $92.00 for potential trades.",
+    "Seller Tara": "Consider adjusting ask prices to meet buyer demands near $92.0 for potential trades."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 28
+````json
+{
+  "round_number": 28,
+  "seller_asks": {
+    "Seller Max": 84.5,
+    "Seller Jin": 91.75,
+    "Seller Maya": 91.4,
+    "Seller Tara": 92.0,
+    "Seller Nia": 92.0
+  },
+  "buyer_bids": {
+    "Buyer Omar": 92.0,
+    "Buyer Ana": 92.0,
+    "Buyer Mia": 92.0,
+    "Buyer Eli": 94.0,
+    "Buyer Theo": 92.0
+  },
+  "trades": [
+    {
+      "round_number": 28,
+      "buyer_id": "Buyer Eli",
+      "seller_id": "Seller Max",
+      "price": 89.25
+    },
+    {
+      "round_number": 28,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Maya",
+      "price": 91.7
+    },
+    {
+      "round_number": 28,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Jin",
+      "price": 91.88
+    },
+    {
+      "round_number": 28,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Nia",
+      "price": 92.0
+    },
+    {
+      "round_number": 28,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Tara",
+      "price": 92.0
+    }
+  ],
+  "seller_messages": {
+    "Seller Jin": "Consider adjusting ask prices to meet buyer demands near $92.00 for potential trades.",
+    "Seller Maya": "Consider adjusting ask prices to meet buyer demands near $91.25 to $91.50 for potential trades.",
+    "Seller Tara": "Consider adjusting ask prices to meet buyer demands near $92.0 for potential trades.",
+    "Seller Nia": "Consider adjusting ask prices to meet buyer demands near $92.00 for potential trades."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 29
+````json
+{
+  "round_number": 29,
+  "seller_asks": {
+    "Seller Max": 90.0,
+    "Seller Maya": 91.75,
+    "Seller Jin": 92.0,
+    "Seller Tara": 92.25,
+    "Seller Nia": 92.25
+  },
+  "buyer_bids": {
+    "Buyer Eli": 95.0,
+    "Buyer Ana": 92.25,
+    "Buyer Omar": 92.25,
+    "Buyer Theo": 92.2,
+    "Buyer Mia": 92.25
+  },
+  "trades": [
+    {
+      "round_number": 29,
+      "buyer_id": "Buyer Eli",
+      "seller_id": "Seller Max",
+      "price": 92.5
+    },
+    {
+      "round_number": 29,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Maya",
+      "price": 92.0
+    },
+    {
+      "round_number": 29,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Jin",
+      "price": 92.12
+    },
+    {
+      "round_number": 29,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Nia",
+      "price": 92.25
+    }
+  ],
+  "seller_messages": {
+    "Seller Maya": "Consider adjusting ask prices to meet buyer demands near $92.00 for potential trades.",
+    "Seller Jin": "Consider adjusting ask prices to meet buyer demands near $92.00 for potential trades.",
+    "Seller Tara": "Consider adjusting ask prices to meet buyer demands near $92.0 for potential trades.",
+    "Seller Nia": "Consider adjusting ask prices to meet buyer demands near $92.50 for potential trades in the next hour."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 30
+````json
+{
+  "round_number": 30,
+  "seller_asks": {
+    "Seller Max": 84.0,
+    "Seller Maya": 92.2,
+    "Seller Tara": 92.5,
+    "Seller Jin": 92.25,
+    "Seller Nia": 92.5
+  },
+  "buyer_bids": {
+    "Buyer Eli": 95.5,
+    "Buyer Mia": 92.3,
+    "Buyer Theo": 92.25,
+    "Buyer Ana": 92.3,
+    "Buyer Omar": 92.3
+  },
+  "trades": [
+    {
+      "round_number": 30,
+      "buyer_id": "Buyer Eli",
+      "seller_id": "Seller Max",
+      "price": 89.75
+    },
+    {
+      "round_number": 30,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Maya",
+      "price": 92.25
+    },
+    {
+      "round_number": 30,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Jin",
+      "price": 92.28
+    }
+  ],
+  "seller_messages": {
+    "Seller Maya": "Consider adjusting ask prices to meet buyer demands near $92.00 for potential trades.",
+    "Seller Tara": "Balance competitiveness and profit margin in the final hour to maximize profitability.",
+    "Seller Jin": "Consider maintaining competitive ask prices near $92.00 to capitalize on dense bids and maximize end-of-period profitability",
+    "Seller Nia": "Consider adjusting ask prices to maximize profit margins in the final hour, taking into account the dense bids near $92.00."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````

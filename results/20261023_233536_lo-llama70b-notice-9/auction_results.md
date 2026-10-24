@@ -1,0 +1,1424 @@
+
+## Auction Results: Round 1
+````json
+{
+  "round_number": 1,
+  "seller_asks": {
+    "Seller Kit": 95.0,
+    "Seller Nia": 97.89,
+    "Seller Yara": 96.97,
+    "Seller Theo": 96.62,
+    "Seller Ana": 96.54
+  },
+  "buyer_bids": {
+    "Buyer Maya": 95.0,
+    "Buyer Mia": 83.05,
+    "Buyer Jin": 83.08,
+    "Buyer Tara": 82.8,
+    "Buyer Raj": 83.71
+  },
+  "trades": [
+    {
+      "round_number": 1,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Kit",
+      "price": 95.0
+    }
+  ],
+  "seller_messages": {},
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 2
+````json
+{
+  "round_number": 2,
+  "seller_asks": {
+    "Seller Ana": 96.0,
+    "Seller Kit": 94.0,
+    "Seller Theo": 95.5,
+    "Seller Yara": 95.5,
+    "Seller Nia": 96.9
+  },
+  "buyer_bids": {
+    "Buyer Mia": 84.0,
+    "Buyer Tara": 83.2,
+    "Buyer Raj": 84.5,
+    "Buyer Maya": 96.49,
+    "Buyer Jin": 83.4
+  },
+  "trades": [
+    {
+      "round_number": 2,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Kit",
+      "price": 95.25
+    }
+  ],
+  "seller_messages": {},
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 3
+````json
+{
+  "round_number": 3,
+  "seller_asks": {
+    "Seller Theo": 94.5,
+    "Seller Ana": 94.5,
+    "Seller Kit": 93.5,
+    "Seller Yara": 94.5,
+    "Seller Nia": 94.9
+  },
+  "buyer_bids": {
+    "Buyer Tara": 84.0,
+    "Buyer Mia": 84.25,
+    "Buyer Raj": 85.0,
+    "Buyer Maya": 94.75,
+    "Buyer Jin": 84.2
+  },
+  "trades": [
+    {
+      "round_number": 3,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Kit",
+      "price": 94.12
+    }
+  ],
+  "seller_messages": {
+    "Seller Kit": "What are your pricing strategies for the next hour? Are you considering adjusting your asks based on market feedback?"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 4
+````json
+{
+  "round_number": 4,
+  "seller_asks": {
+    "Seller Nia": 94.0,
+    "Seller Kit": 92.5,
+    "Seller Theo": 94.0,
+    "Seller Ana": 94.0,
+    "Seller Yara": 93.75
+  },
+  "buyer_bids": {
+    "Buyer Tara": 84.5,
+    "Buyer Mia": 84.5,
+    "Buyer Raj": 85.5,
+    "Buyer Maya": 94.4,
+    "Buyer Jin": 84.5
+  },
+  "trades": [
+    {
+      "round_number": 4,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Kit",
+      "price": 93.45
+    }
+  ],
+  "seller_messages": {
+    "Seller Nia": "What are your thoughts on the current market trends and how do you plan to adjust your asks in the next hour?",
+    "Seller Kit": "What factors are influencing your ask price adjustments?",
+    "Seller Theo": "What strategies are you using to adjust your ask prices in response to changing market conditions?",
+    "Seller Ana": "I'm adjusting my asks based on market feedback, focusing on balancing profitability and trade securing.",
+    "Seller Yara": "What adjustments are you making to your pricing strategies based on current market trends?"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 5
+````json
+{
+  "round_number": 5,
+  "seller_asks": {
+    "Seller Theo": 93.25,
+    "Seller Ana": 93.5,
+    "Seller Nia": 93.75,
+    "Seller Yara": 93.5,
+    "Seller Kit": 92.0
+  },
+  "buyer_bids": {
+    "Buyer Jin": 85.0,
+    "Buyer Tara": 85.0,
+    "Buyer Maya": 93.9,
+    "Buyer Mia": 85.0,
+    "Buyer Raj": 86.0
+  },
+  "trades": [
+    {
+      "round_number": 5,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Kit",
+      "price": 92.95
+    }
+  ],
+  "seller_messages": {
+    "Seller Theo": "What are your strategies for adjusting ask prices in response to changing market conditions?",
+    "Seller Ana": "What pricing strategies are you using to respond to changing market conditions?",
+    "Seller Nia": "What factors are influencing your ask price adjustments, and how do you plan to respond to changing market conditions?",
+    "Seller Yara": "What adjustments are you making to your pricing strategies based on current market trends and the increasing bids?",
+    "Seller Kit": "What factors are influencing your ask price adjustments, and how do you balance profitability and trade volume?"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 6
+````json
+{
+  "round_number": 6,
+  "seller_asks": {
+    "Seller Theo": 92.75,
+    "Seller Nia": 93.5,
+    "Seller Ana": 93.0,
+    "Seller Yara": 92.75,
+    "Seller Kit": 91.5
+  },
+  "buyer_bids": {
+    "Buyer Raj": 86.25,
+    "Buyer Tara": 85.5,
+    "Buyer Maya": 92.9,
+    "Buyer Mia": 85.5,
+    "Buyer Jin": 86.5
+  },
+  "trades": [
+    {
+      "round_number": 6,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Kit",
+      "price": 92.2
+    }
+  ],
+  "seller_messages": {
+    "Seller Theo": "What factors are influencing your ask price adjustments, and how do you balance profitability and trade volume?",
+    "Seller Nia": "What factors are influencing your ask price adjustments, and how do you balance profitability and trade volume in this competitive market?",
+    "Seller Ana": "What factors are influencing your ask price adjustments in response to increasing market bids?",
+    "Seller Yara": "What factors are influencing your ask price adjustments, and how do you plan to respond to changing market conditions?",
+    "Seller Kit": "What factors are influencing your ask price adjustments, and how do you balance profitability and trade volume in response to changing market conditions?"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 7
+````json
+{
+  "round_number": 7,
+  "seller_asks": {
+    "Seller Ana": 92.5,
+    "Seller Yara": 92.25,
+    "Seller Nia": 92.5,
+    "Seller Theo": 92.5,
+    "Seller Kit": 91.0
+  },
+  "buyer_bids": {
+    "Buyer Jin": 87.0,
+    "Buyer Raj": 86.5,
+    "Buyer Tara": 86.0,
+    "Buyer Maya": 92.5,
+    "Buyer Mia": 86.75
+  },
+  "trades": [
+    {
+      "round_number": 7,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Kit",
+      "price": 91.75
+    }
+  ],
+  "seller_messages": {
+    "Seller Ana": "What strategies are you using to adjust your ask prices in response to increasing market bids?",
+    "Seller Yara": "What strategies are you using to adjust your ask prices in response to changing market conditions?",
+    "Seller Nia": "What strategies are you using to balance profitability and trade volume in this competitive market?",
+    "Seller Theo": "What strategies are you using to adjust your ask prices in response to changing market conditions?",
+    "Seller Kit": "What strategies are you using to adjust your ask prices in response to increasing market bids and competitor asks?"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 8
+````json
+{
+  "round_number": 8,
+  "seller_asks": {
+    "Seller Theo": 92.0,
+    "Seller Nia": 92.0,
+    "Seller Ana": 92.0,
+    "Seller Yara": 91.75,
+    "Seller Kit": 90.5
+  },
+  "buyer_bids": {
+    "Buyer Jin": 88.0,
+    "Buyer Tara": 86.25,
+    "Buyer Maya": 91.25,
+    "Buyer Mia": 87.25,
+    "Buyer Raj": 86.75
+  },
+  "trades": [
+    {
+      "round_number": 8,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Kit",
+      "price": 90.88
+    }
+  ],
+  "seller_messages": {
+    "Seller Theo": "What strategies are you using to adjust your ask prices in response to increasing market bids?",
+    "Seller Nia": "What strategies are you using to adjust your ask prices in response to changing market conditions and increasing bids?",
+    "Seller Ana": "What strategies are you using to adjust your ask prices in response to increasing market bids and competitor asks?",
+    "Seller Yara": "What approaches are you using to adjust your ask prices in response to increasing market bids and competitor asks?",
+    "Seller Kit": "I adjust my ask prices based on market feedback, considering both the highest bid and competitor asks to ensure a balance between profit and trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 9
+````json
+{
+  "round_number": 9,
+  "seller_asks": {
+    "Seller Theo": 91.5,
+    "Seller Kit": 90.0,
+    "Seller Nia": 91.5,
+    "Seller Ana": 91.5,
+    "Seller Yara": 91.25
+  },
+  "buyer_bids": {
+    "Buyer Mia": 88.0,
+    "Buyer Raj": 87.0,
+    "Buyer Tara": 86.5,
+    "Buyer Jin": 88.5,
+    "Buyer Maya": 90.5
+  },
+  "trades": [
+    {
+      "round_number": 9,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Kit",
+      "price": 90.25
+    }
+  ],
+  "seller_messages": {
+    "Seller Theo": "What approaches are you using to adjust your ask prices in response to increasing market bids and competitor asks?",
+    "Seller Kit": "I adjust my ask prices based on market feedback, considering both the highest bid and competitor asks to ensure a balance between profit and trade volume.",
+    "Seller Nia": "What factors do you consider when adjusting your ask prices in response to changing market conditions?",
+    "Seller Ana": "What strategies are you using to adjust your ask prices in response to increasing market bids and competitor asks, and how do you balance profitability and trade volume?",
+    "Seller Yara": "What approaches are you using to adjust your ask prices in response to increasing market bids and competitor asks?"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 10
+````json
+{
+  "round_number": 10,
+  "seller_asks": {
+    "Seller Nia": 91.0,
+    "Seller Theo": 90.75,
+    "Seller Yara": 90.75,
+    "Seller Ana": 91.0,
+    "Seller Kit": 89.5
+  },
+  "buyer_bids": {
+    "Buyer Tara": 87.0,
+    "Buyer Raj": 87.25,
+    "Buyer Maya": 90.5,
+    "Buyer Jin": 89.0,
+    "Buyer Mia": 88.25
+  },
+  "trades": [
+    {
+      "round_number": 10,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Kit",
+      "price": 90.0
+    }
+  ],
+  "seller_messages": {
+    "Seller Nia": "What factors do you consider when adjusting your ask prices in response to increasing market bids and competitor asks?",
+    "Seller Theo": "What strategies do you use to adjust your ask prices when bids are increasing and competition is high?",
+    "Seller Yara": "What factors do you consider when adjusting your ask prices in response to increasing market bids and competitor asks?",
+    "Seller Ana": "What strategies are you using to adjust your ask prices in response to increasing market bids and competitor asks, and how do you balance profitability and trade volume?",
+    "Seller Kit": "What approaches are you using to adjust your ask prices in response to increasing market bids and competitor asks?"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 11
+````json
+{
+  "round_number": 11,
+  "seller_asks": {
+    "Seller Theo": 90.25,
+    "Seller Ana": 90.5,
+    "Seller Kit": 89.5,
+    "Seller Yara": 90.25,
+    "Seller Nia": 90.5
+  },
+  "buyer_bids": {
+    "Buyer Jin": 89.5,
+    "Buyer Tara": 87.5,
+    "Buyer Raj": 87.5,
+    "Buyer Mia": 89.0,
+    "Buyer Maya": 89.5
+  },
+  "trades": [
+    {
+      "round_number": 11,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Kit",
+      "price": 89.5
+    }
+  ],
+  "seller_messages": {
+    "Seller Theo": "What strategies do you use to adjust ask prices when bids are increasing and competition is high?",
+    "Seller Ana": "What strategies do you use to adjust your ask prices when market bids are increasing and competition is high?",
+    "Seller Kit": "What approaches do you use to adjust your ask prices when market bids are increasing and competitor asks are high?",
+    "Seller Yara": "What approaches do you use to adjust ask prices when bids are increasing and competition is high?",
+    "Seller Nia": "What strategies do you use to adjust ask prices when bids are increasing and competition is high?"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 12
+````json
+{
+  "round_number": 12,
+  "seller_asks": {
+    "Seller Theo": 90.0,
+    "Seller Nia": 90.0,
+    "Seller Ana": 90.0,
+    "Seller Yara": 89.75,
+    "Seller Kit": 89.75
+  },
+  "buyer_bids": {
+    "Buyer Raj": 88.0,
+    "Buyer Tara": 88.0,
+    "Buyer Jin": 90.0,
+    "Buyer Maya": 90.0,
+    "Buyer Mia": 89.75
+  },
+  "trades": [
+    {
+      "round_number": 12,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Kit",
+      "price": 89.88
+    },
+    {
+      "round_number": 12,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Yara",
+      "price": 89.88
+    }
+  ],
+  "seller_messages": {
+    "Seller Theo": "What approaches do you use to adjust ask prices when bids are increasing and competition is high?",
+    "Seller Nia": "What approaches do you use to adjust ask prices when bids are increasing and competition is high?",
+    "Seller Ana": "What approaches do you use to adjust ask prices when market bids are increasing rapidly and competitor asks are highly competitive?",
+    "Seller Yara": "What approaches do you use to adjust ask prices when bids are increasing and competition is high?",
+    "Seller Kit": "What approaches do you use to adjust ask prices when bids are increasing and competitor asks are high?"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 13
+````json
+{
+  "round_number": 13,
+  "seller_asks": {
+    "Seller Ana": 89.5,
+    "Seller Yara": 89.5,
+    "Seller Theo": 89.5,
+    "Seller Nia": 89.5,
+    "Seller Kit": 89.25
+  },
+  "buyer_bids": {
+    "Buyer Mia": 90.25,
+    "Buyer Tara": 89.0,
+    "Buyer Raj": 88.5,
+    "Buyer Maya": 89.9,
+    "Buyer Jin": 90.25
+  },
+  "trades": [
+    {
+      "round_number": 13,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Kit",
+      "price": 89.75
+    },
+    {
+      "round_number": 13,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Ana",
+      "price": 89.88
+    },
+    {
+      "round_number": 13,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Nia",
+      "price": 89.7
+    }
+  ],
+  "seller_messages": {
+    "Seller Ana": "What strategies do you use to determine the optimal ask price when market bids are increasing rapidly?",
+    "Seller Yara": "What strategies do you use to adjust ask prices when market bids are increasing rapidly and competitor asks are highly competitive?",
+    "Seller Theo": "What strategies do you use to adjust ask prices in response to increasing bids and competitive ask queues?",
+    "Seller Nia": "What approaches do you use to adjust ask prices when bids are increasing and competition is high?",
+    "Seller Kit": "What approaches do you use to adjust ask prices when market bids are increasing rapidly and competitor asks are highly competitive?"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 14
+````json
+{
+  "round_number": 14,
+  "seller_asks": {
+    "Seller Yara": 89.25,
+    "Seller Ana": 89.25,
+    "Seller Theo": 89.0,
+    "Seller Nia": 89.25,
+    "Seller Kit": 89.0
+  },
+  "buyer_bids": {
+    "Buyer Tara": 89.25,
+    "Buyer Raj": 89.0,
+    "Buyer Maya": 90.25,
+    "Buyer Jin": 90.5,
+    "Buyer Mia": 90.0
+  },
+  "trades": [
+    {
+      "round_number": 14,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Kit",
+      "price": 89.75
+    },
+    {
+      "round_number": 14,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Theo",
+      "price": 89.62
+    },
+    {
+      "round_number": 14,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Ana",
+      "price": 89.62
+    },
+    {
+      "round_number": 14,
+      "buyer_id": "Buyer Tara",
+      "seller_id": "Seller Nia",
+      "price": 89.25
+    }
+  ],
+  "seller_messages": {
+    "Seller Yara": "What approaches do you use to adjust ask prices when market bids are increasing rapidly and competitor asks are highly competitive?",
+    "Seller Ana": "What strategies do you use to adjust ask prices when market bids are increasing rapidly and competitor asks are highly competitive?",
+    "Seller Theo": "What approaches do you use to adjust ask prices when bids are increasing and competition is high?",
+    "Seller Nia": "What approaches do you use to adjust ask prices when bids are increasing and competition is high?",
+    "Seller Kit": "What approaches do you use to adjust ask prices when market bids are increasing rapidly and competitor asks are highly competitive?"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 15
+````json
+{
+  "round_number": 15,
+  "seller_asks": {
+    "Seller Theo": 88.9,
+    "Seller Nia": 89.0,
+    "Seller Ana": 89.0,
+    "Seller Kit": 88.75,
+    "Seller Yara": 89.0
+  },
+  "buyer_bids": {
+    "Buyer Tara": 89.5,
+    "Buyer Mia": 89.5,
+    "Buyer Jin": 89.5,
+    "Buyer Maya": 89.1,
+    "Buyer Raj": 89.25
+  },
+  "trades": [
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Tara",
+      "seller_id": "Seller Kit",
+      "price": 89.12
+    },
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Theo",
+      "price": 89.2
+    },
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Ana",
+      "price": 89.25
+    },
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Nia",
+      "price": 89.12
+    },
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Yara",
+      "price": 89.05
+    }
+  ],
+  "seller_messages": {
+    "Seller Theo": "What approaches do you use to adjust ask prices when bids are increasing and competition is high?",
+    "Seller Nia": "What approaches do you use to adjust ask prices when market bids are stable and competitor asks are highly competitive?",
+    "Seller Ana": "What strategies do you use to adjust ask prices when market bids are increasing rapidly and competitor asks are highly competitive?",
+    "Seller Kit": "What strategies do you use to adjust ask prices when market bids are increasing rapidly and competitor asks are highly competitive?",
+    "Seller Yara": "What approaches do you use to adjust ask prices when market bids are increasing rapidly and competitor asks are highly competitive?"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 16
+````json
+{
+  "round_number": 16,
+  "seller_asks": {
+    "Seller Theo": 88.5,
+    "Seller Nia": 88.9,
+    "Seller Ana": 88.75,
+    "Seller Kit": 88.5,
+    "Seller Yara": 88.9
+  },
+  "buyer_bids": {
+    "Buyer Raj": 89.5,
+    "Buyer Jin": 89.75,
+    "Buyer Tara": 89.5,
+    "Buyer Mia": 89.8,
+    "Buyer Maya": 88.9
+  },
+  "trades": [
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Kit",
+      "price": 89.15
+    },
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Theo",
+      "price": 89.12
+    },
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Tara",
+      "seller_id": "Seller Ana",
+      "price": 89.12
+    },
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Nia",
+      "price": 89.2
+    },
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Yara",
+      "price": 88.9
+    }
+  ],
+  "seller_messages": {
+    "Seller Theo": "What strategies do you use to adjust ask prices when market bids are increasing rapidly and competitor asks are highly competitive?",
+    "Seller Nia": "What approaches do you use to adjust ask prices when market bids are stable and competitor asks are highly competitive?",
+    "Seller Ana": "What strategies do you use to adjust ask prices when market bids are increasing rapidly and competitor asks are highly competitive?",
+    "Seller Kit": "What approaches do you use to adjust ask prices when market bids are stable and competitor asks are highly competitive?",
+    "Seller Yara": "What approaches do you use to adjust ask prices when market bids are stable but competitor asks are highly competitive?"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 17
+````json
+{
+  "round_number": 17,
+  "seller_asks": {
+    "Seller Nia": 88.8,
+    "Seller Theo": 88.2,
+    "Seller Yara": 88.8,
+    "Seller Ana": 88.5,
+    "Seller Kit": 88.25
+  },
+  "buyer_bids": {
+    "Buyer Raj": 89.5,
+    "Buyer Tara": 89.0,
+    "Buyer Mia": 89.9,
+    "Buyer Maya": 88.5,
+    "Buyer Jin": 89.9
+  },
+  "trades": [
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Theo",
+      "price": 89.05
+    },
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Kit",
+      "price": 89.08
+    },
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Ana",
+      "price": 89.0
+    },
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Tara",
+      "seller_id": "Seller Nia",
+      "price": 88.9
+    }
+  ],
+  "seller_messages": {
+    "Seller Nia": "What approaches do you use to adjust ask prices when market bids are stable and competitor asks are highly competitive?",
+    "Seller Theo": "What strategies do you use to adjust ask prices when market bids fluctuate rapidly?",
+    "Seller Yara": "What strategies do you use to adjust ask prices when market bids are increasing and competitor asks are competitive?",
+    "Seller Ana": "What strategies do you use to adjust ask prices when market bids are increasing rapidly and competitor asks are highly competitive?",
+    "Seller Kit": "What approaches do you use to adjust ask prices when market bids are stable and competitor asks are highly competitive?"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 18
+````json
+{
+  "round_number": 18,
+  "seller_asks": {
+    "Seller Theo": 88.1,
+    "Seller Nia": 88.7,
+    "Seller Kit": 88.2,
+    "Seller Ana": 88.25,
+    "Seller Yara": 88.7
+  },
+  "buyer_bids": {
+    "Buyer Tara": 88.6,
+    "Buyer Mia": 89.5,
+    "Buyer Raj": 88.75,
+    "Buyer Jin": 89.2,
+    "Buyer Maya": 88.2
+  },
+  "trades": [
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Theo",
+      "price": 88.8
+    },
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Kit",
+      "price": 88.7
+    },
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Ana",
+      "price": 88.5
+    }
+  ],
+  "seller_messages": {
+    "Seller Theo": "What approaches do you use to adjust ask prices when market bids are increasing and competitor asks are highly competitive?",
+    "Seller Nia": "What approaches do you use to adjust ask prices when market bids are stable and competitor asks are highly competitive?",
+    "Seller Kit": "I adjust my ask price based on market feedback, monitoring the highest bid and competitor asks to ensure a balance between profit and trade volume.",
+    "Seller Ana": "What approaches do you use to adjust ask prices when market bids are increasing rapidly and competitor asks are highly competitive?",
+    "Seller Yara": "What strategies do you use to adjust ask prices when market bids are increasing and competitor asks are competitive?"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 19
+````json
+{
+  "round_number": 19,
+  "seller_asks": {
+    "Seller Nia": 88.65,
+    "Seller Theo": 88.05,
+    "Seller Kit": 88.1,
+    "Seller Yara": 88.6,
+    "Seller Ana": 88.0
+  },
+  "buyer_bids": {
+    "Buyer Raj": 88.85,
+    "Buyer Tara": 88.7,
+    "Buyer Mia": 88.75,
+    "Buyer Jin": 88.8,
+    "Buyer Maya": 88.1
+  },
+  "trades": [
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Ana",
+      "price": 88.42
+    },
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Theo",
+      "price": 88.42
+    },
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Kit",
+      "price": 88.42
+    },
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Tara",
+      "seller_id": "Seller Yara",
+      "price": 88.65
+    }
+  ],
+  "seller_messages": {
+    "Seller Nia": "What approaches do you use to adjust ask prices when market bids are stable and competitor asks are highly competitive?",
+    "Seller Theo": "What approaches do you use to adjust ask prices when market bids are increasing rapidly and competitor asks are highly competitive?",
+    "Seller Kit": "I adjust my ask price based on market feedback, considering both the highest bid and competitor asks to ensure a balance between profit and trade volume.",
+    "Seller Yara": "What approaches do you use to adjust ask prices when market bids are increasing rapidly and competitor asks are highly competitive?",
+    "Seller Ana": "What approaches do you use to adjust ask prices when market bids are increasing rapidly and competitor asks are highly competitive?"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 20
+````json
+{
+  "round_number": 20,
+  "seller_asks": {
+    "Seller Kit": 88.05,
+    "Seller Yara": 88.5,
+    "Seller Ana": 87.9,
+    "Seller Nia": 88.6,
+    "Seller Theo": 88.1
+  },
+  "buyer_bids": {
+    "Buyer Mia": 88.5,
+    "Buyer Jin": 88.3,
+    "Buyer Tara": 88.7,
+    "Buyer Maya": 88.05,
+    "Buyer Raj": 88.9
+  },
+  "trades": [
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Ana",
+      "price": 88.4
+    },
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Tara",
+      "seller_id": "Seller Kit",
+      "price": 88.38
+    },
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Theo",
+      "price": 88.3
+    }
+  ],
+  "seller_messages": {
+    "Seller Kit": "I adjust my ask price based on market bids and competitor asks, ensuring a balance between profit and trade volume, and considering market fluctuations.",
+    "Seller Yara": "What strategies do you use to adjust ask prices when market bids are increasing and competitor asks are highly competitive?",
+    "Seller Ana": "I adjust my ask price based on market feedback, considering both the highest bid and competitor asks to ensure a balance between profit and trade volume.",
+    "Seller Nia": "What approaches do you use to adjust ask prices when market bids are rapidly changing?",
+    "Seller Theo": "What strategies do you use to adjust ask prices when bids are stable but competitor asks are decreasing?"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 21
+````json
+{
+  "round_number": 21,
+  "seller_asks": {
+    "Seller Kit": 88.05,
+    "Seller Theo": 88.05,
+    "Seller Ana": 87.8,
+    "Seller Yara": 88.4,
+    "Seller Nia": 88.55
+  },
+  "buyer_bids": {
+    "Buyer Jin": 88.35,
+    "Buyer Mia": 88.55,
+    "Buyer Raj": 88.65,
+    "Buyer Tara": 88.4,
+    "Buyer Maya": 88.0
+  },
+  "trades": [
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Ana",
+      "price": 88.22
+    },
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Kit",
+      "price": 88.3
+    },
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Tara",
+      "seller_id": "Seller Theo",
+      "price": 88.22
+    }
+  ],
+  "seller_messages": {
+    "Seller Kit": "I adjust my ask price based on market bids and competitor asks, ensuring a balance between profit and trade volume.",
+    "Seller Theo": "What strategies do you use to adjust ask prices when market bids are stable but competitor asks are highly competitive?",
+    "Seller Ana": "I adjust my ask price based on market feedback, considering both the highest bid and competitor asks to ensure a balance between profit and trade volume.",
+    "Seller Yara": "What approaches do you use to adjust ask prices when market bids are rapidly increasing and competitor asks are highly competitive?",
+    "Seller Nia": "What approaches do you use to adjust ask prices when market bids are fluctuating and competitor asks are highly competitive?"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 22
+````json
+{
+  "round_number": 22,
+  "seller_asks": {
+    "Seller Kit": 88.05,
+    "Seller Nia": 88.45,
+    "Seller Theo": 88.05,
+    "Seller Ana": 87.6,
+    "Seller Yara": 88.2
+  },
+  "buyer_bids": {
+    "Buyer Raj": 88.6,
+    "Buyer Jin": 88.4,
+    "Buyer Mia": 88.6,
+    "Buyer Maya": 88.4,
+    "Buyer Tara": 88.25
+  },
+  "trades": [
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Ana",
+      "price": 88.1
+    },
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Kit",
+      "price": 88.32
+    },
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Theo",
+      "price": 88.22
+    },
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Yara",
+      "price": 88.3
+    }
+  ],
+  "seller_messages": {
+    "Seller Kit": "I adjust my ask price based on market feedback, considering both the highest bid and competitor asks to ensure a balance between profit and trade volume.",
+    "Seller Nia": "What strategies do you use to adjust ask prices when the bid queue is stable but competitor asks are highly competitive?",
+    "Seller Theo": "What strategies do you use to adjust ask prices when market bids are stable but competitor asks are highly competitive?",
+    "Seller Ana": "I adjust my ask price based on market feedback, considering both the highest bid and competitor asks to ensure a balance between profit and trade volume.",
+    "Seller Yara": "What approaches do you use to adjust ask prices when market bids are rapidly increasing and competitor asks are highly competitive?"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 23
+````json
+{
+  "round_number": 23,
+  "seller_asks": {
+    "Seller Theo": 88.2,
+    "Seller Nia": 88.4,
+    "Seller Kit": 88.4,
+    "Seller Yara": 88.1,
+    "Seller Ana": 88.05
+  },
+  "buyer_bids": {
+    "Buyer Mia": 88.65,
+    "Buyer Raj": 88.4,
+    "Buyer Maya": 88.2,
+    "Buyer Tara": 88.3,
+    "Buyer Jin": 88.35
+  },
+  "trades": [
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Ana",
+      "price": 88.35
+    },
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Yara",
+      "price": 88.25
+    },
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Theo",
+      "price": 88.28
+    }
+  ],
+  "seller_messages": {
+    "Seller Theo": "What approaches do you use to adjust ask prices when market bids are stable but competitor asks are highly competitive?",
+    "Seller Nia": "What approaches do you use to adjust ask prices when market bids are stable but competitor asks are highly competitive?",
+    "Seller Kit": "I adjust my ask price based on market feedback, considering both the highest bid and competitor asks to ensure a balance between profit and trade volume.",
+    "Seller Yara": "What approaches do you use to adjust ask prices when market bids are rapidly increasing and competitor asks are highly competitive?",
+    "Seller Ana": "I adjust my ask price based on market feedback, considering both the highest bid and competitor asks to ensure a balance between profit and trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 24
+````json
+{
+  "round_number": 24,
+  "seller_asks": {
+    "Seller Ana": 88.1,
+    "Seller Kit": 88.35,
+    "Seller Yara": 88.15,
+    "Seller Theo": 88.15,
+    "Seller Nia": 88.4
+  },
+  "buyer_bids": {
+    "Buyer Jin": 88.4,
+    "Buyer Mia": 88.7,
+    "Buyer Raj": 88.35,
+    "Buyer Tara": 88.35,
+    "Buyer Maya": 88.15
+  },
+  "trades": [
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Ana",
+      "price": 88.4
+    },
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Theo",
+      "price": 88.28
+    },
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Tara",
+      "seller_id": "Seller Yara",
+      "price": 88.25
+    },
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Kit",
+      "price": 88.35
+    }
+  ],
+  "seller_messages": {
+    "Seller Ana": "I adjust my ask price based on market trends and competitor strategies, balancing profit and trade volume.",
+    "Seller Kit": "I adjust my ask price based on market feedback, considering both the highest bid and competitor asks to ensure a balance between profit and trade volume.",
+    "Seller Yara": "What approaches do you use to adjust ask prices when market bids are rapidly increasing and competitor asks are highly competitive?",
+    "Seller Theo": "What approaches do you use to adjust ask prices when market bids are stable but competitor asks are highly competitive?",
+    "Seller Nia": "What strategies do you use to adjust ask prices when the bid queue is stable, but the ask queue is highly competitive?"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 25
+````json
+{
+  "round_number": 25,
+  "seller_asks": {
+    "Seller Ana": 88.2,
+    "Seller Kit": 88.3,
+    "Seller Theo": 88.1,
+    "Seller Nia": 88.35,
+    "Seller Yara": 88.05
+  },
+  "buyer_bids": {
+    "Buyer Jin": 88.2,
+    "Buyer Raj": 88.3,
+    "Buyer Mia": 88.75,
+    "Buyer Maya": 88.1,
+    "Buyer Tara": 88.4
+  },
+  "trades": [
+    {
+      "round_number": 25,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Yara",
+      "price": 88.4
+    },
+    {
+      "round_number": 25,
+      "buyer_id": "Buyer Tara",
+      "seller_id": "Seller Theo",
+      "price": 88.25
+    },
+    {
+      "round_number": 25,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Ana",
+      "price": 88.25
+    }
+  ],
+  "seller_messages": {
+    "Seller Ana": "I adjust my ask price based on market trends, competitor strategies, and the balance between profitability and trade volume.",
+    "Seller Kit": "I adjust my ask price based on market trends, considering both the highest bid and competitor asks to balance profit and trade volume.",
+    "Seller Theo": "What approaches do you use to adjust ask prices when the bid queue is stable, but the ask queue is highly competitive?",
+    "Seller Nia": "I adjust my ask price based on market feedback, considering both the highest bid and competitor asks to ensure a balance between profit and trade volume.",
+    "Seller Yara": "What approaches do you use to adjust ask prices when market bids are rapidly increasing and competitor asks are highly competitive?"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 26
+````json
+{
+  "round_number": 26,
+  "seller_asks": {
+    "Seller Theo": 88.05,
+    "Seller Nia": 88.3,
+    "Seller Yara": 88.0,
+    "Seller Kit": 88.2,
+    "Seller Ana": 88.15
+  },
+  "buyer_bids": {
+    "Buyer Tara": 88.3,
+    "Buyer Mia": 88.8,
+    "Buyer Jin": 88.25,
+    "Buyer Maya": 88.05,
+    "Buyer Raj": 88.2
+  },
+  "trades": [
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Yara",
+      "price": 88.4
+    },
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Tara",
+      "seller_id": "Seller Theo",
+      "price": 88.17
+    },
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Ana",
+      "price": 88.2
+    },
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Kit",
+      "price": 88.2
+    }
+  ],
+  "seller_messages": {
+    "Seller Theo": "What strategies do you use to adjust ask prices when the market is highly competitive, and how do you balance profitability with trade volume?",
+    "Seller Nia": "I adjust my ask price based on market trends and competitor strategies, balancing profitability and trade volume to stay competitive in the market.",
+    "Seller Yara": "What approaches do you use to adjust ask prices when the market is highly competitive and bids are increasing rapidly?",
+    "Seller Kit": "I adjust my ask price based on market trends, considering both the highest bid and competitor asks to balance profit and trade volume.",
+    "Seller Ana": "I adjust my ask price based on market trends, competitor strategies, and the balance between profitability and trade volume, ensuring a competitive edge in the market."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 27
+````json
+{
+  "round_number": 27,
+  "seller_asks": {
+    "Seller Kit": 88.1,
+    "Seller Ana": 88.05,
+    "Seller Nia": 88.25,
+    "Seller Yara": 88.0,
+    "Seller Theo": 88.0
+  },
+  "buyer_bids": {
+    "Buyer Raj": 88.05,
+    "Buyer Tara": 88.2,
+    "Buyer Mia": 88.85,
+    "Buyer Jin": 88.05,
+    "Buyer Maya": 88.0
+  },
+  "trades": [
+    {
+      "round_number": 27,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Theo",
+      "price": 88.42
+    },
+    {
+      "round_number": 27,
+      "buyer_id": "Buyer Tara",
+      "seller_id": "Seller Yara",
+      "price": 88.1
+    },
+    {
+      "round_number": 27,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Ana",
+      "price": 88.05
+    }
+  ],
+  "seller_messages": {
+    "Seller Kit": "What approaches do you use to adjust ask prices when the market is highly competitive and bids are increasing rapidly?",
+    "Seller Ana": "I adjust my ask price based on market trends and competitor strategies, balancing profitability and trade volume to stay competitive in the market.",
+    "Seller Nia": "I adjust my ask price based on market trends, considering both the highest bid and competitor asks to balance profit and trade volume, ensuring a competitive edge in the market.",
+    "Seller Yara": "What approaches do you use to adjust ask prices when market bids are increasing rapidly, and how do you balance profitability with trade volume in such conditions?",
+    "Seller Theo": "What strategies do you use to adjust ask prices when the market is highly competitive and bids are stable?"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 28
+````json
+{
+  "round_number": 28,
+  "seller_asks": {
+    "Seller Theo": 87.9,
+    "Seller Yara": 87.95,
+    "Seller Nia": 88.2,
+    "Seller Kit": 88.05,
+    "Seller Ana": 88.0
+  },
+  "buyer_bids": {
+    "Buyer Raj": 88.1,
+    "Buyer Tara": 88.15,
+    "Buyer Mia": 88.9,
+    "Buyer Maya": 88.05,
+    "Buyer Jin": 88.1
+  },
+  "trades": [
+    {
+      "round_number": 28,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Theo",
+      "price": 88.4
+    },
+    {
+      "round_number": 28,
+      "buyer_id": "Buyer Tara",
+      "seller_id": "Seller Yara",
+      "price": 88.05
+    },
+    {
+      "round_number": 28,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Ana",
+      "price": 88.05
+    },
+    {
+      "round_number": 28,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Kit",
+      "price": 88.07
+    }
+  ],
+  "seller_messages": {
+    "Seller Theo": "What approaches do you use to adjust ask prices when the market is highly competitive and bids are stable?",
+    "Seller Yara": "What approaches do you use to adjust ask prices when market bids are increasing rapidly, and how do you balance profitability with trade volume in such conditions?",
+    "Seller Nia": "I adjust my ask price based on market trends, considering both the highest bid and competitor asks to balance profit and trade volume.",
+    "Seller Kit": "What strategies do you plan to use in the final hours to maximize profitability, and how will you balance profit and trade volume?",
+    "Seller Ana": "I adjust my ask price based on market trends, considering both the highest bid and competitor asks to balance profit and trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 29
+````json
+{
+  "round_number": 29,
+  "seller_asks": {
+    "Seller Nia": 88.15,
+    "Seller Kit": 88.0,
+    "Seller Ana": 88.05,
+    "Seller Theo": 88.05,
+    "Seller Yara": 87.9
+  },
+  "buyer_bids": {
+    "Buyer Jin": 88.15,
+    "Buyer Maya": 88.0,
+    "Buyer Raj": 88.15,
+    "Buyer Mia": 88.15,
+    "Buyer Tara": 88.1
+  },
+  "trades": [
+    {
+      "round_number": 29,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Yara",
+      "price": 88.03
+    },
+    {
+      "round_number": 29,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Kit",
+      "price": 88.08
+    },
+    {
+      "round_number": 29,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Ana",
+      "price": 88.1
+    },
+    {
+      "round_number": 29,
+      "buyer_id": "Buyer Tara",
+      "seller_id": "Seller Theo",
+      "price": 88.07
+    }
+  ],
+  "seller_messages": {
+    "Seller Nia": "I adjust my ask price based on market trends, considering both the highest bid and competitor asks to balance profit and trade volume, especially in the final hours.",
+    "Seller Kit": "What strategies do you plan to use in the final hours to maximize profitability, and how will you balance profit and trade volume?",
+    "Seller Ana": "I adjust my ask price based on market trends, considering both the highest bid and competitor asks to balance profit and trade volume.",
+    "Seller Theo": "What strategies do you use to adjust ask prices when market bids are stable, and how do you balance profitability with trade volume in such conditions?",
+    "Seller Yara": "What strategies do you plan to use in the final hour to maximize profitability, and how will you balance profit and trade volume?"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 30
+````json
+{
+  "round_number": 30,
+  "seller_asks": {
+    "Seller Theo": 88.1,
+    "Seller Nia": 88.1,
+    "Seller Ana": 88.05,
+    "Seller Kit": 88.05,
+    "Seller Yara": 87.8
+  },
+  "buyer_bids": {
+    "Buyer Mia": 88.1,
+    "Buyer Tara": 88.1,
+    "Buyer Raj": 88.2,
+    "Buyer Jin": 88.2,
+    "Buyer Maya": 88.05
+  },
+  "trades": [
+    {
+      "round_number": 30,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Yara",
+      "price": 88.0
+    },
+    {
+      "round_number": 30,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Ana",
+      "price": 88.12
+    },
+    {
+      "round_number": 30,
+      "buyer_id": "Buyer Tara",
+      "seller_id": "Seller Kit",
+      "price": 88.07
+    },
+    {
+      "round_number": 30,
+      "buyer_id": "Buyer Mia",
+      "seller_id": "Seller Nia",
+      "price": 88.1
+    }
+  ],
+  "seller_messages": {
+    "Seller Theo": "I adjust my ask price based on market trends and competitor asks to balance profit and trade volume, especially in the final hours.",
+    "Seller Nia": "I adjusted my ask price based on market trends to balance profit and trade volume in the final hour.",
+    "Seller Ana": "I adjusted my ask price based on market trends, considering both the highest bid and competitor asks to balance profit and trade volume in the final hour.",
+    "Seller Kit": "As we conclude the trading period, I found that continuously adjusting my ask price based on market trends and competitor asks was crucial. Maximizing profits in the final hours required a balance between competitive pricing and securing trades.",
+    "Seller Yara": "Let's adjust our ask prices to balance profit and trade volume in the final hour."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````

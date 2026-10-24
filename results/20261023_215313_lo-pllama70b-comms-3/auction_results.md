@@ -1,0 +1,1521 @@
+
+## Auction Results: Round 1
+````json
+{
+  "round_number": 1,
+  "seller_asks": {
+    "Seller Amir": 97.81,
+    "Seller Kai": 97.0,
+    "Seller Max": 97.58,
+    "Seller Kit": 97.38,
+    "Seller Theo": 97.23
+  },
+  "buyer_bids": {
+    "Buyer Raj": 80.0,
+    "Buyer Nia": 97.2,
+    "Buyer Omar": 83.44,
+    "Buyer Leo": 82.64,
+    "Buyer Jin": 84.0
+  },
+  "trades": [
+    {
+      "round_number": 1,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Kai",
+      "price": 97.1
+    }
+  ],
+  "seller_messages": {
+    "Seller Kai": "Monitoring ask queue competition.",
+    "Seller Amir": "What are your initial impressions of the market?"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 2
+````json
+{
+  "round_number": 2,
+  "seller_asks": {
+    "Seller Amir": 96.5,
+    "Seller Theo": 95.5,
+    "Seller Kit": 97.29,
+    "Seller Max": 96.5,
+    "Seller Kai": 96.5
+  },
+  "buyer_bids": {
+    "Buyer Nia": 97.22,
+    "Buyer Leo": 81.9,
+    "Buyer Jin": 85.0,
+    "Buyer Raj": 81.0,
+    "Buyer Omar": 84.19
+  },
+  "trades": [
+    {
+      "round_number": 2,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Theo",
+      "price": 96.36
+    }
+  ],
+  "seller_messages": {
+    "Seller Amir": "What are your pricing strategies for the next hour?",
+    "Seller Theo": "Bids are below $84, considering lowering ask prices to increase competitiveness.",
+    "Seller Kit": "What are your strategies for the next few hours?",
+    "Seller Max": "What adjustments are you making to your ask prices?",
+    "Seller Kai": "What are your strategies for adjusting to changing market conditions?"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 3
+````json
+{
+  "round_number": 3,
+  "seller_asks": {
+    "Seller Amir": 95.9,
+    "Seller Theo": 94.5,
+    "Seller Max": 95.75,
+    "Seller Kit": 96.0,
+    "Seller Kai": 95.9
+  },
+  "buyer_bids": {
+    "Buyer Leo": 84.5,
+    "Buyer Nia": 96.49,
+    "Buyer Jin": 86.0,
+    "Buyer Raj": 82.5,
+    "Buyer Omar": 85.5
+  },
+  "trades": [
+    {
+      "round_number": 3,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Theo",
+      "price": 95.5
+    }
+  ],
+  "seller_messages": {
+    "Seller Amir": "What strategies are you using to adjust your ask prices in response to changing market conditions?",
+    "Seller Theo": "What are your strategies for adjusting to changing market conditions and balancing profit margins with trade volume?",
+    "Seller Max": "Considering lowering ask prices to meet demand and increase trade volume.",
+    "Seller Kit": "What are your thoughts on the current bid-ask spread and its impact on our pricing strategies?",
+    "Seller Kai": "What are your strategies for adjusting to the current market conditions?"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 4
+````json
+{
+  "round_number": 4,
+  "seller_asks": {
+    "Seller Amir": 95.5,
+    "Seller Theo": 94.75,
+    "Seller Kai": 95.5,
+    "Seller Kit": 95.5,
+    "Seller Max": 95.25
+  },
+  "buyer_bids": {
+    "Buyer Omar": 86.25,
+    "Buyer Jin": 86.5,
+    "Buyer Raj": 83.5,
+    "Buyer Leo": 94.0,
+    "Buyer Nia": 95.74
+  },
+  "trades": [
+    {
+      "round_number": 4,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Theo",
+      "price": 95.25
+    }
+  ],
+  "seller_messages": {
+    "Seller Amir": "Consider balancing profit margins with trade volume to maximize overall profitability.",
+    "Seller Theo": "What strategies are you using to balance profit margins with trade volume in this competitive market?",
+    "Seller Kai": "What are your thoughts on the current bid-ask spread and how do you plan to adjust your ask prices to remain competitive?",
+    "Seller Kit": "What strategies are you using to adjust ask prices in response to changing market conditions?",
+    "Seller Max": "What are your strategies for adjusting ask prices in response to changing bid-ask spreads and market conditions?"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 5
+````json
+{
+  "round_number": 5,
+  "seller_asks": {
+    "Seller Max": 94.75,
+    "Seller Theo": 94.0,
+    "Seller Amir": 94.75,
+    "Seller Kai": 95.25,
+    "Seller Kit": 94.75
+  },
+  "buyer_bids": {
+    "Buyer Omar": 87.0,
+    "Buyer Jin": 87.0,
+    "Buyer Leo": 95.0,
+    "Buyer Raj": 84.75,
+    "Buyer Nia": 95.24
+  },
+  "trades": [
+    {
+      "round_number": 5,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Theo",
+      "price": 94.62
+    },
+    {
+      "round_number": 5,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Amir",
+      "price": 94.88
+    }
+  ],
+  "seller_messages": {
+    "Seller Max": "Be cautious of the decreasing bid-ask spread and adjust your ask prices accordingly to remain competitive",
+    "Seller Theo": "How do you adjust ask prices in response to changing bid-ask spreads?",
+    "Seller Amir": "Adapt your ask prices according to the bid queue and other sellers' strategies to remain competitive in the market.",
+    "Seller Kai": "Consider adjusting your ask prices to balance profit margins with trade volume, as the current bid-ask spread is wide.",
+    "Seller Kit": "Be cautious of the bid-ask spread narrowing; consider adjusting your strategies to maintain profitability while encouraging trades."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 6
+````json
+{
+  "round_number": 6,
+  "seller_asks": {
+    "Seller Theo": 94.25,
+    "Seller Kit": 94.5,
+    "Seller Amir": 93.9,
+    "Seller Kai": 94.5,
+    "Seller Max": 94.25
+  },
+  "buyer_bids": {
+    "Buyer Jin": 87.25,
+    "Buyer Omar": 87.5,
+    "Buyer Raj": 85.5,
+    "Buyer Nia": 94.74,
+    "Buyer Leo": 94.5
+  },
+  "trades": [
+    {
+      "round_number": 6,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Amir",
+      "price": 94.32
+    },
+    {
+      "round_number": 6,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Max",
+      "price": 94.38
+    }
+  ],
+  "seller_messages": {
+    "Seller Theo": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume.",
+    "Seller Kit": "Be aware of the decreasing bid-ask spread and adjust your strategies to maintain profitability while encouraging trades.",
+    "Seller Amir": "Adjust your ask prices according to the bid queue and other sellers' strategies to remain competitive in the market.",
+    "Seller Kai": "Be cautious of the decreasing bid-ask spread and adjust your ask prices accordingly to remain competitive",
+    "Seller Max": "Adjust your ask prices based on the bid queue and other sellers' strategies to remain competitive in the market."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 7
+````json
+{
+  "round_number": 7,
+  "seller_asks": {
+    "Seller Amir": 93.4,
+    "Seller Kai": 94.0,
+    "Seller Theo": 93.75,
+    "Seller Kit": 94.25,
+    "Seller Max": 93.95
+  },
+  "buyer_bids": {
+    "Buyer Jin": 87.5,
+    "Buyer Omar": 88.0,
+    "Buyer Nia": 94.24,
+    "Buyer Raj": 86.0,
+    "Buyer Leo": 94.25
+  },
+  "trades": [
+    {
+      "round_number": 7,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Amir",
+      "price": 93.83
+    },
+    {
+      "round_number": 7,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Theo",
+      "price": 94.0
+    }
+  ],
+  "seller_messages": {
+    "Seller Amir": "Be aware of the decreasing bid-ask spread and adjust your strategies to maintain profitability while encouraging trades.",
+    "Seller Kai": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume.",
+    "Seller Theo": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume.",
+    "Seller Kit": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume.",
+    "Seller Max": "Adjust your ask prices according to the bid queue and other sellers' strategies to remain competitive in the market."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 8
+````json
+{
+  "round_number": 8,
+  "seller_asks": {
+    "Seller Kai": 93.75,
+    "Seller Theo": 93.5,
+    "Seller Amir": 92.95,
+    "Seller Kit": 93.5,
+    "Seller Max": 93.5
+  },
+  "buyer_bids": {
+    "Buyer Jin": 88.0,
+    "Buyer Omar": 88.5,
+    "Buyer Raj": 86.5,
+    "Buyer Leo": 94.1,
+    "Buyer Nia": 93.94
+  },
+  "trades": [
+    {
+      "round_number": 8,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Amir",
+      "price": 93.53
+    },
+    {
+      "round_number": 8,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Kit",
+      "price": 93.72
+    }
+  ],
+  "seller_messages": {
+    "Seller Kai": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume.",
+    "Seller Theo": "Be aware of the decreasing bid-ask spread and adjust your strategies to maintain profitability while encouraging trades.",
+    "Seller Amir": "Be aware of the decreasing bid-ask spread and adjust your strategies to maintain profitability while encouraging trades.",
+    "Seller Kit": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume.",
+    "Seller Max": "Be aware of the decreasing bid-ask spread and adjust your ask prices accordingly to maintain profitability while encouraging trades."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 9
+````json
+{
+  "round_number": 9,
+  "seller_asks": {
+    "Seller Amir": 92.4,
+    "Seller Kit": 92.75,
+    "Seller Kai": 93.25,
+    "Seller Max": 93.25,
+    "Seller Theo": 93.25
+  },
+  "buyer_bids": {
+    "Buyer Jin": 88.25,
+    "Buyer Raj": 87.25,
+    "Buyer Omar": 89.0,
+    "Buyer Leo": 93.25,
+    "Buyer Nia": 93.74
+  },
+  "trades": [
+    {
+      "round_number": 9,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Amir",
+      "price": 93.07
+    },
+    {
+      "round_number": 9,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Kit",
+      "price": 93.0
+    }
+  ],
+  "seller_messages": {
+    "Seller Amir": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume.",
+    "Seller Kit": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume.",
+    "Seller Kai": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume.",
+    "Seller Max": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume.",
+    "Seller Theo": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 10
+````json
+{
+  "round_number": 10,
+  "seller_asks": {
+    "Seller Kit": 92.5,
+    "Seller Kai": 92.75,
+    "Seller Theo": 92.75,
+    "Seller Max": 92.95,
+    "Seller Amir": 92.1
+  },
+  "buyer_bids": {
+    "Buyer Jin": 89.0,
+    "Buyer Nia": 93.24,
+    "Buyer Omar": 90.0,
+    "Buyer Leo": 93.25,
+    "Buyer Raj": 88.0
+  },
+  "trades": [
+    {
+      "round_number": 10,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Amir",
+      "price": 92.67
+    },
+    {
+      "round_number": 10,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Kit",
+      "price": 92.87
+    }
+  ],
+  "seller_messages": {
+    "Seller Kit": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume.",
+    "Seller Kai": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume.",
+    "Seller Theo": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume.",
+    "Seller Max": "Be aware of the decreasing bid-ask spread and adjust your ask prices to balance profit margins with trade volume.",
+    "Seller Amir": "Be aware of the bid-ask spread's impact on your pricing strategies and adjust accordingly to maintain profitability and trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 11
+````json
+{
+  "round_number": 11,
+  "seller_asks": {
+    "Seller Theo": 92.5,
+    "Seller Max": 92.5,
+    "Seller Kai": 92.5,
+    "Seller Amir": 91.9,
+    "Seller Kit": 92.25
+  },
+  "buyer_bids": {
+    "Buyer Nia": 92.94,
+    "Buyer Jin": 89.5,
+    "Buyer Omar": 90.5,
+    "Buyer Leo": 92.9,
+    "Buyer Raj": 89.0
+  },
+  "trades": [
+    {
+      "round_number": 11,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Amir",
+      "price": 92.42
+    },
+    {
+      "round_number": 11,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Kit",
+      "price": 92.58
+    }
+  ],
+  "seller_messages": {
+    "Seller Theo": "Be aware of the decreasing bid-ask spread and adjust your ask prices to balance profit margins with trade volume.",
+    "Seller Max": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume.",
+    "Seller Kai": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume.",
+    "Seller Amir": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume.",
+    "Seller Kit": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 12
+````json
+{
+  "round_number": 12,
+  "seller_asks": {
+    "Seller Amir": 91.5,
+    "Seller Theo": 92.25,
+    "Seller Kit": 92.0,
+    "Seller Kai": 92.25,
+    "Seller Max": 92.0
+  },
+  "buyer_bids": {
+    "Buyer Nia": 92.4,
+    "Buyer Leo": 92.4,
+    "Buyer Omar": 91.0,
+    "Buyer Jin": 90.0,
+    "Buyer Raj": 90.0
+  },
+  "trades": [
+    {
+      "round_number": 12,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Amir",
+      "price": 91.95
+    },
+    {
+      "round_number": 12,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Kit",
+      "price": 92.2
+    }
+  ],
+  "seller_messages": {
+    "Seller Amir": "Be aware of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume.",
+    "Seller Theo": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume.",
+    "Seller Kit": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume.",
+    "Seller Kai": "Monitor the bid-ask spread closely and adjust your ask prices accordingly to balance profit margins with trade volume.",
+    "Seller Max": "Be aware of the market conditions and adjust your ask prices accordingly to balance profit margins with trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 13
+````json
+{
+  "round_number": 13,
+  "seller_asks": {
+    "Seller Theo": 91.75,
+    "Seller Max": 91.75,
+    "Seller Kai": 92.0,
+    "Seller Amir": 91.2,
+    "Seller Kit": 91.75
+  },
+  "buyer_bids": {
+    "Buyer Leo": 92.1,
+    "Buyer Nia": 92.24,
+    "Buyer Raj": 90.75,
+    "Buyer Jin": 90.5,
+    "Buyer Omar": 91.5
+  },
+  "trades": [
+    {
+      "round_number": 13,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Amir",
+      "price": 91.72
+    },
+    {
+      "round_number": 13,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Kit",
+      "price": 91.92
+    }
+  ],
+  "seller_messages": {
+    "Seller Theo": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume.",
+    "Seller Max": "Be cautious of the decreasing bid-ask spread and adjust your ask prices to balance profit margins with trade volume.",
+    "Seller Kai": "Be aware of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume.",
+    "Seller Amir": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume.",
+    "Seller Kit": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 14
+````json
+{
+  "round_number": 14,
+  "seller_asks": {
+    "Seller Max": 91.5,
+    "Seller Theo": 91.5,
+    "Seller Kit": 91.5,
+    "Seller Amir": 91.0,
+    "Seller Kai": 91.5
+  },
+  "buyer_bids": {
+    "Buyer Jin": 91.0,
+    "Buyer Leo": 91.75,
+    "Buyer Raj": 91.25,
+    "Buyer Omar": 91.75,
+    "Buyer Nia": 91.74
+  },
+  "trades": [
+    {
+      "round_number": 14,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Amir",
+      "price": 91.38
+    },
+    {
+      "round_number": 14,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Kai",
+      "price": 91.62
+    },
+    {
+      "round_number": 14,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Kit",
+      "price": 91.62
+    }
+  ],
+  "seller_messages": {
+    "Seller Max": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume.",
+    "Seller Theo": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume.",
+    "Seller Kit": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume.",
+    "Seller Amir": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume.",
+    "Seller Kai": "Be aware of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 15
+````json
+{
+  "round_number": 15,
+  "seller_asks": {
+    "Seller Theo": 91.25,
+    "Seller Max": 91.25,
+    "Seller Amir": 90.9,
+    "Seller Kai": 91.0,
+    "Seller Kit": 91.25
+  },
+  "buyer_bids": {
+    "Buyer Nia": 91.49,
+    "Buyer Jin": 91.5,
+    "Buyer Leo": 91.4,
+    "Buyer Raj": 91.5,
+    "Buyer Omar": 91.75
+  },
+  "trades": [
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Amir",
+      "price": 91.33
+    },
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Kai",
+      "price": 91.25
+    },
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Kit",
+      "price": 91.38
+    },
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Max",
+      "price": 91.37
+    },
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Theo",
+      "price": 91.33
+    }
+  ],
+  "seller_messages": {
+    "Seller Theo": "Be aware of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Max": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume.",
+    "Seller Amir": "Be aware of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume.",
+    "Seller Kai": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume.",
+    "Seller Kit": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 16
+````json
+{
+  "round_number": 16,
+  "seller_asks": {
+    "Seller Theo": 90.9,
+    "Seller Max": 91.0,
+    "Seller Kit": 91.1,
+    "Seller Amir": 90.5,
+    "Seller Kai": 90.9
+  },
+  "buyer_bids": {
+    "Buyer Jin": 91.75,
+    "Buyer Leo": 90.9,
+    "Buyer Raj": 91.75,
+    "Buyer Nia": 91.25,
+    "Buyer Omar": 91.9
+  },
+  "trades": [
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Amir",
+      "price": 91.2
+    },
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Kai",
+      "price": 91.33
+    },
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Theo",
+      "price": 91.33
+    },
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Max",
+      "price": 91.12
+    }
+  ],
+  "seller_messages": {
+    "Seller Theo": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Max": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume.",
+    "Seller Kit": "Be aware of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Amir": "Be aware of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Kai": "Be aware of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 17
+````json
+{
+  "round_number": 17,
+  "seller_asks": {
+    "Seller Kit": 90.95,
+    "Seller Theo": 90.8,
+    "Seller Max": 90.9,
+    "Seller Kai": 90.95,
+    "Seller Amir": 90.3
+  },
+  "buyer_bids": {
+    "Buyer Raj": 91.0,
+    "Buyer Leo": 91.05,
+    "Buyer Omar": 91.05,
+    "Buyer Jin": 91.8,
+    "Buyer Nia": 90.95
+  },
+  "trades": [
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Amir",
+      "price": 91.05
+    },
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Theo",
+      "price": 90.92
+    },
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Max",
+      "price": 90.97
+    },
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Kai",
+      "price": 90.97
+    },
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Kit",
+      "price": 90.95
+    }
+  ],
+  "seller_messages": {
+    "Seller Kit": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Theo": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Max": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Kai": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Amir": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 18
+````json
+{
+  "round_number": 18,
+  "seller_asks": {
+    "Seller Max": 90.85,
+    "Seller Theo": 90.7,
+    "Seller Kit": 90.8,
+    "Seller Amir": 90.1,
+    "Seller Kai": 90.85
+  },
+  "buyer_bids": {
+    "Buyer Leo": 90.8,
+    "Buyer Jin": 91.9,
+    "Buyer Omar": 90.8,
+    "Buyer Raj": 91.2,
+    "Buyer Nia": 90.8
+  },
+  "trades": [
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Amir",
+      "price": 91.0
+    },
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Theo",
+      "price": 90.95
+    },
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Kit",
+      "price": 90.8
+    }
+  ],
+  "seller_messages": {
+    "Seller Max": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Theo": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Kit": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Amir": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Kai": "Be prepared to adjust your pricing strategies as the market continues to evolve, and consider the potential impact of narrowing bid-ask spreads on trade volumes."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 19
+````json
+{
+  "round_number": 19,
+  "seller_asks": {
+    "Seller Max": 90.8,
+    "Seller Theo": 90.75,
+    "Seller Kit": 90.75,
+    "Seller Amir": 90.05,
+    "Seller Kai": 90.8
+  },
+  "buyer_bids": {
+    "Buyer Nia": 90.8,
+    "Buyer Leo": 90.85,
+    "Buyer Jin": 91.95,
+    "Buyer Omar": 90.9,
+    "Buyer Raj": 90.9
+  },
+  "trades": [
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Amir",
+      "price": 91.0
+    },
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Kit",
+      "price": 90.83
+    },
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Theo",
+      "price": 90.83
+    },
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Kai",
+      "price": 90.82
+    },
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Max",
+      "price": 90.8
+    }
+  ],
+  "seller_messages": {
+    "Seller Max": "Be prepared to adjust your pricing strategies as the market continues to evolve, considering the impact of narrowing bid-ask spreads on trade volumes.",
+    "Seller Theo": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Kit": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Amir": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Kai": "Be prepared to adjust your pricing strategies as the market continues to evolve, and consider the potential impact of narrowing bid-ask spreads on trade volumes."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 20
+````json
+{
+  "round_number": 20,
+  "seller_asks": {
+    "Seller Max": 90.75,
+    "Seller Kit": 90.7,
+    "Seller Kai": 90.75,
+    "Seller Theo": 90.7,
+    "Seller Amir": 90.0
+  },
+  "buyer_bids": {
+    "Buyer Leo": 90.8,
+    "Buyer Omar": 90.7,
+    "Buyer Jin": 91.05,
+    "Buyer Raj": 91.1,
+    "Buyer Nia": 90.75
+  },
+  "trades": [
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Amir",
+      "price": 90.55
+    },
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Kit",
+      "price": 90.88
+    },
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Theo",
+      "price": 90.75
+    },
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Kai",
+      "price": 90.75
+    }
+  ],
+  "seller_messages": {
+    "Seller Max": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Kit": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Kai": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Theo": "Be prepared to adjust your pricing strategies as the market continues to evolve, considering the impact of narrowing bid-ask spreads on trade volumes.",
+    "Seller Amir": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 21
+````json
+{
+  "round_number": 21,
+  "seller_asks": {
+    "Seller Theo": 90.65,
+    "Seller Kit": 90.65,
+    "Seller Max": 90.7,
+    "Seller Amir": 90.25,
+    "Seller Kai": 90.7
+  },
+  "buyer_bids": {
+    "Buyer Raj": 90.9,
+    "Buyer Jin": 90.9,
+    "Buyer Leo": 90.75,
+    "Buyer Omar": 90.65,
+    "Buyer Nia": 90.7
+  },
+  "trades": [
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Amir",
+      "price": 90.58
+    },
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Kit",
+      "price": 90.78
+    },
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Theo",
+      "price": 90.7
+    },
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Kai",
+      "price": 90.7
+    }
+  ],
+  "seller_messages": {
+    "Seller Theo": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Kit": "Adjust your ask prices based on the bid queue to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Max": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Amir": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Kai": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 22
+````json
+{
+  "round_number": 22,
+  "seller_asks": {
+    "Seller Kit": 90.6,
+    "Seller Max": 90.65,
+    "Seller Theo": 90.6,
+    "Seller Amir": 90.4,
+    "Seller Kai": 90.65
+  },
+  "buyer_bids": {
+    "Buyer Omar": 90.75,
+    "Buyer Jin": 90.8,
+    "Buyer Nia": 90.69,
+    "Buyer Leo": 90.7,
+    "Buyer Raj": 90.7
+  },
+  "trades": [
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Amir",
+      "price": 90.6
+    },
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Kit",
+      "price": 90.67
+    },
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Theo",
+      "price": 90.65
+    },
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Kai",
+      "price": 90.68
+    },
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Max",
+      "price": 90.67
+    }
+  ],
+  "seller_messages": {
+    "Seller Kit": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Max": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Theo": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Amir": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Kai": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 23
+````json
+{
+  "round_number": 23,
+  "seller_asks": {
+    "Seller Theo": 90.58,
+    "Seller Amir": 90.45,
+    "Seller Kit": 90.55,
+    "Seller Kai": 90.6,
+    "Seller Max": 90.6
+  },
+  "buyer_bids": {
+    "Buyer Leo": 90.65,
+    "Buyer Omar": 90.72,
+    "Buyer Raj": 90.7,
+    "Buyer Jin": 90.65,
+    "Buyer Nia": 90.66
+  },
+  "trades": [
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Amir",
+      "price": 90.59
+    },
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Kit",
+      "price": 90.62
+    },
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Theo",
+      "price": 90.62
+    },
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Kai",
+      "price": 90.62
+    },
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Max",
+      "price": 90.62
+    }
+  ],
+  "seller_messages": {
+    "Seller Theo": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Amir": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Kit": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Kai": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Max": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 24
+````json
+{
+  "round_number": 24,
+  "seller_asks": {
+    "Seller Amir": 90.5,
+    "Seller Max": 90.55,
+    "Seller Kit": 90.5,
+    "Seller Kai": 90.6,
+    "Seller Theo": 90.55
+  },
+  "buyer_bids": {
+    "Buyer Jin": 90.7,
+    "Buyer Raj": 90.7,
+    "Buyer Leo": 90.6,
+    "Buyer Omar": 90.58,
+    "Buyer Nia": 90.61
+  },
+  "trades": [
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Amir",
+      "price": 90.6
+    },
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Kit",
+      "price": 90.6
+    },
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Max",
+      "price": 90.58
+    },
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Theo",
+      "price": 90.57
+    }
+  ],
+  "seller_messages": {
+    "Seller Amir": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Max": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Kit": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Kai": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Theo": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 25
+````json
+{
+  "round_number": 25,
+  "seller_asks": {
+    "Seller Amir": 90.55,
+    "Seller Kit": 90.5,
+    "Seller Max": 90.55,
+    "Seller Kai": 90.58,
+    "Seller Theo": 90.52
+  },
+  "buyer_bids": {
+    "Buyer Jin": 90.65,
+    "Buyer Omar": 90.62,
+    "Buyer Nia": 90.59,
+    "Buyer Leo": 90.59,
+    "Buyer Raj": 90.65
+  },
+  "trades": [
+    {
+      "round_number": 25,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Kit",
+      "price": 90.58
+    },
+    {
+      "round_number": 25,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Theo",
+      "price": 90.59
+    },
+    {
+      "round_number": 25,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Amir",
+      "price": 90.59
+    },
+    {
+      "round_number": 25,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Max",
+      "price": 90.57
+    },
+    {
+      "round_number": 25,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Kai",
+      "price": 90.59
+    }
+  ],
+  "seller_messages": {
+    "Seller Amir": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Kit": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Max": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Kai": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Theo": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 26
+````json
+{
+  "round_number": 26,
+  "seller_asks": {
+    "Seller Amir": 90.6,
+    "Seller Max": 90.52,
+    "Seller Theo": 90.5,
+    "Seller Kai": 90.57,
+    "Seller Kit": 90.48
+  },
+  "buyer_bids": {
+    "Buyer Jin": 90.7,
+    "Buyer Raj": 90.7,
+    "Buyer Omar": 90.63,
+    "Buyer Leo": 90.61,
+    "Buyer Nia": 90.56
+  },
+  "trades": [
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Kit",
+      "price": 90.59
+    },
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Theo",
+      "price": 90.6
+    },
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Max",
+      "price": 90.57
+    },
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Kai",
+      "price": 90.59
+    }
+  ],
+  "seller_messages": {
+    "Seller Amir": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Max": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Theo": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Kai": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Kit": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 27
+````json
+{
+  "round_number": 27,
+  "seller_asks": {
+    "Seller Kit": 90.46,
+    "Seller Amir": 90.61,
+    "Seller Theo": 90.48,
+    "Seller Kai": 90.56,
+    "Seller Max": 90.5
+  },
+  "buyer_bids": {
+    "Buyer Omar": 90.64,
+    "Buyer Jin": 90.71,
+    "Buyer Raj": 90.65,
+    "Buyer Leo": 90.61,
+    "Buyer Nia": 90.55
+  },
+  "trades": [
+    {
+      "round_number": 27,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Kit",
+      "price": 90.58
+    },
+    {
+      "round_number": 27,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Theo",
+      "price": 90.56
+    },
+    {
+      "round_number": 27,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Max",
+      "price": 90.57
+    },
+    {
+      "round_number": 27,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Kai",
+      "price": 90.59
+    }
+  ],
+  "seller_messages": {
+    "Seller Kit": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Amir": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Theo": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Kai": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Max": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 28
+````json
+{
+  "round_number": 28,
+  "seller_asks": {
+    "Seller Kai": 90.55,
+    "Seller Amir": 90.62,
+    "Seller Kit": 90.44,
+    "Seller Theo": 90.47,
+    "Seller Max": 90.48
+  },
+  "buyer_bids": {
+    "Buyer Leo": 90.6,
+    "Buyer Jin": 90.72,
+    "Buyer Nia": 90.6,
+    "Buyer Omar": 90.66,
+    "Buyer Raj": 90.6
+  },
+  "trades": [
+    {
+      "round_number": 28,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Kit",
+      "price": 90.58
+    },
+    {
+      "round_number": 28,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Theo",
+      "price": 90.56
+    },
+    {
+      "round_number": 28,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Max",
+      "price": 90.54
+    },
+    {
+      "round_number": 28,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Kai",
+      "price": 90.57
+    }
+  ],
+  "seller_messages": {
+    "Seller Kai": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Amir": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Kit": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Theo": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Max": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 29
+````json
+{
+  "round_number": 29,
+  "seller_asks": {
+    "Seller Kit": 90.42,
+    "Seller Kai": 90.6,
+    "Seller Theo": 90.45,
+    "Seller Max": 90.46,
+    "Seller Amir": 90.65
+  },
+  "buyer_bids": {
+    "Buyer Leo": 90.62,
+    "Buyer Jin": 90.73,
+    "Buyer Nia": 90.61,
+    "Buyer Raj": 90.65,
+    "Buyer Omar": 90.61
+  },
+  "trades": [
+    {
+      "round_number": 29,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Kit",
+      "price": 90.58
+    },
+    {
+      "round_number": 29,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Theo",
+      "price": 90.55
+    },
+    {
+      "round_number": 29,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Max",
+      "price": 90.54
+    },
+    {
+      "round_number": 29,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Kai",
+      "price": 90.6
+    }
+  ],
+  "seller_messages": {
+    "Seller Kit": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Kai": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Theo": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Max": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market.",
+    "Seller Amir": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market and the limited time left."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 30
+````json
+{
+  "round_number": 30,
+  "seller_asks": {
+    "Seller Kit": 90.4,
+    "Seller Theo": 90.4,
+    "Seller Kai": 90.61,
+    "Seller Amir": 90.61,
+    "Seller Max": 90.45
+  },
+  "buyer_bids": {
+    "Buyer Jin": 90.74,
+    "Buyer Omar": 90.69,
+    "Buyer Leo": 90.64,
+    "Buyer Nia": 90.64,
+    "Buyer Raj": 90.6
+  },
+  "trades": [
+    {
+      "round_number": 30,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Kit",
+      "price": 90.57
+    },
+    {
+      "round_number": 30,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Theo",
+      "price": 90.55
+    },
+    {
+      "round_number": 30,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Max",
+      "price": 90.55
+    },
+    {
+      "round_number": 30,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Amir",
+      "price": 90.62
+    }
+  ],
+  "seller_messages": {
+    "Seller Kit": "Balance your ask prices to remain competitive in the market, considering the limited time left.",
+    "Seller Theo": "Be cautious of the competitive market and limited time left, adjust your ask prices to balance profit margins with trade volume.",
+    "Seller Kai": "Be cautious of the narrowing bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market and the limited time left.",
+    "Seller Amir": "Balance profit margins with trade volume, considering the bid-ask spread and other sellers' strategies, to maximize profitability in the remaining time.",
+    "Seller Max": "Be cautious of the bid-ask spread and adjust your ask prices to balance profit margins with trade volume, considering the competitive market and the limited time left."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````

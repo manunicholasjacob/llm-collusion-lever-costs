@@ -1,0 +1,1410 @@
+
+## Auction Results: Round 1
+````json
+{
+  "round_number": 1,
+  "seller_asks": {
+    "Seller Maya": 98.71,
+    "Seller Ana": 98.33,
+    "Seller Nia": 93.0,
+    "Seller Eli": 97.07,
+    "Seller Leo": 96.7
+  },
+  "buyer_bids": {
+    "Buyer Jun": 96.5,
+    "Buyer Yara": 95.0,
+    "Buyer Zoe": 83.0,
+    "Buyer Kit": 95.5,
+    "Buyer Omar": 83.63
+  },
+  "trades": [
+    {
+      "round_number": 1,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Nia",
+      "price": 94.75
+    }
+  ],
+  "seller_messages": {},
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 2
+````json
+{
+  "round_number": 2,
+  "seller_asks": {
+    "Seller Nia": 91.0,
+    "Seller Leo": 95.8,
+    "Seller Eli": 96.07,
+    "Seller Ana": 96.0,
+    "Seller Maya": 97.4
+  },
+  "buyer_bids": {
+    "Buyer Kit": 96.0,
+    "Buyer Jun": 95.8,
+    "Buyer Yara": 96.0,
+    "Buyer Zoe": 85.0,
+    "Buyer Omar": 84.0
+  },
+  "trades": [
+    {
+      "round_number": 2,
+      "buyer_id": "Buyer Yara",
+      "seller_id": "Seller Nia",
+      "price": 93.5
+    },
+    {
+      "round_number": 2,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Leo",
+      "price": 95.9
+    }
+  ],
+  "seller_messages": {
+    "Seller Leo": "Market bids are high, consider adjusting asks.",
+    "Seller Eli": "What are your pricing strategies for the next hour?",
+    "Seller Ana": "Be competitive with your asks, high bids are below $96.00.",
+    "Seller Maya": "The bid queue is currently low, with the highest bid at $83.63, while the ask queue has a significant spread, suggesting a need for competitive pricing."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 3
+````json
+{
+  "round_number": 3,
+  "seller_asks": {
+    "Seller Nia": 91.5,
+    "Seller Eli": 95.07,
+    "Seller Leo": 95.2,
+    "Seller Maya": 94.5,
+    "Seller Ana": 95.9
+  },
+  "buyer_bids": {
+    "Buyer Kit": 96.5,
+    "Buyer Jun": 96.2,
+    "Buyer Yara": 96.5,
+    "Buyer Omar": 85.5,
+    "Buyer Zoe": 86.5
+  },
+  "trades": [
+    {
+      "round_number": 3,
+      "buyer_id": "Buyer Yara",
+      "seller_id": "Seller Nia",
+      "price": 94.0
+    },
+    {
+      "round_number": 3,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Maya",
+      "price": 95.5
+    },
+    {
+      "round_number": 3,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Eli",
+      "price": 95.63
+    }
+  ],
+  "seller_messages": {
+    "Seller Eli": "Consider reducing asks to match increasing bids for better trade volume.",
+    "Seller Leo": "Consider adjusting your asks to stay competitive with the current market bids.",
+    "Seller Maya": "Consider lowering asks to meet the high bids, a trade-off between profitability and securing sales is necessary.",
+    "Seller Ana": "Be competitive with your asks, high bids are around $95.80."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 4
+````json
+{
+  "round_number": 4,
+  "seller_asks": {
+    "Seller Nia": 94.0,
+    "Seller Leo": 94.8,
+    "Seller Eli": 94.5,
+    "Seller Maya": 93.5,
+    "Seller Ana": 87.0
+  },
+  "buyer_bids": {
+    "Buyer Zoe": 87.0,
+    "Buyer Yara": 95.5,
+    "Buyer Kit": 97.0,
+    "Buyer Jun": 95.9,
+    "Buyer Omar": 86.0
+  },
+  "trades": [
+    {
+      "round_number": 4,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Ana",
+      "price": 92.0
+    },
+    {
+      "round_number": 4,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Maya",
+      "price": 94.7
+    },
+    {
+      "round_number": 4,
+      "buyer_id": "Buyer Yara",
+      "seller_id": "Seller Nia",
+      "price": 94.75
+    }
+  ],
+  "seller_messages": {
+    "Seller Leo": "Consider the balance between profit margins and trade volume when adjusting your asks to meet the increasing bids.",
+    "Seller Eli": "Consider balancing profit margins with trade volume by adjusting asks according to bid queue changes.",
+    "Seller Maya": "Adjust your asks to match the increasing bids, as high bids are around $86.5, to stay competitive and secure trades.",
+    "Seller Ana": "Consider the balance between profitability and trade volume when setting your ask prices, as high bids are increasing."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 5
+````json
+{
+  "round_number": 5,
+  "seller_asks": {
+    "Seller Nia": 84.5,
+    "Seller Maya": 93.0,
+    "Seller Leo": 93.5,
+    "Seller Ana": 87.5,
+    "Seller Eli": 93.5
+  },
+  "buyer_bids": {
+    "Buyer Omar": 87.5,
+    "Buyer Jun": 94.2,
+    "Buyer Yara": 94.2,
+    "Buyer Kit": 97.5,
+    "Buyer Zoe": 88.0
+  },
+  "trades": [
+    {
+      "round_number": 5,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Nia",
+      "price": 91.0
+    },
+    {
+      "round_number": 5,
+      "buyer_id": "Buyer Yara",
+      "seller_id": "Seller Ana",
+      "price": 90.85
+    },
+    {
+      "round_number": 5,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Maya",
+      "price": 93.6
+    }
+  ],
+  "seller_messages": {
+    "Seller Maya": "Consider adjusting your asks to match the increasing bids to stay competitive and secure trades.",
+    "Seller Leo": "Adjust asks according to bid queue changes to secure trades while maintaining profitability.",
+    "Seller Ana": "Consider adjusting your asks based on the bid queue's changes to balance profit margins and trade volume.",
+    "Seller Eli": "Consider adjusting your asks to match increasing bids to secure trades."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 6
+````json
+{
+  "round_number": 6,
+  "seller_asks": {
+    "Seller Nia": 83.0,
+    "Seller Leo": 92.5,
+    "Seller Eli": 92.5,
+    "Seller Maya": 88.5,
+    "Seller Ana": 88.5
+  },
+  "buyer_bids": {
+    "Buyer Zoe": 89.0,
+    "Buyer Jun": 92.8,
+    "Buyer Kit": 98.0,
+    "Buyer Yara": 92.5,
+    "Buyer Omar": 88.5
+  },
+  "trades": [
+    {
+      "round_number": 6,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Nia",
+      "price": 90.5
+    },
+    {
+      "round_number": 6,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Ana",
+      "price": 90.65
+    },
+    {
+      "round_number": 6,
+      "buyer_id": "Buyer Yara",
+      "seller_id": "Seller Maya",
+      "price": 90.5
+    }
+  ],
+  "seller_messages": {
+    "Seller Leo": "Adjust asks according to bid queue changes to secure trades while maintaining profitability.",
+    "Seller Eli": "Adjust your asks according to the bid queue's changes to secure trades while maintaining profitability.",
+    "Seller Maya": "Adjust your asks based on bid queue changes to balance profit margins and trade volume.",
+    "Seller Ana": "Consider balancing competitiveness with profitability by monitoring bid queue changes and adjusting asks accordingly."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 7
+````json
+{
+  "round_number": 7,
+  "seller_asks": {
+    "Seller Nia": 86.0,
+    "Seller Maya": 89.0,
+    "Seller Eli": 91.5,
+    "Seller Leo": 91.8,
+    "Seller Ana": 89.5
+  },
+  "buyer_bids": {
+    "Buyer Zoe": 90.0,
+    "Buyer Kit": 91.0,
+    "Buyer Yara": 91.0,
+    "Buyer Jun": 91.5,
+    "Buyer Omar": 89.25
+  },
+  "trades": [
+    {
+      "round_number": 7,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Nia",
+      "price": 88.75
+    },
+    {
+      "round_number": 7,
+      "buyer_id": "Buyer Yara",
+      "seller_id": "Seller Maya",
+      "price": 90.0
+    },
+    {
+      "round_number": 7,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Ana",
+      "price": 90.25
+    }
+  ],
+  "seller_messages": {
+    "Seller Maya": "Adjust your asks according to the bid queue's changes to secure trades while maintaining profitability.",
+    "Seller Eli": "Adjust your asks according to the bid queue's changes to secure trades while maintaining profitability.",
+    "Seller Leo": "Adjust asks based on bid queue changes to balance profit margins and trade volume.",
+    "Seller Ana": "Monitor bid queue changes and adjust asks to stay competitive while maintaining profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 8
+````json
+{
+  "round_number": 8,
+  "seller_asks": {
+    "Seller Nia": 85.0,
+    "Seller Eli": 90.75,
+    "Seller Leo": 91.2,
+    "Seller Maya": 90.25,
+    "Seller Ana": 91.0
+  },
+  "buyer_bids": {
+    "Buyer Kit": 90.5,
+    "Buyer Yara": 90.5,
+    "Buyer Jun": 91.0,
+    "Buyer Zoe": 90.5,
+    "Buyer Omar": 90.0
+  },
+  "trades": [
+    {
+      "round_number": 8,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Nia",
+      "price": 88.0
+    },
+    {
+      "round_number": 8,
+      "buyer_id": "Buyer Zoe",
+      "seller_id": "Seller Maya",
+      "price": 90.38
+    }
+  ],
+  "seller_messages": {
+    "Seller Eli": "Monitor bid queue changes closely and adjust asks to maintain competitiveness while ensuring profitability.",
+    "Seller Leo": "Adjust asks according to bid queue changes to secure trades while maintaining profitability.",
+    "Seller Maya": "Adjust your asks based on bid queue changes to balance profit margins and trade volume.",
+    "Seller Ana": "Adjust your asks based on the bid queue's changes to balance profit margins and trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 9
+````json
+{
+  "round_number": 9,
+  "seller_asks": {
+    "Seller Nia": 82.5,
+    "Seller Eli": 90.25,
+    "Seller Leo": 90.8,
+    "Seller Maya": 90.75,
+    "Seller Ana": 91.25
+  },
+  "buyer_bids": {
+    "Buyer Zoe": 90.75,
+    "Buyer Jun": 90.5,
+    "Buyer Kit": 90.75,
+    "Buyer Yara": 91.0,
+    "Buyer Omar": 90.25
+  },
+  "trades": [
+    {
+      "round_number": 9,
+      "buyer_id": "Buyer Yara",
+      "seller_id": "Seller Nia",
+      "price": 86.75
+    },
+    {
+      "round_number": 9,
+      "buyer_id": "Buyer Zoe",
+      "seller_id": "Seller Eli",
+      "price": 90.5
+    },
+    {
+      "round_number": 9,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Maya",
+      "price": 90.75
+    }
+  ],
+  "seller_messages": {
+    "Seller Eli": "Adjust asks according to bid queue changes to balance profit margins and trade volume.",
+    "Seller Leo": "Adjust your asks according to bid queue changes to balance profit margins and trade volume.",
+    "Seller Maya": "Adjust your asks based on bid queue changes to balance profit margins and trade volume.",
+    "Seller Ana": "Adjust asks based on bid queue changes to balance profit margins and trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 10
+````json
+{
+  "round_number": 10,
+  "seller_asks": {
+    "Seller Nia": 86.0,
+    "Seller Leo": 90.5,
+    "Seller Eli": 90.0,
+    "Seller Maya": 90.8,
+    "Seller Ana": 91.5
+  },
+  "buyer_bids": {
+    "Buyer Zoe": 90.9,
+    "Buyer Omar": 90.75,
+    "Buyer Kit": 90.8,
+    "Buyer Jun": 90.75,
+    "Buyer Yara": 90.75
+  },
+  "trades": [
+    {
+      "round_number": 10,
+      "buyer_id": "Buyer Zoe",
+      "seller_id": "Seller Nia",
+      "price": 88.45
+    },
+    {
+      "round_number": 10,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Eli",
+      "price": 90.4
+    },
+    {
+      "round_number": 10,
+      "buyer_id": "Buyer Yara",
+      "seller_id": "Seller Leo",
+      "price": 90.62
+    }
+  ],
+  "seller_messages": {
+    "Seller Leo": "Adjust asks based on bid queue changes to balance profit margins and trade volume.",
+    "Seller Eli": "Adjust asks based on bid queue changes to balance profit margins and trade volume, considering market trends.",
+    "Seller Maya": "Adjust your asks according to bid queue changes to balance profit margins and trade volume.",
+    "Seller Ana": "Adjust your asks based on bid queue changes to balance profit margins and trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 11
+````json
+{
+  "round_number": 11,
+  "seller_asks": {
+    "Seller Nia": 83.5,
+    "Seller Maya": 90.9,
+    "Seller Leo": 90.75,
+    "Seller Eli": 90.25,
+    "Seller Ana": 91.75
+  },
+  "buyer_bids": {
+    "Buyer Kit": 90.85,
+    "Buyer Jun": 90.8,
+    "Buyer Yara": 90.75,
+    "Buyer Zoe": 90.95,
+    "Buyer Omar": 91.0
+  },
+  "trades": [
+    {
+      "round_number": 11,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Nia",
+      "price": 87.25
+    },
+    {
+      "round_number": 11,
+      "buyer_id": "Buyer Zoe",
+      "seller_id": "Seller Eli",
+      "price": 90.6
+    },
+    {
+      "round_number": 11,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Leo",
+      "price": 90.8
+    }
+  ],
+  "seller_messages": {
+    "Seller Maya": "Adjust your asks according to bid queue changes to balance profit margins and trade volume.",
+    "Seller Leo": "Adjust asks based on bid queue changes to balance profit margins and trade volume, considering market trends.",
+    "Seller Eli": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume.",
+    "Seller Ana": "Adjust asks based on bid queue changes to balance profit margins and trade volume, considering market trends."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 12
+````json
+{
+  "round_number": 12,
+  "seller_asks": {
+    "Seller Nia": 83.5,
+    "Seller Eli": 90.5,
+    "Seller Leo": 90.65,
+    "Seller Ana": 92.0,
+    "Seller Maya": 90.95
+  },
+  "buyer_bids": {
+    "Buyer Zoe": 91.0,
+    "Buyer Jun": 90.85,
+    "Buyer Kit": 90.9,
+    "Buyer Yara": 90.8,
+    "Buyer Omar": 91.25
+  },
+  "trades": [
+    {
+      "round_number": 12,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Nia",
+      "price": 87.38
+    },
+    {
+      "round_number": 12,
+      "buyer_id": "Buyer Zoe",
+      "seller_id": "Seller Eli",
+      "price": 90.75
+    },
+    {
+      "round_number": 12,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Leo",
+      "price": 90.78
+    }
+  ],
+  "seller_messages": {
+    "Seller Eli": "Adjust asks based on bid queue changes to balance profit margins and trade volume, considering market trends.",
+    "Seller Leo": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume.",
+    "Seller Ana": "Adjust asks based on bid queue changes and market trends to balance profit margins and trade volume.",
+    "Seller Maya": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 13
+````json
+{
+  "round_number": 13,
+  "seller_asks": {
+    "Seller Nia": 84.5,
+    "Seller Ana": 92.5,
+    "Seller Eli": 90.9,
+    "Seller Leo": 90.9,
+    "Seller Maya": 90.9
+  },
+  "buyer_bids": {
+    "Buyer Zoe": 91.05,
+    "Buyer Yara": 90.85,
+    "Buyer Kit": 91.0,
+    "Buyer Omar": 91.5,
+    "Buyer Jun": 91.0
+  },
+  "trades": [
+    {
+      "round_number": 13,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Nia",
+      "price": 88.0
+    },
+    {
+      "round_number": 13,
+      "buyer_id": "Buyer Zoe",
+      "seller_id": "Seller Eli",
+      "price": 90.97
+    },
+    {
+      "round_number": 13,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Leo",
+      "price": 90.95
+    },
+    {
+      "round_number": 13,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Maya",
+      "price": 90.95
+    }
+  ],
+  "seller_messages": {
+    "Seller Ana": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume.",
+    "Seller Eli": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume.",
+    "Seller Leo": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, focusing on securing trades while maintaining profitability.",
+    "Seller Maya": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 14
+````json
+{
+  "round_number": 14,
+  "seller_asks": {
+    "Seller Nia": 89.0,
+    "Seller Ana": 93.35,
+    "Seller Eli": 91.0,
+    "Seller Leo": 90.9,
+    "Seller Maya": 91.0
+  },
+  "buyer_bids": {
+    "Buyer Zoe": 91.1,
+    "Buyer Kit": 91.1,
+    "Buyer Jun": 91.2,
+    "Buyer Yara": 91.0,
+    "Buyer Omar": 91.5
+  },
+  "trades": [
+    {
+      "round_number": 14,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Nia",
+      "price": 90.25
+    },
+    {
+      "round_number": 14,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Leo",
+      "price": 91.05
+    },
+    {
+      "round_number": 14,
+      "buyer_id": "Buyer Zoe",
+      "seller_id": "Seller Eli",
+      "price": 91.05
+    },
+    {
+      "round_number": 14,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Maya",
+      "price": 91.05
+    }
+  ],
+  "seller_messages": {
+    "Seller Ana": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume.",
+    "Seller Eli": "Adjust asks according to bid queue changes to maintain profitability and secure trades.",
+    "Seller Leo": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume.",
+    "Seller Maya": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 15
+````json
+{
+  "round_number": 15,
+  "seller_asks": {
+    "Seller Nia": 89.0,
+    "Seller Eli": 91.1,
+    "Seller Ana": 91.5,
+    "Seller Leo": 91.1,
+    "Seller Maya": 91.1
+  },
+  "buyer_bids": {
+    "Buyer Kit": 91.2,
+    "Buyer Zoe": 91.1,
+    "Buyer Yara": 91.5,
+    "Buyer Jun": 91.5,
+    "Buyer Omar": 91.75
+  },
+  "trades": [
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Nia",
+      "price": 90.38
+    },
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Yara",
+      "seller_id": "Seller Eli",
+      "price": 91.3
+    },
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Leo",
+      "price": 91.3
+    },
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Maya",
+      "price": 91.15
+    }
+  ],
+  "seller_messages": {
+    "Seller Eli": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot.",
+    "Seller Ana": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume.",
+    "Seller Leo": "Adjust asks based on bid queue changes and market trends to balance profit margins and trade volume.",
+    "Seller Maya": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 16
+````json
+{
+  "round_number": 16,
+  "seller_asks": {
+    "Seller Nia": 88.0,
+    "Seller Ana": 91.6,
+    "Seller Eli": 91.4,
+    "Seller Leo": 91.2,
+    "Seller Maya": 91.2
+  },
+  "buyer_bids": {
+    "Buyer Kit": 91.2,
+    "Buyer Omar": 91.8,
+    "Buyer Zoe": 91.2,
+    "Buyer Yara": 91.2,
+    "Buyer Jun": 91.2
+  },
+  "trades": [
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Nia",
+      "price": 89.9
+    },
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Zoe",
+      "seller_id": "Seller Leo",
+      "price": 91.2
+    },
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Yara",
+      "seller_id": "Seller Maya",
+      "price": 91.2
+    }
+  ],
+  "seller_messages": {
+    "Seller Ana": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot.",
+    "Seller Eli": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot.",
+    "Seller Leo": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot.",
+    "Seller Maya": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 17
+````json
+{
+  "round_number": 17,
+  "seller_asks": {
+    "Seller Nia": 86.5,
+    "Seller Ana": 91.7,
+    "Seller Maya": 91.3,
+    "Seller Eli": 91.7,
+    "Seller Leo": 91.3
+  },
+  "buyer_bids": {
+    "Buyer Omar": 91.9,
+    "Buyer Kit": 91.25,
+    "Buyer Yara": 91.3,
+    "Buyer Jun": 91.25,
+    "Buyer Zoe": 91.25
+  },
+  "trades": [
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Nia",
+      "price": 89.2
+    },
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Yara",
+      "seller_id": "Seller Leo",
+      "price": 91.3
+    }
+  ],
+  "seller_messages": {
+    "Seller Ana": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot.",
+    "Seller Maya": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot.",
+    "Seller Eli": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot.",
+    "Seller Leo": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 18
+````json
+{
+  "round_number": 18,
+  "seller_asks": {
+    "Seller Nia": 90.0,
+    "Seller Ana": 91.95,
+    "Seller Leo": 91.4,
+    "Seller Maya": 91.4,
+    "Seller Eli": 91.8
+  },
+  "buyer_bids": {
+    "Buyer Zoe": 91.3,
+    "Buyer Omar": 92.0,
+    "Buyer Kit": 91.3,
+    "Buyer Jun": 91.3,
+    "Buyer Yara": 91.35
+  },
+  "trades": [
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Nia",
+      "price": 91.0
+    }
+  ],
+  "seller_messages": {
+    "Seller Ana": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot.",
+    "Seller Leo": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot.",
+    "Seller Maya": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot.",
+    "Seller Eli": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 19
+````json
+{
+  "round_number": 19,
+  "seller_asks": {
+    "Seller Nia": 90.0,
+    "Seller Ana": 92.05,
+    "Seller Leo": 91.45,
+    "Seller Eli": 91.9,
+    "Seller Maya": 91.4
+  },
+  "buyer_bids": {
+    "Buyer Zoe": 91.4,
+    "Buyer Kit": 91.4,
+    "Buyer Omar": 92.1,
+    "Buyer Yara": 91.4,
+    "Buyer Jun": 91.4
+  },
+  "trades": [
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Nia",
+      "price": 91.05
+    },
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Zoe",
+      "seller_id": "Seller Maya",
+      "price": 91.4
+    }
+  ],
+  "seller_messages": {
+    "Seller Ana": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot.",
+    "Seller Leo": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot.",
+    "Seller Eli": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot.",
+    "Seller Maya": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 20
+````json
+{
+  "round_number": 20,
+  "seller_asks": {
+    "Seller Nia": 87.0,
+    "Seller Leo": 91.5,
+    "Seller Maya": 91.5,
+    "Seller Ana": 92.1,
+    "Seller Eli": 91.95
+  },
+  "buyer_bids": {
+    "Buyer Kit": 91.45,
+    "Buyer Omar": 92.2,
+    "Buyer Yara": 91.45,
+    "Buyer Jun": 91.4,
+    "Buyer Zoe": 91.45
+  },
+  "trades": [
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Nia",
+      "price": 89.6
+    }
+  ],
+  "seller_messages": {
+    "Seller Leo": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot.",
+    "Seller Maya": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot.",
+    "Seller Ana": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot.",
+    "Seller Eli": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 21
+````json
+{
+  "round_number": 21,
+  "seller_asks": {
+    "Seller Nia": 90.0,
+    "Seller Eli": 92.0,
+    "Seller Ana": 92.2,
+    "Seller Leo": 91.5,
+    "Seller Maya": 91.5
+  },
+  "buyer_bids": {
+    "Buyer Zoe": 91.5,
+    "Buyer Kit": 91.5,
+    "Buyer Omar": 92.05,
+    "Buyer Yara": 91.5,
+    "Buyer Jun": 91.5
+  },
+  "trades": [
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Nia",
+      "price": 91.03
+    },
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Zoe",
+      "seller_id": "Seller Leo",
+      "price": 91.5
+    },
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Yara",
+      "seller_id": "Seller Maya",
+      "price": 91.5
+    }
+  ],
+  "seller_messages": {
+    "Seller Eli": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot.",
+    "Seller Ana": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot.",
+    "Seller Leo": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot.",
+    "Seller Maya": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 22
+````json
+{
+  "round_number": 22,
+  "seller_asks": {
+    "Seller Nia": 90.5,
+    "Seller Leo": 91.4,
+    "Seller Ana": 92.5,
+    "Seller Eli": 92.1,
+    "Seller Maya": 91.55
+  },
+  "buyer_bids": {
+    "Buyer Zoe": 91.55,
+    "Buyer Yara": 91.55,
+    "Buyer Omar": 92.1,
+    "Buyer Kit": 91.55,
+    "Buyer Jun": 91.6
+  },
+  "trades": [
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Nia",
+      "price": 91.3
+    },
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Leo",
+      "price": 91.5
+    },
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Zoe",
+      "seller_id": "Seller Maya",
+      "price": 91.55
+    }
+  ],
+  "seller_messages": {
+    "Seller Leo": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot.",
+    "Seller Ana": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot.",
+    "Seller Eli": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot.",
+    "Seller Maya": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 23
+````json
+{
+  "round_number": 23,
+  "seller_asks": {
+    "Seller Nia": 87.0,
+    "Seller Ana": 92.8,
+    "Seller Leo": 91.6,
+    "Seller Eli": 92.2,
+    "Seller Maya": 91.6
+  },
+  "buyer_bids": {
+    "Buyer Zoe": 91.6,
+    "Buyer Kit": 91.6,
+    "Buyer Omar": 91.9,
+    "Buyer Yara": 91.6,
+    "Buyer Jun": 91.65
+  },
+  "trades": [
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Nia",
+      "price": 89.45
+    },
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Leo",
+      "price": 91.62
+    },
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Zoe",
+      "seller_id": "Seller Maya",
+      "price": 91.6
+    }
+  ],
+  "seller_messages": {
+    "Seller Ana": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot.",
+    "Seller Leo": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot.",
+    "Seller Eli": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot.",
+    "Seller Maya": "Target a profit margin above $10.0 per lot by adjusting asks according to bid queue changes and market trends."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 24
+````json
+{
+  "round_number": 24,
+  "seller_asks": {
+    "Seller Nia": 85.5,
+    "Seller Maya": 91.65,
+    "Seller Eli": 92.5,
+    "Seller Leo": 91.7,
+    "Seller Ana": 92.9
+  },
+  "buyer_bids": {
+    "Buyer Kit": 91.65,
+    "Buyer Omar": 92.0,
+    "Buyer Jun": 91.7,
+    "Buyer Yara": 91.65,
+    "Buyer Zoe": 91.65
+  },
+  "trades": [
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Nia",
+      "price": 88.75
+    },
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Maya",
+      "price": 91.68
+    }
+  ],
+  "seller_messages": {
+    "Seller Maya": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot.",
+    "Seller Eli": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot.",
+    "Seller Leo": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot.",
+    "Seller Ana": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 25
+````json
+{
+  "round_number": 25,
+  "seller_asks": {
+    "Seller Nia": 89.5,
+    "Seller Eli": 92.8,
+    "Seller Maya": 91.7,
+    "Seller Ana": 92.95,
+    "Seller Leo": 91.75
+  },
+  "buyer_bids": {
+    "Buyer Zoe": 91.7,
+    "Buyer Kit": 91.7,
+    "Buyer Yara": 91.7,
+    "Buyer Jun": 91.7,
+    "Buyer Omar": 92.1
+  },
+  "trades": [
+    {
+      "round_number": 25,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Nia",
+      "price": 90.8
+    },
+    {
+      "round_number": 25,
+      "buyer_id": "Buyer Zoe",
+      "seller_id": "Seller Maya",
+      "price": 91.7
+    }
+  ],
+  "seller_messages": {
+    "Seller Eli": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot.",
+    "Seller Maya": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot.",
+    "Seller Ana": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot.",
+    "Seller Leo": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 26
+````json
+{
+  "round_number": 26,
+  "seller_asks": {
+    "Seller Nia": 89.0,
+    "Seller Ana": 93.2,
+    "Seller Eli": 93.0,
+    "Seller Leo": 91.8,
+    "Seller Maya": 91.8
+  },
+  "buyer_bids": {
+    "Buyer Zoe": 91.75,
+    "Buyer Yara": 91.8,
+    "Buyer Kit": 91.8,
+    "Buyer Omar": 92.2,
+    "Buyer Jun": 91.75
+  },
+  "trades": [
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Nia",
+      "price": 90.6
+    },
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Yara",
+      "seller_id": "Seller Leo",
+      "price": 91.8
+    },
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Maya",
+      "price": 91.8
+    }
+  ],
+  "seller_messages": {
+    "Seller Ana": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot.",
+    "Seller Eli": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot.",
+    "Seller Leo": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot.",
+    "Seller Maya": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 27
+````json
+{
+  "round_number": 27,
+  "seller_asks": {
+    "Seller Nia": 90.0,
+    "Seller Ana": 93.5,
+    "Seller Leo": 91.85,
+    "Seller Eli": 93.1,
+    "Seller Maya": 91.85
+  },
+  "buyer_bids": {
+    "Buyer Zoe": 91.8,
+    "Buyer Kit": 91.85,
+    "Buyer Jun": 91.8,
+    "Buyer Yara": 91.85,
+    "Buyer Omar": 92.5
+  },
+  "trades": [
+    {
+      "round_number": 27,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Nia",
+      "price": 91.25
+    },
+    {
+      "round_number": 27,
+      "buyer_id": "Buyer Yara",
+      "seller_id": "Seller Leo",
+      "price": 91.85
+    },
+    {
+      "round_number": 27,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Maya",
+      "price": 91.85
+    }
+  ],
+  "seller_messages": {
+    "Seller Ana": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot.",
+    "Seller Leo": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot.",
+    "Seller Eli": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot.",
+    "Seller Maya": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 28
+````json
+{
+  "round_number": 28,
+  "seller_asks": {
+    "Seller Nia": 88.5,
+    "Seller Ana": 94.0,
+    "Seller Leo": 91.9,
+    "Seller Eli": 93.2,
+    "Seller Maya": 91.9
+  },
+  "buyer_bids": {
+    "Buyer Zoe": 91.85,
+    "Buyer Kit": 91.9,
+    "Buyer Omar": 92.75,
+    "Buyer Yara": 92.0,
+    "Buyer Jun": 92.0
+  },
+  "trades": [
+    {
+      "round_number": 28,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Nia",
+      "price": 90.62
+    },
+    {
+      "round_number": 28,
+      "buyer_id": "Buyer Yara",
+      "seller_id": "Seller Leo",
+      "price": 91.95
+    },
+    {
+      "round_number": 28,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Maya",
+      "price": 91.95
+    }
+  ],
+  "seller_messages": {
+    "Seller Ana": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume.",
+    "Seller Leo": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot.",
+    "Seller Eli": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot.",
+    "Seller Maya": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 29
+````json
+{
+  "round_number": 29,
+  "seller_asks": {
+    "Seller Nia": 88.5,
+    "Seller Maya": 92.0,
+    "Seller Ana": 94.5,
+    "Seller Leo": 92.0,
+    "Seller Eli": 93.5
+  },
+  "buyer_bids": {
+    "Buyer Zoe": 91.9,
+    "Buyer Omar": 92.9,
+    "Buyer Kit": 92.0,
+    "Buyer Jun": 92.2,
+    "Buyer Yara": 92.2
+  },
+  "trades": [
+    {
+      "round_number": 29,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Nia",
+      "price": 90.7
+    },
+    {
+      "round_number": 29,
+      "buyer_id": "Buyer Yara",
+      "seller_id": "Seller Leo",
+      "price": 92.1
+    },
+    {
+      "round_number": 29,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Maya",
+      "price": 92.1
+    }
+  ],
+  "seller_messages": {
+    "Seller Maya": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot.",
+    "Seller Ana": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, considering the increasing bids.",
+    "Seller Leo": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot.",
+    "Seller Eli": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot as the market approaches its final hours."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 30
+````json
+{
+  "round_number": 30,
+  "seller_asks": {
+    "Seller Nia": 86.5,
+    "Seller Ana": 94.8,
+    "Seller Eli": 94.0,
+    "Seller Leo": 92.2,
+    "Seller Maya": 92.05
+  },
+  "buyer_bids": {
+    "Buyer Zoe": 92.0,
+    "Buyer Kit": 92.5,
+    "Buyer Omar": 93.0,
+    "Buyer Yara": 92.5,
+    "Buyer Jun": 92.5
+  },
+  "trades": [
+    {
+      "round_number": 30,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Nia",
+      "price": 89.75
+    },
+    {
+      "round_number": 30,
+      "buyer_id": "Buyer Yara",
+      "seller_id": "Seller Maya",
+      "price": 92.28
+    },
+    {
+      "round_number": 30,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Leo",
+      "price": 92.35
+    }
+  ],
+  "seller_messages": {
+    "Seller Eli": "Adjust asks according to bid queue changes and market trends to balance profit margins and trade volume, targeting a profit margin above $10.0 per lot as the market concludes.",
+    "Seller Leo": "Adjust asks according to the final bid queue and market trends to maximize profitability in the last hour, targeting a profit margin above $10.0 per lot.",
+    "Seller Maya": "Adjust asks according to final bid queue changes and market trends to balance profit margins and trade volume in the last hour."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````

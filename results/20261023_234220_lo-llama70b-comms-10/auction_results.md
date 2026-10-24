@@ -1,0 +1,1427 @@
+
+## Auction Results: Round 1
+````json
+{
+  "round_number": 1,
+  "seller_asks": {
+    "Seller Kit": 98.38,
+    "Seller Mia": 97.0,
+    "Seller Amir": 97.73,
+    "Seller Wei": 97.67,
+    "Seller Max": 96.38
+  },
+  "buyer_bids": {
+    "Buyer Maya": 75.4,
+    "Buyer Ana": 81.82,
+    "Buyer Nia": 82.66,
+    "Buyer Raj": 83.15,
+    "Buyer Leo": 83.14
+  },
+  "trades": [],
+  "seller_messages": {
+    "Seller Max": "Testing the market with a high ask, waiting for responses.",
+    "Seller Mia": "What are your pricing strategies for the initial hours?"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 2
+````json
+{
+  "round_number": 2,
+  "seller_asks": {
+    "Seller Max": 95.5,
+    "Seller Mia": 96.5,
+    "Seller Wei": 96.5,
+    "Seller Amir": 96.73,
+    "Seller Kit": 96.5
+  },
+  "buyer_bids": {
+    "Buyer Nia": 83.2,
+    "Buyer Ana": 82.5,
+    "Buyer Maya": 76.4,
+    "Buyer Raj": 84.0,
+    "Buyer Leo": 84.0
+  },
+  "trades": [],
+  "seller_messages": {
+    "Seller Max": "Adjusted ask price to $95.50, aiming for a balance between profit and trade security.",
+    "Seller Mia": "What are your strategies for adjusting ask prices in response to bid queue changes?",
+    "Seller Wei": "Adjusting ask price to $96.50 to increase trade likelihood while maintaining profitability.",
+    "Seller Amir": "Adjusting ask price to be more competitive, considering the highest bids in the queue.",
+    "Seller Kit": "What are your strategies for adjusting to the current market spread?"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 3
+````json
+{
+  "round_number": 3,
+  "seller_asks": {
+    "Seller Mia": 95.75,
+    "Seller Wei": 95.75,
+    "Seller Max": 94.0,
+    "Seller Kit": 95.75,
+    "Seller Amir": 85.0
+  },
+  "buyer_bids": {
+    "Buyer Ana": 83.5,
+    "Buyer Maya": 77.4,
+    "Buyer Raj": 84.5,
+    "Buyer Leo": 84.5,
+    "Buyer Nia": 84.2
+  },
+  "trades": [],
+  "seller_messages": {
+    "Seller Mia": "What strategies do you use to adjust ask prices when the bid queue changes?",
+    "Seller Wei": "Considering the market spread, I adjusted my ask price to $95.75 to increase trade likelihood while maintaining profitability.",
+    "Seller Max": "What strategies do you use to adjust ask prices when the bid queue changes, and how do you balance profitability with trade security?",
+    "Seller Kit": "Adjusting ask price to $95.75 to balance profit and trade security, considering the current market spread and highest bids.",
+    "Seller Amir": "Consider adjusting your ask prices to balance profitability with trade likelihood, taking into account the current market spread."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 4
+````json
+{
+  "round_number": 4,
+  "seller_asks": {
+    "Seller Wei": 94.75,
+    "Seller Max": 89.0,
+    "Seller Mia": 94.0,
+    "Seller Kit": 94.75,
+    "Seller Amir": 85.5
+  },
+  "buyer_bids": {
+    "Buyer Ana": 84.8,
+    "Buyer Raj": 85.0,
+    "Buyer Maya": 80.0,
+    "Buyer Nia": 85.5,
+    "Buyer Leo": 84.8
+  },
+  "trades": [
+    {
+      "round_number": 4,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Amir",
+      "price": 85.5
+    }
+  ],
+  "seller_messages": {
+    "Seller Wei": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Max": "What strategies do you use to adjust ask prices when the bid queue changes?",
+    "Seller Mia": "Consider adjusting your ask prices based on the current market spread to balance profitability with trade likelihood.",
+    "Seller Kit": "Consider adjusting your ask prices to balance profitability with trade likelihood, taking into account the current market spread and highest bids.",
+    "Seller Amir": "Consider adjusting your ask prices based on the market spread and true cost per lot to balance profitability with trade likelihood."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 5
+````json
+{
+  "round_number": 5,
+  "seller_asks": {
+    "Seller Mia": 93.5,
+    "Seller Kit": 94.25,
+    "Seller Max": 87.5,
+    "Seller Wei": 94.0,
+    "Seller Amir": 86.0
+  },
+  "buyer_bids": {
+    "Buyer Ana": 85.2,
+    "Buyer Maya": 84.9,
+    "Buyer Raj": 85.5,
+    "Buyer Leo": 85.2,
+    "Buyer Nia": 86.0
+  },
+  "trades": [
+    {
+      "round_number": 5,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Amir",
+      "price": 86.0
+    }
+  ],
+  "seller_messages": {
+    "Seller Mia": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Kit": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Max": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Wei": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Amir": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 6
+````json
+{
+  "round_number": 6,
+  "seller_asks": {
+    "Seller Wei": 93.0,
+    "Seller Kit": 93.75,
+    "Seller Mia": 92.5,
+    "Seller Max": 86.5,
+    "Seller Amir": 86.5
+  },
+  "buyer_bids": {
+    "Buyer Leo": 85.8,
+    "Buyer Ana": 86.2,
+    "Buyer Raj": 86.0,
+    "Buyer Nia": 86.5,
+    "Buyer Maya": 86.4
+  },
+  "trades": [
+    {
+      "round_number": 6,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Amir",
+      "price": 86.5
+    }
+  ],
+  "seller_messages": {
+    "Seller Wei": "Consider adjusting your ask prices based on the current market spread to balance profitability with trade likelihood.",
+    "Seller Kit": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Mia": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Max": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Amir": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 7
+````json
+{
+  "round_number": 7,
+  "seller_asks": {
+    "Seller Kit": 92.75,
+    "Seller Max": 86.8,
+    "Seller Wei": 92.75,
+    "Seller Mia": 86.4,
+    "Seller Amir": 86.7
+  },
+  "buyer_bids": {
+    "Buyer Nia": 86.7,
+    "Buyer Ana": 86.6,
+    "Buyer Raj": 86.2,
+    "Buyer Maya": 86.5,
+    "Buyer Leo": 86.6
+  },
+  "trades": [
+    {
+      "round_number": 7,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Mia",
+      "price": 86.55
+    }
+  ],
+  "seller_messages": {
+    "Seller Kit": "Consider adjusting your ask prices to balance profitability with trade likelihood, given the current market spread and highest bids.",
+    "Seller Max": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Wei": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Mia": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Amir": "Adjust your ask prices based on the current highest bids and market spread to ensure competitiveness and profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 8
+````json
+{
+  "round_number": 8,
+  "seller_asks": {
+    "Seller Max": 86.9,
+    "Seller Mia": 86.3,
+    "Seller Kit": 92.5,
+    "Seller Wei": 92.5,
+    "Seller Amir": 86.9
+  },
+  "buyer_bids": {
+    "Buyer Leo": 86.8,
+    "Buyer Nia": 86.8,
+    "Buyer Ana": 86.7,
+    "Buyer Raj": 86.4,
+    "Buyer Maya": 86.7
+  },
+  "trades": [
+    {
+      "round_number": 8,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Mia",
+      "price": 86.55
+    }
+  ],
+  "seller_messages": {
+    "Seller Max": "Adjust ask prices according to the current market spread and highest bids to ensure a balance between competitiveness and profitability.",
+    "Seller Mia": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Kit": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Wei": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Amir": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 9
+````json
+{
+  "round_number": 9,
+  "seller_asks": {
+    "Seller Max": 86.95,
+    "Seller Mia": 86.4,
+    "Seller Kit": 92.0,
+    "Seller Wei": 86.9,
+    "Seller Amir": 87.0
+  },
+  "buyer_bids": {
+    "Buyer Nia": 86.9,
+    "Buyer Raj": 86.6,
+    "Buyer Maya": 86.9,
+    "Buyer Ana": 86.9,
+    "Buyer Leo": 86.9
+  },
+  "trades": [
+    {
+      "round_number": 9,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Mia",
+      "price": 86.65
+    },
+    {
+      "round_number": 9,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Wei",
+      "price": 86.9
+    }
+  ],
+  "seller_messages": {
+    "Seller Max": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Mia": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Kit": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Wei": "Adjust ask prices according to the current market spread and highest bids to ensure a balance between competitiveness and profitability.",
+    "Seller Amir": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 10
+````json
+{
+  "round_number": 10,
+  "seller_asks": {
+    "Seller Wei": 86.95,
+    "Seller Kit": 91.0,
+    "Seller Mia": 86.45,
+    "Seller Max": 86.9,
+    "Seller Amir": 86.95
+  },
+  "buyer_bids": {
+    "Buyer Nia": 87.0,
+    "Buyer Ana": 87.0,
+    "Buyer Raj": 86.7,
+    "Buyer Maya": 87.1,
+    "Buyer Leo": 87.0
+  },
+  "trades": [
+    {
+      "round_number": 10,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Mia",
+      "price": 86.78
+    },
+    {
+      "round_number": 10,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Max",
+      "price": 86.95
+    },
+    {
+      "round_number": 10,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Amir",
+      "price": 86.97
+    },
+    {
+      "round_number": 10,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Wei",
+      "price": 86.97
+    }
+  ],
+  "seller_messages": {
+    "Seller Wei": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Kit": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Mia": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Max": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Amir": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 11
+````json
+{
+  "round_number": 11,
+  "seller_asks": {
+    "Seller Wei": 86.9,
+    "Seller Kit": 90.5,
+    "Seller Mia": 86.6,
+    "Seller Amir": 86.8,
+    "Seller Max": 86.7
+  },
+  "buyer_bids": {
+    "Buyer Raj": 86.8,
+    "Buyer Ana": 87.2,
+    "Buyer Nia": 87.1,
+    "Buyer Maya": 87.2,
+    "Buyer Leo": 87.1
+  },
+  "trades": [
+    {
+      "round_number": 11,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Mia",
+      "price": 86.9
+    },
+    {
+      "round_number": 11,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Max",
+      "price": 86.95
+    },
+    {
+      "round_number": 11,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Amir",
+      "price": 86.95
+    },
+    {
+      "round_number": 11,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Wei",
+      "price": 87.0
+    }
+  ],
+  "seller_messages": {
+    "Seller Wei": "Consider reducing your ask prices to balance profitability with trade likelihood, given the narrowing market spread.",
+    "Seller Kit": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Mia": "Be cautious of market fluctuations and adjust ask prices accordingly to maintain competitiveness.",
+    "Seller Amir": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Max": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 12
+````json
+{
+  "round_number": 12,
+  "seller_asks": {
+    "Seller Kit": 90.0,
+    "Seller Max": 86.75,
+    "Seller Wei": 87.05,
+    "Seller Mia": 86.75,
+    "Seller Amir": 86.9
+  },
+  "buyer_bids": {
+    "Buyer Ana": 87.5,
+    "Buyer Raj": 87.0,
+    "Buyer Maya": 87.3,
+    "Buyer Nia": 87.2,
+    "Buyer Leo": 87.2
+  },
+  "trades": [
+    {
+      "round_number": 12,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Max",
+      "price": 87.12
+    },
+    {
+      "round_number": 12,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Mia",
+      "price": 87.03
+    },
+    {
+      "round_number": 12,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Amir",
+      "price": 87.05
+    },
+    {
+      "round_number": 12,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Wei",
+      "price": 87.12
+    }
+  ],
+  "seller_messages": {
+    "Seller Kit": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Max": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Wei": "Be cautious of market fluctuations and adjust ask prices accordingly to maintain competitiveness.",
+    "Seller Mia": "Consider the impact of your ask prices on the market spread and trade likelihood, and adjust them accordingly to balance profitability with competitiveness.",
+    "Seller Amir": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 13
+````json
+{
+  "round_number": 13,
+  "seller_asks": {
+    "Seller Amir": 87.1,
+    "Seller Max": 87.2,
+    "Seller Wei": 89.5,
+    "Seller Kit": 89.0,
+    "Seller Mia": 86.85
+  },
+  "buyer_bids": {
+    "Buyer Raj": 87.2,
+    "Buyer Maya": 87.05,
+    "Buyer Nia": 87.3,
+    "Buyer Ana": 87.8,
+    "Buyer Leo": 87.5
+  },
+  "trades": [
+    {
+      "round_number": 13,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Mia",
+      "price": 87.32
+    },
+    {
+      "round_number": 13,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Amir",
+      "price": 87.3
+    },
+    {
+      "round_number": 13,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Max",
+      "price": 87.25
+    }
+  ],
+  "seller_messages": {
+    "Seller Amir": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Max": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Wei": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Kit": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Mia": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 14
+````json
+{
+  "round_number": 14,
+  "seller_asks": {
+    "Seller Amir": 87.2,
+    "Seller Wei": 88.5,
+    "Seller Mia": 87.1,
+    "Seller Kit": 88.0,
+    "Seller Max": 87.5
+  },
+  "buyer_bids": {
+    "Buyer Leo": 87.8,
+    "Buyer Nia": 87.35,
+    "Buyer Ana": 88.0,
+    "Buyer Maya": 87.5,
+    "Buyer Raj": 87.3
+  },
+  "trades": [
+    {
+      "round_number": 14,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Mia",
+      "price": 87.55
+    },
+    {
+      "round_number": 14,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Amir",
+      "price": 87.5
+    },
+    {
+      "round_number": 14,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Max",
+      "price": 87.5
+    }
+  ],
+  "seller_messages": {
+    "Seller Amir": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Wei": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Mia": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Kit": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Max": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 15
+````json
+{
+  "round_number": 15,
+  "seller_asks": {
+    "Seller Mia": 87.6,
+    "Seller Kit": 87.8,
+    "Seller Wei": 88.0,
+    "Seller Amir": 87.6,
+    "Seller Max": 87.9
+  },
+  "buyer_bids": {
+    "Buyer Raj": 87.4,
+    "Buyer Nia": 87.4,
+    "Buyer Maya": 87.8,
+    "Buyer Ana": 88.2,
+    "Buyer Leo": 87.9
+  },
+  "trades": [
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Amir",
+      "price": 87.9
+    },
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Mia",
+      "price": 87.75
+    },
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Kit",
+      "price": 87.8
+    }
+  ],
+  "seller_messages": {
+    "Seller Mia": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Kit": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Wei": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Amir": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Max": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 16
+````json
+{
+  "round_number": 16,
+  "seller_asks": {
+    "Seller Amir": 87.7,
+    "Seller Kit": 87.6,
+    "Seller Mia": 87.95,
+    "Seller Wei": 87.95,
+    "Seller Max": 87.95
+  },
+  "buyer_bids": {
+    "Buyer Leo": 87.95,
+    "Buyer Raj": 87.5,
+    "Buyer Ana": 87.95,
+    "Buyer Maya": 87.9,
+    "Buyer Nia": 87.45
+  },
+  "trades": [
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Kit",
+      "price": 87.78
+    },
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Amir",
+      "price": 87.83
+    }
+  ],
+  "seller_messages": {
+    "Seller Amir": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Kit": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood, taking into account the potential impact on the market spread.",
+    "Seller Mia": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Wei": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Max": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 17
+````json
+{
+  "round_number": 17,
+  "seller_asks": {
+    "Seller Mia": 87.95,
+    "Seller Kit": 87.95,
+    "Seller Amir": 87.8,
+    "Seller Max": 87.9,
+    "Seller Wei": 87.85
+  },
+  "buyer_bids": {
+    "Buyer Ana": 88.0,
+    "Buyer Leo": 88.0,
+    "Buyer Nia": 87.96,
+    "Buyer Raj": 87.95,
+    "Buyer Maya": 88.0
+  },
+  "trades": [
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Amir",
+      "price": 87.9
+    },
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Wei",
+      "price": 87.92
+    },
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Max",
+      "price": 87.95
+    },
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Kit",
+      "price": 87.95
+    },
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Mia",
+      "price": 87.95
+    }
+  ],
+  "seller_messages": {
+    "Seller Mia": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Kit": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Amir": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Max": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Wei": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 18
+````json
+{
+  "round_number": 18,
+  "seller_asks": {
+    "Seller Kit": 88.0,
+    "Seller Max": 87.9,
+    "Seller Mia": 88.0,
+    "Seller Amir": 87.95,
+    "Seller Wei": 87.9
+  },
+  "buyer_bids": {
+    "Buyer Nia": 87.98,
+    "Buyer Raj": 88.0,
+    "Buyer Maya": 88.05,
+    "Buyer Ana": 88.05,
+    "Buyer Leo": 88.05
+  },
+  "trades": [
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Max",
+      "price": 87.97
+    },
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Wei",
+      "price": 87.97
+    },
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Amir",
+      "price": 88.0
+    },
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Kit",
+      "price": 88.0
+    }
+  ],
+  "seller_messages": {
+    "Seller Kit": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Max": "Consider adjusting your ask prices based on the current market spread to balance profitability with trade likelihood.",
+    "Seller Mia": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Amir": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Wei": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 19
+````json
+{
+  "round_number": 19,
+  "seller_asks": {
+    "Seller Amir": 88.02,
+    "Seller Max": 88.05,
+    "Seller Wei": 87.99,
+    "Seller Mia": 87.99,
+    "Seller Kit": 88.05
+  },
+  "buyer_bids": {
+    "Buyer Raj": 88.05,
+    "Buyer Ana": 88.1,
+    "Buyer Leo": 88.01,
+    "Buyer Maya": 88.02,
+    "Buyer Nia": 88.02
+  },
+  "trades": [
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Mia",
+      "price": 88.04
+    },
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Wei",
+      "price": 88.02
+    },
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Amir",
+      "price": 88.02
+    }
+  ],
+  "seller_messages": {
+    "Seller Amir": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Max": "Consider adjusting your ask prices based on the current market spread to balance profitability with trade likelihood.",
+    "Seller Wei": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Mia": "Be cautious of the narrowing market spread and adjust your ask prices accordingly to balance profitability with trade likelihood.",
+    "Seller Kit": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 20
+````json
+{
+  "round_number": 20,
+  "seller_asks": {
+    "Seller Amir": 88.03,
+    "Seller Kit": 88.01,
+    "Seller Max": 88.03,
+    "Seller Mia": 88.03,
+    "Seller Wei": 88.03
+  },
+  "buyer_bids": {
+    "Buyer Ana": 88.06,
+    "Buyer Nia": 88.03,
+    "Buyer Leo": 88.03,
+    "Buyer Raj": 88.03,
+    "Buyer Maya": 88.03
+  },
+  "trades": [
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Kit",
+      "price": 88.03
+    },
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Amir",
+      "price": 88.03
+    },
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Max",
+      "price": 88.03
+    },
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Mia",
+      "price": 88.03
+    },
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Wei",
+      "price": 88.03
+    }
+  ],
+  "seller_messages": {
+    "Seller Amir": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Kit": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Max": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Mia": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Wei": "Adjust your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 21
+````json
+{
+  "round_number": 21,
+  "seller_asks": {
+    "Seller Max": 88.04,
+    "Seller Kit": 88.04,
+    "Seller Mia": 88.04,
+    "Seller Wei": 88.05,
+    "Seller Amir": 88.04
+  },
+  "buyer_bids": {
+    "Buyer Ana": 88.08,
+    "Buyer Leo": 88.04,
+    "Buyer Raj": 88.05,
+    "Buyer Maya": 88.05,
+    "Buyer Nia": 88.04
+  },
+  "trades": [
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Amir",
+      "price": 88.06
+    },
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Kit",
+      "price": 88.05
+    },
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Max",
+      "price": 88.05
+    },
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Mia",
+      "price": 88.04
+    }
+  ],
+  "seller_messages": {
+    "Seller Max": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Kit": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Mia": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Wei": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Amir": "Adjust your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 22
+````json
+{
+  "round_number": 22,
+  "seller_asks": {
+    "Seller Mia": 88.06,
+    "Seller Kit": 88.06,
+    "Seller Amir": 88.05,
+    "Seller Max": 88.06,
+    "Seller Wei": 88.06
+  },
+  "buyer_bids": {
+    "Buyer Ana": 88.09,
+    "Buyer Nia": 88.05,
+    "Buyer Leo": 88.06,
+    "Buyer Raj": 88.06,
+    "Buyer Maya": 88.06
+  },
+  "trades": [
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Amir",
+      "price": 88.07
+    },
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Kit",
+      "price": 88.06
+    },
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Max",
+      "price": 88.06
+    },
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Mia",
+      "price": 88.06
+    }
+  ],
+  "seller_messages": {
+    "Seller Mia": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Kit": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Amir": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Max": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Wei": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 23
+````json
+{
+  "round_number": 23,
+  "seller_asks": {
+    "Seller Mia": 88.07,
+    "Seller Kit": 88.07,
+    "Seller Max": 88.07,
+    "Seller Amir": 88.08,
+    "Seller Wei": 88.07
+  },
+  "buyer_bids": {
+    "Buyer Ana": 88.1,
+    "Buyer Raj": 88.07,
+    "Buyer Nia": 88.06,
+    "Buyer Leo": 88.07,
+    "Buyer Maya": 88.07
+  },
+  "trades": [
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Kit",
+      "price": 88.08
+    },
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Max",
+      "price": 88.07
+    },
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Mia",
+      "price": 88.07
+    },
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Wei",
+      "price": 88.07
+    }
+  ],
+  "seller_messages": {
+    "Seller Mia": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Kit": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Max": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Amir": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Wei": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 24
+````json
+{
+  "round_number": 24,
+  "seller_asks": {
+    "Seller Kit": 88.09,
+    "Seller Max": 88.08,
+    "Seller Amir": 88.09,
+    "Seller Mia": 88.09,
+    "Seller Wei": 88.08
+  },
+  "buyer_bids": {
+    "Buyer Ana": 88.09,
+    "Buyer Leo": 88.08,
+    "Buyer Nia": 88.07,
+    "Buyer Maya": 88.08,
+    "Buyer Raj": 88.08
+  },
+  "trades": [
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Max",
+      "price": 88.09
+    },
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Wei",
+      "price": 88.08
+    }
+  ],
+  "seller_messages": {
+    "Seller Kit": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Max": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Amir": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Mia": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Wei": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 25
+````json
+{
+  "round_number": 25,
+  "seller_asks": {
+    "Seller Amir": 88.1,
+    "Seller Wei": 88.09,
+    "Seller Kit": 88.1,
+    "Seller Mia": 88.1,
+    "Seller Max": 88.1
+  },
+  "buyer_bids": {
+    "Buyer Leo": 88.09,
+    "Buyer Ana": 88.11,
+    "Buyer Raj": 88.09,
+    "Buyer Nia": 88.08,
+    "Buyer Maya": 88.09
+  },
+  "trades": [
+    {
+      "round_number": 25,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Wei",
+      "price": 88.1
+    }
+  ],
+  "seller_messages": {
+    "Seller Amir": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Wei": "Adjust ask prices based on current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Kit": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Mia": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Max": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 26
+````json
+{
+  "round_number": 26,
+  "seller_asks": {
+    "Seller Mia": 88.11,
+    "Seller Amir": 88.11,
+    "Seller Kit": 88.11,
+    "Seller Wei": 88.11,
+    "Seller Max": 88.11
+  },
+  "buyer_bids": {
+    "Buyer Ana": 88.12,
+    "Buyer Leo": 88.11,
+    "Buyer Raj": 88.1,
+    "Buyer Maya": 88.11,
+    "Buyer Nia": 88.09
+  },
+  "trades": [
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Amir",
+      "price": 88.12
+    },
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Kit",
+      "price": 88.11
+    },
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Max",
+      "price": 88.11
+    }
+  ],
+  "seller_messages": {
+    "Seller Mia": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Amir": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Kit": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Wei": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Max": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 27
+````json
+{
+  "round_number": 27,
+  "seller_asks": {
+    "Seller Max": 88.12,
+    "Seller Mia": 88.12,
+    "Seller Kit": 88.12,
+    "Seller Amir": 88.12,
+    "Seller Wei": 88.12
+  },
+  "buyer_bids": {
+    "Buyer Ana": 88.13,
+    "Buyer Nia": 88.1,
+    "Buyer Leo": 88.12,
+    "Buyer Raj": 88.11,
+    "Buyer Maya": 88.12
+  },
+  "trades": [
+    {
+      "round_number": 27,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Amir",
+      "price": 88.12
+    },
+    {
+      "round_number": 27,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Kit",
+      "price": 88.12
+    },
+    {
+      "round_number": 27,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Max",
+      "price": 88.12
+    }
+  ],
+  "seller_messages": {
+    "Seller Max": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Mia": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Kit": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Amir": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Wei": "Consider adjusting ask prices based on current market spread and highest bids to balance profitability with trade likelihood."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 28
+````json
+{
+  "round_number": 28,
+  "seller_asks": {
+    "Seller Kit": 88.13,
+    "Seller Mia": 88.13,
+    "Seller Amir": 88.13,
+    "Seller Max": 88.13,
+    "Seller Wei": 88.13
+  },
+  "buyer_bids": {
+    "Buyer Ana": 88.14,
+    "Buyer Leo": 88.13,
+    "Buyer Maya": 88.13,
+    "Buyer Raj": 88.12,
+    "Buyer Nia": 88.11
+  },
+  "trades": [
+    {
+      "round_number": 28,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Amir",
+      "price": 88.13
+    },
+    {
+      "round_number": 28,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Kit",
+      "price": 88.13
+    },
+    {
+      "round_number": 28,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Max",
+      "price": 88.13
+    }
+  ],
+  "seller_messages": {
+    "Seller Kit": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Mia": "Consider adjusting ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Amir": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Max": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Wei": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 29
+````json
+{
+  "round_number": 29,
+  "seller_asks": {
+    "Seller Kit": 88.14,
+    "Seller Mia": 88.14,
+    "Seller Wei": 88.14,
+    "Seller Max": 88.14,
+    "Seller Amir": 88.14
+  },
+  "buyer_bids": {
+    "Buyer Ana": 88.15,
+    "Buyer Nia": 88.14,
+    "Buyer Leo": 88.14,
+    "Buyer Maya": 88.14,
+    "Buyer Raj": 88.13
+  },
+  "trades": [
+    {
+      "round_number": 29,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Amir",
+      "price": 88.15
+    },
+    {
+      "round_number": 29,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Kit",
+      "price": 88.14
+    },
+    {
+      "round_number": 29,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Max",
+      "price": 88.14
+    },
+    {
+      "round_number": 29,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Mia",
+      "price": 88.14
+    }
+  ],
+  "seller_messages": {
+    "Seller Kit": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Mia": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Wei": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood.",
+    "Seller Max": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood in the final hours.",
+    "Seller Amir": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 30
+````json
+{
+  "round_number": 30,
+  "seller_asks": {
+    "Seller Amir": 88.16,
+    "Seller Wei": 88.15,
+    "Seller Kit": 88.15,
+    "Seller Mia": 88.15,
+    "Seller Max": 88.15
+  },
+  "buyer_bids": {
+    "Buyer Ana": 88.16,
+    "Buyer Leo": 88.15,
+    "Buyer Raj": 88.14,
+    "Buyer Maya": 88.15,
+    "Buyer Nia": 88.15
+  },
+  "trades": [
+    {
+      "round_number": 30,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Kit",
+      "price": 88.16
+    },
+    {
+      "round_number": 30,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Max",
+      "price": 88.15
+    },
+    {
+      "round_number": 30,
+      "buyer_id": "Buyer Maya",
+      "seller_id": "Seller Mia",
+      "price": 88.15
+    },
+    {
+      "round_number": 30,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Wei",
+      "price": 88.15
+    }
+  ],
+  "seller_messages": {
+    "Seller Amir": "Consider adjusting your ask prices based on the final market spread and highest bids to maximize profitability in the last hour.",
+    "Seller Kit": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood in the final hour.",
+    "Seller Mia": "Consider adjusting your ask prices based on the current market spread and highest bids to balance profitability with trade likelihood in the final hours.",
+    "Seller Max": "Consider adjusting your ask prices based on the final market conditions to balance profitability with trade likelihood in the last hour."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````

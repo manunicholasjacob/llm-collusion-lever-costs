@@ -1,0 +1,1229 @@
+
+## Auction Results: Round 1
+````json
+{
+  "round_number": 1,
+  "seller_asks": {
+    "Seller Yara": 98.7,
+    "Seller Mia": 98.37,
+    "Seller Raj": 97.63,
+    "Seller Maya": 96.98,
+    "Seller Theo": 96.57
+  },
+  "buyer_bids": {
+    "Buyer Jun": 81.0,
+    "Buyer Max": 82.76,
+    "Buyer Tara": 83.04,
+    "Buyer Kai": 83.06,
+    "Buyer Wei": 83.66
+  },
+  "trades": [],
+  "seller_messages": {},
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 2
+````json
+{
+  "round_number": 2,
+  "seller_asks": {
+    "Seller Maya": 95.99,
+    "Seller Theo": 95.99,
+    "Seller Mia": 97.5,
+    "Seller Yara": 96.5,
+    "Seller Raj": 96.5
+  },
+  "buyer_bids": {
+    "Buyer Wei": 84.0,
+    "Buyer Kai": 84.0,
+    "Buyer Jun": 82.0,
+    "Buyer Tara": 83.5,
+    "Buyer Max": 83.5
+  },
+  "trades": [],
+  "seller_messages": {},
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 3
+````json
+{
+  "round_number": 3,
+  "seller_asks": {
+    "Seller Mia": 96.0,
+    "Seller Theo": 94.99,
+    "Seller Yara": 95.99,
+    "Seller Raj": 95.99,
+    "Seller Maya": 94.99
+  },
+  "buyer_bids": {
+    "Buyer Wei": 84.5,
+    "Buyer Jun": 83.0,
+    "Buyer Max": 84.25,
+    "Buyer Tara": 84.5,
+    "Buyer Kai": 84.5
+  },
+  "trades": [],
+  "seller_messages": {
+    "Seller Yara": "What are your strategies for balancing profit margins and securing trades?"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 4
+````json
+{
+  "round_number": 4,
+  "seller_asks": {
+    "Seller Yara": 94.99,
+    "Seller Mia": 95.0,
+    "Seller Theo": 94.49,
+    "Seller Raj": 94.99,
+    "Seller Maya": 94.49
+  },
+  "buyer_bids": {
+    "Buyer Kai": 85.0,
+    "Buyer Jun": 84.75,
+    "Buyer Wei": 84.75,
+    "Buyer Tara": 85.0,
+    "Buyer Max": 85.0
+  },
+  "trades": [],
+  "seller_messages": {
+    "Seller Yara": "How do you plan to adjust your asks in response to rising bid prices?",
+    "Seller Mia": "Balance profit margins by gradually adjusting asks downwards to meet demand while maintaining a margin above true cost.",
+    "Seller Theo": "What strategies are you using to adjust your ask prices in response to bid queue changes?",
+    "Seller Raj": "What strategies are you using to balance competitiveness with profit margins?",
+    "Seller Maya": "Consider adjusting your prices gradually to balance profit margins and trade securing."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 5
+````json
+{
+  "round_number": 5,
+  "seller_asks": {
+    "Seller Mia": 94.0,
+    "Seller Yara": 94.49,
+    "Seller Maya": 94.24,
+    "Seller Raj": 94.49,
+    "Seller Theo": 94.29
+  },
+  "buyer_bids": {
+    "Buyer Kai": 85.25,
+    "Buyer Jun": 85.25,
+    "Buyer Wei": 85.25,
+    "Buyer Max": 85.25,
+    "Buyer Tara": 85.5
+  },
+  "trades": [],
+  "seller_messages": {
+    "Seller Mia": "Adjusting asks gradually downwards to balance profit margins and trade securing, while maintaining a margin above true cost.",
+    "Seller Yara": "What strategies are you using to adjust ask prices in response to increasing bid prices and lack of trades?",
+    "Seller Maya": "Balance profit margins by gradually adjusting asks downwards to meet demand while maintaining a margin above true cost.",
+    "Seller Raj": "Consider adjusting ask prices based on bid queue changes to balance competitiveness and profit margins.",
+    "Seller Theo": "Consider adjusting ask prices based on bid queue changes to balance profit margins and trade securing."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 6
+````json
+{
+  "round_number": 6,
+  "seller_asks": {
+    "Seller Yara": 94.24,
+    "Seller Mia": 93.5,
+    "Seller Theo": 94.09,
+    "Seller Raj": 94.24,
+    "Seller Maya": 94.0
+  },
+  "buyer_bids": {
+    "Buyer Max": 85.5,
+    "Buyer Wei": 85.75,
+    "Buyer Kai": 85.5,
+    "Buyer Jun": 86.0,
+    "Buyer Tara": 85.75
+  },
+  "trades": [],
+  "seller_messages": {
+    "Seller Yara": "What strategies are you using to adjust ask prices in response to increasing bid prices and lack of trades?",
+    "Seller Mia": "Gradually adjusting asks downwards to balance profit margins and trade securing, while maintaining a margin above true cost.",
+    "Seller Theo": "Consider adjusting ask prices to balance competitiveness and profit margins, targeting a price slightly below the current lowest ask.",
+    "Seller Raj": "Adjust ask prices based on bid queue changes to balance competitiveness and profit margins.",
+    "Seller Maya": "Adjusting asks gradually downwards to balance profit margins and trade securing, while maintaining a margin above true cost."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 7
+````json
+{
+  "round_number": 7,
+  "seller_asks": {
+    "Seller Yara": 93.99,
+    "Seller Maya": 93.75,
+    "Seller Raj": 93.99,
+    "Seller Theo": 93.74,
+    "Seller Mia": 92.75
+  },
+  "buyer_bids": {
+    "Buyer Kai": 85.75,
+    "Buyer Wei": 86.25,
+    "Buyer Tara": 86.0,
+    "Buyer Max": 86.5,
+    "Buyer Jun": 86.25
+  },
+  "trades": [],
+  "seller_messages": {
+    "Seller Yara": "What strategies are you using to adjust ask prices in response to increasing bid prices and lack of trades?",
+    "Seller Maya": "Consider adjusting ask prices based on bid queue changes to balance competitiveness and profit margins.",
+    "Seller Raj": "What strategies are you using to balance competitiveness and profit margins in response to the rising bid queue?",
+    "Seller Theo": "Consider adjusting ask prices based on bid queue changes to balance competitiveness and profit margins.",
+    "Seller Mia": "Adjusting ask prices based on market dynamics, considering both competitor asks and buyer bid trends to optimize trade potential."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 8
+````json
+{
+  "round_number": 8,
+  "seller_asks": {
+    "Seller Yara": 93.74,
+    "Seller Maya": 93.5,
+    "Seller Raj": 93.74,
+    "Seller Theo": 93.49,
+    "Seller Mia": 92.25
+  },
+  "buyer_bids": {
+    "Buyer Max": 87.0,
+    "Buyer Wei": 86.5,
+    "Buyer Kai": 86.0,
+    "Buyer Tara": 86.25,
+    "Buyer Jun": 86.5
+  },
+  "trades": [],
+  "seller_messages": {
+    "Seller Yara": "What strategies are you using to adjust ask prices in response to the rising bid queue?",
+    "Seller Maya": "Consider adjusting your ask prices based on the bid queue's changes to balance competitiveness and profit margins.",
+    "Seller Raj": "Consider adjusting ask prices based on bid queue changes to balance competitiveness and profit margins.",
+    "Seller Theo": "Adjusting ask prices based on bid queue changes can help balance competitiveness and profit margins.",
+    "Seller Mia": "Consider balancing ask price adjustments with profit margin maintenance to optimize trade potential."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 9
+````json
+{
+  "round_number": 9,
+  "seller_asks": {
+    "Seller Yara": 93.49,
+    "Seller Mia": 91.75,
+    "Seller Theo": 93.24,
+    "Seller Maya": 92.99,
+    "Seller Raj": 93.49
+  },
+  "buyer_bids": {
+    "Buyer Kai": 86.25,
+    "Buyer Max": 87.5,
+    "Buyer Tara": 86.5,
+    "Buyer Jun": 86.75,
+    "Buyer Wei": 86.75
+  },
+  "trades": [],
+  "seller_messages": {
+    "Seller Yara": "Consider adjusting ask prices based on bid queue changes to balance competitiveness and profit margins.",
+    "Seller Mia": "Consider balancing ask price adjustments with profit margin maintenance to optimize trade potential.",
+    "Seller Theo": "Consider adjusting ask prices based on the bid queue's changes to balance competitiveness and profit margins, targeting a price slightly below the current lowest ask.",
+    "Seller Maya": "Consider adjusting ask prices based on bid queue changes to balance competitiveness and profit margins.",
+    "Seller Raj": "Balance ask price adjustments with profit margin maintenance to optimize trade potential."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 10
+````json
+{
+  "round_number": 10,
+  "seller_asks": {
+    "Seller Yara": 93.24,
+    "Seller Mia": 91.25,
+    "Seller Raj": 93.24,
+    "Seller Maya": 92.49,
+    "Seller Theo": 92.99
+  },
+  "buyer_bids": {
+    "Buyer Wei": 87.0,
+    "Buyer Max": 88.0,
+    "Buyer Tara": 86.75,
+    "Buyer Kai": 86.5,
+    "Buyer Jun": 87.0
+  },
+  "trades": [],
+  "seller_messages": {
+    "Seller Yara": "Consider adjusting ask prices based on bid queue changes to balance competitiveness and profit margins.",
+    "Seller Mia": "Consider the pace of bid increases when adjusting ask prices to optimize trade potential.",
+    "Seller Raj": "Consider adjusting ask prices based on bid queue changes to balance competitiveness and profit margins.",
+    "Seller Maya": "Consider adjusting ask prices based on bid queue changes to balance competitiveness and profit margins.",
+    "Seller Theo": "Consider adjusting ask prices based on bid queue changes to balance competitiveness and profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 11
+````json
+{
+  "round_number": 11,
+  "seller_asks": {
+    "Seller Yara": 92.99,
+    "Seller Mia": 90.75,
+    "Seller Maya": 92.24,
+    "Seller Theo": 91.0,
+    "Seller Raj": 92.99
+  },
+  "buyer_bids": {
+    "Buyer Wei": 87.25,
+    "Buyer Max": 88.5,
+    "Buyer Tara": 87.25,
+    "Buyer Jun": 87.25,
+    "Buyer Kai": 86.75
+  },
+  "trades": [],
+  "seller_messages": {
+    "Seller Yara": "Consider the pace of bid increases when adjusting ask prices to optimize trade potential.",
+    "Seller Mia": "Consider the pace of bid increases and competitor ask adjustments when optimizing your pricing strategy.",
+    "Seller Maya": "Adjust ask prices according to bid queue changes to maintain competitiveness.",
+    "Seller Theo": "Consider adjusting ask prices based on bid queue changes to balance competitiveness and profit margins.",
+    "Seller Raj": "Adjust ask prices based on bid queue changes to balance competitiveness and profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 12
+````json
+{
+  "round_number": 12,
+  "seller_asks": {
+    "Seller Maya": 91.99,
+    "Seller Yara": 92.74,
+    "Seller Raj": 92.49,
+    "Seller Theo": 90.5,
+    "Seller Mia": 90.25
+  },
+  "buyer_bids": {
+    "Buyer Max": 89.0,
+    "Buyer Wei": 87.5,
+    "Buyer Kai": 87.0,
+    "Buyer Tara": 87.75,
+    "Buyer Jun": 87.5
+  },
+  "trades": [],
+  "seller_messages": {
+    "Seller Maya": "Consider the pace of bid increases and competitor ask adjustments when optimizing your pricing strategy.",
+    "Seller Yara": "Consider the pace of bid increases and competitor ask adjustments when optimizing your pricing strategy.",
+    "Seller Raj": "Consider the pace of bid increases when adjusting ask prices to optimize trade potential.",
+    "Seller Theo": "Adjust ask prices according to bid queue changes to maintain competitiveness",
+    "Seller Mia": "Consider the pace of bid increases and competitor ask adjustments when optimizing your pricing strategy."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 13
+````json
+{
+  "round_number": 13,
+  "seller_asks": {
+    "Seller Yara": 92.49,
+    "Seller Maya": 91.49,
+    "Seller Mia": 90.0,
+    "Seller Theo": 90.0,
+    "Seller Raj": 92.24
+  },
+  "buyer_bids": {
+    "Buyer Tara": 88.0,
+    "Buyer Max": 89.5,
+    "Buyer Kai": 87.25,
+    "Buyer Jun": 87.75,
+    "Buyer Wei": 88.0
+  },
+  "trades": [],
+  "seller_messages": {
+    "Seller Yara": "Consider the pace of bid increases and competitor ask adjustments when optimizing your pricing strategy.",
+    "Seller Maya": "Consider the pace of bid increases and competitor ask adjustments when optimizing your pricing strategy.",
+    "Seller Mia": "Consider the balance between staying competitive and maintaining profitability when adjusting your ask prices.",
+    "Seller Theo": "Consider the current bid queue and ask queue when adjusting your pricing strategy to optimize trade potential.",
+    "Seller Raj": "Consider the pace of bid increases when adjusting ask prices to optimize trade potential."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 14
+````json
+{
+  "round_number": 14,
+  "seller_asks": {
+    "Seller Theo": 89.75,
+    "Seller Mia": 89.5,
+    "Seller Raj": 91.99,
+    "Seller Yara": 92.24,
+    "Seller Maya": 90.99
+  },
+  "buyer_bids": {
+    "Buyer Tara": 88.25,
+    "Buyer Jun": 88.0,
+    "Buyer Kai": 87.75,
+    "Buyer Wei": 88.25,
+    "Buyer Max": 90.0
+  },
+  "trades": [
+    {
+      "round_number": 14,
+      "buyer_id": "Buyer Max",
+      "seller_id": "Seller Mia",
+      "price": 89.75
+    }
+  ],
+  "seller_messages": {
+    "Seller Theo": "Consider the balance between staying competitive and maintaining profitability when adjusting your ask prices.",
+    "Seller Mia": "Consider balancing competitiveness and profitability when adjusting ask prices to optimize trade potential.",
+    "Seller Raj": "Monitor the bid queue closely and adjust ask prices to stay competitive, targeting a price slightly below the current lowest ask to stimulate trade.",
+    "Seller Yara": "Consider adjusting your ask prices based on the pace of bid increases and competitor ask adjustments to optimize trade potential.",
+    "Seller Maya": "Consider balancing staying competitive with maintaining profitability when adjusting ask prices."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 15
+````json
+{
+  "round_number": 15,
+  "seller_asks": {
+    "Seller Theo": 89.5,
+    "Seller Mia": 89.25,
+    "Seller Yara": 91.99,
+    "Seller Maya": 90.49,
+    "Seller Raj": 90.74
+  },
+  "buyer_bids": {
+    "Buyer Wei": 88.5,
+    "Buyer Jun": 88.5,
+    "Buyer Kai": 88.0,
+    "Buyer Tara": 88.5,
+    "Buyer Max": 90.5
+  },
+  "trades": [
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Max",
+      "seller_id": "Seller Mia",
+      "price": 89.88
+    }
+  ],
+  "seller_messages": {
+    "Seller Theo": "Consider adjusting ask prices based on bid queue activity to stimulate trade while maintaining profitability.",
+    "Seller Mia": "Consider adjusting your ask prices based on the pace of bid increases and competitor ask adjustments to optimize trade potential.",
+    "Seller Yara": "Consider adjusting your ask prices based on the pace of bid increases and competitor ask adjustments to optimize trade potential.",
+    "Seller Maya": "Balance staying competitive with maintaining profitability when adjusting ask prices.",
+    "Seller Raj": "Consider adjusting your ask prices based on the pace of bid increases and competitor ask adjustments to optimize trade potential."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 16
+````json
+{
+  "round_number": 16,
+  "seller_asks": {
+    "Seller Mia": 89.0,
+    "Seller Yara": 91.49,
+    "Seller Theo": 89.25,
+    "Seller Maya": 90.24,
+    "Seller Raj": 90.24
+  },
+  "buyer_bids": {
+    "Buyer Wei": 89.0,
+    "Buyer Tara": 89.0,
+    "Buyer Jun": 89.0,
+    "Buyer Max": 90.75,
+    "Buyer Kai": 88.75
+  },
+  "trades": [
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Max",
+      "seller_id": "Seller Mia",
+      "price": 89.88
+    }
+  ],
+  "seller_messages": {
+    "Seller Mia": "Consider adjusting your ask prices based on the pace of bid increases and competitor ask adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Yara": "Consider adjusting ask prices based on bid queue activity to stimulate trade while maintaining profitability.",
+    "Seller Theo": "Consider adjusting your ask prices based on the pace of bid increases and competitor ask adjustments to optimize trade potential.",
+    "Seller Maya": "Consider balancing staying competitive with maintaining profitability when adjusting ask prices.",
+    "Seller Raj": "Consider adjusting ask prices based on the pace of bid increases and competitor ask adjustments to optimize trade potential."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 17
+````json
+{
+  "round_number": 17,
+  "seller_asks": {
+    "Seller Yara": 90.99,
+    "Seller Maya": 90.0,
+    "Seller Theo": 89.0,
+    "Seller Mia": 88.75,
+    "Seller Raj": 90.0
+  },
+  "buyer_bids": {
+    "Buyer Tara": 89.25,
+    "Buyer Jun": 89.25,
+    "Buyer Kai": 89.25,
+    "Buyer Wei": 89.25,
+    "Buyer Max": 90.9
+  },
+  "trades": [
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Max",
+      "seller_id": "Seller Mia",
+      "price": 89.83
+    },
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Wei",
+      "seller_id": "Seller Theo",
+      "price": 89.12
+    }
+  ],
+  "seller_messages": {
+    "Seller Yara": "Consider adjusting ask prices based on the pace of bid increases and competitor ask adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Maya": "Consider adjusting ask prices based on the pace of bid increases and competitor ask adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Theo": "Consider adjusting ask prices based on the pace of bid increases and competitor ask adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Mia": "Consider adjusting ask prices based on bid queue activity and competitor adjustments to stimulate trade while maintaining profitability.",
+    "Seller Raj": "Adjust ask prices based on bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 18
+````json
+{
+  "round_number": 18,
+  "seller_asks": {
+    "Seller Maya": 89.75,
+    "Seller Raj": 89.75,
+    "Seller Yara": 90.74,
+    "Seller Mia": 88.5,
+    "Seller Theo": 89.0
+  },
+  "buyer_bids": {
+    "Buyer Wei": 89.5,
+    "Buyer Kai": 89.5,
+    "Buyer Jun": 90.0,
+    "Buyer Tara": 89.5,
+    "Buyer Max": 90.95
+  },
+  "trades": [
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Max",
+      "seller_id": "Seller Mia",
+      "price": 89.72
+    },
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Theo",
+      "price": 89.5
+    }
+  ],
+  "seller_messages": {
+    "Seller Maya": "Adjust ask prices based on bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Raj": "Consider adjusting ask prices based on the pace of bid increases and competitor ask adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Yara": "Consider adjusting ask prices based on the pace of bid increases and competitor ask adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Mia": "Consider adjusting ask prices based on the pace of bid increases and competitor ask adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Theo": "Consider adjusting ask prices based on the pace of bid increases and competitor ask adjustments to optimize trade potential while maintaining profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 19
+````json
+{
+  "round_number": 19,
+  "seller_asks": {
+    "Seller Yara": 90.49,
+    "Seller Theo": 89.25,
+    "Seller Raj": 89.5,
+    "Seller Mia": 88.25,
+    "Seller Maya": 89.5
+  },
+  "buyer_bids": {
+    "Buyer Tara": 89.75,
+    "Buyer Wei": 89.75,
+    "Buyer Max": 91.0,
+    "Buyer Kai": 90.0,
+    "Buyer Jun": 90.25
+  },
+  "trades": [
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Max",
+      "seller_id": "Seller Mia",
+      "price": 89.62
+    },
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Theo",
+      "price": 89.75
+    },
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Maya",
+      "price": 89.75
+    },
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Wei",
+      "seller_id": "Seller Raj",
+      "price": 89.62
+    }
+  ],
+  "seller_messages": {
+    "Seller Yara": "Adjust ask prices based on bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Theo": "Consider adjusting ask prices based on the pace of bid increases and competitor ask adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Raj": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Mia": "Consider adjusting ask prices based on bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Maya": "Adjust ask prices based on bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 20
+````json
+{
+  "round_number": 20,
+  "seller_asks": {
+    "Seller Yara": 90.24,
+    "Seller Mia": 88.0,
+    "Seller Raj": 89.25,
+    "Seller Maya": 89.25,
+    "Seller Theo": 89.5
+  },
+  "buyer_bids": {
+    "Buyer Max": 91.25,
+    "Buyer Tara": 90.0,
+    "Buyer Wei": 90.0,
+    "Buyer Kai": 90.25,
+    "Buyer Jun": 90.0
+  },
+  "trades": [
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Max",
+      "seller_id": "Seller Mia",
+      "price": 89.62
+    },
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Maya",
+      "price": 89.75
+    },
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Wei",
+      "seller_id": "Seller Raj",
+      "price": 89.62
+    },
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Tara",
+      "seller_id": "Seller Theo",
+      "price": 89.75
+    }
+  ],
+  "seller_messages": {
+    "Seller Yara": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Mia": "Monitor bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Raj": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Maya": "Adjust ask prices based on bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Theo": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 21
+````json
+{
+  "round_number": 21,
+  "seller_asks": {
+    "Seller Yara": 90.0,
+    "Seller Mia": 87.75,
+    "Seller Maya": 89.0,
+    "Seller Raj": 89.75,
+    "Seller Theo": 90.0
+  },
+  "buyer_bids": {
+    "Buyer Jun": 90.25,
+    "Buyer Kai": 90.5,
+    "Buyer Wei": 90.25,
+    "Buyer Tara": 90.25,
+    "Buyer Max": 91.5
+  },
+  "trades": [
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Max",
+      "seller_id": "Seller Mia",
+      "price": 89.62
+    },
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Maya",
+      "price": 89.75
+    },
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Wei",
+      "seller_id": "Seller Raj",
+      "price": 90.0
+    },
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Tara",
+      "seller_id": "Seller Theo",
+      "price": 90.12
+    },
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Yara",
+      "price": 90.12
+    }
+  ],
+  "seller_messages": {
+    "Seller Yara": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Mia": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Maya": "Adjust ask prices according to the increasing bid queue activity to optimize trade potential while maintaining profitability.",
+    "Seller Raj": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Theo": "Monitor bid queue activity and adjust ask prices to optimize trade potential while maintaining profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 22
+````json
+{
+  "round_number": 22,
+  "seller_asks": {
+    "Seller Theo": 90.25,
+    "Seller Yara": 89.75,
+    "Seller Raj": 90.25,
+    "Seller Maya": 88.75,
+    "Seller Mia": 87.5
+  },
+  "buyer_bids": {
+    "Buyer Tara": 90.5,
+    "Buyer Max": 91.75,
+    "Buyer Jun": 90.25,
+    "Buyer Kai": 90.75,
+    "Buyer Wei": 90.5
+  },
+  "trades": [
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Max",
+      "seller_id": "Seller Mia",
+      "price": 89.62
+    },
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Maya",
+      "price": 89.75
+    },
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Wei",
+      "seller_id": "Seller Yara",
+      "price": 90.12
+    },
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Tara",
+      "seller_id": "Seller Raj",
+      "price": 90.38
+    },
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Theo",
+      "price": 90.25
+    }
+  ],
+  "seller_messages": {
+    "Seller Theo": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Yara": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Raj": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Maya": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Mia": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 23
+````json
+{
+  "round_number": 23,
+  "seller_asks": {
+    "Seller Yara": 89.5,
+    "Seller Theo": 90.5,
+    "Seller Mia": 87.25,
+    "Seller Maya": 88.5,
+    "Seller Raj": 90.5
+  },
+  "buyer_bids": {
+    "Buyer Max": 92.0,
+    "Buyer Tara": 90.75,
+    "Buyer Jun": 90.5,
+    "Buyer Wei": 90.75,
+    "Buyer Kai": 91.0
+  },
+  "trades": [
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Max",
+      "seller_id": "Seller Mia",
+      "price": 89.62
+    },
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Maya",
+      "price": 89.75
+    },
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Wei",
+      "seller_id": "Seller Yara",
+      "price": 90.12
+    },
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Tara",
+      "seller_id": "Seller Raj",
+      "price": 90.62
+    },
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Theo",
+      "price": 90.5
+    }
+  ],
+  "seller_messages": {
+    "Seller Yara": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Theo": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Mia": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Maya": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Raj": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 24
+````json
+{
+  "round_number": 24,
+  "seller_asks": {
+    "Seller Theo": 90.75,
+    "Seller Raj": 91.0,
+    "Seller Maya": 88.25,
+    "Seller Mia": 86.75,
+    "Seller Yara": 89.25
+  },
+  "buyer_bids": {
+    "Buyer Max": 92.25,
+    "Buyer Wei": 90.9,
+    "Buyer Kai": 91.25,
+    "Buyer Tara": 91.0,
+    "Buyer Jun": 90.75
+  },
+  "trades": [
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Max",
+      "seller_id": "Seller Mia",
+      "price": 89.5
+    },
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Maya",
+      "price": 89.75
+    },
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Tara",
+      "seller_id": "Seller Yara",
+      "price": 90.12
+    },
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Wei",
+      "seller_id": "Seller Theo",
+      "price": 90.83
+    }
+  ],
+  "seller_messages": {
+    "Seller Theo": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Raj": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Maya": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Mia": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Yara": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 25
+````json
+{
+  "round_number": 25,
+  "seller_asks": {
+    "Seller Yara": 89.0,
+    "Seller Raj": 91.25,
+    "Seller Maya": 88.0,
+    "Seller Theo": 91.25,
+    "Seller Mia": 86.25
+  },
+  "buyer_bids": {
+    "Buyer Jun": 90.9,
+    "Buyer Wei": 91.05,
+    "Buyer Max": 92.5,
+    "Buyer Tara": 91.25,
+    "Buyer Kai": 91.5
+  },
+  "trades": [
+    {
+      "round_number": 25,
+      "buyer_id": "Buyer Max",
+      "seller_id": "Seller Mia",
+      "price": 89.38
+    },
+    {
+      "round_number": 25,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Maya",
+      "price": 89.75
+    },
+    {
+      "round_number": 25,
+      "buyer_id": "Buyer Tara",
+      "seller_id": "Seller Yara",
+      "price": 90.12
+    }
+  ],
+  "seller_messages": {
+    "Seller Yara": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Raj": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Maya": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Theo": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Mia": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 26
+````json
+{
+  "round_number": 26,
+  "seller_asks": {
+    "Seller Theo": 91.5,
+    "Seller Raj": 91.5,
+    "Seller Yara": 89.75,
+    "Seller Maya": 87.75,
+    "Seller Mia": 85.9
+  },
+  "buyer_bids": {
+    "Buyer Max": 92.75,
+    "Buyer Jun": 91.1,
+    "Buyer Wei": 91.1,
+    "Buyer Tara": 91.3,
+    "Buyer Kai": 91.55
+  },
+  "trades": [
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Max",
+      "seller_id": "Seller Mia",
+      "price": 89.33
+    },
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Maya",
+      "price": 89.65
+    },
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Tara",
+      "seller_id": "Seller Yara",
+      "price": 90.53
+    }
+  ],
+  "seller_messages": {
+    "Seller Theo": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Raj": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Yara": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Maya": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Mia": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 27
+````json
+{
+  "round_number": 27,
+  "seller_asks": {
+    "Seller Yara": 90.25,
+    "Seller Theo": 91.75,
+    "Seller Maya": 87.5,
+    "Seller Mia": 85.5,
+    "Seller Raj": 91.75
+  },
+  "buyer_bids": {
+    "Buyer Max": 93.0,
+    "Buyer Tara": 91.35,
+    "Buyer Jun": 91.15,
+    "Buyer Kai": 91.6,
+    "Buyer Wei": 91.15
+  },
+  "trades": [
+    {
+      "round_number": 27,
+      "buyer_id": "Buyer Max",
+      "seller_id": "Seller Mia",
+      "price": 89.25
+    },
+    {
+      "round_number": 27,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Maya",
+      "price": 89.55
+    },
+    {
+      "round_number": 27,
+      "buyer_id": "Buyer Tara",
+      "seller_id": "Seller Yara",
+      "price": 90.8
+    }
+  ],
+  "seller_messages": {
+    "Seller Yara": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Theo": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Maya": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Mia": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Raj": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 28
+````json
+{
+  "round_number": 28,
+  "seller_asks": {
+    "Seller Theo": 92.0,
+    "Seller Yara": 90.95,
+    "Seller Mia": 85.1,
+    "Seller Raj": 92.0,
+    "Seller Maya": 87.25
+  },
+  "buyer_bids": {
+    "Buyer Max": 93.25,
+    "Buyer Jun": 91.2,
+    "Buyer Wei": 91.2,
+    "Buyer Kai": 91.65,
+    "Buyer Tara": 91.4
+  },
+  "trades": [
+    {
+      "round_number": 28,
+      "buyer_id": "Buyer Max",
+      "seller_id": "Seller Mia",
+      "price": 89.17
+    },
+    {
+      "round_number": 28,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Maya",
+      "price": 89.45
+    },
+    {
+      "round_number": 28,
+      "buyer_id": "Buyer Tara",
+      "seller_id": "Seller Yara",
+      "price": 91.18
+    }
+  ],
+  "seller_messages": {
+    "Seller Theo": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Yara": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Mia": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Raj": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Maya": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 29
+````json
+{
+  "round_number": 29,
+  "seller_asks": {
+    "Seller Yara": 91.95,
+    "Seller Theo": 91.8,
+    "Seller Maya": 86.75,
+    "Seller Raj": 92.25,
+    "Seller Mia": 84.75
+  },
+  "buyer_bids": {
+    "Buyer Max": 93.5,
+    "Buyer Jun": 91.4,
+    "Buyer Kai": 91.7,
+    "Buyer Wei": 91.25,
+    "Buyer Tara": 91.45
+  },
+  "trades": [
+    {
+      "round_number": 29,
+      "buyer_id": "Buyer Max",
+      "seller_id": "Seller Mia",
+      "price": 89.12
+    },
+    {
+      "round_number": 29,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Maya",
+      "price": 89.22
+    }
+  ],
+  "seller_messages": {
+    "Seller Yara": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Theo": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Maya": "Adjust ask prices based on bid queue activity to optimize trade potential while maintaining profitability.",
+    "Seller Raj": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Mia": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 30
+````json
+{
+  "round_number": 30,
+  "seller_asks": {
+    "Seller Yara": 92.0,
+    "Seller Theo": 91.95,
+    "Seller Mia": 84.5,
+    "Seller Raj": 92.5,
+    "Seller Maya": 86.0
+  },
+  "buyer_bids": {
+    "Buyer Wei": 91.3,
+    "Buyer Kai": 91.75,
+    "Buyer Max": 93.75,
+    "Buyer Tara": 92.0,
+    "Buyer Jun": 91.6
+  },
+  "trades": [
+    {
+      "round_number": 30,
+      "buyer_id": "Buyer Max",
+      "seller_id": "Seller Mia",
+      "price": 89.12
+    },
+    {
+      "round_number": 30,
+      "buyer_id": "Buyer Tara",
+      "seller_id": "Seller Maya",
+      "price": 89.0
+    }
+  ],
+  "seller_messages": {
+    "Seller Mia": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Raj": "Adjust ask prices according to bid queue activity and competitor adjustments to optimize trade potential while maintaining profitability.",
+    "Seller Maya": "Adjust ask prices according to bid queue activity to optimize trade potential while maintaining profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````

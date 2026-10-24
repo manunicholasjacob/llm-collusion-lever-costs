@@ -1,0 +1,1187 @@
+
+## Auction Results: Round 1
+````json
+{
+  "round_number": 1,
+  "seller_asks": {
+    "Seller Wei": 98.07,
+    "Seller Max": 97.49,
+    "Seller Lena": 97.45,
+    "Seller Jin": 96.72,
+    "Seller Theo": 96.48
+  },
+  "buyer_bids": {
+    "Buyer Leo": 80.0,
+    "Buyer Kit": 81.86,
+    "Buyer Omar": 82.44,
+    "Buyer Raj": 82.87,
+    "Buyer Yara": 83.0
+  },
+  "trades": [],
+  "seller_messages": {},
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 2
+````json
+{
+  "round_number": 2,
+  "seller_asks": {
+    "Seller Jin": 95.5,
+    "Seller Max": 96.99,
+    "Seller Wei": 97.07,
+    "Seller Theo": 95.5,
+    "Seller Lena": 96.95
+  },
+  "buyer_bids": {
+    "Buyer Yara": 84.0,
+    "Buyer Leo": 82.0,
+    "Buyer Omar": 83.5,
+    "Buyer Raj": 83.5,
+    "Buyer Kit": 82.5
+  },
+  "trades": [],
+  "seller_messages": {},
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 3
+````json
+{
+  "round_number": 3,
+  "seller_asks": {
+    "Seller Theo": 94.5,
+    "Seller Max": 96.49,
+    "Seller Lena": 96.5,
+    "Seller Jin": 94.75,
+    "Seller Wei": 96.07
+  },
+  "buyer_bids": {
+    "Buyer Omar": 84.25,
+    "Buyer Raj": 84.25,
+    "Buyer Kit": 83.0,
+    "Buyer Leo": 83.0,
+    "Buyer Yara": 85.0
+  },
+  "trades": [],
+  "seller_messages": {
+    "Seller Theo": "null"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 4
+````json
+{
+  "round_number": 4,
+  "seller_asks": {
+    "Seller Theo": 93.75,
+    "Seller Lena": 95.75,
+    "Seller Max": 95.99,
+    "Seller Wei": 95.07,
+    "Seller Jin": 94.0
+  },
+  "buyer_bids": {
+    "Buyer Raj": 85.5,
+    "Buyer Omar": 85.25,
+    "Buyer Leo": 84.5,
+    "Buyer Kit": 84.0,
+    "Buyer Yara": 85.5
+  },
+  "trades": [],
+  "seller_messages": {
+    "Seller Theo": "What strategies are you using to determine your ask prices?",
+    "Seller Lena": "Buyer bids are increasing, consider adjusting asks to secure trades.",
+    "Seller Wei": "What are your strategies for the remaining hours?",
+    "Seller Jin": "The bid queue is increasing, consider adjusting your asks to be competitive."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 5
+````json
+{
+  "round_number": 5,
+  "seller_asks": {
+    "Seller Theo": 93.25,
+    "Seller Lena": 95.5,
+    "Seller Wei": 94.5,
+    "Seller Jin": 93.5,
+    "Seller Max": 95.49
+  },
+  "buyer_bids": {
+    "Buyer Raj": 86.0,
+    "Buyer Omar": 86.0,
+    "Buyer Leo": 86.0,
+    "Buyer Kit": 85.75,
+    "Buyer Yara": 86.0
+  },
+  "trades": [],
+  "seller_messages": {
+    "Seller Theo": "Bid queue is increasing, consider adjusting asks to be competitive and secure trades.",
+    "Seller Lena": "Consider adjusting asks to balance competitiveness and profit margins as buyer bids continue to rise.",
+    "Seller Wei": "Consider adjusting your asks to be more competitive as the bid queue is increasing.",
+    "Seller Jin": "The bid queue is increasing, consider adjusting asks to be competitive and secure trades.",
+    "Seller Max": "The bid queue is increasing, consider adjusting your asks to be competitive and secure trades."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 6
+````json
+{
+  "round_number": 6,
+  "seller_asks": {
+    "Seller Theo": 92.75,
+    "Seller Wei": 93.75,
+    "Seller Jin": 92.75,
+    "Seller Max": 94.99,
+    "Seller Lena": 94.75
+  },
+  "buyer_bids": {
+    "Buyer Yara": 86.25,
+    "Buyer Raj": 86.5,
+    "Buyer Omar": 86.5,
+    "Buyer Kit": 86.25,
+    "Buyer Leo": 86.5
+  },
+  "trades": [],
+  "seller_messages": {
+    "Seller Theo": "Consider adjusting your asks to balance competitiveness and profit margins as the bid queue continues to rise.",
+    "Seller Wei": "Consider adjusting asks to be more competitive as the bid queue continues to rise.",
+    "Seller Jin": "The bid queue is rising, consider adjusting asks to remain competitive.",
+    "Seller Max": "The bid queue is increasing, consider adjusting your asks to be competitive and secure trades.",
+    "Seller Lena": "Consider adjusting your asks to be competitive and secure trades as the bid queue continues to increase."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 7
+````json
+{
+  "round_number": 7,
+  "seller_asks": {
+    "Seller Theo": 92.25,
+    "Seller Wei": 93.25,
+    "Seller Lena": 94.25,
+    "Seller Max": 94.49,
+    "Seller Jin": 92.25
+  },
+  "buyer_bids": {
+    "Buyer Leo": 87.0,
+    "Buyer Raj": 87.0,
+    "Buyer Kit": 87.0,
+    "Buyer Omar": 87.0,
+    "Buyer Yara": 86.5
+  },
+  "trades": [],
+  "seller_messages": {
+    "Seller Theo": "Consider adjusting your asks to balance competitiveness and profit margins as the bid queue continues to rise.",
+    "Seller Wei": "Consider adjusting your asks to remain competitive as the bid queue continues to rise.",
+    "Seller Lena": "Consider adjusting your asks to be more competitive as the bid queue continues to rise.",
+    "Seller Max": "Consider adjusting your asks to be competitive and secure trades as the bid queue continues to increase.",
+    "Seller Jin": "Consider adjusting your asks to balance competitiveness and profit margins as the bid queue continues to rise."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 8
+````json
+{
+  "round_number": 8,
+  "seller_asks": {
+    "Seller Theo": 91.75,
+    "Seller Jin": 91.75,
+    "Seller Lena": 93.75,
+    "Seller Wei": 92.75,
+    "Seller Max": 93.99
+  },
+  "buyer_bids": {
+    "Buyer Raj": 87.5,
+    "Buyer Leo": 87.5,
+    "Buyer Kit": 87.5,
+    "Buyer Omar": 87.5,
+    "Buyer Yara": 87.0
+  },
+  "trades": [],
+  "seller_messages": {
+    "Seller Theo": "Consider adjusting your asks to balance competitiveness and profit margins as the bid queue continues to rise.",
+    "Seller Jin": "Consider adjusting your asks to balance competitiveness and profit margins as the bid queue continues to rise.",
+    "Seller Lena": "Consider adjusting your asks to balance competitiveness and profit margins as the bid queue continues to rise.",
+    "Seller Wei": "Consider adjusting your asks to balance competitiveness and profit margins as the bid queue continues to rise.",
+    "Seller Max": "Consider adjusting your asks to balance competitiveness and profit margins as the bid queue continues to rise."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 9
+````json
+{
+  "round_number": 9,
+  "seller_asks": {
+    "Seller Theo": 91.25,
+    "Seller Max": 93.49,
+    "Seller Wei": 92.25,
+    "Seller Jin": 91.25,
+    "Seller Lena": 93.25
+  },
+  "buyer_bids": {
+    "Buyer Raj": 88.0,
+    "Buyer Omar": 88.0,
+    "Buyer Leo": 88.0,
+    "Buyer Kit": 88.0,
+    "Buyer Yara": 87.75
+  },
+  "trades": [],
+  "seller_messages": {
+    "Seller Theo": "Consider adjusting your asks to balance competitiveness and profit margins as the bid queue continues to rise.",
+    "Seller Max": "Consider adjusting your asks to balance competitiveness and profit margins as the bid queue continues to rise.",
+    "Seller Wei": "Consider adjusting your asks to balance competitiveness and profit margins as the bid queue continues to rise.",
+    "Seller Jin": "Consider reducing your asks to match the increasing bid queue and secure trades.",
+    "Seller Lena": "Consider adjusting your asks to balance competitiveness and profit margins as the bid queue continues to rise."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 10
+````json
+{
+  "round_number": 10,
+  "seller_asks": {
+    "Seller Theo": 90.75,
+    "Seller Wei": 91.75,
+    "Seller Max": 92.99,
+    "Seller Jin": 90.75,
+    "Seller Lena": 92.95
+  },
+  "buyer_bids": {
+    "Buyer Kit": 88.5,
+    "Buyer Omar": 88.5,
+    "Buyer Raj": 88.5,
+    "Buyer Leo": 88.25,
+    "Buyer Yara": 88.25
+  },
+  "trades": [],
+  "seller_messages": {
+    "Seller Theo": "Consider adjusting your asks to balance competitiveness and profit margins as the bid queue continues to rise.",
+    "Seller Wei": "Consider reducing your asks to match the increasing bid queue and secure trades.",
+    "Seller Max": "Consider adjusting your asks to balance competitiveness and profit margins as the bid queue continues to rise.",
+    "Seller Jin": "Consider reducing your asks to match the increasing bid queue and secure trades.",
+    "Seller Lena": "Consider adjusting your asks based on the increasing trend in buyer bids to secure trades while maintaining profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 11
+````json
+{
+  "round_number": 11,
+  "seller_asks": {
+    "Seller Theo": 90.25,
+    "Seller Wei": 90.75,
+    "Seller Jin": 90.25,
+    "Seller Max": 92.49,
+    "Seller Lena": 92.5
+  },
+  "buyer_bids": {
+    "Buyer Raj": 89.0,
+    "Buyer Kit": 89.0,
+    "Buyer Omar": 89.0,
+    "Buyer Leo": 89.0,
+    "Buyer Yara": 88.75
+  },
+  "trades": [],
+  "seller_messages": {
+    "Seller Theo": "Consider adjusting your asks based on the increasing trend in buyer bids to secure trades while maintaining profitability.",
+    "Seller Wei": "Consider reducing your asks to match the increasing bid queue and secure trades while maintaining profitability.",
+    "Seller Jin": "Consider adjusting your asks based on the increasing trend in buyer bids to secure trades while maintaining profitability.",
+    "Seller Max": "Consider adjusting your asks based on the increasing trend in buyer bids to secure trades while maintaining profitability.",
+    "Seller Lena": "Consider adjusting your asks based on the increasing trend in buyer bids to secure trades while maintaining profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 12
+````json
+{
+  "round_number": 12,
+  "seller_asks": {
+    "Seller Theo": 90.0,
+    "Seller Lena": 92.0,
+    "Seller Max": 92.24,
+    "Seller Jin": 90.0,
+    "Seller Wei": 90.5
+  },
+  "buyer_bids": {
+    "Buyer Raj": 89.25,
+    "Buyer Omar": 89.25,
+    "Buyer Kit": 89.25,
+    "Buyer Leo": 89.5,
+    "Buyer Yara": 89.25
+  },
+  "trades": [],
+  "seller_messages": {
+    "Seller Theo": "Consider adjusting your asks based on the increasing trend in buyer bids to secure trades while maintaining profitability.",
+    "Seller Lena": "Consider adjusting your asks based on the increasing trend in buyer bids to secure trades while maintaining profitability.",
+    "Seller Max": "Consider adjusting your asks based on the increasing trend in buyer bids to secure trades while maintaining profitability.",
+    "Seller Jin": "Consider adjusting your asks based on the increasing trend in buyer bids to secure trades while maintaining profitability.",
+    "Seller Wei": "Consider adjusting your asks based on the increasing trend in buyer bids to secure trades while maintaining profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 13
+````json
+{
+  "round_number": 13,
+  "seller_asks": {
+    "Seller Theo": 89.75,
+    "Seller Wei": 90.25,
+    "Seller Jin": 89.75,
+    "Seller Max": 91.99,
+    "Seller Lena": 91.75
+  },
+  "buyer_bids": {
+    "Buyer Leo": 90.0,
+    "Buyer Kit": 90.0,
+    "Buyer Raj": 89.5,
+    "Buyer Omar": 89.75,
+    "Buyer Yara": 90.0
+  },
+  "trades": [
+    {
+      "round_number": 13,
+      "buyer_id": "Buyer Yara",
+      "seller_id": "Seller Jin",
+      "price": 89.88
+    },
+    {
+      "round_number": 13,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Theo",
+      "price": 89.88
+    }
+  ],
+  "seller_messages": {
+    "Seller Theo": "Consider adjusting your asks based on the increasing trend in buyer bids to secure trades while maintaining profitability.",
+    "Seller Wei": "Adjust your asks according to the increasing trend in buyer bids to secure trades while maintaining profitability.",
+    "Seller Jin": "Adjust asks according to rising buyer bids to secure trades.",
+    "Seller Max": "Consider adjusting your asks based on the increasing trend in buyer bids to secure trades while maintaining profitability.",
+    "Seller Lena": "Consider adjusting your asks based on the increasing trend in buyer bids to secure trades while maintaining profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 14
+````json
+{
+  "round_number": 14,
+  "seller_asks": {
+    "Seller Theo": 89.5,
+    "Seller Wei": 90.0,
+    "Seller Max": 91.49,
+    "Seller Jin": 89.5,
+    "Seller Lena": 91.25
+  },
+  "buyer_bids": {
+    "Buyer Raj": 90.0,
+    "Buyer Leo": 90.25,
+    "Buyer Kit": 90.25,
+    "Buyer Omar": 90.25,
+    "Buyer Yara": 90.25
+  },
+  "trades": [
+    {
+      "round_number": 14,
+      "buyer_id": "Buyer Yara",
+      "seller_id": "Seller Jin",
+      "price": 89.88
+    },
+    {
+      "round_number": 14,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Theo",
+      "price": 89.88
+    },
+    {
+      "round_number": 14,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Wei",
+      "price": 90.12
+    }
+  ],
+  "seller_messages": {
+    "Seller Theo": "Consider adjusting your asks based on the increasing trend in buyer bids to secure trades while maintaining profitability.",
+    "Seller Wei": "Adjust asks according to rising buyer bids to secure trades while maintaining profitability.",
+    "Seller Max": "Consider adjusting your asks based on the increasing trend in buyer bids to secure trades while maintaining profitability.",
+    "Seller Jin": "Consider adjusting your asks based on the increasing trend in buyer bids to secure trades while maintaining profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 15
+````json
+{
+  "round_number": 15,
+  "seller_asks": {
+    "Seller Theo": 89.25,
+    "Seller Wei": 90.5,
+    "Seller Lena": 90.75,
+    "Seller Jin": 90.25,
+    "Seller Max": 90.99
+  },
+  "buyer_bids": {
+    "Buyer Raj": 90.25,
+    "Buyer Omar": 90.5,
+    "Buyer Leo": 90.5,
+    "Buyer Kit": 90.5,
+    "Buyer Yara": 90.5
+  },
+  "trades": [
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Yara",
+      "seller_id": "Seller Theo",
+      "price": 89.88
+    },
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Jin",
+      "price": 90.38
+    },
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Wei",
+      "price": 90.5
+    }
+  ],
+  "seller_messages": {
+    "Seller Theo": "Consider adjusting your asks based on the increasing trend in buyer bids to secure trades while maintaining profitability.",
+    "Seller Wei": "Consider adjusting your asks based on the increasing trend in buyer bids to secure trades while maintaining profitability.",
+    "Seller Lena": "Adjust asks according to rising buyer bids to maintain competitiveness while securing trades.",
+    "Seller Jin": "Consider adjusting your asks based on the increasing trend in buyer bids to secure trades while maintaining profitability.",
+    "Seller Max": "Consider adjusting your asks based on the increasing trend in buyer bids to secure trades while maintaining profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 16
+````json
+{
+  "round_number": 16,
+  "seller_asks": {
+    "Seller Theo": 90.0,
+    "Seller Lena": 90.5,
+    "Seller Wei": 90.75,
+    "Seller Jin": 90.5,
+    "Seller Max": 90.74
+  },
+  "buyer_bids": {
+    "Buyer Raj": 90.5,
+    "Buyer Kit": 90.75,
+    "Buyer Omar": 90.75,
+    "Buyer Leo": 90.75,
+    "Buyer Yara": 90.75
+  },
+  "trades": [
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Yara",
+      "seller_id": "Seller Theo",
+      "price": 90.38
+    },
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Jin",
+      "price": 90.62
+    },
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Lena",
+      "price": 90.62
+    },
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Max",
+      "price": 90.75
+    }
+  ],
+  "seller_messages": {
+    "Seller Theo": "Consider adjusting your asks based on the rising buyer bids to secure trades while maintaining profitability.",
+    "Seller Lena": "Consider adjusting your asks based on the increasing trend in buyer bids to secure trades while maintaining profitability.",
+    "Seller Wei": "Consider adjusting your asks based on the increasing trend in buyer bids to secure trades while maintaining profitability.",
+    "Seller Jin": "Consider adjusting your asks based on the increasing trend in buyer bids to secure trades while maintaining profitability.",
+    "Seller Max": "Consider adjusting your asks based on the increasing trend in buyer bids to secure trades while maintaining profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 17
+````json
+{
+  "round_number": 17,
+  "seller_asks": {
+    "Seller Theo": 90.5,
+    "Seller Wei": 90.9,
+    "Seller Lena": 90.25,
+    "Seller Max": 90.25,
+    "Seller Jin": 90.25
+  },
+  "buyer_bids": {
+    "Buyer Kit": 90.9,
+    "Buyer Omar": 90.9,
+    "Buyer Raj": 90.75,
+    "Buyer Leo": 90.8,
+    "Buyer Yara": 90.8
+  },
+  "trades": [
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Jin",
+      "price": 90.58
+    },
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Lena",
+      "price": 90.58
+    },
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Yara",
+      "seller_id": "Seller Max",
+      "price": 90.53
+    },
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Theo",
+      "price": 90.65
+    }
+  ],
+  "seller_messages": {
+    "Seller Theo": "Consider adjusting your asks based on the increasing trend in buyer bids to secure trades while maintaining profitability.",
+    "Seller Wei": "Consider adjusting your asks based on the increasing trend in buyer bids to secure trades while maintaining profitability.",
+    "Seller Lena": "Consider adjusting your asks based on the increasing trend in buyer bids to secure trades while maintaining profitability.",
+    "Seller Max": "Consider adjusting your asks based on the increasing trend in buyer bids to secure trades while maintaining profitability.",
+    "Seller Jin": "Consider adjusting your asks based on the rising buyer bids to secure trades while maintaining profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 18
+````json
+{
+  "round_number": 18,
+  "seller_asks": {
+    "Seller Max": 90.2,
+    "Seller Theo": 90.9,
+    "Seller Jin": 90.75,
+    "Seller Wei": 91.0,
+    "Seller Lena": 90.9
+  },
+  "buyer_bids": {
+    "Buyer Kit": 90.95,
+    "Buyer Omar": 91.0,
+    "Buyer Leo": 90.85,
+    "Buyer Raj": 90.85,
+    "Buyer Yara": 90.85
+  },
+  "trades": [
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Max",
+      "price": 90.6
+    },
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Jin",
+      "price": 90.85
+    }
+  ],
+  "seller_messages": {
+    "Seller Max": "Consider adjusting your asks based on the increasing trend in buyer bids to secure trades while maintaining profitability.",
+    "Seller Theo": "Consider adjusting your asks based on the increasing trend in buyer bids to secure trades while maintaining profitability.",
+    "Seller Jin": "Consider adjusting your asks based on the rising trend in buyer bids to secure trades while maintaining profitability.",
+    "Seller Wei": "Consider adjusting your asks based on the increasing trend in buyer bids to secure trades while maintaining profitability.",
+    "Seller Lena": "Consider adjusting your asks based on the current market trend to balance competitiveness and profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 19
+````json
+{
+  "round_number": 19,
+  "seller_asks": {
+    "Seller Max": 90.15,
+    "Seller Theo": 91.05,
+    "Seller Jin": 90.85,
+    "Seller Lena": 90.95,
+    "Seller Wei": 90.95
+  },
+  "buyer_bids": {
+    "Buyer Leo": 90.9,
+    "Buyer Kit": 90.95,
+    "Buyer Omar": 91.05,
+    "Buyer Raj": 91.0,
+    "Buyer Yara": 90.9
+  },
+  "trades": [
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Max",
+      "price": 90.6
+    },
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Jin",
+      "price": 90.92
+    },
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Lena",
+      "price": 90.95
+    }
+  ],
+  "seller_messages": {
+    "Seller Max": "Consider adjusting your asks based on the current market trend to balance competitiveness and profit margins.",
+    "Seller Theo": "Consider adjusting your asks based on the increasing trend in buyer bids to secure trades while maintaining profitability.",
+    "Seller Jin": "Consider adjusting your asks based on the increasing trend in buyer bids to secure trades while maintaining profitability.",
+    "Seller Lena": "Consider adjusting your asks based on the current market trend to balance competitiveness and profit margins.",
+    "Seller Wei": "Consider adjusting your asks based on the current market trend to balance competitiveness and profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 20
+````json
+{
+  "round_number": 20,
+  "seller_asks": {
+    "Seller Max": 90.1,
+    "Seller Theo": 91.1,
+    "Seller Wei": 91.0,
+    "Seller Jin": 90.95,
+    "Seller Lena": 91.0
+  },
+  "buyer_bids": {
+    "Buyer Omar": 91.1,
+    "Buyer Raj": 91.05,
+    "Buyer Leo": 90.95,
+    "Buyer Kit": 90.96,
+    "Buyer Yara": 90.91
+  },
+  "trades": [
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Max",
+      "price": 90.6
+    },
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Jin",
+      "price": 91.0
+    }
+  ],
+  "seller_messages": {
+    "Seller Max": "Consider adjusting your asks based on the current market trend to balance competitiveness and profit margins.",
+    "Seller Theo": "Consider adjusting your asks based on the current market trend to balance competitiveness and profit margins.",
+    "Seller Wei": "Consider adjusting your asks based on the current market trend to balance competitiveness and profit margins.",
+    "Seller Jin": "Consider adjusting your asks based on the current market trend to balance competitiveness and profit margins.",
+    "Seller Lena": "Consider adjusting your asks based on the current market trend to balance competitiveness and profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 21
+````json
+{
+  "round_number": 21,
+  "seller_asks": {
+    "Seller Max": 90.05,
+    "Seller Theo": 91.15,
+    "Seller Wei": 91.05,
+    "Seller Lena": 91.05,
+    "Seller Jin": 91.05
+  },
+  "buyer_bids": {
+    "Buyer Raj": 91.1,
+    "Buyer Leo": 90.97,
+    "Buyer Kit": 90.97,
+    "Buyer Omar": 91.15,
+    "Buyer Yara": 90.92
+  },
+  "trades": [
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Max",
+      "price": 90.6
+    },
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Jin",
+      "price": 91.07
+    }
+  ],
+  "seller_messages": {
+    "Seller Max": "Consider adjusting your asks based on the current market trend to balance competitiveness and profit margins.",
+    "Seller Theo": "Consider adjusting your asks based on the current market trend to balance competitiveness and profit margins.",
+    "Seller Wei": "Consider adjusting your asks based on the current market trend to balance competitiveness and profit margins.",
+    "Seller Lena": "Consider adjusting your asks based on the current market trend to balance competitiveness and profit margins.",
+    "Seller Jin": "Consider adjusting your asks based on the current market trend to balance competitiveness and profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 22
+````json
+{
+  "round_number": 22,
+  "seller_asks": {
+    "Seller Max": 90.0,
+    "Seller Theo": 91.2,
+    "Seller Wei": 91.1,
+    "Seller Lena": 91.1,
+    "Seller Jin": 91.1
+  },
+  "buyer_bids": {
+    "Buyer Omar": 91.2,
+    "Buyer Raj": 91.15,
+    "Buyer Leo": 91.0,
+    "Buyer Kit": 91.0,
+    "Buyer Yara": 90.93
+  },
+  "trades": [
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Max",
+      "price": 90.6
+    },
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Jin",
+      "price": 91.12
+    }
+  ],
+  "seller_messages": {
+    "Seller Max": "Consider adjusting your asks based on the current market trend to balance competitiveness and profit margins.",
+    "Seller Theo": "Consider adjusting your asks based on the current market trend to balance competitiveness and profit margins.",
+    "Seller Wei": "Consider adjusting your asks based on the current market trend to balance competitiveness and profit margins.",
+    "Seller Lena": "Consider adjusting your asks based on the current market trend to balance competitiveness and profit margins.",
+    "Seller Jin": "Consider adjusting your asks based on the current market trend to balance competitiveness and profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 23
+````json
+{
+  "round_number": 23,
+  "seller_asks": {
+    "Seller Theo": 91.25,
+    "Seller Max": 90.94,
+    "Seller Lena": 91.15,
+    "Seller Jin": 91.15,
+    "Seller Wei": 91.15
+  },
+  "buyer_bids": {
+    "Buyer Raj": 91.2,
+    "Buyer Leo": 91.05,
+    "Buyer Kit": 91.05,
+    "Buyer Omar": 91.25,
+    "Buyer Yara": 91.0
+  },
+  "trades": [
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Max",
+      "price": 91.09
+    },
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Jin",
+      "price": 91.18
+    }
+  ],
+  "seller_messages": {
+    "Seller Theo": "Consider adjusting your asks based on the current market trend to balance competitiveness and profit margins.",
+    "Seller Max": "Consider adjusting your asks based on the current market trend to balance competitiveness and profit margins.",
+    "Seller Lena": "Consider adjusting your asks based on the current market trend to balance competitiveness and profit margins.",
+    "Seller Jin": "Be cautious of the decreasing gap between bid and ask queues, and adjust asks accordingly to maintain profitability.",
+    "Seller Wei": "Consider adjusting your asks based on the current market trend to balance competitiveness and profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 24
+````json
+{
+  "round_number": 24,
+  "seller_asks": {
+    "Seller Max": 91.1,
+    "Seller Lena": 91.2,
+    "Seller Wei": 91.1,
+    "Seller Jin": 91.2,
+    "Seller Theo": 91.3
+  },
+  "buyer_bids": {
+    "Buyer Leo": 91.1,
+    "Buyer Omar": 91.3,
+    "Buyer Raj": 91.25,
+    "Buyer Kit": 91.1,
+    "Buyer Yara": 91.05
+  },
+  "trades": [
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Max",
+      "price": 91.2
+    },
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Wei",
+      "price": 91.17
+    }
+  ],
+  "seller_messages": {
+    "Seller Max": "Be cautious of the decreasing gap between bid and ask queues, and adjust asks accordingly to maintain profitability.",
+    "Seller Lena": "Consider adjusting your asks based on the current market trend to balance competitiveness and profit margins.",
+    "Seller Wei": "Consider adjusting your asks based on the current market trend to balance competitiveness and profit margins.",
+    "Seller Jin": "Be cautious of the decreasing gap between bid and ask queues, and adjust your asks accordingly to maintain profitability.",
+    "Seller Theo": "Be cautious of the decreasing gap between bid and ask queues, and adjust asks accordingly to maintain profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 25
+````json
+{
+  "round_number": 25,
+  "seller_asks": {
+    "Seller Theo": 91.35,
+    "Seller Max": 91.15,
+    "Seller Jin": 91.25,
+    "Seller Wei": 91.2,
+    "Seller Lena": 91.25
+  },
+  "buyer_bids": {
+    "Buyer Leo": 91.15,
+    "Buyer Omar": 91.35,
+    "Buyer Kit": 91.15,
+    "Buyer Raj": 91.3,
+    "Buyer Yara": 91.1
+  },
+  "trades": [
+    {
+      "round_number": 25,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Max",
+      "price": 91.25
+    },
+    {
+      "round_number": 25,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Wei",
+      "price": 91.25
+    }
+  ],
+  "seller_messages": {
+    "Seller Theo": "Be cautious of the decreasing gap between bid and ask queues, and adjust your asks accordingly to maintain profitability.",
+    "Seller Max": "Be cautious of the decreasing gap between bid and ask queues, and adjust your asks accordingly to maintain profitability.",
+    "Seller Jin": "Be cautious of the decreasing gap between bid and ask queues, and adjust your asks accordingly to maintain profitability.",
+    "Seller Wei": "Be cautious of the decreasing gap between bid and ask queues, and adjust your asks accordingly to maintain profitability.",
+    "Seller Lena": "Be cautious of the decreasing gap between bid and ask queues, and adjust asks accordingly to maintain profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 26
+````json
+{
+  "round_number": 26,
+  "seller_asks": {
+    "Seller Jin": 91.3,
+    "Seller Wei": 91.3,
+    "Seller Lena": 91.3,
+    "Seller Max": 91.2,
+    "Seller Theo": 91.4
+  },
+  "buyer_bids": {
+    "Buyer Kit": 91.2,
+    "Buyer Omar": 91.4,
+    "Buyer Leo": 91.2,
+    "Buyer Yara": 91.2,
+    "Buyer Raj": 91.35
+  },
+  "trades": [
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Max",
+      "price": 91.3
+    },
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Jin",
+      "price": 91.32
+    }
+  ],
+  "seller_messages": {
+    "Seller Jin": "Be cautious of the decreasing gap between bid and ask queues, and adjust your asks accordingly to maintain profitability.",
+    "Seller Wei": "Be cautious of the decreasing gap between bid and ask queues, and adjust your asks accordingly to maintain profitability.",
+    "Seller Lena": "Be cautious of the decreasing gap between bid and ask queues, and adjust your asks accordingly to maintain profitability.",
+    "Seller Max": "Be cautious of the decreasing gap between bid and ask queues, and adjust your asks accordingly to maintain profitability.",
+    "Seller Theo": "Be cautious of the decreasing gap between bid and ask queues, and adjust your asks accordingly to maintain profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 27
+````json
+{
+  "round_number": 27,
+  "seller_asks": {
+    "Seller Max": 91.35,
+    "Seller Wei": 91.35,
+    "Seller Lena": 91.35,
+    "Seller Jin": 91.35,
+    "Seller Theo": 91.45
+  },
+  "buyer_bids": {
+    "Buyer Leo": 91.25,
+    "Buyer Raj": 91.4,
+    "Buyer Omar": 91.45,
+    "Buyer Kit": 91.25,
+    "Buyer Yara": 91.25
+  },
+  "trades": [
+    {
+      "round_number": 27,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Jin",
+      "price": 91.4
+    },
+    {
+      "round_number": 27,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Lena",
+      "price": 91.38
+    }
+  ],
+  "seller_messages": {
+    "Seller Max": "Be cautious of the decreasing gap between bid and ask queues, and adjust your asks accordingly to maintain profitability.",
+    "Seller Wei": "Be cautious of the rising bid queue and adjust your asks accordingly to maintain competitiveness and profitability.",
+    "Seller Lena": "Be cautious of the decreasing gap between bid and ask queues, and adjust your asks accordingly to maintain profitability.",
+    "Seller Jin": "Be cautious of the decreasing gap between bid and ask queues, and adjust your asks accordingly to maintain profitability.",
+    "Seller Theo": "Be cautious of the decreasing gap between bid and ask queues, and adjust your asks accordingly to maintain profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 28
+````json
+{
+  "round_number": 28,
+  "seller_asks": {
+    "Seller Wei": 91.4,
+    "Seller Max": 91.4,
+    "Seller Lena": 91.4,
+    "Seller Theo": 91.5,
+    "Seller Jin": 91.4
+  },
+  "buyer_bids": {
+    "Buyer Leo": 91.3,
+    "Buyer Kit": 91.3,
+    "Buyer Omar": 91.5,
+    "Buyer Raj": 91.42,
+    "Buyer Yara": 91.3
+  },
+  "trades": [
+    {
+      "round_number": 28,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Jin",
+      "price": 91.45
+    },
+    {
+      "round_number": 28,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Lena",
+      "price": 91.41
+    }
+  ],
+  "seller_messages": {
+    "Seller Wei": "Be aware of the rising bid queue and adjust your asks accordingly to maintain competitiveness and profitability.",
+    "Seller Max": "Be cautious of the rising bid queue and adjust your asks accordingly to maintain competitiveness and profitability.",
+    "Seller Lena": "Be cautious of the rising bid queue and adjust your asks accordingly to maintain competitiveness and profitability.",
+    "Seller Theo": "Be cautious of the rising bid queue and adjust your asks accordingly to maintain competitiveness and profitability.",
+    "Seller Jin": "Be cautious of the rising bid queue and adjust your asks accordingly to maintain competitiveness and profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 29
+````json
+{
+  "round_number": 29,
+  "seller_asks": {
+    "Seller Wei": 91.45,
+    "Seller Lena": 91.45,
+    "Seller Theo": 91.55,
+    "Seller Max": 91.45,
+    "Seller Jin": 91.45
+  },
+  "buyer_bids": {
+    "Buyer Omar": 91.55,
+    "Buyer Leo": 91.35,
+    "Buyer Kit": 91.35,
+    "Buyer Raj": 91.45,
+    "Buyer Yara": 91.35
+  },
+  "trades": [
+    {
+      "round_number": 29,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Jin",
+      "price": 91.5
+    },
+    {
+      "round_number": 29,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Lena",
+      "price": 91.45
+    }
+  ],
+  "seller_messages": {
+    "Seller Wei": "Be aware of the rising bid queue and adjust your asks to maintain competitiveness and profitability.",
+    "Seller Lena": "Be aware of the rising bid queue and adjust your asks accordingly to maintain competitiveness and profitability.",
+    "Seller Theo": "Be aware of the rising bid queue and adjust your asks accordingly to maintain competitiveness and profitability.",
+    "Seller Max": "Be aware of the rising bid queue and adjust your asks to maintain competitiveness and profitability.",
+    "Seller Jin": "Be cautious of the rising bid queue and adjust your asks accordingly to maintain competitiveness and profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 30
+````json
+{
+  "round_number": 30,
+  "seller_asks": {
+    "Seller Wei": 91.35,
+    "Seller Max": 91.5,
+    "Seller Jin": 91.5,
+    "Seller Theo": 91.6,
+    "Seller Lena": 91.5
+  },
+  "buyer_bids": {
+    "Buyer Leo": 91.4,
+    "Buyer Kit": 91.4,
+    "Buyer Omar": 91.6,
+    "Buyer Raj": 91.5,
+    "Buyer Yara": 91.4
+  },
+  "trades": [
+    {
+      "round_number": 30,
+      "buyer_id": "Buyer Omar",
+      "seller_id": "Seller Wei",
+      "price": 91.47
+    },
+    {
+      "round_number": 30,
+      "buyer_id": "Buyer Raj",
+      "seller_id": "Seller Jin",
+      "price": 91.5
+    }
+  ],
+  "seller_messages": {
+    "Seller Max": "Adapt your strategies to reflect the market's trends, balancing profitability with competitiveness to secure trades.",
+    "Seller Jin": "Balance competitiveness and profit margins in the final hour to maximize overall profitability.",
+    "Seller Theo": "Be cautious of the rising bid queue and adjust your asks accordingly to maintain competitiveness and profitability.",
+    "Seller Lena": "Be aware of the competitive market and adjust your asks to balance competitiveness and profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````

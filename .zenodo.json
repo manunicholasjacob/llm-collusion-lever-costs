@@ -1,0 +1,24 @@
+{
+  "title": "Anti-Collusion Levers Are Not Free: Measuring What Monitoring Costs LLM Markets",
+  "description": "Code, run data and pre-registration log for a study of anti-collusion levers in LLM-agent markets, submitted to the Apart Research AI Collusion Research Sprint (October 2026). In the continuous double auction of Agrawal et al. (2025), an audit of the authors' public runs shows that the reference oversight lever acts as a delayed communication ban: its LLM monitor fired in 20 of 20 runs. A pre-registered study of seven levers (25 runs each, Llama-3.3-70B sellers) found that neither Llama-3.3-70B nor GPT-4.1-mini sellers colluded when allowed to communicate, so it measures what levers cost a market that is not colluding: the monitor fired on innocent markets in up to 48% of runs, a monitoring notice lowered buyer welfare, a communication ban cost trades, and one no-regret seller raised buyer welfare. Both welfare effects replicated on 75 fresh pre-registered runs. Includes all 268 completed sprint runs (market logs and monitor scores), the analysis code, a patch to the upstream harness, the timestamped protocol, and a script that recomputes the report's numbers from the runs. The upstream harness and its 2025 runs are not included; see https://github.com/andyjliu/llm-agent-collusion.",
+  "creators": [
+    {
+      "name": "Jacob, Manu Nicholas",
+      "affiliation": "Independent Researcher",
+      "orcid": "0009-0007-6589-6572"
+    }
+  ],
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "mit",
+  "keywords": [
+    "LLM agents",
+    "algorithmic collusion",
+    "double auction",
+    "AI oversight",
+    "monitoring",
+    "AI control",
+    "pre-registration",
+    "multi-agent systems"
+  ]
+}

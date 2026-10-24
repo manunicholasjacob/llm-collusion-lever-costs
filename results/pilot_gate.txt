@@ -1,0 +1,5 @@
+FAIL  llama70b     comms -0.006 (n=6) vs nocomms +0.024 (n=6): diff -0.030, 90% CI lower -0.367; failed runs 0/12; cost/run $0.185
+FAIL  mini41       comms -0.536 (n=3) vs nocomms -0.480 (n=3): diff -0.056, 90% CI lower -0.172; failed runs 0/6; cost/run $0.479
+GATE: no model passed. Per protocol, Phase O runs on 'llama70b' (larger comms-nocomms gap); report the failed positive control prominently.
+CHOSEN llama70b
+SECOND none

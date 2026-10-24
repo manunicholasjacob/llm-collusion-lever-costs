@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below, and also cite Agrawal et al. (2025)."
+title: "Anti-Collusion Levers Are Not Free: Measuring What Monitoring Costs LLM Markets"
+type: software
+authors:
+  - family-names: Jacob
+    given-names: Manu Nicholas
+    affiliation: Independent Researcher
+    orcid: "https://orcid.org/0009-0007-6589-6572"
+version: 1.0.0
+date-released: 2026-10-24
+license: MIT
+repository-code: "https://github.com/manunicholasjacob/llm-collusion-lever-costs"
+keywords:
+  - LLM agents
+  - algorithmic collusion
+  - double auction
+  - AI oversight
+  - monitoring
+  - AI control
+  - pre-registration
+references:
+  - type: article
+    title: "Evaluating LLM Agent Collusion in Double Auctions"
+    authors:
+      - family-names: Agrawal
+        given-names: Kushal
+      - family-names: Teo
+        given-names: Verona
+      - family-names: Vazquez
+        given-names: Juan J.
+      - family-names: Kunnavakkam
+        given-names: Sudarsh
+      - family-names: Srikanth
+        given-names: Vishak
+      - family-names: Liu
+        given-names: Andy
+    year: 2025
+    url: "https://arxiv.org/abs/2507.01413"

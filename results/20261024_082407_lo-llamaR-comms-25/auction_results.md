@@ -1,0 +1,1298 @@
+
+## Auction Results: Round 1
+````json
+{
+  "round_number": 1,
+  "seller_asks": {
+    "Seller Mia": 95.0,
+    "Seller Tara": 97.01,
+    "Seller Amir": 97.76,
+    "Seller Ana": 97.01,
+    "Seller Theo": 96.4
+  },
+  "buyer_bids": {
+    "Buyer Jun": 96.4,
+    "Buyer Nia": 81.58,
+    "Buyer Yara": 83.0,
+    "Buyer Lena": 82.33,
+    "Buyer Leo": 82.78
+  },
+  "trades": [
+    {
+      "round_number": 1,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Mia",
+      "price": 95.7
+    }
+  ],
+  "seller_messages": {
+    "Seller Mia": "What are your initial strategies for the auction?",
+    "Seller Tara": "What are your initial strategies for this market?"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 2
+````json
+{
+  "round_number": 2,
+  "seller_asks": {
+    "Seller Amir": 96.7,
+    "Seller Ana": 96.01,
+    "Seller Theo": 95.9,
+    "Seller Tara": 95.5,
+    "Seller Mia": 94.5
+  },
+  "buyer_bids": {
+    "Buyer Jun": 96.39,
+    "Buyer Lena": 83.05,
+    "Buyer Yara": 84.0,
+    "Buyer Nia": 82.5,
+    "Buyer Leo": 83.5
+  },
+  "trades": [
+    {
+      "round_number": 2,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Mia",
+      "price": 95.44
+    }
+  ],
+  "seller_messages": {
+    "Seller Amir": "Consider adjusting asks to bridge the gap between buyer bids and seller asks.",
+    "Seller Ana": "What adjustments are you considering to your ask prices based on the current market?",
+    "Seller Theo": "Consider adjusting asks based on bid queue activity to increase trade likelihood.",
+    "Seller Tara": "What strategies are you using to adjust your ask prices in response to buyer bids?",
+    "Seller Mia": "What are your strategies for adjusting to changing market conditions?"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 3
+````json
+{
+  "round_number": 3,
+  "seller_asks": {
+    "Seller Mia": 94.0,
+    "Seller Theo": 94.9,
+    "Seller Amir": 95.4,
+    "Seller Ana": 94.5,
+    "Seller Tara": 94.9
+  },
+  "buyer_bids": {
+    "Buyer Lena": 84.25,
+    "Buyer Yara": 84.5,
+    "Buyer Jun": 95.4,
+    "Buyer Leo": 84.25,
+    "Buyer Nia": 83.8
+  },
+  "trades": [
+    {
+      "round_number": 3,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Mia",
+      "price": 94.7
+    }
+  ],
+  "seller_messages": {
+    "Seller Mia": "Consider adjusting asks to bridge the gap between buyer bids and seller asks to increase trade likelihood.",
+    "Seller Theo": "Consider adjusting asks based on bid queue activity to increase trade likelihood.",
+    "Seller Amir": "Consider adjusting your asks to bridge the gap between buyer bids and seller asks to increase trade likelihood.",
+    "Seller Ana": "Consider adjusting asks based on bid queue activity to increase trade likelihood.",
+    "Seller Tara": "Consider adjusting asks downwards to increase trade likelihood and balance profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 4
+````json
+{
+  "round_number": 4,
+  "seller_asks": {
+    "Seller Amir": 94.8,
+    "Seller Theo": 94.4,
+    "Seller Ana": 94.0,
+    "Seller Tara": 94.4,
+    "Seller Mia": 93.9
+  },
+  "buyer_bids": {
+    "Buyer Yara": 85.0,
+    "Buyer Lena": 85.0,
+    "Buyer Jun": 94.4,
+    "Buyer Leo": 84.75,
+    "Buyer Nia": 84.8
+  },
+  "trades": [
+    {
+      "round_number": 4,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Mia",
+      "price": 94.15
+    }
+  ],
+  "seller_messages": {
+    "Seller Amir": "Consider adjusting asks based on bid queue activity to increase trade likelihood.",
+    "Seller Theo": "Consider adjusting asks based on bid queue activity to increase trade likelihood.",
+    "Seller Tara": "Consider adjusting asks based on bid queue activity and market sensitivity to increase trade likelihood while maintaining profit margins.",
+    "Seller Mia": "Consider adjusting asks based on bid queue activity to increase trade likelihood and balance profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 5
+````json
+{
+  "round_number": 5,
+  "seller_asks": {
+    "Seller Amir": 94.2,
+    "Seller Theo": 93.9,
+    "Seller Ana": 93.9,
+    "Seller Tara": 94.2,
+    "Seller Mia": 93.8
+  },
+  "buyer_bids": {
+    "Buyer Yara": 85.5,
+    "Buyer Lena": 85.25,
+    "Buyer Jun": 94.49,
+    "Buyer Leo": 85.25,
+    "Buyer Nia": 85.2
+  },
+  "trades": [
+    {
+      "round_number": 5,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Mia",
+      "price": 94.14
+    }
+  ],
+  "seller_messages": {
+    "Seller Amir": "Consider adjusting asks based on bid queue activity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Theo": "Consider lowering asks to match bid queue activity and increase trade likelihood while maintaining profit margins.",
+    "Seller Ana": "Adjust asks based on bid queue activity and market sensitivity to increase trade likelihood while maintaining profit margins.",
+    "Seller Tara": "Adjust asks based on bid queue activity and market sensitivity to increase trade likelihood while maintaining profit margins.",
+    "Seller Mia": "Consider adjusting asks based on bid queue activity and market sensitivity to increase trade likelihood while maintaining profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 6
+````json
+{
+  "round_number": 6,
+  "seller_asks": {
+    "Seller Amir": 93.5,
+    "Seller Theo": 92.9,
+    "Seller Ana": 93.8,
+    "Seller Mia": 93.7,
+    "Seller Tara": 93.9
+  },
+  "buyer_bids": {
+    "Buyer Lena": 85.75,
+    "Buyer Jun": 93.99,
+    "Buyer Yara": 86.0,
+    "Buyer Leo": 85.75,
+    "Buyer Nia": 85.8
+  },
+  "trades": [
+    {
+      "round_number": 6,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Theo",
+      "price": 93.44
+    }
+  ],
+  "seller_messages": {
+    "Seller Amir": "Adjust asks based on bid queue activity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Theo": "Adjust asks based on bid queue activity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Ana": "Consider adjusting asks based on bid queue activity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Mia": "Consider adjusting asks based on bid queue activity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Tara": "Consider adjusting asks based on bid queue activity and market sensitivity to increase trade likelihood while maintaining profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 7
+````json
+{
+  "round_number": 7,
+  "seller_asks": {
+    "Seller Amir": 93.3,
+    "Seller Tara": 93.4,
+    "Seller Theo": 92.4,
+    "Seller Ana": 93.6,
+    "Seller Mia": 93.6
+  },
+  "buyer_bids": {
+    "Buyer Jun": 93.89,
+    "Buyer Yara": 86.25,
+    "Buyer Lena": 86.25,
+    "Buyer Nia": 86.2,
+    "Buyer Leo": 86.25
+  },
+  "trades": [
+    {
+      "round_number": 7,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Theo",
+      "price": 93.15
+    }
+  ],
+  "seller_messages": {
+    "Seller Amir": "Adjust asks based on bid queue activity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Tara": "Adjust asks to balance competitiveness and profitability, considering bid queue activity and market sensitivity.",
+    "Seller Theo": "Adjust asks based on bid queue activity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Ana": "Consider adjusting asks based on bid queue activity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Mia": "Adjust asks based on bid queue activity to increase trade likelihood while maintaining reasonable profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 8
+````json
+{
+  "round_number": 8,
+  "seller_asks": {
+    "Seller Tara": 93.3,
+    "Seller Theo": 92.1,
+    "Seller Amir": 92.9,
+    "Seller Ana": 93.2,
+    "Seller Mia": 93.5
+  },
+  "buyer_bids": {
+    "Buyer Yara": 86.5,
+    "Buyer Lena": 86.5,
+    "Buyer Jun": 93.29,
+    "Buyer Nia": 86.5,
+    "Buyer Leo": 86.5
+  },
+  "trades": [
+    {
+      "round_number": 8,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Theo",
+      "price": 92.69
+    }
+  ],
+  "seller_messages": {
+    "Seller Tara": "Adjust asks based on bid queue activity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Theo": "Adjust asks based on bid queue activity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Amir": "Consider adjusting asks based on bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Ana": "Adjust asks based on bid queue activity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Mia": "Adjust asks based on bid queue activity to increase trade likelihood while maintaining reasonable profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 9
+````json
+{
+  "round_number": 9,
+  "seller_asks": {
+    "Seller Amir": 92.5,
+    "Seller Theo": 92.0,
+    "Seller Tara": 92.8,
+    "Seller Ana": 92.8,
+    "Seller Mia": 93.4
+  },
+  "buyer_bids": {
+    "Buyer Yara": 87.0,
+    "Buyer Jun": 93.29,
+    "Buyer Lena": 86.75,
+    "Buyer Nia": 86.8,
+    "Buyer Leo": 87.0
+  },
+  "trades": [
+    {
+      "round_number": 9,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Theo",
+      "price": 92.65
+    }
+  ],
+  "seller_messages": {
+    "Seller Amir": "Adjust asks based on bid queue activity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Theo": "Adjust asks based on bid queue activity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Tara": "Adjust asks based on bid queue activity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Ana": "Adjust asks based on bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Mia": "Adjust asks based on bid queue activity to increase trade likelihood while maintaining reasonable profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 10
+````json
+{
+  "round_number": 10,
+  "seller_asks": {
+    "Seller Tara": 92.5,
+    "Seller Theo": 91.9,
+    "Seller Mia": 92.9,
+    "Seller Ana": 92.4,
+    "Seller Amir": 92.2
+  },
+  "buyer_bids": {
+    "Buyer Jun": 92.95,
+    "Buyer Yara": 87.25,
+    "Buyer Lena": 87.0,
+    "Buyer Leo": 87.25,
+    "Buyer Nia": 87.2
+  },
+  "trades": [
+    {
+      "round_number": 10,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Theo",
+      "price": 92.43
+    }
+  ],
+  "seller_messages": {
+    "Seller Tara": "Adjust asks based on bid queue activity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Theo": "Adjust asks based on bid queue activity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Mia": "Adjust asks based on bid queue activity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Ana": "Adjust asks based on bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Amir": "Adjust asks based on bid queue activity to increase trade likelihood while maintaining reasonable profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 11
+````json
+{
+  "round_number": 11,
+  "seller_asks": {
+    "Seller Amir": 92.0,
+    "Seller Theo": 91.5,
+    "Seller Tara": 92.3,
+    "Seller Mia": 92.8,
+    "Seller Ana": 92.1
+  },
+  "buyer_bids": {
+    "Buyer Yara": 87.5,
+    "Buyer Lena": 87.5,
+    "Buyer Jun": 92.89,
+    "Buyer Nia": 87.5,
+    "Buyer Leo": 87.5
+  },
+  "trades": [
+    {
+      "round_number": 11,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Theo",
+      "price": 92.19
+    }
+  ],
+  "seller_messages": {
+    "Seller Amir": "Adjust asks based on bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Theo": "Adjust asks based on bid queue activity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Tara": "Adjust asks based on bid queue activity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Mia": "Adjust asks based on bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Ana": "Adjust asks based on bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 12
+````json
+{
+  "round_number": 12,
+  "seller_asks": {
+    "Seller Theo": 90.5,
+    "Seller Tara": 92.2,
+    "Seller Mia": 92.7,
+    "Seller Ana": 91.9,
+    "Seller Amir": 91.8
+  },
+  "buyer_bids": {
+    "Buyer Yara": 88.0,
+    "Buyer Lena": 87.75,
+    "Buyer Jun": 92.79,
+    "Buyer Leo": 88.0,
+    "Buyer Nia": 88.0
+  },
+  "trades": [
+    {
+      "round_number": 12,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Theo",
+      "price": 91.65
+    }
+  ],
+  "seller_messages": {
+    "Seller Theo": "Adjust asks based on bid queue activity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Tara": "Adjust asks based on bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Mia": "Adjust asks based on bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Ana": "Adjust asks based on bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Amir": "Adjust asks based on bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 13
+````json
+{
+  "round_number": 13,
+  "seller_asks": {
+    "Seller Mia": 92.6,
+    "Seller Tara": 91.7,
+    "Seller Theo": 90.0,
+    "Seller Ana": 91.5,
+    "Seller Amir": 91.6
+  },
+  "buyer_bids": {
+    "Buyer Lena": 88.25,
+    "Buyer Yara": 88.25,
+    "Buyer Jun": 92.79,
+    "Buyer Leo": 88.5,
+    "Buyer Nia": 88.25
+  },
+  "trades": [
+    {
+      "round_number": 13,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Theo",
+      "price": 91.4
+    }
+  ],
+  "seller_messages": {
+    "Seller Mia": "Adjust asks based on bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Tara": "Adjust asks based on bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Theo": "Adjust asks based on bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Ana": "Adjust asks according to bid queue activity to increase trade likelihood.",
+    "Seller Amir": "Adjust asks based on bid queue activity to increase trade likelihood while maintaining reasonable profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 14
+````json
+{
+  "round_number": 14,
+  "seller_asks": {
+    "Seller Tara": 91.4,
+    "Seller Theo": 89.9,
+    "Seller Mia": 92.5,
+    "Seller Amir": 91.4,
+    "Seller Ana": 91.3
+  },
+  "buyer_bids": {
+    "Buyer Lena": 88.5,
+    "Buyer Yara": 89.0,
+    "Buyer Jun": 92.59,
+    "Buyer Nia": 88.5,
+    "Buyer Leo": 89.0
+  },
+  "trades": [
+    {
+      "round_number": 14,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Theo",
+      "price": 91.25
+    }
+  ],
+  "seller_messages": {
+    "Seller Tara": "Adjust asks based on bid queue activity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Theo": "Adjust asks according to bid queue activity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Mia": "Adjust asks based on bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Amir": "Adjust asks based on bid queue activity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Ana": "Adjust asks based on bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 15
+````json
+{
+  "round_number": 15,
+  "seller_asks": {
+    "Seller Theo": 89.5,
+    "Seller Mia": 91.9,
+    "Seller Tara": 90.8,
+    "Seller Amir": 91.1,
+    "Seller Ana": 91.2
+  },
+  "buyer_bids": {
+    "Buyer Lena": 89.0,
+    "Buyer Yara": 89.5,
+    "Buyer Leo": 90.0,
+    "Buyer Nia": 89.2,
+    "Buyer Jun": 91.9
+  },
+  "trades": [
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Theo",
+      "price": 90.7
+    }
+  ],
+  "seller_messages": {
+    "Seller Theo": "Adjust asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Mia": "Adjust asks based on bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Tara": "Adjust asks based on bid queue activity to maintain a balance between profitability and trade likelihood.",
+    "Seller Amir": "Adjust asks based on bid queue activity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Ana": "Adjust asks based on bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 16
+````json
+{
+  "round_number": 16,
+  "seller_asks": {
+    "Seller Theo": 89.0,
+    "Seller Tara": 90.5,
+    "Seller Mia": 91.5,
+    "Seller Amir": 90.5,
+    "Seller Ana": 90.5
+  },
+  "buyer_bids": {
+    "Buyer Lena": 90.25,
+    "Buyer Jun": 91.29,
+    "Buyer Yara": 90.2,
+    "Buyer Nia": 89.5,
+    "Buyer Leo": 90.5
+  },
+  "trades": [
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Theo",
+      "price": 90.15
+    },
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Amir",
+      "price": 90.5
+    }
+  ],
+  "seller_messages": {
+    "Seller Theo": "Adjust asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Tara": "Adjust asks according to bid queue activity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Mia": "Adjust asks based on bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Amir": "Adjust asks based on bid queue activity to maintain a balance between profitability and trade likelihood.",
+    "Seller Ana": "Adjust asks based on bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 17
+````json
+{
+  "round_number": 17,
+  "seller_asks": {
+    "Seller Mia": 90.8,
+    "Seller Theo": 89.5,
+    "Seller Tara": 90.0,
+    "Seller Amir": 90.25,
+    "Seller Ana": 90.25
+  },
+  "buyer_bids": {
+    "Buyer Jun": 90.5,
+    "Buyer Yara": 90.5,
+    "Buyer Lena": 90.4,
+    "Buyer Leo": 90.75,
+    "Buyer Nia": 90.5
+  },
+  "trades": [
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Theo",
+      "price": 90.12
+    },
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Yara",
+      "seller_id": "Seller Tara",
+      "price": 90.25
+    },
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Amir",
+      "price": 90.38
+    },
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Ana",
+      "price": 90.38
+    }
+  ],
+  "seller_messages": {
+    "Seller Mia": "Adjust asks based on bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Theo": "Adjust asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Tara": "Adjust asks based on bid queue activity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Amir": "Adjust asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Ana": "Adjust asks based on bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 18
+````json
+{
+  "round_number": 18,
+  "seller_asks": {
+    "Seller Mia": 90.5,
+    "Seller Ana": 90.1,
+    "Seller Theo": 90.6,
+    "Seller Tara": 90.1,
+    "Seller Amir": 90.1
+  },
+  "buyer_bids": {
+    "Buyer Jun": 90.79,
+    "Buyer Yara": 90.6,
+    "Buyer Lena": 90.75,
+    "Buyer Nia": 90.6,
+    "Buyer Leo": 90.9
+  },
+  "trades": [
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Amir",
+      "price": 90.5
+    },
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Ana",
+      "price": 90.44
+    },
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Tara",
+      "price": 90.42
+    },
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Yara",
+      "seller_id": "Seller Mia",
+      "price": 90.55
+    },
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Theo",
+      "price": 90.6
+    }
+  ],
+  "seller_messages": {
+    "Seller Mia": "Adjust asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Ana": "Adjust asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Theo": "Adjust asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Tara": "Adjust asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Amir": "Adjust asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 19
+````json
+{
+  "round_number": 19,
+  "seller_asks": {
+    "Seller Ana": 90.2,
+    "Seller Amir": 90.1,
+    "Seller Mia": 90.45,
+    "Seller Tara": 90.2,
+    "Seller Theo": 90.8
+  },
+  "buyer_bids": {
+    "Buyer Lena": 90.8,
+    "Buyer Leo": 91.0,
+    "Buyer Nia": 90.8,
+    "Buyer Yara": 90.65,
+    "Buyer Jun": 90.79
+  },
+  "trades": [
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Amir",
+      "price": 90.55
+    },
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Ana",
+      "price": 90.5
+    },
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Tara",
+      "price": 90.5
+    },
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Mia",
+      "price": 90.62
+    }
+  ],
+  "seller_messages": {
+    "Seller Ana": "Adapt asks according to bid queue activity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Amir": "Adjust asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Mia": "Adjust asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Tara": "Adjust asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Theo": "Adjust asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 20
+````json
+{
+  "round_number": 20,
+  "seller_asks": {
+    "Seller Ana": 90.65,
+    "Seller Tara": 90.6,
+    "Seller Theo": 90.9,
+    "Seller Amir": 90.05,
+    "Seller Mia": 90.65
+  },
+  "buyer_bids": {
+    "Buyer Yara": 90.7,
+    "Buyer Lena": 90.85,
+    "Buyer Jun": 90.81,
+    "Buyer Nia": 90.7,
+    "Buyer Leo": 90.8
+  },
+  "trades": [
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Amir",
+      "price": 90.45
+    },
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Tara",
+      "price": 90.7
+    },
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Ana",
+      "price": 90.72
+    },
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Yara",
+      "seller_id": "Seller Mia",
+      "price": 90.68
+    }
+  ],
+  "seller_messages": {
+    "Seller Ana": "Adjust asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Tara": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Theo": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Amir": "Adapt asks according to bid queue activity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Mia": "Adjust asks based on bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 21
+````json
+{
+  "round_number": 21,
+  "seller_asks": {
+    "Seller Theo": 90.85,
+    "Seller Amir": 90.0,
+    "Seller Tara": 90.8,
+    "Seller Ana": 90.85,
+    "Seller Mia": 90.75
+  },
+  "buyer_bids": {
+    "Buyer Lena": 90.85,
+    "Buyer Yara": 90.75,
+    "Buyer Nia": 90.85,
+    "Buyer Leo": 90.85,
+    "Buyer Jun": 90.85
+  },
+  "trades": [
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Amir",
+      "price": 90.42
+    },
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Mia",
+      "price": 90.8
+    },
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Tara",
+      "price": 90.82
+    },
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Ana",
+      "price": 90.85
+    }
+  ],
+  "seller_messages": {
+    "Seller Theo": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Amir": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Tara": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Ana": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Mia": "Adjust asks based on bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 22
+````json
+{
+  "round_number": 22,
+  "seller_asks": {
+    "Seller Tara": 90.85,
+    "Seller Ana": 90.9,
+    "Seller Mia": 90.8,
+    "Seller Amir": 89.95,
+    "Seller Theo": 90.9
+  },
+  "buyer_bids": {
+    "Buyer Jun": 90.86,
+    "Buyer Yara": 90.8,
+    "Buyer Nia": 90.9,
+    "Buyer Leo": 90.9,
+    "Buyer Lena": 90.9
+  },
+  "trades": [
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Amir",
+      "price": 90.43
+    },
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Mia",
+      "price": 90.85
+    },
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Tara",
+      "price": 90.88
+    }
+  ],
+  "seller_messages": {
+    "Seller Tara": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Ana": "Adjust asks based on bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Mia": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Amir": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Theo": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 23
+````json
+{
+  "round_number": 23,
+  "seller_asks": {
+    "Seller Tara": 90.92,
+    "Seller Amir": 90.92,
+    "Seller Ana": 90.92,
+    "Seller Mia": 90.85,
+    "Seller Theo": 90.92
+  },
+  "buyer_bids": {
+    "Buyer Jun": 90.87,
+    "Buyer Yara": 90.85,
+    "Buyer Leo": 90.91,
+    "Buyer Nia": 90.91,
+    "Buyer Lena": 90.92
+  },
+  "trades": [
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Mia",
+      "price": 90.88
+    }
+  ],
+  "seller_messages": {
+    "Seller Tara": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Amir": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Ana": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Mia": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Theo": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 24
+````json
+{
+  "round_number": 24,
+  "seller_asks": {
+    "Seller Theo": 90.95,
+    "Seller Tara": 90.93,
+    "Seller Ana": 90.93,
+    "Seller Amir": 90.9,
+    "Seller Mia": 90.9
+  },
+  "buyer_bids": {
+    "Buyer Leo": 90.92,
+    "Buyer Nia": 90.92,
+    "Buyer Yara": 90.9,
+    "Buyer Jun": 90.93,
+    "Buyer Lena": 90.93
+  },
+  "trades": [
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Amir",
+      "price": 90.92
+    },
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Mia",
+      "price": 90.92
+    }
+  ],
+  "seller_messages": {
+    "Seller Theo": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Tara": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Ana": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Amir": "Continue to adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Mia": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 25
+````json
+{
+  "round_number": 25,
+  "seller_asks": {
+    "Seller Tara": 90.94,
+    "Seller Theo": 91.0,
+    "Seller Ana": 90.94,
+    "Seller Mia": 90.91,
+    "Seller Amir": 90.94
+  },
+  "buyer_bids": {
+    "Buyer Yara": 90.93,
+    "Buyer Jun": 90.94,
+    "Buyer Leo": 90.93,
+    "Buyer Nia": 90.93,
+    "Buyer Lena": 91.0
+  },
+  "trades": [
+    {
+      "round_number": 25,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Mia",
+      "price": 90.95
+    },
+    {
+      "round_number": 25,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Amir",
+      "price": 90.94
+    }
+  ],
+  "seller_messages": {
+    "Seller Tara": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Theo": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Ana": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Mia": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Amir": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 26
+````json
+{
+  "round_number": 26,
+  "seller_asks": {
+    "Seller Theo": 90.96,
+    "Seller Tara": 90.95,
+    "Seller Ana": 90.95,
+    "Seller Amir": 90.96,
+    "Seller Mia": 90.96
+  },
+  "buyer_bids": {
+    "Buyer Nia": 90.94,
+    "Buyer Leo": 90.94,
+    "Buyer Yara": 90.94,
+    "Buyer Jun": 90.96,
+    "Buyer Lena": 91.01
+  },
+  "trades": [
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Ana",
+      "price": 90.98
+    },
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Tara",
+      "price": 90.95
+    }
+  ],
+  "seller_messages": {
+    "Seller Theo": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Tara": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Ana": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Amir": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Mia": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 27
+````json
+{
+  "round_number": 27,
+  "seller_asks": {
+    "Seller Tara": 90.96,
+    "Seller Amir": 90.97,
+    "Seller Ana": 90.97,
+    "Seller Theo": 90.97,
+    "Seller Mia": 90.97
+  },
+  "buyer_bids": {
+    "Buyer Leo": 90.95,
+    "Buyer Nia": 90.95,
+    "Buyer Yara": 90.95,
+    "Buyer Jun": 90.97,
+    "Buyer Lena": 91.02
+  },
+  "trades": [
+    {
+      "round_number": 27,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Tara",
+      "price": 90.99
+    },
+    {
+      "round_number": 27,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Amir",
+      "price": 90.97
+    }
+  ],
+  "seller_messages": {
+    "Seller Tara": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Amir": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Ana": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Theo": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Mia": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 28
+````json
+{
+  "round_number": 28,
+  "seller_asks": {
+    "Seller Tara": 91.0,
+    "Seller Theo": 90.98,
+    "Seller Mia": 90.98,
+    "Seller Amir": 90.98,
+    "Seller Ana": 90.99
+  },
+  "buyer_bids": {
+    "Buyer Leo": 90.96,
+    "Buyer Yara": 90.96,
+    "Buyer Nia": 90.96,
+    "Buyer Jun": 90.98,
+    "Buyer Lena": 91.03
+  },
+  "trades": [
+    {
+      "round_number": 28,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Amir",
+      "price": 91.0
+    },
+    {
+      "round_number": 28,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Mia",
+      "price": 90.98
+    }
+  ],
+  "seller_messages": {
+    "Seller Tara": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Theo": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Mia": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Amir": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Ana": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 29
+````json
+{
+  "round_number": 29,
+  "seller_asks": {
+    "Seller Theo": 91.01,
+    "Seller Tara": 90.97,
+    "Seller Ana": 91.01,
+    "Seller Amir": 90.99,
+    "Seller Mia": 90.99
+  },
+  "buyer_bids": {
+    "Buyer Yara": 90.97,
+    "Buyer Leo": 90.97,
+    "Buyer Nia": 90.97,
+    "Buyer Jun": 90.99,
+    "Buyer Lena": 91.04
+  },
+  "trades": [
+    {
+      "round_number": 29,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Tara",
+      "price": 91.0
+    },
+    {
+      "round_number": 29,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Amir",
+      "price": 90.99
+    }
+  ],
+  "seller_messages": {
+    "Seller Theo": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Tara": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Ana": "Continue to adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Amir": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Mia": "Continue to adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 30
+````json
+{
+  "round_number": 30,
+  "seller_asks": {
+    "Seller Tara": 90.98,
+    "Seller Theo": 91.02,
+    "Seller Ana": 91.02,
+    "Seller Amir": 91.0,
+    "Seller Mia": 90.99
+  },
+  "buyer_bids": {
+    "Buyer Yara": 90.98,
+    "Buyer Nia": 91.0,
+    "Buyer Leo": 91.0,
+    "Buyer Jun": 91.0,
+    "Buyer Lena": 91.05
+  },
+  "trades": [
+    {
+      "round_number": 30,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Tara",
+      "price": 91.02
+    },
+    {
+      "round_number": 30,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Mia",
+      "price": 91.0
+    },
+    {
+      "round_number": 30,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Amir",
+      "price": 91.0
+    }
+  ],
+  "seller_messages": {
+    "Seller Tara": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Theo": "Continuously monitor bid and ask queues to optimize ask prices for maximum profitability and trade securing, considering market sensitivity and competitor asks.",
+    "Seller Ana": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Amir": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins.",
+    "Seller Mia": "Adapt asks according to bid queue activity and market sensitivity to increase trade likelihood while maintaining reasonable profit margins."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````

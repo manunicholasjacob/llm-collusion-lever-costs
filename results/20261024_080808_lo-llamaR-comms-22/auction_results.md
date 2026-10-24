@@ -1,0 +1,1400 @@
+
+## Auction Results: Round 1
+````json
+{
+  "round_number": 1,
+  "seller_asks": {
+    "Seller Zoe": 95.0,
+    "Seller Nia": 95.0,
+    "Seller Omar": 96.5,
+    "Seller Wei": 96.5,
+    "Seller Leo": 96.49
+  },
+  "buyer_bids": {
+    "Buyer Jin": 81.4,
+    "Buyer Eli": 83.0,
+    "Buyer Theo": 82.5,
+    "Buyer Kit": 96.48,
+    "Buyer Ana": 82.5
+  },
+  "trades": [
+    {
+      "round_number": 1,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Nia",
+      "price": 95.74
+    }
+  ],
+  "seller_messages": {
+    "Seller Leo": "Testing the market with high asks.",
+    "Seller Zoe": "Buyers are bidding high, up to $83.26."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 2
+````json
+{
+  "round_number": 2,
+  "seller_asks": {
+    "Seller Omar": 94.5,
+    "Seller Leo": 94.99,
+    "Seller Wei": 95.0,
+    "Seller Zoe": 93.5,
+    "Seller Nia": 94.5
+  },
+  "buyer_bids": {
+    "Buyer Eli": 84.0,
+    "Buyer Ana": 83.25,
+    "Buyer Theo": 83.5,
+    "Buyer Jin": 82.4,
+    "Buyer Kit": 94.2
+  },
+  "trades": [
+    {
+      "round_number": 2,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Zoe",
+      "price": 93.85
+    }
+  ],
+  "seller_messages": {
+    "Seller Omar": "Bids are up to $83.26, and asks range from $94.50 to $96.49.",
+    "Seller Leo": "Bids are ranging from $81.4 to $83.0, considering lowering ask prices to facilitate trades.",
+    "Seller Wei": "Highest bid currently at $83.0, considering adjusting asks to meet bids.",
+    "Seller Zoe": "Buyers are bidding high, testing lower ask prices to secure trades.",
+    "Seller Nia": "Bids are up to $83.0, I'm asking at $94.50 to balance profit and sales."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 3
+````json
+{
+  "round_number": 3,
+  "seller_asks": {
+    "Seller Leo": 93.99,
+    "Seller Zoe": 92.5,
+    "Seller Nia": 94.0,
+    "Seller Wei": 94.0,
+    "Seller Omar": 93.5
+  },
+  "buyer_bids": {
+    "Buyer Theo": 84.25,
+    "Buyer Eli": 84.5,
+    "Buyer Ana": 84.25,
+    "Buyer Jin": 83.75,
+    "Buyer Kit": 93.5
+  },
+  "trades": [
+    {
+      "round_number": 3,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Zoe",
+      "price": 93.0
+    }
+  ],
+  "seller_messages": {
+    "Seller Leo": "Bids are up to $84.0, considering lowering ask prices to facilitate trades.",
+    "Seller Zoe": "Bids are increasing, and I'm adjusting my ask price downward to secure trades while maintaining profitability.",
+    "Seller Nia": "Bids are increasing, I'm adjusting my ask price to $94.0 to balance profit and competitiveness.",
+    "Seller Wei": "Bids are up to $84.0, and asks range from $94.0 to $95.0, considering further adjustments to facilitate trades.",
+    "Seller Omar": "Bids are up to $84.0, considering adjusting asks to meet bids and secure trades."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 4
+````json
+{
+  "round_number": 4,
+  "seller_asks": {
+    "Seller Zoe": 92.0,
+    "Seller Leo": 93.49,
+    "Seller Nia": 93.75,
+    "Seller Wei": 93.0,
+    "Seller Omar": 93.0
+  },
+  "buyer_bids": {
+    "Buyer Ana": 84.75,
+    "Buyer Theo": 85.0,
+    "Buyer Jin": 84.0,
+    "Buyer Eli": 85.0,
+    "Buyer Kit": 93.25
+  },
+  "trades": [
+    {
+      "round_number": 4,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Zoe",
+      "price": 92.62
+    }
+  ],
+  "seller_messages": {
+    "Seller Zoe": "Lowering ask prices is facilitating trades; consider adjusting downward to meet increasing bids.",
+    "Seller Leo": "Bids are stable around $84.0, considering adjusting ask prices to facilitate trades while maintaining profitability.",
+    "Seller Nia": "Bids are increasing, consider adjusting ask prices to facilitate trades while maintaining profitability.",
+    "Seller Wei": "Bids are increasing, consider adjusting ask prices to facilitate trades while maintaining profitability.",
+    "Seller Omar": "Bids are increasing, consider adjusting ask prices downward to secure trades while maintaining profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 5
+````json
+{
+  "round_number": 5,
+  "seller_asks": {
+    "Seller Zoe": 91.5,
+    "Seller Leo": 92.99,
+    "Seller Omar": 92.5,
+    "Seller Nia": 93.25,
+    "Seller Wei": 92.5
+  },
+  "buyer_bids": {
+    "Buyer Eli": 85.25,
+    "Buyer Ana": 85.25,
+    "Buyer Theo": 85.5,
+    "Buyer Kit": 92.75,
+    "Buyer Jin": 85.25
+  },
+  "trades": [
+    {
+      "round_number": 5,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Zoe",
+      "price": 92.12
+    }
+  ],
+  "seller_messages": {
+    "Seller Zoe": "Gradually lowering ask prices continues to facilitate trades while maintaining profitability.",
+    "Seller Leo": "Consider adjusting ask prices downward to secure trades while maintaining profitability, as bids are increasing and competition is high.",
+    "Seller Omar": "Bids are increasing, consider adjusting ask prices downward to secure trades while maintaining profitability.",
+    "Seller Nia": "Bids are increasing steadily, consider adjusting ask prices downward to secure trades while maintaining profitability.",
+    "Seller Wei": "Gradually decreasing ask prices can facilitate trades; consider adjusting downward to meet increasing bids while maintaining profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 6
+````json
+{
+  "round_number": 6,
+  "seller_asks": {
+    "Seller Leo": 92.49,
+    "Seller Omar": 92.0,
+    "Seller Zoe": 91.0,
+    "Seller Nia": 92.75,
+    "Seller Wei": 92.0
+  },
+  "buyer_bids": {
+    "Buyer Theo": 85.75,
+    "Buyer Eli": 85.5,
+    "Buyer Ana": 85.75,
+    "Buyer Kit": 92.25,
+    "Buyer Jin": 86.0
+  },
+  "trades": [
+    {
+      "round_number": 6,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Zoe",
+      "price": 91.62
+    }
+  ],
+  "seller_messages": {
+    "Seller Leo": "Consider adjusting ask prices downward to secure trades while maintaining profitability, as bids are increasing and competition is high.",
+    "Seller Omar": "Consider adjusting ask prices downward to secure trades while maintaining profitability, as bids continue to increase.",
+    "Seller Zoe": "Gradual downward adjustments in ask prices continue to secure trades while maintaining profitability, as evidenced by increasing bids.",
+    "Seller Nia": "Monitor bid queues closely and adjust ask prices downward to secure trades while maintaining profitability.",
+    "Seller Wei": "Consider adjusting ask prices downward to secure trades while maintaining profitability, as bids continue to increase and competition remains high."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 7
+````json
+{
+  "round_number": 7,
+  "seller_asks": {
+    "Seller Zoe": 90.5,
+    "Seller Leo": 91.99,
+    "Seller Omar": 91.5,
+    "Seller Nia": 92.25,
+    "Seller Wei": 91.5
+  },
+  "buyer_bids": {
+    "Buyer Ana": 86.25,
+    "Buyer Eli": 86.25,
+    "Buyer Jin": 86.25,
+    "Buyer Theo": 86.0,
+    "Buyer Kit": 91.5
+  },
+  "trades": [
+    {
+      "round_number": 7,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Zoe",
+      "price": 91.0
+    }
+  ],
+  "seller_messages": {
+    "Seller Zoe": "Gradual downward adjustments in ask prices continue to secure trades and maintain profitability as bids increase.",
+    "Seller Leo": "Consider adjusting ask prices downward to secure trades while maintaining profitability, as bids continue to increase and competition remains high.",
+    "Seller Omar": "Consider adjusting ask prices downward to secure trades while maintaining profitability, as bids continue to increase and competition remains high.",
+    "Seller Nia": "Consider adjusting ask prices based on bid queue trends to secure trades while maintaining profitability.",
+    "Seller Wei": "Monitor bid queues closely and adjust ask prices downward to secure trades while maintaining profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 8
+````json
+{
+  "round_number": 8,
+  "seller_asks": {
+    "Seller Omar": 91.0,
+    "Seller Zoe": 90.0,
+    "Seller Leo": 91.49,
+    "Seller Nia": 91.75,
+    "Seller Wei": 91.0
+  },
+  "buyer_bids": {
+    "Buyer Eli": 86.5,
+    "Buyer Ana": 86.5,
+    "Buyer Theo": 86.5,
+    "Buyer Jin": 86.5,
+    "Buyer Kit": 90.5
+  },
+  "trades": [
+    {
+      "round_number": 8,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Zoe",
+      "price": 90.25
+    }
+  ],
+  "seller_messages": {
+    "Seller Omar": "Monitor bid queues closely and adjust ask prices downward to secure trades while maintaining profitability.",
+    "Seller Zoe": "Gradual downward adjustments in ask prices continue to secure trades and maintain profitability as bids increase.",
+    "Seller Leo": "Consider adjusting ask prices based on bid queue trends to balance profit margins and trade volume, given the competitive market and increasing bids.",
+    "Seller Nia": "Monitor bid queues closely and adjust ask prices downward to secure trades while maintaining profitability.",
+    "Seller Wei": "Consider adjusting ask prices based on bid queue trends to secure trades while maintaining profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 9
+````json
+{
+  "round_number": 9,
+  "seller_asks": {
+    "Seller Leo": 90.99,
+    "Seller Omar": 90.75,
+    "Seller Nia": 91.25,
+    "Seller Wei": 90.5,
+    "Seller Zoe": 89.5
+  },
+  "buyer_bids": {
+    "Buyer Ana": 86.75,
+    "Buyer Eli": 86.75,
+    "Buyer Theo": 87.0,
+    "Buyer Jin": 87.0,
+    "Buyer Kit": 90.0
+  },
+  "trades": [
+    {
+      "round_number": 9,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Zoe",
+      "price": 89.75
+    }
+  ],
+  "seller_messages": {
+    "Seller Leo": "Adjust ask prices based on bid queue trends to balance profit margins and trade volume.",
+    "Seller Omar": "Adjust ask prices downward to secure trades while maintaining profitability, considering the increasing bids and competitive ask queue.",
+    "Seller Nia": "Monitor bid queues closely and adjust ask prices downward to secure trades while maintaining profitability.",
+    "Seller Wei": "Monitor bid queues closely and adjust ask prices downward to secure trades while maintaining profitability.",
+    "Seller Zoe": "Monitor bid queues closely and adjust ask prices downward to secure trades while maintaining profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 10
+````json
+{
+  "round_number": 10,
+  "seller_asks": {
+    "Seller Leo": 90.49,
+    "Seller Zoe": 89.0,
+    "Seller Omar": 90.25,
+    "Seller Nia": 90.75,
+    "Seller Wei": 90.25
+  },
+  "buyer_bids": {
+    "Buyer Eli": 87.0,
+    "Buyer Theo": 87.25,
+    "Buyer Ana": 87.25,
+    "Buyer Kit": 89.0,
+    "Buyer Jin": 87.25
+  },
+  "trades": [
+    {
+      "round_number": 10,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Zoe",
+      "price": 89.0
+    }
+  ],
+  "seller_messages": {
+    "Seller Leo": "Adjust ask prices based on bid queue trends to balance profit margins and trade volume.",
+    "Seller Zoe": "Adjust ask prices downward to balance profit margins and trade volume, considering the increasing bids.",
+    "Seller Omar": "Adjust ask prices downward to secure trades while maintaining profitability, considering the increasing bids and competitive ask queue.",
+    "Seller Nia": "Adjust ask prices downward to secure trades while maintaining profitability, considering the increasing bids and competitive ask queue.",
+    "Seller Wei": "Monitor bid queues closely and adjust ask prices downward to secure trades while maintaining profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 11
+````json
+{
+  "round_number": 11,
+  "seller_asks": {
+    "Seller Omar": 90.0,
+    "Seller Leo": 90.25,
+    "Seller Zoe": 88.5,
+    "Seller Wei": 89.75,
+    "Seller Nia": 90.25
+  },
+  "buyer_bids": {
+    "Buyer Eli": 87.5,
+    "Buyer Ana": 87.5,
+    "Buyer Theo": 87.5,
+    "Buyer Kit": 88.0,
+    "Buyer Jin": 87.5
+  },
+  "trades": [],
+  "seller_messages": {
+    "Seller Omar": "Adjust ask prices downward to balance profit margins and trade volume, considering the increasing bids.",
+    "Seller Leo": "Adjust ask prices downward to balance profit margins and trade volume, considering the increasing bids and competitive ask queue.",
+    "Seller Zoe": "Adjust ask prices downward in response to increasing bids to balance profit margins and trade volume.",
+    "Seller Wei": "Adjust ask prices downward to balance profit margins and trade volume, considering the increasing bids.",
+    "Seller Nia": "Adjust ask prices downward to balance profit margins and trade volume, considering the increasing bids and competitive ask queue."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 12
+````json
+{
+  "round_number": 12,
+  "seller_asks": {
+    "Seller Omar": 89.75,
+    "Seller Nia": 90.0,
+    "Seller Wei": 89.25,
+    "Seller Zoe": 88.0,
+    "Seller Leo": 89.75
+  },
+  "buyer_bids": {
+    "Buyer Ana": 87.75,
+    "Buyer Eli": 88.0,
+    "Buyer Jin": 88.0,
+    "Buyer Kit": 87.75,
+    "Buyer Theo": 88.0
+  },
+  "trades": [
+    {
+      "round_number": 12,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Zoe",
+      "price": 88.0
+    }
+  ],
+  "seller_messages": {
+    "Seller Omar": "Adjust ask prices downward in response to increasing bids to maintain competitiveness and secure trades.",
+    "Seller Nia": "Adjust ask prices downward to balance profit margins and trade volume, considering the increasing bids and competitive ask queue.",
+    "Seller Wei": "Adjust ask prices downward to balance profit margins and trade volume, considering the increasing bids and competitive ask queue.",
+    "Seller Zoe": "Consider adjusting ask prices downward to balance profit margins and trade volume, given the increasing bids and competitive ask queue.",
+    "Seller Leo": "Adjust ask prices downward to balance profit margins and trade volume, considering the increasing bids and competitive ask queue."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 13
+````json
+{
+  "round_number": 13,
+  "seller_asks": {
+    "Seller Zoe": 87.5,
+    "Seller Leo": 89.25,
+    "Seller Omar": 89.5,
+    "Seller Wei": 88.75,
+    "Seller Nia": 89.5
+  },
+  "buyer_bids": {
+    "Buyer Eli": 88.25,
+    "Buyer Theo": 88.25,
+    "Buyer Ana": 88.25,
+    "Buyer Kit": 88.25,
+    "Buyer Jin": 88.25
+  },
+  "trades": [
+    {
+      "round_number": 13,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Zoe",
+      "price": 87.88
+    }
+  ],
+  "seller_messages": {
+    "Seller Zoe": "Consider adjusting ask prices downward to balance profit margins and trade volume, given the increasing bids and competitive ask queue.",
+    "Seller Leo": "Consider adjusting ask prices downward to balance profit margins and trade volume, given the increasing bids and competitive ask queue.",
+    "Seller Omar": "Consider adjusting ask prices downward to balance profit margins and trade volume, given the increasing bids and competitive ask queue.",
+    "Seller Wei": "Consider adjusting ask prices more aggressively downward to increase trade volume and stay competitive in the market.",
+    "Seller Nia": "Adjust ask prices downward in response to the increasing bid trend to balance profit margins and secure trades."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 14
+````json
+{
+  "round_number": 14,
+  "seller_asks": {
+    "Seller Leo": 88.75,
+    "Seller Nia": 89.0,
+    "Seller Omar": 89.0,
+    "Seller Zoe": 88.0,
+    "Seller Wei": 88.0
+  },
+  "buyer_bids": {
+    "Buyer Ana": 88.5,
+    "Buyer Eli": 88.5,
+    "Buyer Theo": 88.5,
+    "Buyer Jin": 88.5,
+    "Buyer Kit": 88.5
+  },
+  "trades": [
+    {
+      "round_number": 14,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Wei",
+      "price": 88.25
+    },
+    {
+      "round_number": 14,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Zoe",
+      "price": 88.25
+    }
+  ],
+  "seller_messages": {
+    "Seller Leo": "Consider adjusting ask prices downward to balance profit margins and trade volume, given the increasing bids and competitive ask queue.",
+    "Seller Nia": "Consider adjusting ask prices downward to balance profit margins and trade volume, given the increasing bids and competitive ask queue.",
+    "Seller Omar": "Consider adjusting ask prices downward to balance profit margins and trade volume, given the increasing bids and competitive ask queue.",
+    "Seller Zoe": "Adjust ask prices strategically in response to bid trends to secure trades while maintaining profitability.",
+    "Seller Wei": "Consider adjusting ask prices downward to balance profit margins and trade volume, given the increasing bids and competitive ask queue."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 15
+````json
+{
+  "round_number": 15,
+  "seller_asks": {
+    "Seller Omar": 88.75,
+    "Seller Leo": 88.5,
+    "Seller Zoe": 88.25,
+    "Seller Wei": 87.75,
+    "Seller Nia": 88.5
+  },
+  "buyer_bids": {
+    "Buyer Eli": 88.75,
+    "Buyer Theo": 88.75,
+    "Buyer Ana": 88.75,
+    "Buyer Kit": 88.75,
+    "Buyer Jin": 88.75
+  },
+  "trades": [
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Wei",
+      "price": 88.25
+    },
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Zoe",
+      "price": 88.5
+    },
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Leo",
+      "price": 88.62
+    },
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Eli",
+      "seller_id": "Seller Nia",
+      "price": 88.62
+    },
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Omar",
+      "price": 88.75
+    }
+  ],
+  "seller_messages": {
+    "Seller Omar": "Adjust ask prices strategically in response to bid trends to secure trades while maintaining profitability.",
+    "Seller Leo": "Monitor bid trends and adjust ask prices strategically to secure trades while maintaining profitability.",
+    "Seller Zoe": "Consider adjusting ask prices to balance profit margins and trade volume, given the increasing bids and competitive ask queue.",
+    "Seller Wei": "Consider adjusting ask prices downward to balance profit margins and trade volume, given the increasing bids and competitive ask queue.",
+    "Seller Nia": "Consider adjusting ask prices in response to the bid queue's upward trend to maintain competitiveness."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 16
+````json
+{
+  "round_number": 16,
+  "seller_asks": {
+    "Seller Leo": 88.25,
+    "Seller Zoe": 88.75,
+    "Seller Omar": 88.5,
+    "Seller Nia": 88.0,
+    "Seller Wei": 87.5
+  },
+  "buyer_bids": {
+    "Buyer Theo": 89.0,
+    "Buyer Ana": 89.0,
+    "Buyer Eli": 89.0,
+    "Buyer Kit": 88.9,
+    "Buyer Jin": 89.0
+  },
+  "trades": [
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Wei",
+      "price": 88.25
+    },
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Nia",
+      "price": 88.5
+    },
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Eli",
+      "seller_id": "Seller Leo",
+      "price": 88.62
+    },
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Omar",
+      "price": 88.75
+    },
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Zoe",
+      "price": 88.83
+    }
+  ],
+  "seller_messages": {
+    "Seller Leo": "Adjust ask prices strategically in response to bid trends to secure trades while maintaining profitability.",
+    "Seller Zoe": "Adjust ask prices strategically in response to bid trends to secure trades while maintaining profitability.",
+    "Seller Omar": "Adjust ask prices strategically in response to bid trends to secure trades while maintaining profitability.",
+    "Seller Nia": "Consider adjusting ask prices downward to balance profit margins and trade volume, given the increasing bids and competitive ask queue.",
+    "Seller Wei": "Consider adjusting ask prices downward to balance profit margins and trade volume, given the increasing bids and competitive ask queue."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 17
+````json
+{
+  "round_number": 17,
+  "seller_asks": {
+    "Seller Leo": 88.0,
+    "Seller Zoe": 89.25,
+    "Seller Omar": 88.75,
+    "Seller Nia": 87.75,
+    "Seller Wei": 87.25
+  },
+  "buyer_bids": {
+    "Buyer Eli": 89.0,
+    "Buyer Theo": 89.25,
+    "Buyer Ana": 89.0,
+    "Buyer Kit": 89.1,
+    "Buyer Jin": 89.25
+  },
+  "trades": [
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Wei",
+      "price": 88.25
+    },
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Nia",
+      "price": 88.5
+    },
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Leo",
+      "price": 88.55
+    },
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Eli",
+      "seller_id": "Seller Omar",
+      "price": 88.88
+    }
+  ],
+  "seller_messages": {
+    "Seller Leo": "Adjust ask prices downward to balance profit margins and trade volume, given the increasing bids and competitive ask queue.",
+    "Seller Zoe": "Adjust ask prices strategically in response to bid trends to secure trades while maintaining profitability.",
+    "Seller Omar": "Adjust ask prices strategically in response to bid trends to secure trades while maintaining profitability.",
+    "Seller Nia": "Adjust ask prices strategically in response to bid trends to secure trades while maintaining profitability.",
+    "Seller Wei": "Consider adjusting ask prices downward to balance profit margins and trade volume, given the increasing bids and competitive ask queue."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 18
+````json
+{
+  "round_number": 18,
+  "seller_asks": {
+    "Seller Nia": 87.25,
+    "Seller Leo": 88.0,
+    "Seller Zoe": 89.5,
+    "Seller Omar": 89.0,
+    "Seller Wei": 87.0
+  },
+  "buyer_bids": {
+    "Buyer Eli": 89.25,
+    "Buyer Ana": 89.25,
+    "Buyer Theo": 89.5,
+    "Buyer Jin": 89.5,
+    "Buyer Kit": 89.25
+  },
+  "trades": [
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Wei",
+      "price": 88.25
+    },
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Nia",
+      "price": 88.38
+    },
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Leo",
+      "price": 88.62
+    },
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Eli",
+      "seller_id": "Seller Omar",
+      "price": 89.12
+    }
+  ],
+  "seller_messages": {
+    "Seller Nia": "Adjust ask prices downward to balance profit margins and trade volume, given the increasing bids and competitive ask queue.",
+    "Seller Leo": "Adjust ask prices downward to balance profit margins and trade volume, given the increasing bids and competitive ask queue.",
+    "Seller Zoe": "Adjust ask prices strategically to balance profit margins and trade volume, considering the increasing bids and competitive ask queue.",
+    "Seller Omar": "Adjust ask prices strategically in response to bid trends to secure trades while maintaining profitability.",
+    "Seller Wei": "Adjust ask prices downward to balance profit margins and trade volume, given the increasing bids and competitive ask queue."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 19
+````json
+{
+  "round_number": 19,
+  "seller_asks": {
+    "Seller Wei": 86.75,
+    "Seller Leo": 88.0,
+    "Seller Omar": 89.25,
+    "Seller Zoe": 89.75,
+    "Seller Nia": 87.0
+  },
+  "buyer_bids": {
+    "Buyer Ana": 89.5,
+    "Buyer Eli": 89.25,
+    "Buyer Theo": 89.75,
+    "Buyer Jin": 89.75,
+    "Buyer Kit": 89.5
+  },
+  "trades": [
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Wei",
+      "price": 88.25
+    },
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Nia",
+      "price": 88.38
+    },
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Leo",
+      "price": 88.75
+    },
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Omar",
+      "price": 89.38
+    }
+  ],
+  "seller_messages": {
+    "Seller Wei": "Adjust ask prices downward to balance profit margins and trade volume, given the increasing bids and competitive ask queue.",
+    "Seller Leo": "Adjust ask prices strategically in response to bid trends to secure trades while maintaining profitability.",
+    "Seller Omar": "Adjust ask prices strategically in response to bid trends to secure trades while maintaining profitability.",
+    "Seller Zoe": "Adjust ask prices strategically in response to bid trends to secure trades while maintaining profitability.",
+    "Seller Nia": "Adjust ask prices strategically in response to bid trends to secure trades while maintaining profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 20
+````json
+{
+  "round_number": 20,
+  "seller_asks": {
+    "Seller Leo": 88.0,
+    "Seller Nia": 89.5,
+    "Seller Omar": 89.5,
+    "Seller Zoe": 90.0,
+    "Seller Wei": 86.0
+  },
+  "buyer_bids": {
+    "Buyer Ana": 89.5,
+    "Buyer Theo": 90.0,
+    "Buyer Eli": 89.5,
+    "Buyer Jin": 90.0,
+    "Buyer Kit": 89.75
+  },
+  "trades": [
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Wei",
+      "price": 88.0
+    },
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Leo",
+      "price": 89.0
+    },
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Nia",
+      "price": 89.62
+    },
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Eli",
+      "seller_id": "Seller Omar",
+      "price": 89.5
+    }
+  ],
+  "seller_messages": {
+    "Seller Leo": "Adjust ask prices strategically to balance profit margins and trade volume, considering bid trends and ask queue competitiveness.",
+    "Seller Nia": "Adjust ask prices strategically to balance profit margins and trade volume, given the increasing bids and competitive ask queue.",
+    "Seller Omar": "Adjust ask prices strategically in response to bid trends to secure trades while maintaining profitability.",
+    "Seller Zoe": "Adjust ask prices strategically in response to bid trends to secure trades while maintaining profitability.",
+    "Seller Wei": "Adjust ask prices downward to balance profit margins and trade volume, given the increasing bids and competitive ask queue."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 21
+````json
+{
+  "round_number": 21,
+  "seller_asks": {
+    "Seller Zoe": 90.25,
+    "Seller Omar": 89.75,
+    "Seller Wei": 85.5,
+    "Seller Nia": 89.75,
+    "Seller Leo": 89.0
+  },
+  "buyer_bids": {
+    "Buyer Eli": 89.75,
+    "Buyer Theo": 90.25,
+    "Buyer Ana": 89.75,
+    "Buyer Jin": 90.25,
+    "Buyer Kit": 89.9
+  },
+  "trades": [
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Wei",
+      "price": 87.88
+    },
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Leo",
+      "price": 89.62
+    },
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Nia",
+      "price": 89.83
+    },
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Eli",
+      "seller_id": "Seller Omar",
+      "price": 89.75
+    }
+  ],
+  "seller_messages": {
+    "Seller Zoe": "Adjust ask prices strategically in response to bid trends to secure trades while maintaining profitability.",
+    "Seller Omar": "Adjust ask prices strategically to balance profit margins and trade volume, considering bid trends and ask queue competitiveness.",
+    "Seller Wei": "Adjust ask prices downward to balance profit margins and trade volume, given the increasing bids and competitive ask queue.",
+    "Seller Nia": "Adjust ask prices strategically in response to bid trends to secure trades while maintaining profitability.",
+    "Seller Leo": "Adjust ask prices strategically in response to bid trends to secure trades while maintaining profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 22
+````json
+{
+  "round_number": 22,
+  "seller_asks": {
+    "Seller Nia": 90.0,
+    "Seller Zoe": 90.5,
+    "Seller Omar": 90.0,
+    "Seller Wei": 85.0,
+    "Seller Leo": 89.25
+  },
+  "buyer_bids": {
+    "Buyer Kit": 90.0,
+    "Buyer Jin": 90.5,
+    "Buyer Ana": 90.0,
+    "Buyer Theo": 90.0,
+    "Buyer Eli": 90.0
+  },
+  "trades": [
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Wei",
+      "price": 87.75
+    },
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Leo",
+      "price": 89.62
+    },
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Nia",
+      "price": 90.0
+    },
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Eli",
+      "seller_id": "Seller Omar",
+      "price": 90.0
+    }
+  ],
+  "seller_messages": {
+    "Seller Nia": "Adjust ask prices strategically in response to bid trends to secure trades while maintaining profitability.",
+    "Seller Zoe": "Adjust ask prices strategically in response to bid trends to secure trades while maintaining profitability.",
+    "Seller Omar": "Adjust ask prices strategically in response to bid trends to secure trades while maintaining profitability.",
+    "Seller Wei": "Adjust ask prices strategically in response to bid trends to secure trades while maintaining profitability.",
+    "Seller Leo": "Adjust ask prices strategically in response to bid trends to secure trades while maintaining profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 23
+````json
+{
+  "round_number": 23,
+  "seller_asks": {
+    "Seller Wei": 84.5,
+    "Seller Zoe": 90.25,
+    "Seller Omar": 90.25,
+    "Seller Nia": 90.25,
+    "Seller Leo": 90.25
+  },
+  "buyer_bids": {
+    "Buyer Eli": 90.25,
+    "Buyer Ana": 90.25,
+    "Buyer Theo": 90.25,
+    "Buyer Kit": 90.25,
+    "Buyer Jin": 90.75
+  },
+  "trades": [
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Wei",
+      "price": 87.62
+    },
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Leo",
+      "price": 90.25
+    },
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Nia",
+      "price": 90.25
+    },
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Eli",
+      "seller_id": "Seller Omar",
+      "price": 90.25
+    },
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Zoe",
+      "price": 90.25
+    }
+  ],
+  "seller_messages": {
+    "Seller Wei": "Adjust ask prices strategically in response to bid trends to secure trades while maintaining profitability.",
+    "Seller Zoe": "Adjust ask prices strategically in response to bid trends to secure trades while maintaining profitability.",
+    "Seller Omar": "Adjust ask prices strategically in response to bid trends to secure trades while maintaining profitability.",
+    "Seller Nia": "Adjust ask prices strategically to balance profit margins and competitiveness in response to increasing bid trends.",
+    "Seller Leo": "Adjust ask prices strategically in response to bid trends to secure trades while maintaining profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 24
+````json
+{
+  "round_number": 24,
+  "seller_asks": {
+    "Seller Leo": 90.5,
+    "Seller Zoe": 90.5,
+    "Seller Omar": 90.5,
+    "Seller Nia": 90.5,
+    "Seller Wei": 84.0
+  },
+  "buyer_bids": {
+    "Buyer Eli": 90.5,
+    "Buyer Ana": 90.5,
+    "Buyer Theo": 90.25,
+    "Buyer Kit": 90.5,
+    "Buyer Jin": 91.0
+  },
+  "trades": [
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Wei",
+      "price": 87.5
+    },
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Leo",
+      "price": 90.5
+    },
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Eli",
+      "seller_id": "Seller Nia",
+      "price": 90.5
+    },
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Omar",
+      "price": 90.5
+    }
+  ],
+  "seller_messages": {
+    "Seller Leo": "Adjust ask prices strategically in response to bid trends to secure trades while maintaining profitability.",
+    "Seller Zoe": "Adjust ask prices strategically in response to bid trends to secure trades while maintaining profitability.",
+    "Seller Omar": "Adjust ask prices strategically in response to the increasing bid trends to secure trades while maintaining profitability.",
+    "Seller Nia": "Adjust ask prices based on bid trends and competitor strategies to maintain profitability and competitiveness.",
+    "Seller Wei": "Adjust ask prices strategically in response to bid trends to secure trades while maintaining profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 25
+````json
+{
+  "round_number": 25,
+  "seller_asks": {
+    "Seller Wei": 83.5,
+    "Seller Zoe": 90.75,
+    "Seller Omar": 90.75,
+    "Seller Leo": 90.75,
+    "Seller Nia": 90.75
+  },
+  "buyer_bids": {
+    "Buyer Ana": 90.75,
+    "Buyer Eli": 90.25,
+    "Buyer Theo": 90.5,
+    "Buyer Jin": 91.25,
+    "Buyer Kit": 90.75
+  },
+  "trades": [
+    {
+      "round_number": 25,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Wei",
+      "price": 87.38
+    },
+    {
+      "round_number": 25,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Leo",
+      "price": 90.75
+    },
+    {
+      "round_number": 25,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Nia",
+      "price": 90.75
+    }
+  ],
+  "seller_messages": {
+    "Seller Wei": "Adjust ask prices strategically in response to the increasing bid trends to secure trades while maintaining profitability.",
+    "Seller Zoe": "Adjust ask prices strategically in response to bid trends to secure trades while maintaining profitability.",
+    "Seller Omar": "Adjust ask prices strategically in response to bid trends to secure trades while maintaining profitability.",
+    "Seller Leo": "Adjust ask prices strategically in response to bid trends to secure trades while maintaining profitability.",
+    "Seller Nia": "Adjust ask prices strategically in response to the increasing bid trends to secure trades while maintaining profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 26
+````json
+{
+  "round_number": 26,
+  "seller_asks": {
+    "Seller Zoe": 90.9,
+    "Seller Nia": 91.0,
+    "Seller Leo": 90.75,
+    "Seller Omar": 90.5,
+    "Seller Wei": 83.0
+  },
+  "buyer_bids": {
+    "Buyer Ana": 91.0,
+    "Buyer Theo": 90.75,
+    "Buyer Jin": 91.5,
+    "Buyer Eli": 90.75,
+    "Buyer Kit": 90.8
+  },
+  "trades": [
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Wei",
+      "price": 87.25
+    },
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Omar",
+      "price": 90.75
+    },
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Leo",
+      "price": 90.78
+    }
+  ],
+  "seller_messages": {
+    "Seller Zoe": "Adjust ask prices strategically in response to bid trends to secure trades while maintaining profitability.",
+    "Seller Nia": "Adjust ask prices strategically in response to the increasing bid trends to secure trades while maintaining profitability.",
+    "Seller Leo": "Adjust ask prices strategically in response to the increasing bid trends to secure trades while maintaining profitability.",
+    "Seller Omar": "Adjust ask prices according to bid trends to secure trades while maintaining profitability.",
+    "Seller Wei": "Adjust ask prices strategically in response to the increasing bid trends to secure trades while maintaining profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 27
+````json
+{
+  "round_number": 27,
+  "seller_asks": {
+    "Seller Wei": 82.5,
+    "Seller Nia": 91.25,
+    "Seller Zoe": 90.95,
+    "Seller Leo": 90.75,
+    "Seller Omar": 90.75
+  },
+  "buyer_bids": {
+    "Buyer Jin": 91.75,
+    "Buyer Kit": 90.85,
+    "Buyer Eli": 91.0,
+    "Buyer Ana": 91.0,
+    "Buyer Theo": 90.9
+  },
+  "trades": [
+    {
+      "round_number": 27,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Wei",
+      "price": 87.12
+    },
+    {
+      "round_number": 27,
+      "buyer_id": "Buyer Eli",
+      "seller_id": "Seller Leo",
+      "price": 90.88
+    },
+    {
+      "round_number": 27,
+      "buyer_id": "Buyer Ana",
+      "seller_id": "Seller Omar",
+      "price": 90.88
+    }
+  ],
+  "seller_messages": {
+    "Seller Wei": "Adjust ask prices strategically in response to increasing bid trends to secure trades while maintaining profitability.",
+    "Seller Nia": "Adjust ask prices strategically in response to increasing bid trends to secure trades while maintaining profitability.",
+    "Seller Zoe": "Adjust ask prices strategically in response to bid trends to secure trades while maintaining profitability.",
+    "Seller Leo": "Adjust ask prices strategically in response to bid trends to secure trades while maintaining profitability.",
+    "Seller Omar": "Adjust ask prices strategically in response to bid trends to secure trades while maintaining profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 28
+````json
+{
+  "round_number": 28,
+  "seller_asks": {
+    "Seller Omar": 90.95,
+    "Seller Nia": 91.5,
+    "Seller Zoe": 91.0,
+    "Seller Wei": 82.0,
+    "Seller Leo": 91.0
+  },
+  "buyer_bids": {
+    "Buyer Eli": 91.1,
+    "Buyer Ana": 90.92,
+    "Buyer Theo": 91.0,
+    "Buyer Kit": 90.9,
+    "Buyer Jin": 91.9
+  },
+  "trades": [
+    {
+      "round_number": 28,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Wei",
+      "price": 86.95
+    },
+    {
+      "round_number": 28,
+      "buyer_id": "Buyer Eli",
+      "seller_id": "Seller Omar",
+      "price": 91.03
+    },
+    {
+      "round_number": 28,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Leo",
+      "price": 91.0
+    }
+  ],
+  "seller_messages": {
+    "Seller Omar": "Adjust ask prices strategically in response to increasing bid trends to secure trades while maintaining profitability.",
+    "Seller Nia": "Adjust ask prices strategically in response to increasing bid trends to secure trades while maintaining profitability.",
+    "Seller Zoe": "Adjust ask prices strategically in response to increasing bid trends to secure trades while maintaining profitability.",
+    "Seller Wei": "Adjust ask prices strategically in response to bid trends to secure trades while maintaining profitability.",
+    "Seller Leo": "Adjust ask prices to balance profit margins and trade volume, considering bid trends and competitor asks."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 29
+````json
+{
+  "round_number": 29,
+  "seller_asks": {
+    "Seller Nia": 91.75,
+    "Seller Leo": 91.25,
+    "Seller Wei": 81.5,
+    "Seller Zoe": 91.05,
+    "Seller Omar": 90.75
+  },
+  "buyer_bids": {
+    "Buyer Eli": 91.05,
+    "Buyer Theo": 91.05,
+    "Buyer Kit": 91.0,
+    "Buyer Jin": 92.0,
+    "Buyer Ana": 91.05
+  },
+  "trades": [
+    {
+      "round_number": 29,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Wei",
+      "price": 86.75
+    },
+    {
+      "round_number": 29,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Omar",
+      "price": 90.9
+    },
+    {
+      "round_number": 29,
+      "buyer_id": "Buyer Eli",
+      "seller_id": "Seller Zoe",
+      "price": 91.05
+    }
+  ],
+  "seller_messages": {
+    "Seller Nia": "Adjust ask prices strategically in response to increasing bid trends to secure trades while maintaining profitability.",
+    "Seller Leo": "Adjust ask prices strategically in response to bid trends and competitor asks to secure trades while maintaining profitability.",
+    "Seller Wei": "Adjust ask prices strategically in response to increasing bid trends to secure trades while maintaining profitability.",
+    "Seller Zoe": "Adjust ask prices strategically in response to increasing bid trends to secure trades while maintaining profitability.",
+    "Seller Omar": "Monitor the bid queue closely and adjust ask prices to stay competitive while maintaining profitability, taking into account the impact of other sellers' strategies on the market."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 30
+````json
+{
+  "round_number": 30,
+  "seller_asks": {
+    "Seller Zoe": 91.1,
+    "Seller Wei": 81.0,
+    "Seller Nia": 91.9,
+    "Seller Leo": 91.5,
+    "Seller Omar": 91.25
+  },
+  "buyer_bids": {
+    "Buyer Kit": 91.1,
+    "Buyer Jin": 92.1,
+    "Buyer Eli": 91.1,
+    "Buyer Ana": 91.1,
+    "Buyer Theo": 91.1
+  },
+  "trades": [
+    {
+      "round_number": 30,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Wei",
+      "price": 86.55
+    },
+    {
+      "round_number": 30,
+      "buyer_id": "Buyer Theo",
+      "seller_id": "Seller Zoe",
+      "price": 91.1
+    }
+  ],
+  "seller_messages": {
+    "Seller Zoe": "Adjust ask prices strategically to stay competitive and maximize profitability in the final hour.",
+    "Seller Wei": "Adjust ask prices strategically in response to increasing bid trends to secure trades while maintaining profitability.",
+    "Seller Nia": "Adjust ask prices based on bid trends and competitor strategies to maximize profitability in the final hour.",
+    "Seller Leo": "Adjust ask prices strategically to balance profit margin and trade volume, considering the stable bids and competitive ask queue.",
+    "Seller Omar": "Adjust ask prices strategically to secure trades while maintaining profitability, considering the impact of other sellers' strategies on the market."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````

@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.env
+.env.local
+env/
+envw/
+.venv/
+# the upstream harness and its 2025 runs are not redistributed here (see README)
+data/
+src/

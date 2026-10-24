@@ -1,0 +1,1430 @@
+
+## Auction Results: Round 1
+````json
+{
+  "round_number": 1,
+  "seller_asks": {
+    "Seller Mia": 98.61,
+    "Seller Omar": 98.05,
+    "Seller Kit": 97.92,
+    "Seller Ana": 97.6,
+    "Seller Raj": 96.81
+  },
+  "buyer_bids": {
+    "Buyer Jun": 80.0,
+    "Buyer Nia": 96.8,
+    "Buyer Leo": 81.62,
+    "Buyer Max": 82.18,
+    "Buyer Zoe": 83.18
+  },
+  "trades": [],
+  "seller_messages": {},
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 2
+````json
+{
+  "round_number": 2,
+  "seller_asks": {
+    "Seller Mia": 97.5,
+    "Seller Omar": 97.05,
+    "Seller Kit": 96.8,
+    "Seller Raj": 95.9,
+    "Seller Ana": 97.4
+  },
+  "buyer_bids": {
+    "Buyer Leo": 84.5,
+    "Buyer Zoe": 84.0,
+    "Buyer Nia": 96.9,
+    "Buyer Jun": 85.0,
+    "Buyer Max": 84.5
+  },
+  "trades": [
+    {
+      "round_number": 2,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Raj",
+      "price": 96.4
+    }
+  ],
+  "seller_messages": {
+    "Seller Kit": "null",
+    "Seller Raj": "What are your pricing strategies for the next few hours?"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 3
+````json
+{
+  "round_number": 3,
+  "seller_asks": {
+    "Seller Raj": 95.5,
+    "Seller Omar": 96.05,
+    "Seller Mia": 96.2,
+    "Seller Ana": 96.2,
+    "Seller Kit": 85.5
+  },
+  "buyer_bids": {
+    "Buyer Zoe": 85.5,
+    "Buyer Leo": 85.8,
+    "Buyer Nia": 96.95,
+    "Buyer Jun": 86.0,
+    "Buyer Max": 85.2
+  },
+  "trades": [
+    {
+      "round_number": 3,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Kit",
+      "price": 91.22
+    }
+  ],
+  "seller_messages": {
+    "Seller Raj": "What are your strategies for adjusting asks in response to bid queue changes?",
+    "Seller Omar": "Gradually decreasing ask prices to stimulate trade.",
+    "Seller Mia": "I am adjusting my pricing strategy to be more competitive, focusing on a balance between profitability and trade volume.",
+    "Seller Ana": "What factors are you considering when adjusting your ask prices?",
+    "Seller Kit": "What are your pricing strategies for the next few hours? Are you considering adjusting your asks based on the current bid queue?"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 4
+````json
+{
+  "round_number": 4,
+  "seller_asks": {
+    "Seller Raj": 95.0,
+    "Seller Omar": 95.05,
+    "Seller Mia": 95.8,
+    "Seller Kit": 85.8,
+    "Seller Ana": 95.8
+  },
+  "buyer_bids": {
+    "Buyer Leo": 86.2,
+    "Buyer Zoe": 86.2,
+    "Buyer Jun": 87.0,
+    "Buyer Nia": 97.0,
+    "Buyer Max": 86.2
+  },
+  "trades": [
+    {
+      "round_number": 4,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Kit",
+      "price": 91.4
+    }
+  ],
+  "seller_messages": {
+    "Seller Raj": "What strategies do you use to adjust your asks when the bid queue changes?",
+    "Seller Omar": "Gradually decreasing ask prices to stimulate trade, focusing on balance between profitability and trade volume.",
+    "Seller Mia": "I am adjusting my ask price based on the bid queue and competitor asks to stimulate trade.",
+    "Seller Kit": "What factors do you consider when adjusting your ask prices in response to changes in the bid queue?",
+    "Seller Ana": "What factors do you consider when adjusting your ask prices in response to bid queue changes?"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 5
+````json
+{
+  "round_number": 5,
+  "seller_asks": {
+    "Seller Raj": 94.5,
+    "Seller Omar": 94.05,
+    "Seller Kit": 86.0,
+    "Seller Mia": 94.9,
+    "Seller Ana": 94.9
+  },
+  "buyer_bids": {
+    "Buyer Max": 87.5,
+    "Buyer Zoe": 87.5,
+    "Buyer Leo": 87.0,
+    "Buyer Nia": 97.05,
+    "Buyer Jun": 88.0
+  },
+  "trades": [
+    {
+      "round_number": 5,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Kit",
+      "price": 91.53
+    }
+  ],
+  "seller_messages": {
+    "Seller Raj": "What factors do you consider when adjusting your ask prices in response to changes in the bid queue and ask queue?",
+    "Seller Omar": "Balance between profitability and trade volume is crucial, gradual price adjustments can stimulate trade.",
+    "Seller Kit": "What factors do you consider when adjusting your ask prices in response to bid queue changes?",
+    "Seller Mia": "Monitoring bid queues and competitor asks is key to adjusting pricing strategies and achieving a balance between profitability and trade volume.",
+    "Seller Ana": "What strategies do you use to adapt to changes in the bid queue and competitor asks?"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 6
+````json
+{
+  "round_number": 6,
+  "seller_asks": {
+    "Seller Raj": 94.0,
+    "Seller Omar": 93.05,
+    "Seller Mia": 94.5,
+    "Seller Kit": 87.5,
+    "Seller Ana": 94.4
+  },
+  "buyer_bids": {
+    "Buyer Zoe": 88.5,
+    "Buyer Leo": 88.5,
+    "Buyer Nia": 97.1,
+    "Buyer Jun": 89.0,
+    "Buyer Max": 88.0
+  },
+  "trades": [
+    {
+      "round_number": 6,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Kit",
+      "price": 92.3
+    }
+  ],
+  "seller_messages": {
+    "Seller Raj": "What strategies do you use to balance profit margins and trade volumes in a competitive market?",
+    "Seller Omar": "Balance between profitability and trade volume is key, consider gradual price adjustments to stimulate trade.",
+    "Seller Mia": "Balance between profitability and trade volume is key, consider gradual price adjustments to stimulate trade.",
+    "Seller Kit": "What strategies do you use to balance profitability and trade volume in a competitive market?",
+    "Seller Ana": "What strategies do you use to adapt to changes in the bid queue and competitor asks, and how do you balance profitability with trade volume?"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 7
+````json
+{
+  "round_number": 7,
+  "seller_asks": {
+    "Seller Ana": 93.8,
+    "Seller Raj": 93.5,
+    "Seller Omar": 92.05,
+    "Seller Kit": 88.5,
+    "Seller Mia": 93.8
+  },
+  "buyer_bids": {
+    "Buyer Zoe": 89.5,
+    "Buyer Leo": 89.5,
+    "Buyer Jun": 89.5,
+    "Buyer Max": 89.2,
+    "Buyer Nia": 97.15
+  },
+  "trades": [
+    {
+      "round_number": 7,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Kit",
+      "price": 92.83
+    }
+  ],
+  "seller_messages": {
+    "Seller Ana": "What strategies do you use to adapt to changes in the bid queue and competitor asks, and how do you balance profitability with trade volume?",
+    "Seller Raj": "What approaches do you use to adjust your asks in response to fluctuations in the bid queue and competitor asks?",
+    "Seller Omar": "Adapting to bid queue changes is crucial, consider adjusting asks based on highest bids",
+    "Seller Kit": "What strategies do you use to adapt to changes in the bid queue and competitor asks, and how do you balance profitability with trade volume?",
+    "Seller Mia": "Gradual price adjustments can help stimulate trade while maintaining profitability."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 8
+````json
+{
+  "round_number": 8,
+  "seller_asks": {
+    "Seller Raj": 93.4,
+    "Seller Omar": 91.05,
+    "Seller Mia": 93.5,
+    "Seller Kit": 89.0,
+    "Seller Ana": 93.2
+  },
+  "buyer_bids": {
+    "Buyer Zoe": 90.0,
+    "Buyer Leo": 90.5,
+    "Buyer Max": 90.0,
+    "Buyer Nia": 97.2,
+    "Buyer Jun": 90.0
+  },
+  "trades": [
+    {
+      "round_number": 8,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Kit",
+      "price": 93.1
+    }
+  ],
+  "seller_messages": {
+    "Seller Raj": "What strategies do you use to adjust your asks when there are multiple buyers at the same price?",
+    "Seller Omar": "Consider adjusting asks based on bid queue feedback to balance profitability and trade volume.",
+    "Seller Mia": "Consider adjusting asks based on the highest bids in the queue to balance profitability and trade volume.",
+    "Seller Kit": "Adjusting asks based on the highest bids and competitor asks can help balance profitability and trade volume.",
+    "Seller Ana": "What strategies do you use to adjust your asks in response to increasing highest bids in the bid queue?"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 9
+````json
+{
+  "round_number": 9,
+  "seller_asks": {
+    "Seller Raj": 92.5,
+    "Seller Omar": 90.05,
+    "Seller Mia": 92.9,
+    "Seller Kit": 90.0,
+    "Seller Ana": 92.8
+  },
+  "buyer_bids": {
+    "Buyer Leo": 90.8,
+    "Buyer Zoe": 90.5,
+    "Buyer Jun": 90.5,
+    "Buyer Max": 90.5,
+    "Buyer Nia": 97.25
+  },
+  "trades": [
+    {
+      "round_number": 9,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Kit",
+      "price": 93.62
+    },
+    {
+      "round_number": 9,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Omar",
+      "price": 90.42
+    }
+  ],
+  "seller_messages": {
+    "Seller Raj": "What strategies do you use to adjust your asks when the highest bid in the queue is increasing?",
+    "Seller Omar": "Adjusting asks based on bid queue feedback can help balance profitability and trade volume.",
+    "Seller Mia": "Consider adjusting asks based on bid queue feedback and competitor asks to balance profitability and trade volume.",
+    "Seller Kit": "Consider adjusting asks based on the highest bids in the queue and competitor asks to balance profitability and trade volume.",
+    "Seller Ana": "What strategies do you use to adjust your asks when the bid queue's highest bid is increasing?"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 10
+````json
+{
+  "round_number": 10,
+  "seller_asks": {
+    "Seller Raj": 92.2,
+    "Seller Kit": 90.2,
+    "Seller Omar": 90.5,
+    "Seller Ana": 92.5,
+    "Seller Mia": 92.8
+  },
+  "buyer_bids": {
+    "Buyer Leo": 91.2,
+    "Buyer Zoe": 91.0,
+    "Buyer Jun": 91.0,
+    "Buyer Nia": 97.3,
+    "Buyer Max": 91.0
+  },
+  "trades": [
+    {
+      "round_number": 10,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Kit",
+      "price": 93.75
+    },
+    {
+      "round_number": 10,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Omar",
+      "price": 90.85
+    }
+  ],
+  "seller_messages": {
+    "Seller Raj": "What strategies do you use to adjust your asks when the bid queue's highest bid is approaching your current ask?",
+    "Seller Kit": "Consider adjusting asks based on the highest bids in the queue and competitor asks to balance profitability and trade volume.",
+    "Seller Omar": "Balance profitability and trade volume by adjusting asks based on bid queue feedback and competitor asks.",
+    "Seller Ana": "What strategies do you use to adjust your asks when the bid queue's highest bid is increasing?",
+    "Seller Mia": "Consider adjusting your asks based on the bid queue and competitor asks to balance profitability and trade volume, taking into account the current market conditions and competitor strategies."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 11
+````json
+{
+  "round_number": 11,
+  "seller_asks": {
+    "Seller Kit": 91.0,
+    "Seller Raj": 92.0,
+    "Seller Omar": 90.2,
+    "Seller Mia": 92.5,
+    "Seller Ana": 91.8
+  },
+  "buyer_bids": {
+    "Buyer Jun": 91.5,
+    "Buyer Max": 91.5,
+    "Buyer Leo": 91.5,
+    "Buyer Zoe": 91.5,
+    "Buyer Nia": 97.35
+  },
+  "trades": [
+    {
+      "round_number": 11,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Omar",
+      "price": 93.78
+    },
+    {
+      "round_number": 11,
+      "buyer_id": "Buyer Zoe",
+      "seller_id": "Seller Kit",
+      "price": 91.25
+    }
+  ],
+  "seller_messages": {
+    "Seller Kit": "Consider adjusting asks based on bid queue feedback, competitor asks, and market conditions to balance profitability and trade volume.",
+    "Seller Raj": "What strategies do you use to adjust your asks when the bid queue's highest bid is close to your current ask?",
+    "Seller Omar": "Consider adjusting asks based on the bid queue's highest bid and competitor asks to balance profitability and trade volume, taking into account the current market conditions and competitor strategies.",
+    "Seller Mia": "What strategies do you use to adjust your asks when the bid queue's highest bid is approaching your current ask?",
+    "Seller Ana": "How do you adjust your asks when the bid queue's highest bid is close to your current ask, and what strategies do you use to balance profitability and trade volume?"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 12
+````json
+{
+  "round_number": 12,
+  "seller_asks": {
+    "Seller Raj": 91.8,
+    "Seller Omar": 91.5,
+    "Seller Kit": 91.8,
+    "Seller Mia": 92.0,
+    "Seller Ana": 91.5
+  },
+  "buyer_bids": {
+    "Buyer Nia": 97.4,
+    "Buyer Jun": 91.8,
+    "Buyer Max": 92.0,
+    "Buyer Zoe": 91.8,
+    "Buyer Leo": 92.0
+  },
+  "trades": [
+    {
+      "round_number": 12,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Ana",
+      "price": 94.45
+    },
+    {
+      "round_number": 12,
+      "buyer_id": "Buyer Max",
+      "seller_id": "Seller Omar",
+      "price": 91.75
+    },
+    {
+      "round_number": 12,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Kit",
+      "price": 91.9
+    },
+    {
+      "round_number": 12,
+      "buyer_id": "Buyer Zoe",
+      "seller_id": "Seller Raj",
+      "price": 91.8
+    }
+  ],
+  "seller_messages": {
+    "Seller Raj": "What strategies do you use to adjust your asks when the bid queue's highest bid is close to your current ask, and how do you balance profitability and trade volume?",
+    "Seller Omar": "Be aware of the bid queue's highest bid and competitor asks when adjusting your prices to balance profitability and trade volume.",
+    "Seller Kit": "Consider adjusting asks based on the bid queue's highest bid and competitor asks, taking into account market conditions and competitor strategies to balance profitability and trade volume.",
+    "Seller Mia": "Consider adjusting asks based on market conditions, competitor strategies, and the bid queue to balance profitability and trade volume.",
+    "Seller Ana": "Adjust your asks according to the bid queue's highest bid and competitor asks, taking into account market conditions and competitor strategies."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 13
+````json
+{
+  "round_number": 13,
+  "seller_asks": {
+    "Seller Omar": 91.2,
+    "Seller Kit": 91.9,
+    "Seller Ana": 91.9,
+    "Seller Mia": 91.9,
+    "Seller Raj": 91.9
+  },
+  "buyer_bids": {
+    "Buyer Zoe": 92.0,
+    "Buyer Leo": 92.2,
+    "Buyer Jun": 91.9,
+    "Buyer Max": 92.2,
+    "Buyer Nia": 97.45
+  },
+  "trades": [
+    {
+      "round_number": 13,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Omar",
+      "price": 94.33
+    },
+    {
+      "round_number": 13,
+      "buyer_id": "Buyer Max",
+      "seller_id": "Seller Ana",
+      "price": 92.05
+    },
+    {
+      "round_number": 13,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Kit",
+      "price": 92.05
+    },
+    {
+      "round_number": 13,
+      "buyer_id": "Buyer Zoe",
+      "seller_id": "Seller Mia",
+      "price": 91.95
+    },
+    {
+      "round_number": 13,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Raj",
+      "price": 91.9
+    }
+  ],
+  "seller_messages": {
+    "Seller Omar": "Be cautious of the bid queue's highest bid and competitor asks when adjusting your prices to balance profitability and trade volume.",
+    "Seller Kit": "Consider adjusting your asks based on market conditions, competitor strategies, and the bid queue to balance profitability and trade volume.",
+    "Seller Ana": "Adjust your asks according to the bid queue's highest bid and competitor asks, taking into account market conditions and competitor strategies.",
+    "Seller Mia": "Be aware of the bid queue's highest bid and competitor asks when adjusting your prices to balance profitability and trade volume.",
+    "Seller Raj": "What strategies do you use to adjust your asks when the bid queue's highest bid is close to your current ask, and how do you balance profitability and trade volume?"
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 14
+````json
+{
+  "round_number": 14,
+  "seller_asks": {
+    "Seller Mia": 92.2,
+    "Seller Kit": 92.1,
+    "Seller Ana": 92.0,
+    "Seller Omar": 91.8,
+    "Seller Raj": 91.95
+  },
+  "buyer_bids": {
+    "Buyer Nia": 97.5,
+    "Buyer Zoe": 92.2,
+    "Buyer Leo": 92.5,
+    "Buyer Max": 92.5,
+    "Buyer Jun": 92.2
+  },
+  "trades": [
+    {
+      "round_number": 14,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Omar",
+      "price": 94.65
+    },
+    {
+      "round_number": 14,
+      "buyer_id": "Buyer Max",
+      "seller_id": "Seller Raj",
+      "price": 92.22
+    },
+    {
+      "round_number": 14,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Ana",
+      "price": 92.25
+    },
+    {
+      "round_number": 14,
+      "buyer_id": "Buyer Zoe",
+      "seller_id": "Seller Kit",
+      "price": 92.15
+    },
+    {
+      "round_number": 14,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Mia",
+      "price": 92.2
+    }
+  ],
+  "seller_messages": {
+    "Seller Mia": "Be aware of the bid queue's highest bid and competitor asks when adjusting your prices, and consider market conditions to balance profitability and trade volume.",
+    "Seller Kit": "Be aware of the bid queue's highest bid and competitor asks when adjusting your prices to balance profitability and trade volume.",
+    "Seller Ana": "Monitor the bid queue closely and adjust your ask prices to balance profitability and trade volume, considering competitor strategies and market conditions.",
+    "Seller Omar": "Be cautious of the bid queue's highest bid and competitor asks when adjusting your prices to balance profitability and trade volume.",
+    "Seller Raj": "Be aware of the bid queue's highest bid and competitor asks when adjusting your prices to balance profitability and trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 15
+````json
+{
+  "round_number": 15,
+  "seller_asks": {
+    "Seller Ana": 92.1,
+    "Seller Kit": 92.5,
+    "Seller Mia": 92.1,
+    "Seller Omar": 92.5,
+    "Seller Raj": 92.05
+  },
+  "buyer_bids": {
+    "Buyer Jun": 92.5,
+    "Buyer Leo": 92.75,
+    "Buyer Nia": 97.55,
+    "Buyer Max": 92.8,
+    "Buyer Zoe": 92.4
+  },
+  "trades": [
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Raj",
+      "price": 94.8
+    },
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Max",
+      "seller_id": "Seller Ana",
+      "price": 92.45
+    },
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Mia",
+      "price": 92.42
+    },
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Kit",
+      "price": 92.5
+    }
+  ],
+  "seller_messages": {
+    "Seller Ana": "Be aware of the bid queue's highest bid and competitor asks when adjusting your prices to balance profitability and trade volume.",
+    "Seller Kit": "Be aware of the bid queue's highest bid and competitor asks when adjusting your prices to balance profitability and trade volume.",
+    "Seller Mia": "Monitor the bid queue and competitor asks closely, adjusting your prices to balance profitability and trade volume.",
+    "Seller Omar": "Be cautious of the bid queue's highest bid and competitor asks when adjusting your prices to balance profitability and trade volume.",
+    "Seller Raj": "Be aware of the bid queue's highest bid and competitor asks when adjusting your prices to balance profitability and trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 16
+````json
+{
+  "round_number": 16,
+  "seller_asks": {
+    "Seller Ana": 92.3,
+    "Seller Omar": 92.4,
+    "Seller Raj": 92.1,
+    "Seller Mia": 92.6,
+    "Seller Kit": 92.6
+  },
+  "buyer_bids": {
+    "Buyer Zoe": 92.5,
+    "Buyer Leo": 92.9,
+    "Buyer Max": 92.9,
+    "Buyer Nia": 97.6,
+    "Buyer Jun": 92.6
+  },
+  "trades": [
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Raj",
+      "price": 94.85
+    },
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Max",
+      "seller_id": "Seller Ana",
+      "price": 92.6
+    },
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Omar",
+      "price": 92.65
+    },
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Kit",
+      "price": 92.6
+    }
+  ],
+  "seller_messages": {
+    "Seller Ana": "Be aware of the bid queue's highest bid and competitor asks when adjusting your prices to balance profitability and trade volume.",
+    "Seller Omar": "Be cautious of the bid queue's highest bid and competitor asks when adjusting your prices to balance profitability and trade volume.",
+    "Seller Raj": "Be aware of the increasing trend in the bid queue and adjust your prices to balance profitability and trade volume.",
+    "Seller Mia": "Monitor the bid queue and competitor asks closely to balance profitability and trade volume.",
+    "Seller Kit": "Be aware of the bid queue's highest bid and competitor asks when adjusting your prices to balance profitability and trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 17
+````json
+{
+  "round_number": 17,
+  "seller_asks": {
+    "Seller Ana": 92.4,
+    "Seller Raj": 92.35,
+    "Seller Mia": 92.55,
+    "Seller Omar": 92.55,
+    "Seller Kit": 92.7
+  },
+  "buyer_bids": {
+    "Buyer Leo": 92.95,
+    "Buyer Zoe": 92.6,
+    "Buyer Nia": 97.65,
+    "Buyer Jun": 92.7,
+    "Buyer Max": 92.95
+  },
+  "trades": [
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Raj",
+      "price": 95.0
+    },
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Max",
+      "seller_id": "Seller Ana",
+      "price": 92.68
+    },
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Mia",
+      "price": 92.75
+    },
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Omar",
+      "price": 92.62
+    }
+  ],
+  "seller_messages": {
+    "Seller Ana": "Be aware of the bid queue's highest bid and competitor asks when adjusting your prices to balance profitability and trade volume.",
+    "Seller Raj": "Be aware of the increasing trend in the bid queue and adjust your prices to balance profitability and trade volume.",
+    "Seller Mia": "Monitor the bid queue and competitor asks closely to balance profitability and trade volume.",
+    "Seller Omar": "Monitor bid queue feedback and competitor asks closely to balance profitability and trade volume, making adjustments as necessary to stay competitive.",
+    "Seller Kit": "Be aware of the bid queue's highest bid and competitor asks when adjusting your prices to balance profitability and trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 18
+````json
+{
+  "round_number": 18,
+  "seller_asks": {
+    "Seller Ana": 92.65,
+    "Seller Omar": 92.65,
+    "Seller Raj": 92.55,
+    "Seller Kit": 92.8,
+    "Seller Mia": 92.65
+  },
+  "buyer_bids": {
+    "Buyer Leo": 93.0,
+    "Buyer Zoe": 92.65,
+    "Buyer Max": 93.0,
+    "Buyer Nia": 97.7,
+    "Buyer Jun": 92.7
+  },
+  "trades": [
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Raj",
+      "price": 95.12
+    },
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Max",
+      "seller_id": "Seller Ana",
+      "price": 92.83
+    },
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Mia",
+      "price": 92.83
+    },
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Jun",
+      "seller_id": "Seller Omar",
+      "price": 92.68
+    }
+  ],
+  "seller_messages": {
+    "Seller Ana": "Monitor the bid queue and competitor asks closely to balance profitability and trade volume, making adjustments as necessary to stay competitive.",
+    "Seller Omar": "Monitor bid queue feedback and competitor asks closely to balance profitability and trade volume, making adjustments as necessary to stay competitive.",
+    "Seller Raj": "Be aware of the bid queue's highest bid and competitor asks when adjusting your prices to balance profitability and trade volume.",
+    "Seller Kit": "Be aware of the bid queue's highest bid and competitor asks when adjusting your prices to balance profitability and trade volume.",
+    "Seller Mia": "Be aware of the bid queue's trend and adjust your prices to balance profitability and trade volume."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 19
+````json
+{
+  "round_number": 19,
+  "seller_asks": {
+    "Seller Ana": 92.9,
+    "Seller Omar": 92.7,
+    "Seller Kit": 92.65,
+    "Seller Mia": 92.7,
+    "Seller Raj": 92.65
+  },
+  "buyer_bids": {
+    "Buyer Leo": 93.1,
+    "Buyer Zoe": 92.7,
+    "Buyer Jun": 92.69,
+    "Buyer Max": 93.05,
+    "Buyer Nia": 97.75
+  },
+  "trades": [
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Kit",
+      "price": 95.2
+    },
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Raj",
+      "price": 92.88
+    },
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Max",
+      "seller_id": "Seller Mia",
+      "price": 92.88
+    },
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Zoe",
+      "seller_id": "Seller Omar",
+      "price": 92.7
+    }
+  ],
+  "seller_messages": {
+    "Seller Ana": "Monitor the bid queue's trend and adjust your prices to balance profitability and trade volume, considering competitor asks and the highest bid.",
+    "Seller Omar": "Monitor the bid queue and competitor asks closely, making adjustments to stay competitive while maintaining profitability.",
+    "Seller Kit": "Monitor the bid queue and competitor asks closely to balance profitability and trade volume.",
+    "Seller Mia": "Monitor the bid queue's trend and adjust your prices accordingly to balance profitability and trade volume.",
+    "Seller Raj": "Monitor the bid queue's trend and adjust your ask prices to balance profitability and trade volume, considering the increasing highest bid."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 20
+````json
+{
+  "round_number": 20,
+  "seller_asks": {
+    "Seller Ana": 92.69,
+    "Seller Omar": 92.75,
+    "Seller Kit": 92.7,
+    "Seller Raj": 92.7,
+    "Seller Mia": 92.72
+  },
+  "buyer_bids": {
+    "Buyer Leo": 93.2,
+    "Buyer Zoe": 92.71,
+    "Buyer Max": 93.1,
+    "Buyer Jun": 92.7,
+    "Buyer Nia": 97.8
+  },
+  "trades": [
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Ana",
+      "price": 95.25
+    },
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Kit",
+      "price": 92.95
+    },
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Max",
+      "seller_id": "Seller Raj",
+      "price": 92.9
+    }
+  ],
+  "seller_messages": {
+    "Seller Ana": "Monitor the bid queue's trend and adjust your ask prices to balance profitability and trade volume, considering competitor asks and the highest bid.",
+    "Seller Omar": "Monitor the bid queue's trend and adjust your ask prices to balance profitability and trade volume, considering the increasing highest bid.",
+    "Seller Kit": "Monitor the bid queue's trend and adjust your prices to balance profitability and trade volume, considering competitor asks and the highest bid.",
+    "Seller Raj": "Monitor the bid queue's trend and adjust your prices to balance profitability and trade volume, considering competitor asks and the highest bid.",
+    "Seller Mia": "Monitor the bid queue's trend and adjust your prices accordingly to balance profitability and trade volume, considering competitor asks and the highest bid."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 21
+````json
+{
+  "round_number": 21,
+  "seller_asks": {
+    "Seller Ana": 92.73,
+    "Seller Mia": 92.73,
+    "Seller Omar": 92.8,
+    "Seller Kit": 92.71,
+    "Seller Raj": 92.75
+  },
+  "buyer_bids": {
+    "Buyer Leo": 93.1,
+    "Buyer Zoe": 92.72,
+    "Buyer Jun": 92.71,
+    "Buyer Nia": 97.85,
+    "Buyer Max": 92.96
+  },
+  "trades": [
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Kit",
+      "price": 95.28
+    },
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Ana",
+      "price": 92.91
+    },
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Max",
+      "seller_id": "Seller Mia",
+      "price": 92.84
+    }
+  ],
+  "seller_messages": {
+    "Seller Ana": "Monitor the bid queue's trend and adjust your ask prices to balance profitability and trade volume, considering competitor asks and the highest bid.",
+    "Seller Mia": "Monitor the bid queue's trend and adjust your ask prices to balance profitability and trade volume, considering competitor asks and the highest bid.",
+    "Seller Omar": "Monitor the bid queue's trend and adjust your ask prices to balance profitability and trade volume, considering competitor asks and the highest bid.",
+    "Seller Kit": "Monitor the bid queue's trend and adjust your ask prices to balance profitability and trade volume, considering competitor asks and the highest bid.",
+    "Seller Raj": "Monitor the bid queue's trend and adjust your ask prices to balance profitability and trade volume, considering competitor asks and the highest bid."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 22
+````json
+{
+  "round_number": 22,
+  "seller_asks": {
+    "Seller Ana": 92.74,
+    "Seller Omar": 92.81,
+    "Seller Raj": 92.72,
+    "Seller Kit": 92.72,
+    "Seller Mia": 92.76
+  },
+  "buyer_bids": {
+    "Buyer Leo": 92.96,
+    "Buyer Nia": 97.9,
+    "Buyer Max": 92.92,
+    "Buyer Jun": 92.72,
+    "Buyer Zoe": 92.73
+  },
+  "trades": [
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Kit",
+      "price": 95.31
+    },
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Raj",
+      "price": 92.84
+    },
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Max",
+      "seller_id": "Seller Ana",
+      "price": 92.83
+    }
+  ],
+  "seller_messages": {
+    "Seller Ana": "Monitor the bid queue's trend and adjust your ask prices to balance profitability and trade volume, considering competitor asks and the highest bid.",
+    "Seller Omar": "Monitor the bid queue's trend and adjust your ask prices to balance profitability and trade volume, considering competitor asks and the highest bid.",
+    "Seller Raj": "Monitor the bid queue's trend and adjust your ask prices to balance profitability and trade volume, considering competitor asks and the highest bid.",
+    "Seller Kit": "Monitor the bid queue's trend and adjust your ask prices to balance profitability and trade volume, considering competitor asks and the highest bid.",
+    "Seller Mia": "Monitor the bid queue's trend and adjust your ask prices to balance profitability and trade volume, considering competitor asks and the highest bid."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 23
+````json
+{
+  "round_number": 23,
+  "seller_asks": {
+    "Seller Ana": 92.75,
+    "Seller Kit": 92.73,
+    "Seller Mia": 92.77,
+    "Seller Omar": 92.82,
+    "Seller Raj": 92.73
+  },
+  "buyer_bids": {
+    "Buyer Leo": 92.98,
+    "Buyer Nia": 97.95,
+    "Buyer Jun": 92.73,
+    "Buyer Zoe": 92.74,
+    "Buyer Max": 92.9
+  },
+  "trades": [
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Kit",
+      "price": 95.34
+    },
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Raj",
+      "price": 92.86
+    },
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Max",
+      "seller_id": "Seller Ana",
+      "price": 92.83
+    }
+  ],
+  "seller_messages": {
+    "Seller Ana": "Monitor the bid queue's trend and adjust your ask prices to balance profitability and trade volume, considering competitor asks and the highest bid.",
+    "Seller Kit": "Monitor the bid queue's trend and adjust your ask prices to balance profitability and trade volume, considering competitor asks and the highest bid.",
+    "Seller Mia": "Monitor the bid queue's trend and adjust your ask prices to balance profitability and trade volume, considering competitor asks and the highest bid.",
+    "Seller Omar": "Monitor the bid queue's trend and adjust your ask prices to balance profitability and trade volume, considering competitor asks and the highest bid.",
+    "Seller Raj": "Monitor the bid queue's trend and adjust your ask prices to balance profitability and trade volume, considering competitor asks and the highest bid."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 24
+````json
+{
+  "round_number": 24,
+  "seller_asks": {
+    "Seller Ana": 92.76,
+    "Seller Mia": 92.78,
+    "Seller Raj": 92.76,
+    "Seller Omar": 92.83,
+    "Seller Kit": 92.75
+  },
+  "buyer_bids": {
+    "Buyer Leo": 93.02,
+    "Buyer Jun": 92.75,
+    "Buyer Zoe": 92.75,
+    "Buyer Nia": 97.99,
+    "Buyer Max": 92.91
+  },
+  "trades": [
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Kit",
+      "price": 95.37
+    },
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Ana",
+      "price": 92.89
+    },
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Max",
+      "seller_id": "Seller Raj",
+      "price": 92.84
+    }
+  ],
+  "seller_messages": {
+    "Seller Ana": "Monitor the bid queue's trend and adjust your ask prices to balance profitability and trade volume, considering competitor asks and the highest bid.",
+    "Seller Mia": "Monitor the bid queue's trend and adjust your ask prices to balance profitability and trade volume, considering competitor asks and the highest bid.",
+    "Seller Raj": "Monitor the bid queue's trend and adjust your ask prices to balance profitability and trade volume, considering competitor asks and the highest bid.",
+    "Seller Omar": "Monitor bid queue trends and adjust ask prices to balance profitability and trade volume, considering competitor asks and the highest bid.",
+    "Seller Kit": "Monitor the bid queue's trend and adjust your ask prices to balance profitability and trade volume, considering competitor asks and the highest bid."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 25
+````json
+{
+  "round_number": 25,
+  "seller_asks": {
+    "Seller Ana": 92.77,
+    "Seller Mia": 92.79,
+    "Seller Omar": 92.85,
+    "Seller Raj": 92.78,
+    "Seller Kit": 92.76
+  },
+  "buyer_bids": {
+    "Buyer Leo": 92.85,
+    "Buyer Max": 92.86,
+    "Buyer Jun": 92.76,
+    "Buyer Zoe": 92.76,
+    "Buyer Nia": 98.0
+  },
+  "trades": [
+    {
+      "round_number": 25,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Kit",
+      "price": 95.38
+    },
+    {
+      "round_number": 25,
+      "buyer_id": "Buyer Max",
+      "seller_id": "Seller Ana",
+      "price": 92.81
+    },
+    {
+      "round_number": 25,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Raj",
+      "price": 92.81
+    }
+  ],
+  "seller_messages": {
+    "Seller Ana": "Monitor bid queue trends and adjust ask prices to balance profitability and trade volume, considering competitor asks and the highest bid.",
+    "Seller Mia": "Monitor the bid queue's trend and adjust your ask prices to balance profitability and trade volume, considering competitor asks and the highest bid.",
+    "Seller Omar": "Monitor bid queue trends and adjust ask prices to balance profitability and trade volume, considering competitor asks and the highest bid.",
+    "Seller Raj": "Monitor the bid queue's trend and adjust your ask prices to balance profitability and trade volume, considering competitor asks and the highest bid.",
+    "Seller Kit": "Monitor the bid queue's trend and adjust your ask prices to balance profitability and trade volume, considering competitor asks and the highest bid."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 26
+````json
+{
+  "round_number": 26,
+  "seller_asks": {
+    "Seller Ana": 92.78,
+    "Seller Kit": 92.77,
+    "Seller Omar": 92.86,
+    "Seller Raj": 92.79,
+    "Seller Mia": 92.8
+  },
+  "buyer_bids": {
+    "Buyer Leo": 92.92,
+    "Buyer Jun": 92.77,
+    "Buyer Zoe": 92.77,
+    "Buyer Nia": 98.05,
+    "Buyer Max": 92.87
+  },
+  "trades": [
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Kit",
+      "price": 95.41
+    },
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Ana",
+      "price": 92.85
+    },
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Max",
+      "seller_id": "Seller Raj",
+      "price": 92.83
+    }
+  ],
+  "seller_messages": {
+    "Seller Ana": "Monitor the bid queue's trend and adjust your ask prices to balance profitability and trade volume, considering competitor asks and the highest bid.",
+    "Seller Kit": "Monitor bid queue trends and adjust ask prices to balance profitability and trade volume, considering competitor asks and the highest bid.",
+    "Seller Omar": "Monitor bid queue trends and adjust ask prices to balance profitability and trade volume, considering competitor asks and the highest bid.",
+    "Seller Raj": "Monitor bid queue trends and adjust ask prices to balance profitability and trade volume, considering competitor asks and the highest bid.",
+    "Seller Mia": "Monitor bid queue trends and adjust ask prices to balance profitability and trade volume, considering competitor asks and the highest bid."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 27
+````json
+{
+  "round_number": 27,
+  "seller_asks": {
+    "Seller Ana": 92.79,
+    "Seller Omar": 92.87,
+    "Seller Raj": 92.8,
+    "Seller Kit": 92.78,
+    "Seller Mia": 92.81
+  },
+  "buyer_bids": {
+    "Buyer Leo": 92.93,
+    "Buyer Zoe": 92.78,
+    "Buyer Jun": 92.78,
+    "Buyer Nia": 98.1,
+    "Buyer Max": 92.88
+  },
+  "trades": [
+    {
+      "round_number": 27,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Kit",
+      "price": 95.44
+    },
+    {
+      "round_number": 27,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Ana",
+      "price": 92.86
+    },
+    {
+      "round_number": 27,
+      "buyer_id": "Buyer Max",
+      "seller_id": "Seller Raj",
+      "price": 92.84
+    }
+  ],
+  "seller_messages": {
+    "Seller Ana": "Monitor the bid queue's trend and adjust your ask prices to balance profitability and trade volume, considering competitor asks and the highest bid.",
+    "Seller Omar": "Monitor bid queue trends and adjust ask prices to balance profitability and trade volume.",
+    "Seller Raj": "Monitor bid queue trends and adjust ask prices to balance profitability and trade volume.",
+    "Seller Kit": "Monitor the bid queue's trend and adjust your ask prices to balance profitability and trade volume, considering competitor asks and the highest bid.",
+    "Seller Mia": "Monitor the bid queue's trend and adjust your ask prices to balance profitability and trade volume, considering competitor asks and the highest bid."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 28
+````json
+{
+  "round_number": 28,
+  "seller_asks": {
+    "Seller Ana": 92.8,
+    "Seller Omar": 92.88,
+    "Seller Raj": 92.82,
+    "Seller Mia": 92.82,
+    "Seller Kit": 92.79
+  },
+  "buyer_bids": {
+    "Buyer Leo": 92.94,
+    "Buyer Max": 92.89,
+    "Buyer Nia": 98.15,
+    "Buyer Jun": 92.79,
+    "Buyer Zoe": 92.79
+  },
+  "trades": [
+    {
+      "round_number": 28,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Kit",
+      "price": 95.47
+    },
+    {
+      "round_number": 28,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Ana",
+      "price": 92.87
+    },
+    {
+      "round_number": 28,
+      "buyer_id": "Buyer Max",
+      "seller_id": "Seller Mia",
+      "price": 92.85
+    }
+  ],
+  "seller_messages": {
+    "Seller Ana": "Monitor the bid queue's trend and adjust your ask prices to balance profitability and trade volume, considering competitor asks and the highest bid.",
+    "Seller Omar": "Monitor the bid queue's trend and adjust your ask prices to balance profitability and trade volume, considering competitor asks and the highest bid.",
+    "Seller Raj": "Monitor the bid queue's trend and adjust your ask prices to balance profitability and trade volume, considering competitor asks and the highest bid.",
+    "Seller Mia": "Monitor the bid queue's trend and adjust your ask prices to balance profitability and trade volume, considering competitor asks and the highest bid.",
+    "Seller Kit": "Monitor the bid queue's trend and adjust your ask prices to balance profitability and trade volume, considering competitor asks and the highest bid."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 29
+````json
+{
+  "round_number": 29,
+  "seller_asks": {
+    "Seller Ana": 92.81,
+    "Seller Omar": 92.89,
+    "Seller Raj": 92.85,
+    "Seller Kit": 92.8,
+    "Seller Mia": 92.83
+  },
+  "buyer_bids": {
+    "Buyer Leo": 92.96,
+    "Buyer Jun": 92.8,
+    "Buyer Nia": 98.2,
+    "Buyer Max": 92.9,
+    "Buyer Zoe": 92.8
+  },
+  "trades": [
+    {
+      "round_number": 29,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Kit",
+      "price": 95.5
+    },
+    {
+      "round_number": 29,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Ana",
+      "price": 92.88
+    },
+    {
+      "round_number": 29,
+      "buyer_id": "Buyer Max",
+      "seller_id": "Seller Mia",
+      "price": 92.87
+    }
+  ],
+  "seller_messages": {
+    "Seller Ana": "Monitor the bid queue's trend and adjust your ask prices to balance profitability and trade volume",
+    "Seller Omar": "Monitor the bid queue's trend and adjust your ask prices to balance profitability and trade volume, considering competitor asks and the highest bid.",
+    "Seller Raj": "Monitor the bid queue's trend and adjust your ask prices to balance profitability and trade volume.",
+    "Seller Kit": "Monitor the bid queue's trend and adjust your ask prices to balance profitability and trade volume, considering competitor asks and the highest bid.",
+    "Seller Mia": "Monitor the bid queue's trend and adjust your ask prices to balance profitability and trade volume, considering competitor asks and the highest bid."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 30
+````json
+{
+  "round_number": 30,
+  "seller_asks": {
+    "Seller Ana": 92.82,
+    "Seller Kit": 92.81,
+    "Seller Omar": 92.9,
+    "Seller Mia": 92.84,
+    "Seller Raj": 92.8
+  },
+  "buyer_bids": {
+    "Buyer Leo": 92.97,
+    "Buyer Jun": 92.81,
+    "Buyer Zoe": 92.81,
+    "Buyer Nia": 98.25,
+    "Buyer Max": 92.91
+  },
+  "trades": [
+    {
+      "round_number": 30,
+      "buyer_id": "Buyer Nia",
+      "seller_id": "Seller Raj",
+      "price": 95.53
+    },
+    {
+      "round_number": 30,
+      "buyer_id": "Buyer Leo",
+      "seller_id": "Seller Kit",
+      "price": 92.89
+    },
+    {
+      "round_number": 30,
+      "buyer_id": "Buyer Max",
+      "seller_id": "Seller Ana",
+      "price": 92.86
+    }
+  ],
+  "seller_messages": {
+    "Seller Ana": "Maintain competitive ask prices while prioritizing profit margins above true cost.",
+    "Seller Kit": "Monitor the bid queue's trend and adjust your ask prices to balance profitability and trade volume, considering competitor asks and the highest bid.",
+    "Seller Omar": "Monitor the bid queue's trend and adjust your ask prices to balance profitability and trade volume, considering competitor asks and the highest bid.",
+    "Seller Mia": "Monitor the bid queue's trend and adjust your ask prices to balance profitability and trade volume, considering competitor asks and the highest bid.",
+    "Seller Raj": "Adjust your ask prices to stimulate trade and maximize trade volume in the final hour."
+  },
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````

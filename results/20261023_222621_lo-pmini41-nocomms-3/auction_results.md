@@ -1,0 +1,1308 @@
+
+## Auction Results: Round 1
+````json
+{
+  "round_number": 1,
+  "seller_asks": {
+    "Seller Raj": 83.5,
+    "Seller Yara": 83.5,
+    "Seller Ana": 96.6,
+    "Seller Maya": 83.0,
+    "Seller Zoe": 96.6
+  },
+  "buyer_bids": {
+    "Buyer Amir": 85.0,
+    "Buyer Lena": 83.5,
+    "Buyer Jin": 84.0,
+    "Buyer Kit": 83.5,
+    "Buyer Kai": 89.5
+  },
+  "trades": [
+    {
+      "round_number": 1,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Maya",
+      "price": 86.25
+    },
+    {
+      "round_number": 1,
+      "buyer_id": "Buyer Amir",
+      "seller_id": "Seller Raj",
+      "price": 84.25
+    },
+    {
+      "round_number": 1,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Yara",
+      "price": 83.75
+    }
+  ],
+  "seller_messages": {},
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 2
+````json
+{
+  "round_number": 2,
+  "seller_asks": {
+    "Seller Ana": 85.0,
+    "Seller Zoe": 85.5,
+    "Seller Maya": 84.0,
+    "Seller Yara": 83.75,
+    "Seller Raj": 83.75
+  },
+  "buyer_bids": {
+    "Buyer Kai": 90.0,
+    "Buyer Lena": 84.0,
+    "Buyer Amir": 87.5,
+    "Buyer Jin": 83.6,
+    "Buyer Kit": 85.0
+  },
+  "trades": [
+    {
+      "round_number": 2,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Raj",
+      "price": 86.88
+    },
+    {
+      "round_number": 2,
+      "buyer_id": "Buyer Amir",
+      "seller_id": "Seller Yara",
+      "price": 85.62
+    },
+    {
+      "round_number": 2,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Maya",
+      "price": 84.5
+    }
+  ],
+  "seller_messages": {},
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 3
+````json
+{
+  "round_number": 3,
+  "seller_asks": {
+    "Seller Ana": 84.25,
+    "Seller Zoe": 84.9,
+    "Seller Maya": 84.5,
+    "Seller Raj": 84.1,
+    "Seller Yara": 84.05
+  },
+  "buyer_bids": {
+    "Buyer Amir": 88.0,
+    "Buyer Kai": 85.25,
+    "Buyer Jin": 84.5,
+    "Buyer Lena": 84.5,
+    "Buyer Kit": 84.1
+  },
+  "trades": [
+    {
+      "round_number": 3,
+      "buyer_id": "Buyer Amir",
+      "seller_id": "Seller Yara",
+      "price": 86.03
+    },
+    {
+      "round_number": 3,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Raj",
+      "price": 84.67
+    },
+    {
+      "round_number": 3,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Ana",
+      "price": 84.38
+    },
+    {
+      "round_number": 3,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Maya",
+      "price": 84.5
+    }
+  ],
+  "seller_messages": {},
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 4
+````json
+{
+  "round_number": 4,
+  "seller_asks": {
+    "Seller Zoe": 84.9,
+    "Seller Ana": 84.15,
+    "Seller Yara": 84.15,
+    "Seller Maya": 84.8,
+    "Seller Raj": 84.25
+  },
+  "buyer_bids": {
+    "Buyer Kai": 84.85,
+    "Buyer Kit": 84.2,
+    "Buyer Jin": 84.6,
+    "Buyer Lena": 84.2,
+    "Buyer Amir": 84.8
+  },
+  "trades": [
+    {
+      "round_number": 4,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Ana",
+      "price": 84.5
+    },
+    {
+      "round_number": 4,
+      "buyer_id": "Buyer Amir",
+      "seller_id": "Seller Yara",
+      "price": 84.47
+    },
+    {
+      "round_number": 4,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Raj",
+      "price": 84.42
+    }
+  ],
+  "seller_messages": {},
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 5
+````json
+{
+  "round_number": 5,
+  "seller_asks": {
+    "Seller Ana": 84.25,
+    "Seller Maya": 84.85,
+    "Seller Yara": 84.3,
+    "Seller Zoe": 84.7,
+    "Seller Raj": 84.4
+  },
+  "buyer_bids": {
+    "Buyer Lena": 84.3,
+    "Buyer Amir": 84.79,
+    "Buyer Kai": 84.7,
+    "Buyer Jin": 84.3,
+    "Buyer Kit": 84.2
+  },
+  "trades": [
+    {
+      "round_number": 5,
+      "buyer_id": "Buyer Amir",
+      "seller_id": "Seller Ana",
+      "price": 84.52
+    },
+    {
+      "round_number": 5,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Yara",
+      "price": 84.5
+    }
+  ],
+  "seller_messages": {},
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 6
+````json
+{
+  "round_number": 6,
+  "seller_asks": {
+    "Seller Maya": 84.85,
+    "Seller Ana": 84.35,
+    "Seller Zoe": 84.35,
+    "Seller Yara": 84.45,
+    "Seller Raj": 84.4
+  },
+  "buyer_bids": {
+    "Buyer Amir": 84.39,
+    "Buyer Kit": 84.4,
+    "Buyer Jin": 84.4,
+    "Buyer Kai": 84.7,
+    "Buyer Lena": 84.4
+  },
+  "trades": [
+    {
+      "round_number": 6,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Ana",
+      "price": 84.53
+    },
+    {
+      "round_number": 6,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Zoe",
+      "price": 84.38
+    },
+    {
+      "round_number": 6,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Raj",
+      "price": 84.4
+    }
+  ],
+  "seller_messages": {},
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 7
+````json
+{
+  "round_number": 7,
+  "seller_asks": {
+    "Seller Ana": 84.5,
+    "Seller Zoe": 84.39,
+    "Seller Yara": 84.6,
+    "Seller Maya": 84.85,
+    "Seller Raj": 84.4
+  },
+  "buyer_bids": {
+    "Buyer Jin": 84.46,
+    "Buyer Amir": 84.44,
+    "Buyer Kit": 84.41,
+    "Buyer Lena": 84.46,
+    "Buyer Kai": 84.44
+  },
+  "trades": [
+    {
+      "round_number": 7,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Zoe",
+      "price": 84.42
+    },
+    {
+      "round_number": 7,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Raj",
+      "price": 84.43
+    }
+  ],
+  "seller_messages": {},
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 8
+````json
+{
+  "round_number": 8,
+  "seller_asks": {
+    "Seller Zoe": 84.44,
+    "Seller Yara": 84.64,
+    "Seller Ana": 84.55,
+    "Seller Maya": 84.6,
+    "Seller Raj": 84.4
+  },
+  "buyer_bids": {
+    "Buyer Lena": 84.45,
+    "Buyer Kit": 84.45,
+    "Buyer Jin": 84.45,
+    "Buyer Amir": 84.45,
+    "Buyer Kai": 84.44
+  },
+  "trades": [
+    {
+      "round_number": 8,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Raj",
+      "price": 84.43
+    },
+    {
+      "round_number": 8,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Zoe",
+      "price": 84.44
+    }
+  ],
+  "seller_messages": {},
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 9
+````json
+{
+  "round_number": 9,
+  "seller_asks": {
+    "Seller Ana": 84.55,
+    "Seller Yara": 84.69,
+    "Seller Zoe": 84.45,
+    "Seller Maya": 84.54,
+    "Seller Raj": 84.35
+  },
+  "buyer_bids": {
+    "Buyer Jin": 84.46,
+    "Buyer Kit": 84.46,
+    "Buyer Amir": 84.46,
+    "Buyer Lena": 84.46,
+    "Buyer Kai": 84.44
+  },
+  "trades": [
+    {
+      "round_number": 9,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Raj",
+      "price": 84.41
+    },
+    {
+      "round_number": 9,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Zoe",
+      "price": 84.45
+    }
+  ],
+  "seller_messages": {},
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 10
+````json
+{
+  "round_number": 10,
+  "seller_asks": {
+    "Seller Maya": 84.53,
+    "Seller Zoe": 84.45,
+    "Seller Yara": 84.7,
+    "Seller Ana": 84.55,
+    "Seller Raj": 84.47
+  },
+  "buyer_bids": {
+    "Buyer Lena": 84.47,
+    "Buyer Kit": 84.46,
+    "Buyer Kai": 84.54,
+    "Buyer Amir": 84.47,
+    "Buyer Jin": 84.47
+  },
+  "trades": [
+    {
+      "round_number": 10,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Zoe",
+      "price": 84.5
+    },
+    {
+      "round_number": 10,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Raj",
+      "price": 84.47
+    }
+  ],
+  "seller_messages": {},
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 11
+````json
+{
+  "round_number": 11,
+  "seller_asks": {
+    "Seller Yara": 84.69,
+    "Seller Ana": 84.55,
+    "Seller Maya": 84.54,
+    "Seller Zoe": 84.45,
+    "Seller Raj": 84.52
+  },
+  "buyer_bids": {
+    "Buyer Kai": 84.55,
+    "Buyer Lena": 84.48,
+    "Buyer Kit": 84.46,
+    "Buyer Amir": 84.48,
+    "Buyer Jin": 84.48
+  },
+  "trades": [
+    {
+      "round_number": 11,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Zoe",
+      "price": 84.5
+    }
+  ],
+  "seller_messages": {},
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 12
+````json
+{
+  "round_number": 12,
+  "seller_asks": {
+    "Seller Zoe": 84.45,
+    "Seller Maya": 84.55,
+    "Seller Yara": 84.69,
+    "Seller Raj": 84.52,
+    "Seller Ana": 84.55
+  },
+  "buyer_bids": {
+    "Buyer Amir": 84.49,
+    "Buyer Kit": 84.46,
+    "Buyer Jin": 84.49,
+    "Buyer Lena": 84.49,
+    "Buyer Kai": 84.54
+  },
+  "trades": [
+    {
+      "round_number": 12,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Zoe",
+      "price": 84.5
+    }
+  ],
+  "seller_messages": {},
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 13
+````json
+{
+  "round_number": 13,
+  "seller_asks": {
+    "Seller Zoe": 84.45,
+    "Seller Yara": 84.69,
+    "Seller Ana": 84.55,
+    "Seller Maya": 84.55,
+    "Seller Raj": 84.52
+  },
+  "buyer_bids": {
+    "Buyer Lena": 84.5,
+    "Buyer Amir": 84.5,
+    "Buyer Jin": 84.5,
+    "Buyer Kit": 84.5,
+    "Buyer Kai": 84.54
+  },
+  "trades": [
+    {
+      "round_number": 13,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Zoe",
+      "price": 84.5
+    }
+  ],
+  "seller_messages": {},
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 14
+````json
+{
+  "round_number": 14,
+  "seller_asks": {
+    "Seller Zoe": 84.45,
+    "Seller Ana": 84.55,
+    "Seller Maya": 84.5,
+    "Seller Yara": 84.69,
+    "Seller Raj": 84.52
+  },
+  "buyer_bids": {
+    "Buyer Amir": 84.51,
+    "Buyer Lena": 84.51,
+    "Buyer Kit": 84.51,
+    "Buyer Jin": 84.51,
+    "Buyer Kai": 84.52
+  },
+  "trades": [
+    {
+      "round_number": 14,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Zoe",
+      "price": 84.48
+    },
+    {
+      "round_number": 14,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Maya",
+      "price": 84.5
+    }
+  ],
+  "seller_messages": {},
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 15
+````json
+{
+  "round_number": 15,
+  "seller_asks": {
+    "Seller Ana": 84.55,
+    "Seller Maya": 84.5,
+    "Seller Raj": 84.52,
+    "Seller Yara": 84.69,
+    "Seller Zoe": 84.45
+  },
+  "buyer_bids": {
+    "Buyer Lena": 84.52,
+    "Buyer Amir": 84.52,
+    "Buyer Kit": 84.51,
+    "Buyer Jin": 84.52,
+    "Buyer Kai": 84.52
+  },
+  "trades": [
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Zoe",
+      "price": 84.48
+    },
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Maya",
+      "price": 84.51
+    },
+    {
+      "round_number": 15,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Raj",
+      "price": 84.52
+    }
+  ],
+  "seller_messages": {},
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 16
+````json
+{
+  "round_number": 16,
+  "seller_asks": {
+    "Seller Maya": 84.49,
+    "Seller Yara": 84.69,
+    "Seller Ana": 84.55,
+    "Seller Zoe": 84.45,
+    "Seller Raj": 84.52
+  },
+  "buyer_bids": {
+    "Buyer Amir": 84.53,
+    "Buyer Kai": 84.55,
+    "Buyer Jin": 84.53,
+    "Buyer Lena": 84.53,
+    "Buyer Kit": 84.51
+  },
+  "trades": [
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Zoe",
+      "price": 84.5
+    },
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Maya",
+      "price": 84.51
+    },
+    {
+      "round_number": 16,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Raj",
+      "price": 84.53
+    }
+  ],
+  "seller_messages": {},
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 17
+````json
+{
+  "round_number": 17,
+  "seller_asks": {
+    "Seller Zoe": 84.45,
+    "Seller Ana": 84.55,
+    "Seller Maya": 84.49,
+    "Seller Yara": 84.69,
+    "Seller Raj": 84.52
+  },
+  "buyer_bids": {
+    "Buyer Kai": 84.55,
+    "Buyer Lena": 84.54,
+    "Buyer Amir": 84.54,
+    "Buyer Jin": 84.54,
+    "Buyer Kit": 84.51
+  },
+  "trades": [
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Zoe",
+      "price": 84.5
+    },
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Maya",
+      "price": 84.52
+    },
+    {
+      "round_number": 17,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Raj",
+      "price": 84.53
+    }
+  ],
+  "seller_messages": {},
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 18
+````json
+{
+  "round_number": 18,
+  "seller_asks": {
+    "Seller Maya": 84.49,
+    "Seller Ana": 84.55,
+    "Seller Zoe": 84.45,
+    "Seller Yara": 84.69,
+    "Seller Raj": 84.52
+  },
+  "buyer_bids": {
+    "Buyer Lena": 84.55,
+    "Buyer Amir": 84.55,
+    "Buyer Kai": 84.55,
+    "Buyer Kit": 84.51,
+    "Buyer Jin": 84.55
+  },
+  "trades": [
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Zoe",
+      "price": 84.5
+    },
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Maya",
+      "price": 84.52
+    },
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Raj",
+      "price": 84.53
+    },
+    {
+      "round_number": 18,
+      "buyer_id": "Buyer Amir",
+      "seller_id": "Seller Ana",
+      "price": 84.55
+    }
+  ],
+  "seller_messages": {},
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 19
+````json
+{
+  "round_number": 19,
+  "seller_asks": {
+    "Seller Ana": 84.55,
+    "Seller Maya": 84.5,
+    "Seller Zoe": 84.45,
+    "Seller Raj": 84.52,
+    "Seller Yara": 84.69
+  },
+  "buyer_bids": {
+    "Buyer Lena": 84.52,
+    "Buyer Jin": 84.56,
+    "Buyer Kai": 84.55,
+    "Buyer Amir": 84.68,
+    "Buyer Kit": 84.51
+  },
+  "trades": [
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Amir",
+      "seller_id": "Seller Zoe",
+      "price": 84.56
+    },
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Maya",
+      "price": 84.53
+    },
+    {
+      "round_number": 19,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Raj",
+      "price": 84.53
+    }
+  ],
+  "seller_messages": {},
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 20
+````json
+{
+  "round_number": 20,
+  "seller_asks": {
+    "Seller Ana": 84.55,
+    "Seller Maya": 84.53,
+    "Seller Raj": 84.52,
+    "Seller Yara": 84.69,
+    "Seller Zoe": 84.45
+  },
+  "buyer_bids": {
+    "Buyer Lena": 84.52,
+    "Buyer Kai": 84.55,
+    "Buyer Amir": 84.53,
+    "Buyer Kit": 84.51,
+    "Buyer Jin": 84.53
+  },
+  "trades": [
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Zoe",
+      "price": 84.5
+    },
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Raj",
+      "price": 84.53
+    },
+    {
+      "round_number": 20,
+      "buyer_id": "Buyer Amir",
+      "seller_id": "Seller Maya",
+      "price": 84.53
+    }
+  ],
+  "seller_messages": {},
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 21
+````json
+{
+  "round_number": 21,
+  "seller_asks": {
+    "Seller Maya": 84.53,
+    "Seller Zoe": 84.45,
+    "Seller Ana": 84.55,
+    "Seller Yara": 84.69,
+    "Seller Raj": 84.52
+  },
+  "buyer_bids": {
+    "Buyer Lena": 84.53,
+    "Buyer Kit": 84.51,
+    "Buyer Amir": 84.54,
+    "Buyer Jin": 84.53,
+    "Buyer Kai": 84.55
+  },
+  "trades": [
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Zoe",
+      "price": 84.5
+    },
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Amir",
+      "seller_id": "Seller Raj",
+      "price": 84.53
+    },
+    {
+      "round_number": 21,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Maya",
+      "price": 84.53
+    }
+  ],
+  "seller_messages": {},
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 22
+````json
+{
+  "round_number": 22,
+  "seller_asks": {
+    "Seller Ana": 84.55,
+    "Seller Zoe": 84.45,
+    "Seller Maya": 84.53,
+    "Seller Yara": 84.69,
+    "Seller Raj": 84.52
+  },
+  "buyer_bids": {
+    "Buyer Lena": 84.54,
+    "Buyer Kai": 84.55,
+    "Buyer Jin": 84.54,
+    "Buyer Amir": 84.54,
+    "Buyer Kit": 84.51
+  },
+  "trades": [
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Zoe",
+      "price": 84.5
+    },
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Raj",
+      "price": 84.53
+    },
+    {
+      "round_number": 22,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Maya",
+      "price": 84.53
+    }
+  ],
+  "seller_messages": {},
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 23
+````json
+{
+  "round_number": 23,
+  "seller_asks": {
+    "Seller Zoe": 84.45,
+    "Seller Ana": 84.55,
+    "Seller Maya": 84.53,
+    "Seller Yara": 84.69,
+    "Seller Raj": 84.52
+  },
+  "buyer_bids": {
+    "Buyer Kai": 84.55,
+    "Buyer Amir": 84.54,
+    "Buyer Jin": 84.55,
+    "Buyer Kit": 84.51,
+    "Buyer Lena": 84.55
+  },
+  "trades": [
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Zoe",
+      "price": 84.5
+    },
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Raj",
+      "price": 84.53
+    },
+    {
+      "round_number": 23,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Maya",
+      "price": 84.54
+    }
+  ],
+  "seller_messages": {},
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 24
+````json
+{
+  "round_number": 24,
+  "seller_asks": {
+    "Seller Yara": 84.69,
+    "Seller Maya": 84.53,
+    "Seller Zoe": 84.45,
+    "Seller Ana": 84.55,
+    "Seller Raj": 84.52
+  },
+  "buyer_bids": {
+    "Buyer Kit": 84.53,
+    "Buyer Lena": 84.55,
+    "Buyer Jin": 84.55,
+    "Buyer Amir": 84.54,
+    "Buyer Kai": 84.55
+  },
+  "trades": [
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Zoe",
+      "price": 84.5
+    },
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Raj",
+      "price": 84.53
+    },
+    {
+      "round_number": 24,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Maya",
+      "price": 84.54
+    }
+  ],
+  "seller_messages": {},
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 25
+````json
+{
+  "round_number": 25,
+  "seller_asks": {
+    "Seller Ana": 84.55,
+    "Seller Zoe": 84.45,
+    "Seller Maya": 84.53,
+    "Seller Yara": 84.56,
+    "Seller Raj": 84.52
+  },
+  "buyer_bids": {
+    "Buyer Lena": 84.55,
+    "Buyer Kit": 84.54,
+    "Buyer Kai": 84.55,
+    "Buyer Amir": 84.56,
+    "Buyer Jin": 84.55
+  },
+  "trades": [
+    {
+      "round_number": 25,
+      "buyer_id": "Buyer Amir",
+      "seller_id": "Seller Zoe",
+      "price": 84.5
+    },
+    {
+      "round_number": 25,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Raj",
+      "price": 84.53
+    },
+    {
+      "round_number": 25,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Maya",
+      "price": 84.54
+    },
+    {
+      "round_number": 25,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Ana",
+      "price": 84.55
+    }
+  ],
+  "seller_messages": {},
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 26
+````json
+{
+  "round_number": 26,
+  "seller_asks": {
+    "Seller Zoe": 84.45,
+    "Seller Maya": 84.53,
+    "Seller Yara": 84.55,
+    "Seller Ana": 84.55,
+    "Seller Raj": 84.52
+  },
+  "buyer_bids": {
+    "Buyer Lena": 84.55,
+    "Buyer Amir": 84.55,
+    "Buyer Kai": 84.55,
+    "Buyer Kit": 84.56,
+    "Buyer Jin": 84.55
+  },
+  "trades": [
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Zoe",
+      "price": 84.5
+    },
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Raj",
+      "price": 84.53
+    },
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Maya",
+      "price": 84.54
+    },
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Ana",
+      "price": 84.55
+    },
+    {
+      "round_number": 26,
+      "buyer_id": "Buyer Amir",
+      "seller_id": "Seller Yara",
+      "price": 84.55
+    }
+  ],
+  "seller_messages": {},
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 27
+````json
+{
+  "round_number": 27,
+  "seller_asks": {
+    "Seller Maya": 84.53,
+    "Seller Ana": 84.55,
+    "Seller Yara": 84.55,
+    "Seller Zoe": 84.45,
+    "Seller Raj": 84.52
+  },
+  "buyer_bids": {
+    "Buyer Amir": 84.54,
+    "Buyer Kit": 84.56,
+    "Buyer Kai": 84.55,
+    "Buyer Lena": 84.55,
+    "Buyer Jin": 84.55
+  },
+  "trades": [
+    {
+      "round_number": 27,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Zoe",
+      "price": 84.5
+    },
+    {
+      "round_number": 27,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Raj",
+      "price": 84.53
+    },
+    {
+      "round_number": 27,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Maya",
+      "price": 84.54
+    },
+    {
+      "round_number": 27,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Ana",
+      "price": 84.55
+    }
+  ],
+  "seller_messages": {},
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 28
+````json
+{
+  "round_number": 28,
+  "seller_asks": {
+    "Seller Maya": 84.53,
+    "Seller Ana": 84.55,
+    "Seller Yara": 84.55,
+    "Seller Zoe": 84.45,
+    "Seller Raj": 84.55
+  },
+  "buyer_bids": {
+    "Buyer Lena": 84.55,
+    "Buyer Jin": 84.55,
+    "Buyer Kit": 84.56,
+    "Buyer Kai": 84.55,
+    "Buyer Amir": 84.54
+  },
+  "trades": [
+    {
+      "round_number": 28,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Zoe",
+      "price": 84.5
+    },
+    {
+      "round_number": 28,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Maya",
+      "price": 84.54
+    },
+    {
+      "round_number": 28,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Ana",
+      "price": 84.55
+    },
+    {
+      "round_number": 28,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Raj",
+      "price": 84.55
+    }
+  ],
+  "seller_messages": {},
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 29
+````json
+{
+  "round_number": 29,
+  "seller_asks": {
+    "Seller Ana": 84.55,
+    "Seller Zoe": 84.45,
+    "Seller Yara": 84.55,
+    "Seller Raj": 84.55,
+    "Seller Maya": 84.53
+  },
+  "buyer_bids": {
+    "Buyer Jin": 84.55,
+    "Buyer Lena": 84.55,
+    "Buyer Kai": 84.55,
+    "Buyer Kit": 84.56,
+    "Buyer Amir": 84.54
+  },
+  "trades": [
+    {
+      "round_number": 29,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Zoe",
+      "price": 84.5
+    },
+    {
+      "round_number": 29,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Maya",
+      "price": 84.54
+    },
+    {
+      "round_number": 29,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Ana",
+      "price": 84.55
+    },
+    {
+      "round_number": 29,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Raj",
+      "price": 84.55
+    }
+  ],
+  "seller_messages": {},
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
+
+## Auction Results: Round 30
+````json
+{
+  "round_number": 30,
+  "seller_asks": {
+    "Seller Ana": 84.5,
+    "Seller Zoe": 84.45,
+    "Seller Raj": 84.55,
+    "Seller Maya": 84.53,
+    "Seller Yara": 84.55
+  },
+  "buyer_bids": {
+    "Buyer Kit": 84.56,
+    "Buyer Lena": 84.55,
+    "Buyer Kai": 84.55,
+    "Buyer Amir": 84.55,
+    "Buyer Jin": 84.55
+  },
+  "trades": [
+    {
+      "round_number": 30,
+      "buyer_id": "Buyer Kit",
+      "seller_id": "Seller Zoe",
+      "price": 84.5
+    },
+    {
+      "round_number": 30,
+      "buyer_id": "Buyer Lena",
+      "seller_id": "Seller Ana",
+      "price": 84.53
+    },
+    {
+      "round_number": 30,
+      "buyer_id": "Buyer Kai",
+      "seller_id": "Seller Maya",
+      "price": 84.54
+    },
+    {
+      "round_number": 30,
+      "buyer_id": "Buyer Jin",
+      "seller_id": "Seller Raj",
+      "price": 84.55
+    },
+    {
+      "round_number": 30,
+      "buyer_id": "Buyer Amir",
+      "seller_id": "Seller Yara",
+      "price": 84.55
+    }
+  ],
+  "seller_messages": {},
+  "buyer_messages": {},
+  "overseer_visible_messages": []
+}
+````
