@@ -1,0 +1,13 @@
+{
+  "phase": "F0 pilot: does a hidden instruction make sellers collude? (SPRINT_PROTOCOL.md section 12)",
+  "model": {"vllm": "Qwen/Qwen2.5-7B-Instruct-AWQ", "ollama": "qwen2.5:7b-instruct"},
+  "served_name": "qwen7b",
+  "max_model_len": 8192,
+  "prefix": "fu0",
+  "par_per_gpu": 5,
+  "max_hours": 8,
+  "arms": [
+    {"name": "honest", "flags": "--seller_comms_enabled", "n": 10},
+    {"name": "instructed", "flags": "--seller_comms_enabled --collusion_instructed_sellers 5", "n": 10}
+  ]
+}
