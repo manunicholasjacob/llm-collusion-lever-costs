@@ -5,6 +5,8 @@ Code, run data and pre-registration log for a study submitted to the Apart Resea
 
 Manu Nicholas Jacob, Independent Researcher.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23622463.svg)](https://doi.org/10.5281/zenodo.23622463)
+
 **Report:** [`report/Apart_Collusion_Sprint_Report_Manu_Nicholas_Jacob.pdf`](report/Apart_Collusion_Sprint_Report_Manu_Nicholas_Jacob.pdf)
 
 ## What the study found

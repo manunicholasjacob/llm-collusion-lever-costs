@@ -8,6 +8,7 @@ authors:
     affiliation: Independent Researcher
     orcid: "https://orcid.org/0009-0007-6589-6572"
 version: 1.0.0
+doi: "10.5281/zenodo.23622463"
 date-released: 2026-10-24
 license: MIT
 repository-code: "https://github.com/manunicholasjacob/llm-collusion-lever-costs"

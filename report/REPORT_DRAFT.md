@@ -94,9 +94,9 @@ A model that colludes reliably, to measure lever benefits and costs in the same 
 Anti-collusion levers for LLM markets should be priced, not just scored. In the reference environment, "oversight" is a delayed ban. In markets where agents do not collude, monitors misfire, warnings lower buyer welfare and bans cost liquidity, while a single no-regret competitor helps buyers; both welfare effects held up in a pre-registered replication. Measuring false-positive costs should be part of evaluating any intervention against AI collusion.
 
 ## Code and Data
-- Code: analysis, runners and harness changes (as a patch against the original repository), with a README marking pre-sprint and sprint work; available from the author on request.
-- Data: the original runs are in Agrawal et al.'s public repository (https://github.com/andyjliu/llm-agent-collusion); our 268 sprint runs (all logs) are available from the author on request.
-- Pre-sprint work (disclosed): analysis tooling and harness flags were built on 22 October 2026, before the sprint; all new runs and analyses were done during the sprint. Every step is timestamped in the protocol file.
+- Code and data: https://github.com/manunicholasjacob/llm-collusion-lever-costs, archived at https://doi.org/10.5281/zenodo.23622463. It holds the analysis code, our harness changes as a patch against the original repository, all 268 sprint runs (market logs and monitor scores; per-agent transcripts on request), the timestamped protocol, and a script that recomputes this report's numbers from the runs.
+- Original runs and harness: Agrawal et al.'s public repository (https://github.com/andyjliu/llm-agent-collusion), which is not redistributed.
+- Pre-sprint work (disclosed): analysis tooling and harness flags were built on 22 October 2026, before the sprint; all new runs and analyses were done during the sprint. The repository's DISCLOSURE.md separates the two, and every step is timestamped in the protocol file.
 
 ## Author Contributions
 M.N.J. designed the study, made the decisions at each stage and reviewed the manuscript. Analysis code, runs and the first draft were produced with Claude (see the LLM Usage Statement).

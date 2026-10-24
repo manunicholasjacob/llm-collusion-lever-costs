@@ -80,16 +80,38 @@ for el in list(bd):
         bd.remove(el)
 
 
+URL_RE = re.compile(r"(https?://[^\s)]+[^\s).,;])")
+
+
+def add_link(p, url, size=None):
+    """Append `url` to paragraph `p` as a clickable, underlined blue hyperlink."""
+    rid = p.part.relate_to(url, "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink", is_external=True)
+    h = OxmlElement("w:hyperlink"); h.set(qn("r:id"), rid)
+    r = OxmlElement("w:r"); rpr = OxmlElement("w:rPr")
+    c = OxmlElement("w:color"); c.set(qn("w:val"), "1155CC"); rpr.append(c)
+    u = OxmlElement("w:u"); u.set(qn("w:val"), "single"); rpr.append(u)
+    if size:
+        sz = OxmlElement("w:sz"); sz.set(qn("w:val"), str(int(size * 2))); rpr.append(sz)
+    r.append(rpr); t = OxmlElement("w:t"); t.text = url; t.set(qn("xml:space"), "preserve"); r.append(t)
+    h.append(r); p._p.append(h)
+
+
 def add_par(text="", style="normal", align=None, size=None, italic=False, space_after=4):
     p = D.add_paragraph(style=style)
     for part in re.split(r"(\*\*[^*]+\*\*)", text):
         if not part:
             continue
-        r = p.add_run(part[2:-2] if part.startswith("**") else part)
-        r.bold = part.startswith("**") or None
-        r.italic = italic or None
-        if size:
-            r.font.size = Pt(size)
+        bold = part.startswith("**")
+        for piece in URL_RE.split(part[2:-2] if bold else part):
+            if not piece:
+                continue
+            if URL_RE.fullmatch(piece):
+                add_link(p, piece, size); continue
+            r = p.add_run(piece)
+            r.bold = bold or None
+            r.italic = italic or None
+            if size:
+                r.font.size = Pt(size)
     if align:
         p.alignment = align
     p.paragraph_format.space_after = Pt(space_after)
