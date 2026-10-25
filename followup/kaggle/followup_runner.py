@@ -5,8 +5,9 @@ import glob, json, os, shutil, subprocess, sys, tarfile, time, urllib.request
 from concurrent.futures import ThreadPoolExecutor
 
 T0 = time.time()
-DATA = glob.glob("/kaggle/input/**/plan.json", recursive=True)[0].rsplit("/", 1)[0]
-PLAN = json.load(open(f"{DATA}/plan.json"))
+PLAN_FILE = "plan.json"  # each kernel copy names its own plan file
+DATA = glob.glob(f"/kaggle/input/**/{PLAN_FILE}", recursive=True)[0].rsplit("/", 1)[0]
+PLAN = json.load(open(f"{DATA}/{PLAN_FILE}"))
 WORK = "/kaggle/working/h"
 LOG = open("/kaggle/working/runner.log", "a", buffering=1)
 
@@ -101,6 +102,27 @@ seller = " ".join(["gpt-4.1"] * 5)
 deadline = T0 + PLAN.get("max_hours", 11) * 3600
 
 
+def pack(final=False):
+    """Write results.tar.gz with every finished run so far, so a session cut short keeps its completed runs."""
+    tmp = "/kaggle/working/results.tar.gz.tmp"
+    with tarfile.open(tmp, "w:gz") as tf:
+        for d in glob.glob(f"results/*_{PLAN['prefix']}-*"):
+            if not os.path.exists(f"{d}/experiment_metadata.json"):
+                continue
+            for f in ("experiment_metadata.json", "auction_results.md", "collusion_metrics.json", "unified.log", "Overseer.md"):
+                if os.path.exists(f"{d}/{f}"):
+                    tf.add(f"{d}/{f}")
+            for f in glob.glob(f"{d}/Seller*.md"):
+                tf.add(f)
+        if final:
+            tf.add("results/fu_summary.json")
+    os.replace(tmp, "/kaggle/working/results.tar.gz")
+
+
+import threading
+PACK_LOCK = threading.Lock()
+
+
 def run(idx_job):
     idx, (tag, flags) = idx_job
     if time.time() > deadline:
@@ -118,6 +140,8 @@ def run(idx_job):
     r = subprocess.run(cmd, shell=True, env=env, capture_output=True, text=True)
     status = "done" if r.returncode == 0 else "FAIL"
     log(status, tag, f"{time.time() - t:.0f}s", "" if r.returncode == 0 else r.stderr[-400:])
+    with PACK_LOCK:
+        pack()
     return tag, status
 
 
@@ -125,12 +149,5 @@ with ThreadPoolExecutor(PLAN["par_per_gpu"] * len(ports)) as ex:
     res = list(ex.map(run, enumerate(jobs)))
 json.dump({"backend": backend, "model": M, "ngpu": ngpu, "results": res, "hours": (time.time() - T0) / 3600},
           open("results/fu_summary.json", "w"), indent=1)
-with tarfile.open("/kaggle/working/results.tar.gz", "w:gz") as tf:
-    for d in glob.glob(f"results/*_{PLAN['prefix']}-*"):
-        for f in ("experiment_metadata.json", "auction_results.md", "collusion_metrics.json", "unified.log", "Overseer.md"):
-            if os.path.exists(f"{d}/{f}"):
-                tf.add(f"{d}/{f}")
-        for f in glob.glob(f"{d}/Seller*.md"):
-            tf.add(f)
-    tf.add("results/fu_summary.json")
+pack(final=True)
 log("packed", len(res), "jobs;", sum(s == "done" for _, s in res), "done")

@@ -1,0 +1,29 @@
+{
+ "phase": "F1c: honest markets with the three monitor-bearing levers, n=10 each (SPRINT_PROTOCOL.md section 13)",
+ "model": {
+  "vllm": "Qwen/Qwen2.5-7B-Instruct-AWQ",
+  "ollama": "qwen2.5:7b-instruct"
+ },
+ "served_name": "qwen7b",
+ "max_model_len": 8192,
+ "prefix": "fu1c",
+ "par_per_gpu": 4,
+ "max_hours": 7,
+ "arms": [
+  {
+   "name": "monitor",
+   "flags": "--seller_comms_enabled --oversight_monitor",
+   "n": 10
+  },
+  {
+   "name": "oversight",
+   "flags": "--seller_comms_enabled --oversight_enabled",
+   "n": 10
+  },
+  {
+   "name": "oversight25",
+   "flags": "--seller_comms_enabled --oversight_enabled --overseer_sample_fraction 0.25",
+   "n": 10
+  }
+ ]
+}

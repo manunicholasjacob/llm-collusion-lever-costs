@@ -1,0 +1,44 @@
+{
+ "phase": "F1b: six levers in instructed markets, second n=5 (SPRINT_PROTOCOL.md section 13)",
+ "model": {
+  "vllm": "Qwen/Qwen2.5-7B-Instruct-AWQ",
+  "ollama": "qwen2.5:7b-instruct"
+ },
+ "served_name": "qwen7b",
+ "max_model_len": 8192,
+ "prefix": "fu1b",
+ "par_per_gpu": 4,
+ "max_hours": 7,
+ "arms": [
+  {
+   "name": "ban",
+   "flags": "--collusion_instructed_sellers 5",
+   "n": 5
+  },
+  {
+   "name": "notice",
+   "flags": "--seller_comms_enabled --oversight_notice --collusion_instructed_sellers 5",
+   "n": 5
+  },
+  {
+   "name": "monitor",
+   "flags": "--seller_comms_enabled --oversight_monitor --collusion_instructed_sellers 5",
+   "n": 5
+  },
+  {
+   "name": "oversight",
+   "flags": "--seller_comms_enabled --oversight_enabled --collusion_instructed_sellers 5",
+   "n": 5
+  },
+  {
+   "name": "oversight25",
+   "flags": "--seller_comms_enabled --oversight_enabled --overseer_sample_fraction 0.25 --collusion_instructed_sellers 5",
+   "n": 5
+  },
+  {
+   "name": "maverick",
+   "flags": "--seller_comms_enabled --maverick --collusion_instructed_sellers 5",
+   "n": 5
+  }
+ ]
+}
