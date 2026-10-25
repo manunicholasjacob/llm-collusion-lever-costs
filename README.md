@@ -9,6 +9,8 @@ Manu Nicholas Jacob, Independent Researcher.
 
 **Report:** [`report/Apart_Collusion_Sprint_Report_Manu_Nicholas_Jacob.pdf`](report/Apart_Collusion_Sprint_Report_Manu_Nicholas_Jacob.pdf)
 
+> **Submitted version:** release [v1.1.0](https://github.com/manunicholasjacob/llm-collusion-lever-costs/releases/tag/v1.1.0) (Zenodo [10.5281/zenodo.23624191](https://doi.org/10.5281/zenodo.23624191)) is exactly what was submitted to the sprint on 24 Oct 2026. Everything added after it (`results_postsprint/`, `followup/`, `results_followup/`, and protocol sections 10 onward) is later follow-up work, not part of the submission.
+
 ## What the study found
 
 The study uses the continuous double auction of Agrawal et al. (2025), *Evaluating LLM Agent Collusion in Double
