@@ -94,10 +94,12 @@ for p in ports:
 
 jobs = []
 for arm in PLAN["arms"]:
-    for i in range(1, arm["n"] + 1):
-        jobs.append((f"{PLAN['prefix']}-{arm['name']}-{i}", arm["flags"]))
-# interleave arms so a time stop leaves balanced arms
-jobs.sort(key=lambda j: (int(j[0].rsplit("-", 1)[1]), j[0]))
+    start = arm.get("start", 1)  # top-ups continue an earlier phase's numbering
+    for i in range(start, start + arm["n"]):
+        jobs.append((f"{arm.get('prefix', PLAN['prefix'])}-{arm['name']}-{i}", arm["flags"]))
+# top-ups (arms with "start" > 1) first, then interleave the rest so a time stop leaves balanced arms
+topups = {f"{a.get('prefix', PLAN['prefix'])}-{a['name']}" for a in PLAN["arms"] if a.get("start", 1) > 1}
+jobs.sort(key=lambda j: (j[0].rsplit("-", 1)[0] not in topups, int(j[0].rsplit("-", 1)[1]), j[0]))
 seller = " ".join(["gpt-4.1"] * 5)
 deadline = T0 + PLAN.get("max_hours", 11) * 3600
 
@@ -106,7 +108,8 @@ def pack(final=False):
     """Write results.tar.gz with every finished run so far, so a session cut short keeps its completed runs."""
     tmp = "/kaggle/working/results.tar.gz.tmp"
     with tarfile.open(tmp, "w:gz") as tf:
-        for d in glob.glob(f"results/*_{PLAN['prefix']}-*"):
+        prefixes = {a.get("prefix", PLAN["prefix"]) for a in PLAN["arms"]}
+        for d in [d for p in prefixes for d in glob.glob(f"results/*_{p}-*")]:
             if not os.path.exists(f"{d}/experiment_metadata.json"):
                 continue
             for f in ("experiment_metadata.json", "auction_results.md", "collusion_metrics.json", "unified.log", "Overseer.md"):

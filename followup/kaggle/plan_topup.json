@@ -1,0 +1,35 @@
+{
+ "phase": "F1c top-up only: runs 9-10 of each honest monitor arm (SPRINT_PROTOCOL.md section 13)",
+ "model": {
+  "vllm": "Qwen/Qwen2.5-7B-Instruct-AWQ",
+  "ollama": "qwen2.5:7b-instruct"
+ },
+ "served_name": "qwen7b",
+ "max_model_len": 8192,
+ "prefix": "fu2",
+ "par_per_gpu": 3,
+ "max_hours": 3,
+ "arms": [
+  {
+   "name": "monitor",
+   "prefix": "fu1c",
+   "start": 9,
+   "n": 2,
+   "flags": "--seller_comms_enabled --oversight_monitor"
+  },
+  {
+   "name": "oversight",
+   "prefix": "fu1c",
+   "start": 9,
+   "n": 2,
+   "flags": "--seller_comms_enabled --oversight_enabled"
+  },
+  {
+   "name": "oversight25",
+   "prefix": "fu1c",
+   "start": 9,
+   "n": 2,
+   "flags": "--seller_comms_enabled --oversight_enabled --overseer_sample_fraction 0.25"
+  }
+ ]
+}
