@@ -43,6 +43,7 @@ def smoke(port, name):
     log(f"smoke {port}:", out[:120]); json.loads(out)
 
 
+log("plan:", PLAN.get("phase"), "| prefix", PLAN["prefix"], "|", sum(a["n"] for a in PLAN["arms"]), "jobs")
 sh("nvidia-smi --query-gpu=name,memory.total --format=csv")
 ngpu = int(subprocess.run("nvidia-smi -L | wc -l", shell=True, capture_output=True, text=True).stdout.strip() or 0)
 shutil.copytree(DATA, WORK, dirs_exist_ok=True)
