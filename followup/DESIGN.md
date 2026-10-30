@@ -72,3 +72,16 @@ list them as prior work in the hackathon report.
 
 Same as the sprint: Manu writes the paper text from fact lists; Claude runs, analyses and checks; the LLM
 statement says so.
+
+## Corrections (appended; the text above is left as pre-registered)
+
+- **2026-10-30: H3's citation is backwards, and H3's text above is left unchanged on purpose.**
+  H3 says the no-regret seller "is predicted by Collina et al. 2025 to destabilise collusion".
+  The paper meant is *Algorithmic Collusion Without Threats* (Arunachaleswaran, Collina, Kannan,
+  Roth and Ziani, ITCS 2025, arXiv:2409.03956), and it argues the opposite: when the first mover
+  runs a no-regret algorithm and the second approximately best-responds, monopoly-like prices
+  arise, so no-regret algorithms *sustain* high prices rather than breaking them.
+  This does not change any result. The H3 estimate was a null (-0.026, Holm p 1.00), which is
+  what the literature read correctly would predict, so the null now agrees with the cited work
+  instead of contradicting it. Logged here rather than edited above, because this file is the
+  pre-registration and what it predicted has to stay readable as written.
